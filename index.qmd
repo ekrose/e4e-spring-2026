@@ -27,6 +27,6 @@ No prior economics background required.
 
 ## Coursework
 
-- Weekly problem sets
-- Midterm exam
+- In-class quizzes
+- Two midterms
 - Final project
