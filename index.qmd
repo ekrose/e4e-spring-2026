@@ -1,9 +1,11 @@
 ---
-title: "Economics for Everyone"
-subtitle: "Spring 2026"
+title: ""
+subtitle: ""
 ---
 
-![](e4e-logo.svg){fig-align="center" width="400px"}
+![](e4e-logo.svg){fig-align="center" width="450px"}
+
+### Spring 2026
 
 ## Course Staff
 
