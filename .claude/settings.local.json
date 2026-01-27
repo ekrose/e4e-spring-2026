@@ -6,7 +6,14 @@
       "Bash(git branch:*)",
       "Bash(git remote add:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:econ4everyone.uchicago.edu)"
     ]
   }
 }

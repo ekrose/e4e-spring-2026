@@ -5,14 +5,22 @@ project:
 website:
   title: "Economics for Everyone | Spring 2026"
   navbar:
+    background: dark
     left:
+      - text: "Home"
+        href: index.qmd
       - text: "Schedule"
         href: schedule.qmd
       - text: "Lectures"
         href: lectures/lecture-01.qmd
+  page-footer:
+    background: dark
+    center: "© 2026 University of Chicago"
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
     css: styles.css
     toc: true
+    toc-location: right

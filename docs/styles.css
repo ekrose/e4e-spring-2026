@@ -1,1 +1,133 @@
-/* css styles */
+/* UChicago-inspired styling */
+
+/* Import Gotham-like font (using Inter as a close web alternative) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --uchicago-maroon: #800000;
+  --uchicago-black: #000000;
+  --uchicago-white: #ffffff;
+  --uchicago-light-gray: #f7f7f7;
+  --uchicago-accent: #ff8243; /* mango-tango */
+  --uchicago-dark-gray: #333333;
+}
+
+/* Base typography */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  color: var(--uchicago-black);
+  background-color: var(--uchicago-white);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: var(--uchicago-black);
+}
+
+.title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-weight: 400;
+  color: var(--uchicago-dark-gray);
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: var(--uchicago-black) !important;
+  font-weight: 600;
+  border-bottom: 3px solid var(--uchicago-maroon);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--uchicago-white) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--uchicago-white) !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--uchicago-accent) !important;
+}
+
+/* Links */
+a {
+  color: var(--uchicago-maroon);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--uchicago-accent);
+}
+
+/* Content area */
+.content {
+  max-width: 900px;
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--uchicago-light-gray);
+  border-left: 4px solid var(--uchicago-maroon);
+}
+
+code {
+  color: var(--uchicago-maroon);
+}
+
+/* Table of contents */
+.sidebar nav[role="doc-toc"] a {
+  color: var(--uchicago-dark-gray);
+}
+
+.sidebar nav[role="doc-toc"] a:hover {
+  color: var(--uchicago-maroon);
+}
+
+.sidebar nav[role="doc-toc"] a.active {
+  color: var(--uchicago-maroon);
+  font-weight: 600;
+  border-left: 2px solid var(--uchicago-maroon);
+}
+
+/* Footer */
+.nav-footer {
+  background-color: var(--uchicago-black);
+  color: var(--uchicago-white);
+}
+
+/* Buttons and interactive elements */
+.btn-primary {
+  background-color: var(--uchicago-maroon);
+  border-color: var(--uchicago-maroon);
+}
+
+.btn-primary:hover {
+  background-color: var(--uchicago-black);
+  border-color: var(--uchicago-black);
+}
+
+/* Page header styling */
+#title-block-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--uchicago-light-gray);
+}
+
+#title-block-header .title {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+}
+
+#title-block-header .subtitle {
+  font-size: 1.25rem;
+}
