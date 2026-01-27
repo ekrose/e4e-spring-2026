@@ -6,7 +6,7 @@ website:
   title: "Economics for Everyone | Spring 2026"
   navbar:
     background: light
-    logo: https://econ4everyone.uchicago.edu/wp-content/themes/e4e/build/images/logo-phoenix.svg
+    logo: logo.svg
     left:
       - text: "Home"
         href: index.qmd

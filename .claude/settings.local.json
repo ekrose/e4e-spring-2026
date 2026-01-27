@@ -13,7 +13,8 @@
       "Bash(gh repo create:*)",
       "Bash(gh auth:*)",
       "Bash(gh api:*)",
-      "WebFetch(domain:econ4everyone.uchicago.edu)"
+      "WebFetch(domain:econ4everyone.uchicago.edu)",
+      "Bash(curl:*)"
     ]
   }
 }
