@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Economics for Everyone | Spring 2026"
+  navbar:
+    left:
+      - text: "Schedule"
+        href: schedule.qmd
+      - text: "Lectures"
+        href: lectures/lecture-01.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

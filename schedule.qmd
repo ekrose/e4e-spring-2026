@@ -1,0 +1,10 @@
+---
+title: "Schedule"
+---
+
+| Week | Date | Topic | Materials |
+|------|------|-------|-----------|
+| 1 | TBD | Incentives | [Lecture 1](lectures/lecture-01.qmd) |
+| 2 | TBD | TBD | |
+| 3 | TBD | TBD | |
+

@@ -1,0 +1,29 @@
+---
+title: "Economics for Everyone"
+subtitle: "Spring 2026"
+---
+
+## Course Staff
+
+**Instructor:** [Your Name](mailto:you@university.edu)
+
+**Office Hours:** TBD
+
+## Logistics
+
+**Lectures:** TBD
+**Location:** TBD
+
+## Course Description
+
+This course introduces core economic concepts through real-world examples and policy applications. Topics include incentives, markets, externalities, and behavioral economics.
+
+## Prerequisites
+
+No prior economics background required.
+
+## Coursework
+
+- Weekly problem sets
+- Midterm exam
+- Final project
