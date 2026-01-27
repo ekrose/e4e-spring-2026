@@ -2,9 +2,24 @@
 title: "Schedule"
 ---
 
-| Week | Date | Topic | Materials |
-|------|------|-------|-----------|
-| 1 | TBD | Incentives | [Lecture 1](lectures/lecture-01.qmd) |
-| 2 | TBD | TBD | |
-| 3 | TBD | TBD | |
-
+| Week | Date | Day | Instructor | Topic |
+|:----:|------|-----|------------|-------|
+| 1 | Mar 24 | Tue | John | The Basics of Economics 1 |
+|   | Mar 26 | Thu | John | The Basics of Economics 2 |
+| 2 | Mar 31 | Tue | John | Correlation vs Causation |
+|   | Apr 2 | Thu | John | Experimental Economics |
+| 3 | Apr 7 | Tue | John | Education |
+|   | Apr 9 | Thu | John | Discrimination |
+| 4 | Apr 14 | Tue | John | Scaling |
+|   | Apr 16 | Thu | John | Partnerships with Organizations |
+| 5 | Apr 21 | Tue | John | **Midterm** |
+|   | Apr 23 | Thu | Evan | Incentives |
+| 6 | Apr 28 | Tue | Evan | Markets and their failures |
+|   | Apr 30 | Thu | Evan | Statistical uncertainty |
+| 7 | May 5 | Tue | Evan | Quasi-experiments |
+|   | May 7 | Thu | Evan | Risk and insurance |
+| 8 | May 12 | Tue | Evan | Labor markets |
+|   | May 14 | Thu | Evan | Technology, growth, and AI |
+| 9 | May 19 | Tue | Evan | Equity vs. efficiency |
+|   | May 21 | Thu | Evan | **Midterm** |
+| Finals | May 26–29 | | | **Final Exam** |

@@ -14,7 +14,9 @@
       "Bash(gh auth:*)",
       "Bash(gh api:*)",
       "WebFetch(domain:econ4everyone.uchicago.edu)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:doc-0g-84-sheets.googleusercontent.com)"
     ]
   }
 }
