@@ -1,0 +1,53 @@
+<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="320" fill="white"/>
+
+  <!-- Title -->
+  <text x="250" y="25" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">Effect of Student Incentives on Achievement</text>
+  <text x="250" y="42" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#666">Fryer (2011)</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="250" x2="450" y2="250" stroke="black" stroke-width="1.5"/>
+  <line x1="100" y1="250" x2="100" y2="70" stroke="black" stroke-width="1.5"/>
+
+  <!-- Y-axis label -->
+  <text x="35" y="160" text-anchor="middle" font-family="sans-serif" font-size="11" transform="rotate(-90, 35, 160)">Effect Size (std. dev.)</text>
+
+  <!-- Y-axis ticks -->
+  <line x1="95" y1="250" x2="100" y2="250" stroke="black"/>
+  <text x="90" y="254" text-anchor="end" font-family="sans-serif" font-size="10">0</text>
+
+  <line x1="95" y1="190" x2="100" y2="190" stroke="black"/>
+  <text x="90" y="194" text-anchor="end" font-family="sans-serif" font-size="10">0.1</text>
+
+  <line x1="95" y1="130" x2="100" y2="130" stroke="black"/>
+  <text x="90" y="134" text-anchor="end" font-family="sans-serif" font-size="10">0.2</text>
+
+  <!-- Zero line (dashed) -->
+  <line x1="100" y1="250" x2="450" y2="250" stroke="#ccc" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Dallas bar (positive, significant) - INPUT based -->
+  <rect x="130" y="130" width="70" height="120" fill="#2E7D32"/>
+  <text x="165" y="270" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">Dallas</text>
+  <text x="165" y="284" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Read books</text>
+  <text x="165" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#2E7D32">Significant*</text>
+
+  <!-- Chicago bar (small, marginal) - OUTPUT based -->
+  <rect x="240" y="220" width="70" height="30" fill="#9E9E9E"/>
+  <text x="275" y="270" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">Chicago</text>
+  <text x="275" y="284" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Grades</text>
+
+  <!-- NYC bar (zero effect) - OUTPUT based -->
+  <rect x="350" y="245" width="70" height="5" fill="#9E9E9E"/>
+  <text x="385" y="270" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold">NYC</text>
+  <text x="385" y="284" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">Test scores</text>
+
+  <!-- Legend -->
+  <rect x="320" y="60" width="15" height="15" fill="#2E7D32"/>
+  <text x="340" y="72" font-family="sans-serif" font-size="10">Input-based</text>
+  <rect x="320" y="80" width="15" height="15" fill="#9E9E9E"/>
+  <text x="340" y="92" font-family="sans-serif" font-size="10">Output-based</text>
+
+  <!-- Note -->
+  <text x="250" y="308" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#666">*Significant for English-speaking students</text>
+</svg>
