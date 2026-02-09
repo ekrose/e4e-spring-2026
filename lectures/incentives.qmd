@@ -637,6 +637,174 @@ People feel losses more strongly than equivalent gains.
 - People may reject gambles that are favorable on average
 - Status quo bias
 
+---
+
+## Present bias
+
+People overweight immediate rewards relative to future rewards.
+
+. . .
+
+**Example:** You prefer $100 today over $110 next week.
+
+. . .
+
+But you'd take $110 in 53 weeks over $100 in 52 weeks.
+
+. . .
+
+Same tradeoff, different choice. This is **time-inconsistent**.
+
+---
+
+## Present bias in action
+
+Why present bias matters for policy:
+
+. . .
+
+- People under-save for retirement
+- People procrastinate on exercise, healthy eating
+- Students cram instead of studying gradually
+
+. . .
+
+**Policy responses:**
+
+- Commitment devices (automatic savings plans)
+- Deadlines and penalties
+- "Cooling off" periods for major purchases
+
+::: {.notes}
+Reference: Laibson (1997). "Golden Eggs and Hyperbolic Discounting." Quarterly Journal of Economics.
+:::
+
+---
+
+## Mental accounting
+
+People treat money differently depending on where it "comes from."
+
+. . .
+
+**Example:** You're more likely to spend a $1,000 tax refund than $1,000 from your regular paycheck.
+
+. . .
+
+But money is **fungible**—a dollar is a dollar.
+
+. . .
+
+Why might this be rational? (Budgeting, self-control)
+
+::: {.notes}
+Reference: Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Decision Making.
+:::
+
+---
+
+## The sunk cost fallacy
+
+People continue investing in something because of what they've already spent.
+
+. . .
+
+**Example:** You paid $50 for a concert ticket. It's raining, you feel sick, and you don't want to go.
+
+. . .
+
+Should you go?
+
+. . .
+
+**Economically:** The $50 is gone either way. Only future costs and benefits matter.
+
+. . .
+
+**In practice:** People often go—to "not waste" the $50.
+
+---
+
+## Anchoring
+
+Initial information disproportionately influences judgments.
+
+. . .
+
+**Classic experiment:** Spin a wheel (rigged to land on 10 or 65).
+
+Ask: "What percentage of African countries are in the UN?"
+
+. . .
+
+- Wheel shows 10 → average guess: **25%**
+- Wheel shows 65 → average guess: **45%**
+
+. . .
+
+The random number shouldn't matter—but it does.
+
+::: {.notes}
+Reference: Tversky & Kahneman (1974). "Judgment under Uncertainty: Heuristics and Biases." Science.
+:::
+
+---
+
+## Anchoring in the real world
+
+Where anchoring affects economic decisions:
+
+. . .
+
+- **Negotiations:** First offer sets the range
+- **Retail:** "Was $100, now $60!" vs. just "$60"
+- **Sentencing:** Prosecutors' recommendations influence judges
+- **Salaries:** Your current pay anchors future offers
+
+---
+
+## Using biases for good: Nudges
+
+A **nudge** is a small design change that influences behavior without restricting choice.
+
+. . .
+
+**Examples:**
+
+- Automatic enrollment in retirement savings
+- Putting healthy food at eye level in cafeterias
+- Default to double-sided printing
+
+. . .
+
+> "Libertarian paternalism"—helping people make better choices for themselves.
+
+::: {.notes}
+Reference: Thaler & Sunstein (2008). "Nudge: Improving Decisions About Health, Wealth, and Happiness."
+:::
+
+---
+
+## The policy debate
+
+**Critics of nudges argue:**
+
+. . .
+
+- Who decides what's "better"?
+- Slippery slope to manipulation
+- Treats symptoms, not causes
+
+. . .
+
+**Defenders respond:**
+
+. . .
+
+- There's always a default—might as well make it good
+- Preserves freedom of choice
+- Low cost, high impact
+
 # Wrapping up {background-color="#800000"}
 
 ---
