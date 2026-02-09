@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "lectures/*.qmd"
+    - "!claude.md"
 
 website:
   title: "Economics for Everyone | Spring 2026"
