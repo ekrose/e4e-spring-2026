@@ -436,8 +436,10 @@ The most fundamental reason policy is tricky:
 
 ---
 
-## Soviet nail factory {background-image="https://upload.wikimedia.org/wikipedia/commons/5/5e/Soviet_Union-1929-Stamp-0.10._Industrialisierung.jpg" background-opacity="0.15"}
+## Soviet nail factory
 
+:::: {.columns}
+::: {.column width="65%"}
 A nail factory in Kuibyshev is given a production quota **by number of nails**.
 
 . . .
@@ -447,10 +449,15 @@ A nail factory in Kuibyshev is given a production quota **by number of nails**.
 . . .
 
 Factory produced only tiny nails.
+:::
+::: {.column width="35%"}
+![](https://upload.wikimedia.org/wikipedia/commons/5/5e/Soviet_Union-1929-Stamp-0.10._Industrialisierung.jpg){height="350"}
+:::
+::::
 
 ---
 
-## Soviet nail factory (continued) {background-image="https://upload.wikimedia.org/wikipedia/commons/5/5e/Soviet_Union-1929-Stamp-0.10._Industrialisierung.jpg" background-opacity="0.15"}
+## Soviet nail factory (continued)
 
 The planners wise up. They switch to a quota **by weight**.
 
@@ -560,18 +567,12 @@ You want students to learn more. You have money for incentives.
 
 Roland Fryer ran experiments in multiple cities:
 
-. . .
-
-- **Dallas:** Paid for reading books → **Significant gains**
-- **Chicago:** Paid for grades → No effect
-- **NYC:** Paid for test scores → No effect
-
-. . .
+![](images/fryer-results.svg){fig-align="center" width="80%"}
 
 > Pay for actions students can control, not outcomes they can't.
 
 ::: {.notes}
-Reference: Fryer (2011). "Financial Incentives and Student Achievement." Quarterly Journal of Economics.
+Reference: Fryer (2011). "Financial Incentives and Student Achievement." Quarterly Journal of Economics 126(4): 1755-1798.
 :::
 
 ---
