@@ -61,7 +61,7 @@ This appears after a click.
 This appears after another click.
 ```
 
-**Section headers**: Use `#` with maroon background for major sections
+**Section headers**: Use `#` with maroon background for major sections. Do NOT put `---` before section headers (the `#` creates its own slide break).
 ```markdown
 # Section Title {background-color="#800000"}
 

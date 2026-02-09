@@ -90,8 +90,6 @@ Thinking like an economist means:
 2. **Measuring** responses after policy
 3. **Designing** better incentives based on what you learn
 
----
-
 # Public Finance 101 {background-color="#800000"}
 
 How high should taxes be on the highest earners?
@@ -277,8 +275,6 @@ The size of behavioral responses depends on **how easy it is to adjust**.
 
 Revenue effects depend on behavioral responses—we need to measure them.
 
----
-
 # A beautiful example {background-color="#800000"}
 
 Strategic incentives
@@ -325,8 +321,6 @@ Now that you've thought about it...
 . . .
 
 [Play the game again]
-
----
 
 # A rewarding example? {background-color="#800000"}
 
@@ -392,8 +386,6 @@ You don't need irrational people to get insane outcomes—just the wrong rules.
 ## Let's play again
 
 Knowing what you know now...
-
----
 
 # Unintended consequences {background-color="#800000"}
 
@@ -575,8 +567,6 @@ Roland Fryer ran experiments in multiple cities:
 Reference: Fryer (2011). "Financial Incentives and Student Achievement." Quarterly Journal of Economics 126(4): 1755-1798.
 :::
 
----
-
 # Cognitive biases {background-color="#800000"}
 
 When responses aren't what you'd predict
@@ -646,8 +636,6 @@ People feel losses more strongly than equivalent gains.
 - Framing matters (gains vs. losses)
 - People may reject gambles that are favorable on average
 - Status quo bias
-
----
 
 # Wrapping up {background-color="#800000"}
 
