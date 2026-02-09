@@ -434,13 +434,13 @@ The most fundamental reason policy is tricky:
 ::: {.column width="65%"}
 A nail factory in Kuibyshev is given a production quota **by number of nails**.
 
-. . .
-
+::: {.fragment}
 **What do you think happens?**
+:::
 
-. . .
-
+::: {.fragment}
 Factory produced only tiny nails.
+:::
 :::
 ::: {.column width="35%"}
 ![](images/nails.jpeg){height="350"}
