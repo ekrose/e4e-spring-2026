@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="50" y1="250" x2="370" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="30" stroke="black" stroke-width="2"/>
+
+  <!-- Axis labels -->
+  <text x="210" y="290" text-anchor="middle" font-family="sans-serif" font-size="14">Tax Rate</text>
+  <text x="25" y="140" text-anchor="middle" font-family="sans-serif" font-size="14" transform="rotate(-90, 25, 140)">Tax Revenue</text>
+
+  <!-- Axis endpoints -->
+  <text x="50" y="270" text-anchor="middle" font-family="sans-serif" font-size="12">0%</text>
+  <text x="370" y="270" text-anchor="middle" font-family="sans-serif" font-size="12">100%</text>
+
+  <!-- Laffer curve (parabola-like) -->
+  <path d="M 50 250 Q 120 80, 210 60 Q 300 80, 370 250"
+        fill="none" stroke="#800000" stroke-width="3"/>
+
+  <!-- Peak indicator -->
+  <line x1="210" y1="60" x2="210" y2="250" stroke="#888" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="210" cy="60" r="5" fill="#800000"/>
+  <text x="210" y="45" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#800000">Maximum Revenue</text>
+
+  <!-- T* label -->
+  <text x="210" y="270" text-anchor="middle" font-family="sans-serif" font-size="12" font-style="italic">t*</text>
+</svg>

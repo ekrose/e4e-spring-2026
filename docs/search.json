@@ -7,11 +7,11 @@
     "text": "Week\nDate\nDay\nInstructor\nTopic\n\n\n\n\n1\nMar 24\nTue\nJohn\nThe Basics of Economics 1\n\n\n\nMar 26\nThu\nJohn\nThe Basics of Economics 2\n\n\n2\nMar 31\nTue\nJohn\nCorrelation vs Causation\n\n\n\nApr 2\nThu\nJohn\nExperimental Economics\n\n\n3\nApr 7\nTue\nJohn\nEducation\n\n\n\nApr 9\nThu\nJohn\nDiscrimination\n\n\n4\nApr 14\nTue\nJohn\nScaling\n\n\n\nApr 16\nThu\nJohn\nPartnerships with Organizations\n\n\n5\nApr 21\nTue\nJohn\nMidterm\n\n\n\nApr 23\nThu\nEvan\nIncentives\n\n\n6\nApr 28\nTue\nEvan\nMarkets and their failures\n\n\n\nApr 30\nThu\nEvan\nStatistical uncertainty\n\n\n7\nMay 5\nTue\nEvan\nQuasi-experiments\n\n\n\nMay 7\nThu\nEvan\nRisk and insurance\n\n\n8\nMay 12\nTue\nEvan\nLabor markets\n\n\n\nMay 14\nThu\nEvan\nTechnology, growth, and AI\n\n\n9\nMay 19\nTue\nEvan\nEquity vs. efficiency\n\n\n\nMay 21\nThu\nEvan\nMidterm\n\n\nFinals\nMay 26–29\n\n\nFinal Exam"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "lectures/index.html",
+    "href": "lectures/index.html",
+    "title": "Lectures",
     "section": "",
-    "text": "About this site"
+    "text": "Lecture slides will be posted here as the course progresses."
   },
   {
     "objectID": "index.html#course-staff",
@@ -49,31 +49,318 @@
     "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
   },
   {
-    "objectID": "lectures/lecture-01.html#why-incentives-matter",
-    "href": "lectures/lecture-01.html#why-incentives-matter",
-    "title": "Lecture 1: Incentives",
-    "section": "Why incentives matter",
-    "text": "Why incentives matter\n\nPolicies change behavior\n\nBehavior determines outcomes\n\nGood intentions are not enough"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
-    "objectID": "lectures/lecture-01.html#what-is-an-incentive",
-    "href": "lectures/lecture-01.html#what-is-an-incentive",
-    "title": "Lecture 1: Incentives",
+    "objectID": "lectures/incentives.html#recall-our-first-principle",
+    "href": "lectures/incentives.html#recall-our-first-principle",
+    "title": "Incentives",
+    "section": "Recall our first principle",
+    "text": "Recall our first principle\n\nEconomists believe that people optimize.\n\n\nOptimization means people do their best given:\n\nTheir preferences\nThe constraints they face\n\n\n\nOptimization also means people respond to incentives."
+  },
+  {
+    "objectID": "lectures/incentives.html#what-is-an-incentive",
+    "href": "lectures/incentives.html#what-is-an-incentive",
+    "title": "Incentives",
     "section": "What is an incentive?",
-    "text": "What is an incentive?\n\nAnything that changes costs or benefits\nCan be explicit or implicit\nOften unintended"
+    "text": "What is an incentive?\nAn incentive is anything that affects the payoffs of your choices.\n\nMonetary incentives:\n\nWages, prices, taxes, fines\n\n\n\nNon-monetary incentives:\n\nNorms, reputation, emotions\nConvenience, effort, time\nIdentity, social approval"
   },
   {
-    "objectID": "lectures/lecture-01.html#goodharts-law",
-    "href": "lectures/lecture-01.html#goodharts-law",
-    "title": "Lecture 1: Incentives",
+    "objectID": "lectures/incentives.html#why-incentives-matter-for-policy",
+    "href": "lectures/incentives.html#why-incentives-matter-for-policy",
+    "title": "Incentives",
+    "section": "Why incentives matter for policy",
+    "text": "Why incentives matter for policy\nWhen you change incentives, people respond.\n\nThe impact of a policy change will almost always:\n\nNot be as if the world stood still\nNot be exactly what you predict\n\n\n\nIf you’re not careful, a policy might have the opposite effect of what you intended."
+  },
+  {
+    "objectID": "lectures/incentives.html#key-ideas-for-today",
+    "href": "lectures/incentives.html#key-ideas-for-today",
+    "title": "Incentives",
+    "section": "Key ideas for today",
+    "text": "Key ideas for today\n\nBehavioral response: Adjustments people make when incentives change\n\n\nStrategic interactions: How others’ choices affect my incentives\n\n\nUnintended consequences: When policies backfire due to unforeseen responses\n\n\nCognitive biases: Systematic departures from simple optimization"
+  },
+  {
+    "objectID": "lectures/incentives.html#thinking-like-an-economist",
+    "href": "lectures/incentives.html#thinking-like-an-economist",
+    "title": "Incentives",
+    "section": "Thinking like an economist",
+    "text": "Thinking like an economist\nThinking like an economist means:\n\nPredicting behavioral responses before policy\nMeasuring responses after policy\nDesigning better incentives based on what you learn"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-naive-view",
+    "href": "lectures/incentives.html#the-naive-view",
+    "title": "Incentives",
+    "section": "The naive view",
+    "text": "The naive view\nRaise the tax rate a little…\n\n…and you should collect more tax revenue.\n\n\nBut what might happen to the incomes of the highest earners?"
+  },
+  {
+    "objectID": "lectures/incentives.html#top-marginal-tax-rates-in-the-us",
+    "href": "lectures/incentives.html#top-marginal-tax-rates-in-the-us",
+    "title": "Incentives",
+    "section": "Top marginal tax rates in the US",
+    "text": "Top marginal tax rates in the US\n\n\n\n\n\n\nSource: Wikipedia / Tax Foundation. Shows dramatic variation from 90%+ in 1950s to ~35-40% today."
+  },
+  {
+    "objectID": "lectures/incentives.html#labor-supply-and-taxes",
+    "href": "lectures/incentives.html#labor-supply-and-taxes",
+    "title": "Incentives",
+    "section": "Labor supply and taxes",
+    "text": "Labor supply and taxes\nAs wages rise, people face a tradeoff:\n\nSubstitution effect: Higher wages make leisure more expensive → work more\nIncome effect: Higher wages mean you can afford more leisure → work less\n\n\nWhich dominates? It depends."
+  },
+  {
+    "objectID": "lectures/incentives.html#a-thought-experiment",
+    "href": "lectures/incentives.html#a-thought-experiment",
+    "title": "Incentives",
+    "section": "A thought experiment",
+    "text": "A thought experiment\nSuppose you’re in charge of tax policy.\n\nYou raise the top tax rate from 40% to 50%.\n\n\nWhat happens to tax revenue?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-laffer-curve-intuition",
+    "href": "lectures/incentives.html#the-laffer-curve-intuition",
+    "title": "Incentives",
+    "section": "The Laffer curve intuition",
+    "text": "The Laffer curve intuition\n\n\nAt 0% tax: $0 revenue\nAt 100% tax: $0 revenue (why work?)\nSomewhere in between: maximum revenue"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-key-insight",
+    "href": "lectures/incentives.html#the-key-insight",
+    "title": "Incentives",
+    "section": "The key insight",
+    "text": "The key insight\n\nRevenue = Tax Rate × Tax Base\n\n\nBut the tax base is endogenous.\n\n\nWhen rates rise, people may:\n\nWork fewer hours\nShift income to other forms\nMove to other jurisdictions\nEngage in avoidance or evasion"
+  },
+  {
+    "objectID": "lectures/incentives.html#what-does-the-evidence-say",
+    "href": "lectures/incentives.html#what-does-the-evidence-say",
+    "title": "Incentives",
+    "section": "What does the evidence say?",
+    "text": "What does the evidence say?\nBest empirical estimates suggest behavioral responses are modest in the short run.\n\nSaez, Slemrod & Giertz (2012):\n\nElasticity of taxable income ≈ 0.25\n“Behavioral responses are not negligible, but not as large as some claim”\n\n\nReference: Saez, Slemrod, and Giertz (2012). “The Elasticity of Taxable Income with Respect to Marginal Tax Rates.” Journal of Economic Literature 50(1): 3-50."
+  },
+  {
+    "objectID": "lectures/incentives.html#but-some-people-are-very-responsive",
+    "href": "lectures/incentives.html#but-some-people-are-very-responsive",
+    "title": "Incentives",
+    "section": "But some people are very responsive",
+    "text": "But some people are very responsive\nEuropean soccer players provide a striking example.\n\nKleven, Landais & Saez (2013) studied player mobility across 14 countries:\n\nForeign players: elasticity ≈ 1.0 (highly responsive)\nDomestic players: elasticity ≈ 0.15 (less mobile)\n\n\n\nLower-tax countries attract the best talent.\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
+  },
+  {
+    "objectID": "lectures/incentives.html#spains-beckham-law",
+    "href": "lectures/incentives.html#spains-beckham-law",
+    "title": "Incentives",
+    "section": "Spain’s “Beckham Law”",
+    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-lesson",
+    "href": "lectures/incentives.html#the-lesson",
+    "title": "Incentives",
+    "section": "The lesson",
+    "text": "The lesson\nWhen people can move, tax incentives matter a lot.\n\n\nForeign players: highly mobile → big response\nDomestic players: less mobile → small response\n\n\n\nThe size of behavioral responses depends on how easy it is to adjust."
+  },
+  {
+    "objectID": "lectures/incentives.html#an-important-clarification",
+    "href": "lectures/incentives.html#an-important-clarification",
+    "title": "Incentives",
+    "section": "An important clarification",
+    "text": "An important clarification\n\nThis is not an argument against taxes.\n\n\n\nIt’s an argument that behavior matters.\n\n\n\nRevenue effects depend on behavioral responses—we need to measure them."
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play-a-game",
+    "href": "lectures/incentives.html#lets-play-a-game",
+    "title": "Incentives",
+    "section": "Let’s play a game",
+    "text": "Let’s play a game\nI’m going to collect a number from everyone in the class.\n\nYour job: Guess what the class’s average guess will be, divided by two.\n\n\n\nPick any number from 0 to 100\nIf the class average is 50, the winning guess is 25"
+  },
+  {
+    "objectID": "lectures/incentives.html#submit-your-guess",
+    "href": "lectures/incentives.html#submit-your-guess",
+    "title": "Incentives",
+    "section": "Submit your guess",
+    "text": "Submit your guess\n[PollEverywhere QR code here]\n\nReady? Go!"
+  },
+  {
+    "objectID": "lectures/incentives.html#discussion",
+    "href": "lectures/incentives.html#discussion",
+    "title": "Incentives",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat were your individual incentives?\nWhat’s the “best” response?\nWhat would perfectly rational players do?"
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play-again",
+    "href": "lectures/incentives.html#lets-play-again",
+    "title": "Incentives",
+    "section": "Let’s play again",
+    "text": "Let’s play again\nNow that you’ve thought about it…\n\n[Play the game again]"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-20-bill-auction",
+    "href": "lectures/incentives.html#the-20-bill-auction",
+    "title": "Incentives",
+    "section": "The $20 bill auction",
+    "text": "The $20 bill auction\nHere’s a $20 bill. I’m going to auction it off.\n\nRules:\n\nStandard auction: highest bidder wins and pays their bid\nBut: The second-highest bidder also pays their bid (and gets nothing)\n\n\n\nWe’ll start at $1 and go up by $1 increments."
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play",
+    "href": "lectures/incentives.html#lets-play",
+    "title": "Incentives",
+    "section": "Let’s play",
+    "text": "Let’s play\nWho wants to bid $1?"
+  },
+  {
+    "objectID": "lectures/incentives.html#discussion-1",
+    "href": "lectures/incentives.html#discussion-1",
+    "title": "Incentives",
+    "section": "Discussion",
+    "text": "Discussion\nThink about what happened:\n\n\nWhat were the strategic incentives at each point?\n\n\n\n\nHow did past bids affect future incentives?\n\n\n\n\nWhat was the best approach from the start?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-key-lesson",
+    "href": "lectures/incentives.html#the-key-lesson",
+    "title": "Incentives",
+    "section": "The key lesson",
+    "text": "The key lesson\n\nEach step was locally rational.\n\n\n\nThe outcome was globally terrible.\n\n\n\nYou don’t need irrational people to get insane outcomes—just the wrong rules."
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play-again-1",
+    "href": "lectures/incentives.html#lets-play-again-1",
+    "title": "Incentives",
+    "section": "Let’s play again",
+    "text": "Let’s play again\nKnowing what you know now…"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-fundamental-insight",
+    "href": "lectures/incentives.html#the-fundamental-insight",
+    "title": "Incentives",
+    "section": "The fundamental insight",
+    "text": "The fundamental insight\nAs you can see, incentives are complicated.\n\nThe most fundamental reason policy is tricky:\n\nPeople respond to the incentive itself, not your objective."
+  },
+  {
+    "objectID": "lectures/incentives.html#this-isnt-about-bad-intentions",
+    "href": "lectures/incentives.html#this-isnt-about-bad-intentions",
+    "title": "Incentives",
+    "section": "This isn’t about bad intentions",
+    "text": "This isn’t about bad intentions\n\nPeople aren’t being malicious\nThey’re just playing the game you set up\nThe way they play depends on each other and their history"
+  },
+  {
+    "objectID": "lectures/incentives.html#goodharts-law",
+    "href": "lectures/incentives.html#goodharts-law",
+    "title": "Incentives",
     "section": "Goodhart’s Law",
-    "text": "Goodhart’s Law\n\nWhen a measure becomes a target, it ceases to be a good measure.\n\n\nMetrics shape behavior\nOptimizing the metric ≠ optimizing the objective"
+    "text": "Goodhart’s Law\n\n“When a measure becomes a target, it ceases to be a good measure.”\n\n\nExamples:\n\nTeaching to the test\nPolicing quotas\nCorporate KPIs\nAcademic publishing (citations)"
   },
   {
-    "objectID": "lectures/lecture-01.html#unintended-consequences",
-    "href": "lectures/lecture-01.html#unintended-consequences",
-    "title": "Lecture 1: Incentives",
-    "section": "Unintended consequences",
-    "text": "Unintended consequences\n\nPeople respond strategically\nResponses occur on margins\nOutcomes may reverse"
+    "objectID": "lectures/incentives.html#soviet-nail-factory",
+    "href": "lectures/incentives.html#soviet-nail-factory",
+    "title": "Incentives",
+    "section": "Soviet nail factory",
+    "text": "Soviet nail factory\nA nail factory in Kuibyshev was given a production quota.\n\nQuota by number: Factory produced only tiny nails.\n\n\nQuota by weight: Factory switched to producing only huge nails.\n\n\nNo one ever made medium nails."
+  },
+  {
+    "objectID": "lectures/incentives.html#soviet-nail-factory-continued",
+    "href": "lectures/incentives.html#soviet-nail-factory-continued",
+    "title": "Incentives",
+    "section": "Soviet nail factory (continued)",
+    "text": "Soviet nail factory (continued)\nThe planners wise up. They switch to a quota by weight.\n\nNow what happens?\n\n\nFactory switched to producing only huge nails.\n\n\nNo one ever made medium nails."
+  },
+  {
+    "objectID": "lectures/incentives.html#ban-the-box",
+    "href": "lectures/incentives.html#ban-the-box",
+    "title": "Incentives",
+    "section": "Ban the box",
+    "text": "Ban the box\nMany jurisdictions “banned the box”—employers can’t ask about criminal history on initial applications.\n\nIntended effect: Help people with records get jobs.\n\n\nActual effect: Employers, unable to screen on records, used race as a proxy. Discrimination against Black applicants increased.\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#ban-the-box-continued",
+    "href": "lectures/incentives.html#ban-the-box-continued",
+    "title": "Incentives",
+    "section": "Ban the box (continued)",
+    "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help.\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#a-policy-question",
+    "href": "lectures/incentives.html#a-policy-question",
+    "title": "Incentives",
+    "section": "A policy question",
+    "text": "A policy question\nYou want students to learn more. You have money for incentives.\n\nOption A: Pay students for good test scores\nOption B: Pay students for reading books\n\n\nWhich would you choose? Why?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-tradeoff",
+    "href": "lectures/incentives.html#the-tradeoff",
+    "title": "Incentives",
+    "section": "The tradeoff",
+    "text": "The tradeoff\nProblem with paying for test scores (outputs):\n\nStudents might not know how to improve\nMay encourage cheating\nMay distort effort toward test-taking skills\n\n\nPaying for reading books (inputs):\n\nStudents know exactly what to do\nHarder to game\nBuilds the skill you actually want"
+  },
+  {
+    "objectID": "lectures/incentives.html#evidence-from-fryer-2011",
+    "href": "lectures/incentives.html#evidence-from-fryer-2011",
+    "title": "Incentives",
+    "section": "Evidence from Fryer (2011)",
+    "text": "Evidence from Fryer (2011)\nRoland Fryer ran experiments in multiple cities:\n\n\nDallas: Paid for reading books → Significant gains\nChicago: Paid for grades → No effect\nNYC: Paid for test scores → No effect\n\n\n\n\nPay for actions students can control, not outcomes they can’t.\n\n\nReference: Fryer (2011). “Financial Incentives and Student Achievement.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#people-dont-always-respond-rationally",
+    "href": "lectures/incentives.html#people-dont-always-respond-rationally",
+    "title": "Incentives",
+    "section": "People don’t always respond “rationally”",
+    "text": "People don’t always respond “rationally”\nA final complication: people don’t always respond to incentives the way a simple model predicts.\n\nEconomists have documented many cognitive or behavioral biases."
+  },
+  {
+    "objectID": "lectures/incentives.html#inertia-and-defaults",
+    "href": "lectures/incentives.html#inertia-and-defaults",
+    "title": "Incentives",
+    "section": "Inertia and defaults",
+    "text": "Inertia and defaults\nWhen given choices, people tend to stick with the default option.\n\nExample: 401(k) enrollment\n\nOpt-in default: ~50% participation\nOpt-out default: ~90% participation\n\n\n\nSame options, very different outcomes.\n\nReference: Madrian & Shea (2001). “The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#is-this-really-a-bias",
+    "href": "lectures/incentives.html#is-this-really-a-bias",
+    "title": "Incentives",
+    "section": "Is this really a “bias”?",
+    "text": "Is this really a “bias”?\nImportant question: Why might people rationally stick with the default?\n\n\nInformation costs (the default might be a good recommendation)\nTime costs (switching takes effort)\nUncertainty (maybe the default-setter knows something)\n\n\n\nImportant to separate positive (what people do) from normative (what they should do)."
+  },
+  {
+    "objectID": "lectures/incentives.html#loss-aversion",
+    "href": "lectures/incentives.html#loss-aversion",
+    "title": "Incentives",
+    "section": "Loss aversion",
+    "text": "Loss aversion\nPeople feel losses more strongly than equivalent gains.\n\n\nLosing $100 feels worse than gaining $100 feels good\nRatio is roughly 2:1\n\n\n\nImplications:\n\nFraming matters (gains vs. losses)\nPeople may reject gambles that are favorable on average\nStatus quo bias"
+  },
+  {
+    "objectID": "lectures/incentives.html#what-we-learned-today",
+    "href": "lectures/incentives.html#what-we-learned-today",
+    "title": "Incentives",
+    "section": "What we learned today",
+    "text": "What we learned today\nIncentives determine:\n\nWhat people try\nWhat they ignore\nWhat they distort\nHow they adapt over time"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-bottom-line",
+    "href": "lectures/incentives.html#the-bottom-line",
+    "title": "Incentives",
+    "section": "The bottom line",
+    "text": "The bottom line\n\nPolicies don’t operate on a fixed world—they change the world they operate on.\n\n\nThinking like an economist means recognizing this when you design and evaluate policy."
+  },
+  {
+    "objectID": "lectures/incentives.html#looking-ahead",
+    "href": "lectures/incentives.html#looking-ahead",
+    "title": "Incentives",
+    "section": "Looking ahead",
+    "text": "Looking ahead\nFailing to account for behavioral responses can lead to disaster.\n\nBut doing so appropriately can be the key to managing everything—from your own life to the federal government."
+  },
+  {
+    "objectID": "lectures/incentives.html#questions",
+    "href": "lectures/incentives.html#questions",
+    "title": "Incentives",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/incentives.html#inputs-vs.-outputs",
+    "href": "lectures/incentives.html#inputs-vs.-outputs",
+    "title": "Incentives",
+    "section": "Inputs vs. outputs",
+    "text": "Inputs vs. outputs\nIf you want students to learn, should you pay them to ace their tests?\n\nProblem with output incentives:\n\nStudents might not know how to improve\nMay encourage cheating\nMay distort effort toward test-taking skills\n\n\n\nAlternative: Pay for inputs\n\nReading books\nDoing homework\nAttending class"
   }
 ]

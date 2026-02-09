@@ -13,7 +13,7 @@ website:
       - text: "Schedule"
         href: schedule.qmd
       - text: "Lectures"
-        href: lectures/lecture-01.qmd
+        href: lectures/index.qmd
   page-footer:
     background: light
     center: "© 2026 University of Chicago"

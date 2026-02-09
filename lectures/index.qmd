@@ -1,0 +1,10 @@
+---
+title: "Lectures"
+---
+
+Lecture slides will be posted here as the course progresses.
+
+<!--
+To add a lecture, simply add a link below:
+- [Incentives](incentives.qmd)
+-->
