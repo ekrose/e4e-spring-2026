@@ -7,55 +7,6 @@
     "text": "Week\nDate\nDay\nInstructor\nTopic\n\n\n\n\n1\nMar 24\nTue\nJohn\nThe Basics of Economics 1\n\n\n\nMar 26\nThu\nJohn\nThe Basics of Economics 2\n\n\n2\nMar 31\nTue\nJohn\nCorrelation vs Causation\n\n\n\nApr 2\nThu\nJohn\nExperimental Economics\n\n\n3\nApr 7\nTue\nJohn\nEducation\n\n\n\nApr 9\nThu\nJohn\nDiscrimination\n\n\n4\nApr 14\nTue\nJohn\nScaling\n\n\n\nApr 16\nThu\nJohn\nPartnerships with Organizations\n\n\n5\nApr 21\nTue\nJohn\nMidterm\n\n\n\nApr 23\nThu\nEvan\nIncentives\n\n\n6\nApr 28\nTue\nEvan\nMarkets and their failures\n\n\n\nApr 30\nThu\nEvan\nStatistical uncertainty\n\n\n7\nMay 5\nTue\nEvan\nQuasi-experiments\n\n\n\nMay 7\nThu\nEvan\nRisk and insurance\n\n\n8\nMay 12\nTue\nEvan\nLabor markets\n\n\n\nMay 14\nThu\nEvan\nTechnology, growth, and AI\n\n\n9\nMay 19\nTue\nEvan\nEquity vs. efficiency\n\n\n\nMay 21\nThu\nEvan\nMidterm\n\n\nFinals\nMay 26–29\n\n\nFinal Exam"
   },
   {
-    "objectID": "lectures/index.html",
-    "href": "lectures/index.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Lecture slides will be posted here as the course progresses."
-  },
-  {
-    "objectID": "index.html#course-staff",
-    "href": "index.html#course-staff",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Course Staff",
-    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: TBD"
-  },
-  {
-    "objectID": "index.html#logistics",
-    "href": "index.html#logistics",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Logistics",
-    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: TBD"
-  },
-  {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Course Description",
-    "text": "Course Description\nBecause modern economics puts such a heavy stress on technical rigor, the most interesting economic ideas are often buried behind abstract mathematical notation. Professors List and Rose will explore these big ideas without the math, making the beauty and power of economic thinking available to everyone.\nWe will discuss what it means to think like an economist, how you can use economic thinking to make the world a better place, and how economists think about today’s biggest issues, including what makes your rent get more expensive every year, why discrimination persists (and how to fix it), and how generative artificial intelligence will reshape the labor market."
-  },
-  {
-    "objectID": "index.html#prerequisites",
-    "href": "index.html#prerequisites",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nNo prior economics background required."
-  },
-  {
-    "objectID": "index.html#coursework",
-    "href": "index.html#coursework",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Coursework",
-    "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "lectures/incentives.html#recall-our-first-principle",
     "href": "lectures/incentives.html#recall-our-first-principle",
     "title": "Incentives",
@@ -138,6 +89,13 @@
     "title": "Incentives",
     "section": "What does the evidence say?",
     "text": "What does the evidence say?\nBest empirical estimates suggest behavioral responses are modest in the short run.\n\nSaez, Slemrod & Giertz (2012):\n\nElasticity of taxable income ≈ 0.25\n“Behavioral responses are not negligible, but not as large as some claim”\n\n\nReference: Saez, Slemrod, and Giertz (2012). “The Elasticity of Taxable Income with Respect to Marginal Tax Rates.” Journal of Economic Literature 50(1): 3-50."
+  },
+  {
+    "objectID": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
+    "href": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
+    "title": "Incentives",
+    "section": "What does this imply for optimal rates?",
+    "text": "What does this imply for optimal rates?\nThe revenue-maximizing tax rate formula:\n\nt* = 1 / (1 + e)\n\n\nWith e ≈ 0.25:\n\nt* = 1 / 1.25 = 80%\n\n\n\nCurrent US top rate (~37%) is well below this.\n\n\nHigher rates would still raise revenue—though with efficiency costs."
   },
   {
     "objectID": "lectures/incentives.html#but-some-people-are-very-responsive",
@@ -280,6 +238,13 @@
     "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help."
   },
   {
+    "objectID": "lectures/incentives.html#the-evidence-agan-starr-2018",
+    "href": "lectures/incentives.html#the-evidence-agan-starr-2018",
+    "title": "Incentives",
+    "section": "The evidence: Agan & Starr (2018)",
+    "text": "The evidence: Agan & Starr (2018)\nField experiment: ~15,000 fictitious job applications in NJ and NYC\n\nBefore BTB (at companies with “the box”):\n\nWhite callback rate: 11.1%\nBlack callback rate: 10.9%\nGap: ~7% more callbacks for white applicants\n\n\n\nAfter BTB (box removed):\n\nWhite callback rate: 14.8%\nBlack callback rate: 10.3%\nGap: ~43% more callbacks for white applicants\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
+  },
+  {
     "objectID": "lectures/incentives.html#a-policy-question",
     "href": "lectures/incentives.html#a-policy-question",
     "title": "Incentives",
@@ -357,24 +322,115 @@
     "text": "Questions?"
   },
   {
-    "objectID": "lectures/incentives.html#inputs-vs.-outputs",
-    "href": "lectures/incentives.html#inputs-vs.-outputs",
-    "title": "Incentives",
-    "section": "Inputs vs. outputs",
-    "text": "Inputs vs. outputs\nIf you want students to learn, should you pay them to ace their tests?\n\nProblem with output incentives:\n\nStudents might not know how to improve\nMay encourage cheating\nMay distort effort toward test-taking skills\n\n\n\nAlternative: Pay for inputs\n\nReading books\nDoing homework\nAttending class"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
-    "objectID": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
-    "href": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
-    "title": "Incentives",
-    "section": "What does this imply for optimal rates?",
-    "text": "What does this imply for optimal rates?\nThe revenue-maximizing tax rate formula:\n\nt* = 1 / (1 + e)\n\n\nWith e ≈ 0.25:\n\nt* = 1 / 1.25 = 80%\n\n\n\nCurrent US top rate (~37%) is well below this.\n\n\nHigher rates would still raise revenue—though with efficiency costs."
+    "objectID": "index.html#course-staff",
+    "href": "index.html#course-staff",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Course Staff",
+    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: TBD"
   },
   {
-    "objectID": "lectures/incentives.html#the-evidence-agan-starr-2018",
-    "href": "lectures/incentives.html#the-evidence-agan-starr-2018",
-    "title": "Incentives",
-    "section": "The evidence: Agan & Starr (2018)",
-    "text": "The evidence: Agan & Starr (2018)\nField experiment: ~15,000 fictitious job applications in NJ and NYC\n\nBefore BTB (at companies with “the box”):\n\nWhite callback rate: 11.1%\nBlack callback rate: 10.9%\nGap: ~7% more callbacks for white applicants\n\n\n\nAfter BTB (box removed):\n\nWhite callback rate: 14.8%\nBlack callback rate: 10.3%\nGap: ~43% more callbacks for white applicants\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Logistics",
+    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: TBD"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Course Description",
+    "text": "Course Description\nBecause modern economics puts such a heavy stress on technical rigor, the most interesting economic ideas are often buried behind abstract mathematical notation. Professors List and Rose will explore these big ideas without the math, making the beauty and power of economic thinking available to everyone.\nWe will discuss what it means to think like an economist, how you can use economic thinking to make the world a better place, and how economists think about today’s biggest issues, including what makes your rent get more expensive every year, why discrimination persists (and how to fix it), and how generative artificial intelligence will reshape the labor market."
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNo prior economics background required."
+  },
+  {
+    "objectID": "index.html#coursework",
+    "href": "index.html#coursework",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Coursework",
+    "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
+  },
+  {
+    "objectID": "lectures/index.html",
+    "href": "lectures/index.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture slides will be posted here as the course progresses."
+  },
+  {
+    "objectID": "claude.html",
+    "href": "claude.html",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "This is the course website for Economics for Everyone (Spring 2026), taught by John List and Evan Rose at the University of Chicago.\n\n\n\nQuarto: Static site generator that compiles .qmd files to HTML\nRevealJS: Lecture slides are rendered as reveal.js presentations\nGitHub Pages: Site deploys from the /docs directory\n\n\n\n\ne4e-spring-2026/\n├── _quarto.yml          # Main Quarto configuration\n├── index.qmd            # Homepage\n├── schedule.qmd         # Course schedule\n├── about.qmd            # About page\n├── styles.css           # Custom CSS (UChicago branding)\n├── e4e-logo.svg         # Course logo\n├── logo.svg             # Navbar logo\n├── lectures/\n│   ├── index.qmd        # Lectures listing page\n│   ├── *.qmd            # Individual lecture slides\n│   └── images/          # Lecture images and diagrams\n└── docs/                # Compiled output (do not edit directly)\n\n\n\nWhen given notes for a new lecture, create a .qmd file in /lectures/ following this format:\n\n\n---\ntitle: \"Lecture Title\"\nsubtitle: \"Economics for Everyone\"\nformat:\n  revealjs:\n    theme: simple\n    slide-number: true\n    preview-links: auto\n---\n\n\n\nNew slides: Use --- (three dashes) to separate slides\nIncremental reveals: Use . . . (dot space dot space dot) to make content appear on click\nFirst point appears immediately.\n\n. . .\n\nThis appears after a click.\n\n. . .\n\nThis appears after another click.\nSection headers: Use # with maroon background for major sections. Do NOT put --- before section headers (the # creates its own slide break).\n# Section Title {background-color=\"#800000\"}\n\nOptional subtitle text\nRegular slide headers: Use ## for standard slides\n## Slide Title\n\nContent here...\nBlock quotes: Use &gt; for key insights or definitions\n&gt; **Key insight:** This is an important takeaway.\nTwo-column layouts:\n:::: {.columns}\n::: {.column width=\"60%\"}\nLeft column content\n:::\n::: {.column width=\"40%\"}\nRight column content\n:::\n::::\nImages:\n![](images/filename.svg){fig-align=\"center\" width=\"70%\"}\nSpeaker notes / references: Hidden from slides but preserved in source\n::: {.notes}\nReference: Author (Year). \"Title.\" Journal.\n:::\n\n\n\n\nKeep slides concise - Use bullet points, not paragraphs\nUse incremental reveals liberally - Helps pace the lecture\nInclude discussion questions - Engage students\nAdd interactive elements - Games, polls, live demonstrations\nCite sources in notes blocks - Keep references but don’t clutter slides\nUse blockquotes for key takeaways - Makes them stand out\n\n\n\n\nThe lectures follow this pedagogical pattern: - Start with a core economic principle - Present real-world examples and evidence - Include interactive activities (games, polls) - Discuss policy implications - Address counterarguments and nuances - End with key takeaways\n\n\n\n\nThe site uses University of Chicago branding: - Primary color: #800000 (UChicago Maroon) - Accent color: #ff8243 (Orange) - Font: Inter (Google Fonts)\nUse these colors for section headers and emphasis.\n\n\n\nTo compile all pages and lectures:\nquarto render\nOutput goes to /docs/ which is served by GitHub Pages.\nTo preview locally:\nquarto preview\n\n\n\n\nCreate lectures/new-lecture.qmd with the standard YAML header\nAdd any images to lectures/images/\nUpdate lectures/index.qmd to link to the new lecture\nRun quarto render to compile\n\n\n\n\nThe course runs for 9 weeks (March 24 - May 21, 2026): - John List teaches: Weeks 1-5 (Basics, Causation, Experiments, Education, Scaling) - Evan Rose teaches: Weeks 6-9 (Incentives, Markets, Quasi-experiments, Labor/AI)\nLectures are Tuesday & Thursday, 11:00am - 12:20pm.\n\n\n\n\n\nWhen given rough notes, transform them into properly formatted RevealJS slides following the conventions above. Focus on: - Breaking content into digestible slides - Adding incremental reveals for pacing - Creating section headers for major topic shifts - Including discussion prompts and interactive elements\n\n\n\nFor economic concepts, create SVG diagrams and save to lectures/images/. Use simple, clean designs with the UChicago color palette.\n\n\n\nEdit schedule.qmd directly. The schedule uses a simple markdown table format."
+  },
+  {
+    "objectID": "claude.html#technology-stack",
+    "href": "claude.html#technology-stack",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "Quarto: Static site generator that compiles .qmd files to HTML\nRevealJS: Lecture slides are rendered as reveal.js presentations\nGitHub Pages: Site deploys from the /docs directory"
+  },
+  {
+    "objectID": "claude.html#project-structure",
+    "href": "claude.html#project-structure",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "e4e-spring-2026/\n├── _quarto.yml          # Main Quarto configuration\n├── index.qmd            # Homepage\n├── schedule.qmd         # Course schedule\n├── about.qmd            # About page\n├── styles.css           # Custom CSS (UChicago branding)\n├── e4e-logo.svg         # Course logo\n├── logo.svg             # Navbar logo\n├── lectures/\n│   ├── index.qmd        # Lectures listing page\n│   ├── *.qmd            # Individual lecture slides\n│   └── images/          # Lecture images and diagrams\n└── docs/                # Compiled output (do not edit directly)"
+  },
+  {
+    "objectID": "claude.html#creating-lectures-from-notes",
+    "href": "claude.html#creating-lectures-from-notes",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "When given notes for a new lecture, create a .qmd file in /lectures/ following this format:\n\n\n---\ntitle: \"Lecture Title\"\nsubtitle: \"Economics for Everyone\"\nformat:\n  revealjs:\n    theme: simple\n    slide-number: true\n    preview-links: auto\n---\n\n\n\nNew slides: Use --- (three dashes) to separate slides\nIncremental reveals: Use . . . (dot space dot space dot) to make content appear on click\nFirst point appears immediately.\n\n. . .\n\nThis appears after a click.\n\n. . .\n\nThis appears after another click.\nSection headers: Use # with maroon background for major sections. Do NOT put --- before section headers (the # creates its own slide break).\n# Section Title {background-color=\"#800000\"}\n\nOptional subtitle text\nRegular slide headers: Use ## for standard slides\n## Slide Title\n\nContent here...\nBlock quotes: Use &gt; for key insights or definitions\n&gt; **Key insight:** This is an important takeaway.\nTwo-column layouts:\n:::: {.columns}\n::: {.column width=\"60%\"}\nLeft column content\n:::\n::: {.column width=\"40%\"}\nRight column content\n:::\n::::\nImages:\n![](images/filename.svg){fig-align=\"center\" width=\"70%\"}\nSpeaker notes / references: Hidden from slides but preserved in source\n::: {.notes}\nReference: Author (Year). \"Title.\" Journal.\n:::\n\n\n\n\nKeep slides concise - Use bullet points, not paragraphs\nUse incremental reveals liberally - Helps pace the lecture\nInclude discussion questions - Engage students\nAdd interactive elements - Games, polls, live demonstrations\nCite sources in notes blocks - Keep references but don’t clutter slides\nUse blockquotes for key takeaways - Makes them stand out\n\n\n\n\nThe lectures follow this pedagogical pattern: - Start with a core economic principle - Present real-world examples and evidence - Include interactive activities (games, polls) - Discuss policy implications - Address counterarguments and nuances - End with key takeaways"
+  },
+  {
+    "objectID": "claude.html#styling",
+    "href": "claude.html#styling",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "The site uses University of Chicago branding: - Primary color: #800000 (UChicago Maroon) - Accent color: #ff8243 (Orange) - Font: Inter (Google Fonts)\nUse these colors for section headers and emphasis."
+  },
+  {
+    "objectID": "claude.html#building-the-site",
+    "href": "claude.html#building-the-site",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "To compile all pages and lectures:\nquarto render\nOutput goes to /docs/ which is served by GitHub Pages.\nTo preview locally:\nquarto preview"
+  },
+  {
+    "objectID": "claude.html#adding-a-new-lecture",
+    "href": "claude.html#adding-a-new-lecture",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "Create lectures/new-lecture.qmd with the standard YAML header\nAdd any images to lectures/images/\nUpdate lectures/index.qmd to link to the new lecture\nRun quarto render to compile"
+  },
+  {
+    "objectID": "claude.html#course-schedule-reference",
+    "href": "claude.html#course-schedule-reference",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "The course runs for 9 weeks (March 24 - May 21, 2026): - John List teaches: Weeks 1-5 (Basics, Causation, Experiments, Education, Scaling) - Evan Rose teaches: Weeks 6-9 (Incentives, Markets, Quasi-experiments, Labor/AI)\nLectures are Tuesday & Thursday, 11:00am - 12:20pm."
+  },
+  {
+    "objectID": "claude.html#common-tasks",
+    "href": "claude.html#common-tasks",
+    "title": "Economics for Everyone Course Website",
+    "section": "",
+    "text": "When given rough notes, transform them into properly formatted RevealJS slides following the conventions above. Focus on: - Breaking content into digestible slides - Adding incremental reveals for pacing - Creating section headers for major topic shifts - Including discussion prompts and interactive elements\n\n\n\nFor economic concepts, create SVG diagrams and save to lectures/images/. Use simple, clean designs with the UChicago color palette.\n\n\n\nEdit schedule.qmd directly. The schedule uses a simple markdown table format."
   }
 ]
