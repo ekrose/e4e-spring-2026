@@ -195,6 +195,28 @@ Reference: Saez, Slemrod, and Giertz (2012). "The Elasticity of Taxable Income w
 
 ---
 
+## What does this imply for optimal rates?
+
+The revenue-maximizing tax rate formula:
+
+> **t* = 1 / (1 + e)**
+
+. . .
+
+With e ≈ 0.25:
+
+- t* = 1 / 1.25 = **80%**
+
+. . .
+
+Current US top rate (~37%) is well below this.
+
+. . .
+
+Higher rates would still raise revenue—though with efficiency costs.
+
+---
+
 ## But some people are very responsive
 
 **European soccer players** provide a striking example.
@@ -221,6 +243,10 @@ Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migrati
 In 2004, Spain cut tax rates for foreign workers from 43% to 24%.
 
 ![](images/beckham-law.svg){fig-align="center" width="85%"}
+
+::: {.notes}
+Graph is stylized/illustrative based on patterns from Kleven, Landais & Saez (2013), not exact reproduction.
+:::
 
 ---
 
@@ -410,7 +436,7 @@ The most fundamental reason policy is tricky:
 
 ---
 
-## Soviet nail factory
+## Soviet nail factory {background-image="https://upload.wikimedia.org/wikipedia/commons/5/5e/Soviet_Union-1929-Stamp-0.10._Industrialisierung.jpg" background-opacity="0.15"}
 
 A nail factory in Kuibyshev is given a production quota **by number of nails**.
 
@@ -424,7 +450,7 @@ Factory produced only tiny nails.
 
 ---
 
-## Soviet nail factory (continued)
+## Soviet nail factory (continued) {background-image="https://upload.wikimedia.org/wikipedia/commons/5/5e/Soviet_Union-1929-Stamp-0.10._Industrialisierung.jpg" background-opacity="0.15"}
 
 The planners wise up. They switch to a quota **by weight**.
 
@@ -468,8 +494,30 @@ Discrimination against Black applicants **increased**.
 
 The policy backfired—for the very people it was meant to help.
 
+---
+
+## The evidence: Agan & Starr (2018)
+
+Field experiment: ~15,000 fictitious job applications in NJ and NYC
+
+. . .
+
+**Before BTB** (at companies with "the box"):
+
+- White callback rate: 11.1%
+- Black callback rate: 10.9%
+- Gap: **~7%** more callbacks for white applicants
+
+. . .
+
+**After BTB** (box removed):
+
+- White callback rate: 14.8%
+- Black callback rate: 10.3%
+- Gap: **~43%** more callbacks for white applicants
+
 ::: {.notes}
-Reference: Agan & Starr (2018). "Ban the Box, Criminal Records, and Racial Discrimination." Quarterly Journal of Economics.
+Reference: Agan & Starr (2018). "Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment." Quarterly Journal of Economics 133(1): 191-235.
 :::
 
 ---

@@ -151,7 +151,7 @@
     "href": "lectures/incentives.html#spains-beckham-law",
     "title": "Incentives",
     "section": "Spain’s “Beckham Law”",
-    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%."
+    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%.\n\n\nGraph is stylized/illustrative based on patterns from Kleven, Landais & Saez (2013), not exact reproduction."
   },
   {
     "objectID": "lectures/incentives.html#the-lesson",
@@ -256,7 +256,7 @@
     "href": "lectures/incentives.html#soviet-nail-factory",
     "title": "Incentives",
     "section": "Soviet nail factory",
-    "text": "Soviet nail factory\nA nail factory in Kuibyshev was given a production quota.\n\nQuota by number: Factory produced only tiny nails.\n\n\nQuota by weight: Factory switched to producing only huge nails.\n\n\nNo one ever made medium nails."
+    "text": "Soviet nail factory\nA nail factory in Kuibyshev is given a production quota by number of nails.\n\nWhat do you think happens?\n\n\nFactory produced only tiny nails."
   },
   {
     "objectID": "lectures/incentives.html#soviet-nail-factory-continued",
@@ -270,14 +270,14 @@
     "href": "lectures/incentives.html#ban-the-box",
     "title": "Incentives",
     "section": "Ban the box",
-    "text": "Ban the box\nMany jurisdictions “banned the box”—employers can’t ask about criminal history on initial applications.\n\nIntended effect: Help people with records get jobs.\n\n\nActual effect: Employers, unable to screen on records, used race as a proxy. Discrimination against Black applicants increased.\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination.” Quarterly Journal of Economics."
+    "text": "Ban the box\nMany jurisdictions “banned the box”—employers can’t ask about criminal history on initial applications.\n\nIntended effect: Help people with records get jobs.\n\n\nBut think like an economist: What might employers do instead?"
   },
   {
     "objectID": "lectures/incentives.html#ban-the-box-continued",
     "href": "lectures/incentives.html#ban-the-box-continued",
     "title": "Incentives",
     "section": "Ban the box (continued)",
-    "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help.\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination.” Quarterly Journal of Economics."
+    "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help."
   },
   {
     "objectID": "lectures/incentives.html#a-policy-question",
@@ -362,5 +362,19 @@
     "title": "Incentives",
     "section": "Inputs vs. outputs",
     "text": "Inputs vs. outputs\nIf you want students to learn, should you pay them to ace their tests?\n\nProblem with output incentives:\n\nStudents might not know how to improve\nMay encourage cheating\nMay distort effort toward test-taking skills\n\n\n\nAlternative: Pay for inputs\n\nReading books\nDoing homework\nAttending class"
+  },
+  {
+    "objectID": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
+    "href": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
+    "title": "Incentives",
+    "section": "What does this imply for optimal rates?",
+    "text": "What does this imply for optimal rates?\nThe revenue-maximizing tax rate formula:\n\nt* = 1 / (1 + e)\n\n\nWith e ≈ 0.25:\n\nt* = 1 / 1.25 = 80%\n\n\n\nCurrent US top rate (~37%) is well below this.\n\n\nHigher rates would still raise revenue—though with efficiency costs."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-evidence-agan-starr-2018",
+    "href": "lectures/incentives.html#the-evidence-agan-starr-2018",
+    "title": "Incentives",
+    "section": "The evidence: Agan & Starr (2018)",
+    "text": "The evidence: Agan & Starr (2018)\nField experiment: ~15,000 fictitious job applications in NJ and NYC\n\nBefore BTB (at companies with “the box”):\n\nWhite callback rate: 11.1%\nBlack callback rate: 10.9%\nGap: ~7% more callbacks for white applicants\n\n\n\nAfter BTB (box removed):\n\nWhite callback rate: 14.8%\nBlack callback rate: 10.3%\nGap: ~43% more callbacks for white applicants\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
   }
 ]
