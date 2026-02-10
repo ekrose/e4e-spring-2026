@@ -921,7 +921,7 @@
     "href": "lectures/markets-failures.html#the-invisible-hand",
     "title": "Markets and Their Failures",
     "section": "The Invisible Hand",
-    "text": "The Invisible Hand\n\nRelative prices guide each person to their comparative advantage—automatically.\n\n\nNo one needs to know everyone’s abilities.\n\n\nPrices contain the information needed to coordinate specialization across millions of people."
+    "text": "The Invisible Hand\n\nPrices guide each person to their comparative advantage—automatically.\n\n\nNo central planner needed.\n\n\nPrices contain the information needed to coordinate production across millions of people."
   },
   {
     "objectID": "lectures/markets-failures.html#coase-example",
@@ -1055,5 +1055,124 @@
     "title": "Markets and Their Failures",
     "section": "Two Key Insights",
     "text": "Two Key Insights\n1. Hiring someone “worse” can be profitable\n\nTaylor adds $10 in profit even without specialization\n\n\n2. Specializing by comparative advantage is even better\n\nSpecialization adds another $60 in profit\nTotal gain: $70 more than Sam alone"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#two-types-of-workers",
+    "href": "lectures/markets-failures.html#two-types-of-workers",
+    "title": "Markets and Their Failures",
+    "section": "Two Types of Workers",
+    "text": "Two Types of Workers\nLet’s think about an economy with two types of workers:\n\nConstruction workers — skilled at building things\n\n\nContent creators — skilled at making TikToks\n\n\nEach worker can produce either good, but with different productivities."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-can-each-type-produce",
+    "href": "lectures/markets-failures.html#what-can-each-type-produce",
+    "title": "Markets and Their Failures",
+    "section": "What Can Each Type Produce?",
+    "text": "What Can Each Type Produce?\nIn one day:\n\nConstruction worker can build:\n\n2 houses, OR\n1 TikTok\n\n\n\nContent creator can make:\n\n0.5 houses, OR\n4 TikToks"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#absolute-advantage",
+    "href": "lectures/markets-failures.html#absolute-advantage",
+    "title": "Markets and Their Failures",
+    "section": "Absolute Advantage",
+    "text": "Absolute Advantage\nWho is better at what?\n\nConstruction workers are 4× better at building houses (2 vs 0.5)\n\n\nContent creators are 4× better at making TikToks (4 vs 1)\n\n\nEach type has absolute advantage in their natural specialty."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-production-possibilities-frontier",
+    "href": "lectures/markets-failures.html#the-production-possibilities-frontier",
+    "title": "Markets and Their Failures",
+    "section": "The Production Possibilities Frontier",
+    "text": "The Production Possibilities Frontier\nRecall from last time: a PPF shows the combinations of goods you can produce.\n\nIf you spend all your time on one good, you get the maximum of that good.\n\n\nIf you split your time, you get some of each."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#construction-workers-ppf",
+    "href": "lectures/markets-failures.html#construction-workers-ppf",
+    "title": "Markets and Their Failures",
+    "section": "Construction Worker’s PPF",
+    "text": "Construction Worker’s PPF"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-is-the-ppf-curved",
+    "href": "lectures/markets-failures.html#why-is-the-ppf-curved",
+    "title": "Markets and Their Failures",
+    "section": "Why Is the PPF Curved?",
+    "text": "Why Is the PPF Curved?\nThe PPF bows outward from the origin.\n\nThis reflects increasing opportunity cost:\n\n\n\nThe first hour on houses uses your best house-building skills\nLater hours use skills less suited to construction\n\n\n\nAs you make more of one good, each additional unit costs more of the other."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#content-creators-ppf",
+    "href": "lectures/markets-failures.html#content-creators-ppf",
+    "title": "Markets and Their Failures",
+    "section": "Content Creator’s PPF",
+    "text": "Content Creator’s PPF"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#same-shape-different-scale",
+    "href": "lectures/markets-failures.html#same-shape-different-scale",
+    "title": "Markets and Their Failures",
+    "section": "Same Shape, Different Scale",
+    "text": "Same Shape, Different Scale\nBoth PPFs are curved outward.\n\nBut they differ in what each worker can produce at maximum.\n\n\nThe question: Where on their PPF should each worker produce?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#market-prices",
+    "href": "lectures/markets-failures.html#market-prices",
+    "title": "Markets and Their Failures",
+    "section": "Market Prices",
+    "text": "Market Prices\nSuppose houses and TikToks trade in a market:\n\n\nHouses: $200 each\nTikToks: $50 each\n\n\n\nHouses are worth 4× as much as TikToks."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-should-workers-produce",
+    "href": "lectures/markets-failures.html#what-should-workers-produce",
+    "title": "Markets and Their Failures",
+    "section": "What Should Workers Produce?",
+    "text": "What Should Workers Produce?\nEach worker wants to maximize their income.\n\nShould construction workers make houses or TikToks?\n\n\nShould content creators make houses or TikToks?\n\n\nLet’s think about the tradeoffs."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-optimal-production-point",
+    "href": "lectures/markets-failures.html#the-optimal-production-point",
+    "title": "Markets and Their Failures",
+    "section": "The Optimal Production Point",
+    "text": "The Optimal Production Point\nA worker should produce where the opportunity cost equals the price ratio.\n\n\nAt the optimal point, the slope of the PPF equals the relative price.\n\n\n\nThis is where shifting production wouldn’t increase income."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#construction-workers-choice",
+    "href": "lectures/markets-failures.html#construction-workers-choice",
+    "title": "Markets and Their Failures",
+    "section": "Construction Worker’s Choice",
+    "text": "Construction Worker’s Choice\n\n\nMostly houses, but some TikToks — where PPF slope = price ratio."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-not-all-houses",
+    "href": "lectures/markets-failures.html#why-not-all-houses",
+    "title": "Markets and Their Failures",
+    "section": "Why Not All Houses?",
+    "text": "Why Not All Houses?\nAt the corner (all houses), making one more house costs very few TikToks.\n\nBut the market values houses at only 4 TikToks each.\n\n\n\nBetter to make some TikToks where the tradeoff is favorable."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#content-creators-choice",
+    "href": "lectures/markets-failures.html#content-creators-choice",
+    "title": "Markets and Their Failures",
+    "section": "Content Creator’s Choice",
+    "text": "Content Creator’s Choice\n\n\nMostly TikToks, but some houses — where PPF slope = price ratio."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-pattern",
+    "href": "lectures/markets-failures.html#the-pattern",
+    "title": "Markets and Their Failures",
+    "section": "The Pattern",
+    "text": "The Pattern\nEach worker:\n\nFocuses mostly on what they’re good at\nDoes a little of the other activity\n\n\nThe exact mix depends on where opportunity cost = price ratio."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-if-prices-changed",
+    "href": "lectures/markets-failures.html#what-if-prices-changed",
+    "title": "Markets and Their Failures",
+    "section": "What If Prices Changed?",
+    "text": "What If Prices Changed?\nIf TikToks became more valuable (say, $100 each):\n\n\nThe price ratio would shift\nBoth workers would make more TikToks\nBoth optimal points would move along their PPFs\n\n\n\n\nPrices tell workers where to produce."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-magic-of-prices",
+    "href": "lectures/markets-failures.html#the-magic-of-prices",
+    "title": "Markets and Their Failures",
+    "section": "The Magic of Prices",
+    "text": "The Magic of Prices\nWorkers don’t need to know each other’s abilities.\n\nThey don’t need to coordinate with anyone.\n\n\nThey just respond to prices — and the economy specializes efficiently."
   }
 ]

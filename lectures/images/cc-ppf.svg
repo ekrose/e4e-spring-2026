@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect width="500" height="400" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="60" y1="40" x2="60" y2="340" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="340" x2="460" y2="340" stroke="#333" stroke-width="2"/>
+
+  <!-- Arrow heads -->
+  <polygon points="60,40 55,50 65,50" fill="#333"/>
+  <polygon points="460,340 450,335 450,345" fill="#333"/>
+
+  <!-- Axis labels -->
+  <text x="20" y="190" font-family="Inter, sans-serif" font-size="14" fill="#333" transform="rotate(-90, 20, 190)">TikToks</text>
+  <text x="260" y="380" font-family="Inter, sans-serif" font-size="14" fill="#333" text-anchor="middle">Houses</text>
+
+  <!-- Axis tick marks and labels -->
+  <!-- Y-axis: 0 to 4 TikToks, scale: 1 TikTok = 70 pixels -->
+  <line x1="55" y1="340" x2="65" y2="340" stroke="#333" stroke-width="1"/>
+  <text x="45" y="345" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="end">0</text>
+
+  <line x1="55" y1="270" x2="65" y2="270" stroke="#333" stroke-width="1"/>
+  <text x="45" y="275" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="end">1</text>
+
+  <line x1="55" y1="200" x2="65" y2="200" stroke="#333" stroke-width="1"/>
+  <text x="45" y="205" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="end">2</text>
+
+  <line x1="55" y1="130" x2="65" y2="130" stroke="#333" stroke-width="1"/>
+  <text x="45" y="135" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="end">3</text>
+
+  <line x1="55" y1="60" x2="65" y2="60" stroke="#333" stroke-width="1"/>
+  <text x="45" y="65" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="end">4</text>
+
+  <!-- X-axis: 0 to 0.5 Houses, scale: 0.5 house = 350 pixels (so 1 house = 700 pixels) -->
+  <line x1="60" y1="335" x2="60" y2="345" stroke="#333" stroke-width="1"/>
+  <text x="60" y="360" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">0</text>
+
+  <line x1="410" y1="335" x2="410" y2="345" stroke="#333" stroke-width="1"/>
+  <text x="410" y="360" font-family="Inter, sans-serif" font-size="12" fill="#333" text-anchor="middle">0.5</text>
+
+  <!-- PPF curve: bowed out (concave to origin) -->
+  <!-- From (0, 4) to (0.5, 0) in units -->
+  <!-- In pixel coords: (60, 60) to (410, 340) -->
+  <path d="M 60 60 Q 80 300 410 340" stroke="#800000" stroke-width="3" fill="none"/>
+
+  <!-- Shaded feasible region -->
+  <path d="M 60 60 Q 80 300 410 340 L 60 340 Z" fill="#800000" fill-opacity="0.1"/>
+
+  <!-- Optimal point (interior) - roughly at (0.08 houses, 3.3 TikToks) -->
+  <!-- In pixels: x = 60 + 0.08*700 = 116, y = 340 - 3.3*70 = 109 -->
+  <circle cx="116" cy="109" r="8" fill="#2E7D32"/>
+
+  <!-- Tangent line at optimal point -->
+  <!-- Price ratio line through optimal point -->
+  <line x1="80" y1="60" x2="200" y2="280" stroke="#2E7D32" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Corner points -->
+  <circle cx="60" cy="60" r="5" fill="#666" stroke="#333" stroke-width="1"/>
+  <circle cx="410" cy="340" r="5" fill="#666" stroke="#333" stroke-width="1"/>
+
+  <!-- Labels for corner points -->
+  <text x="75" y="50" font-family="Inter, sans-serif" font-size="11" fill="#666">All TikToks</text>
+  <text x="390" y="325" font-family="Inter, sans-serif" font-size="11" fill="#666">All Houses</text>
+
+  <!-- Label for optimal point -->
+  <text x="130" y="100" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" font-weight="bold">Optimal</text>
+
+  <!-- Title -->
+  <text x="260" y="25" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Content Creator's PPF</text>
+</svg>

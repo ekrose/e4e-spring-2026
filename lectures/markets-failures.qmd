@@ -294,228 +294,230 @@ When demand for gold increases:
 
 > The price *signal* coordinated this response—no central planner required.
 
-# Specialization and Comparative Advantage {background-color="#800000"}
+# Specialization and Prices {background-color="#800000"}
 
-Why hire someone who's worse than you at everything?
+How do people decide what to produce?
 
-## Sam's Business
+## Two Types of Workers
 
-**Sam** runs a small business selling custom t-shirts and posters.
-
-. . .
-
-- T-shirts sell for **$10**
-- Posters sell for **$5**
+Let's think about an economy with two types of workers:
 
 . . .
 
-Sam has **6 hours** today to make inventory.
-
-## Sam's Productivity
-
-Sam can make:
-
-- **4 t-shirts per hour**, OR
-- **4 posters per hour**
+**Construction workers** — skilled at building things
 
 . . .
 
-Sam is equally good at both. In 6 hours, Sam faces a tradeoff:
-
-- 24 t-shirts and 0 posters, OR
-- 0 t-shirts and 24 posters, OR
-- Some mix in between
-
-## Sam Working Alone
-
-If Sam splits time 50/50:
+**Content creators** — skilled at making TikToks
 
 . . .
 
-- 3 hours × 4 t-shirts = **12 t-shirts** ($120)
-- 3 hours × 4 posters = **12 posters** ($60)
+Each worker can produce *either* good, but with different productivities.
+
+## What Can Each Type Produce?
+
+In one day:
 
 . . .
 
-**Total revenue: $180**
+**Construction worker** can build:
 
-## Enter Taylor
-
-Taylor is looking for work. Taylor can make:
-
-- **1 t-shirt per hour**, OR
-- **2 posters per hour**
+- **2 houses**, OR
+- **1 TikTok**
 
 . . .
 
-Taylor is **slower than Sam at both tasks**.
+**Content creator** can make:
+
+- **0.5 houses**, OR
+- **4 TikToks**
+
+## Absolute Advantage
+
+Who is better at what?
 
 . . .
 
-Taylor wants **$50** for 6 hours of work.
-
-## Should Sam Hire Taylor?
-
-Taylor is worse at everything Sam does.
+Construction workers are **4× better** at building houses (2 vs 0.5)
 
 . . .
 
-Why would Sam pay $50 to hire someone less productive?
+Content creators are **4× better** at making TikToks (4 vs 1)
 
 . . .
 
-Let's do the math.
+Each type has **absolute advantage** in their natural specialty.
 
-## Hiring Taylor (No Specialization)
+## The Production Possibilities Frontier
 
-Both split their time 50/50:
-
-. . .
-
-**Sam**: 12 t-shirts + 12 posters = $180
-
-**Taylor**: 3 t-shirts + 6 posters = $60
+Recall from last time: a **PPF** shows the combinations of goods you can produce.
 
 . . .
 
-**Total revenue: $240**
-
-Minus Taylor's wage: $240 - $50 = **$190 profit**
+If you spend *all* your time on one good, you get the maximum of that good.
 
 . . .
 
-> That's **$10 more** than Sam working alone!
+If you split your time, you get some of each.
 
-## Why Did Hiring Help?
+## Construction Worker's PPF
 
-Even though Taylor is slower, Taylor still adds output.
+![](images/cw-ppf.svg){fig-align="center" width="80%"}
 
-. . .
+## Why Is the PPF Curved?
 
-Sam's time is limited. Taylor's contribution—even if small—expands what's possible.
-
-. . .
-
-But can we do better?
-
-## Opportunity Costs
-
-What does each person **give up** to make a t-shirt?
+The PPF bows *outward* from the origin.
 
 . . .
 
-**Sam**: 1 t-shirt (15 min) = 1 poster forgone
-
-> Sam's opportunity cost: 1 t-shirt = 1 poster
+This reflects **increasing opportunity cost**:
 
 . . .
 
-**Taylor**: 1 t-shirt (60 min) = 2 posters forgone
-
-> Taylor's opportunity cost: 1 t-shirt = 2 posters
-
-## Comparative Advantage
-
-Taylor gives up **more** to make t-shirts (2 posters vs 1).
+- The first hour on houses uses your best house-building skills
+- Later hours use skills less suited to construction
 
 . . .
 
-> Sam has **comparative advantage** in t-shirts.
+As you make more of one good, each additional unit costs more of the other.
+
+## Content Creator's PPF
+
+![](images/cc-ppf.svg){fig-align="center" width="80%"}
+
+## Same Shape, Different Scale
+
+Both PPFs are curved outward.
 
 . . .
 
-Sam gives up **more** to make posters (1 t-shirt vs 0.5).
+But they differ in what each worker can produce at maximum.
 
 . . .
 
-> Taylor has **comparative advantage** in posters.
+**The question**: Where on their PPF should each worker produce?
 
-## The Insight
+# Enter Prices {background-color="#800000"}
 
-Even though Sam is faster at posters (4/hr vs 2/hr)...
+How markets guide production decisions
 
-. . .
+## Market Prices
 
-...every hour Sam spends on posters is an hour **not** spent on t-shirts.
-
-. . .
-
-Sam should focus on t-shirts. Taylor should focus on posters.
-
-## Hiring Taylor (With Specialization)
-
-Each focuses on their comparative advantage:
+Suppose houses and TikToks trade in a market:
 
 . . .
 
-**Sam**: 6 hours × 4 t-shirts = **24 t-shirts** ($240)
-
-**Taylor**: 6 hours × 2 posters = **12 posters** ($60)
-
-. . .
-
-**Total revenue: $300**
-
-Minus Taylor's wage: $300 - $50 = **$250 profit**
-
-## The Gains from Specialization
-
-| Scenario | Output | Revenue | Wage | Profit |
-|----------|--------|---------|------|--------|
-| Sam alone | 12T + 12P | $180 | $0 | $180 |
-| Hire, no specialize | 15T + 18P | $240 | $50 | $190 |
-| Hire + specialize | 24T + 12P | $300 | $50 | **$250** |
-
-## Two Key Insights
-
-**1. Hiring someone "worse" can be profitable**
-
-- Taylor adds $10 in profit even without specialization
+- **Houses**: $200 each
+- **TikToks**: $50 each
 
 . . .
 
-**2. Specializing by comparative advantage is even better**
+Houses are worth **4× as much** as TikToks.
 
-- Specialization adds another $60 in profit
-- Total gain: **$70 more** than Sam alone
+## What Should Workers Produce?
 
-## The Real World
-
-This is why:
-
-- Lawyers hire paralegals (even for tasks lawyers do faster)
-- Rich countries trade with poor countries
-- You don't grow your own food
+Each worker wants to **maximize their income**.
 
 . . .
 
-> **Comparative advantage**—not absolute advantage—determines who should do what.
-
-## How Do People Know What to Specialize In?
-
-We calculated opportunity costs. In real life, nobody does this math.
+Should construction workers make houses or TikToks?
 
 . . .
 
-**Prices and wages** tell you what to specialize in.
+Should content creators make houses or TikToks?
 
 . . .
 
-If poster-making pays well, more people make posters.
+Let's think about the tradeoffs.
 
-If it pays poorly, they switch to something else.
+## The Optimal Production Point
+
+A worker should produce where the **opportunity cost** equals the **price ratio**.
+
+. . .
+
+> At the optimal point, the slope of the PPF equals the relative price.
+
+. . .
+
+This is where shifting production wouldn't increase income.
+
+## Construction Worker's Choice
+
+![](images/cw-ppf.svg){fig-align="center" width="70%"}
+
+. . .
+
+Mostly houses, but *some* TikToks — where PPF slope = price ratio.
+
+## Why Not All Houses?
+
+At the corner (all houses), making one more house costs very few TikToks.
+
+. . .
+
+But the market values houses at only 4 TikToks each.
+
+. . .
+
+> Better to make some TikToks where the tradeoff is favorable.
+
+## Content Creator's Choice
+
+![](images/cc-ppf.svg){fig-align="center" width="70%"}
+
+. . .
+
+Mostly TikToks, but *some* houses — where PPF slope = price ratio.
+
+## The Pattern
+
+Each worker:
+
+- Focuses **mostly** on what they're good at
+- Does **a little** of the other activity
+
+. . .
+
+The exact mix depends on where opportunity cost = price ratio.
+
+## What If Prices Changed?
+
+If TikToks became more valuable (say, $100 each):
+
+. . .
+
+- The price ratio would shift
+- Both workers would make *more* TikToks
+- Both optimal points would move along their PPFs
+
+. . .
+
+> **Prices tell workers where to produce.**
+
+## The Magic of Prices
+
+Workers don't need to know each other's abilities.
+
+. . .
+
+They don't need to coordinate with anyone.
+
+. . .
+
+They just respond to **prices** — and the economy specializes efficiently.
 
 ## The Invisible Hand
 
-> **Relative prices** guide each person to their comparative advantage—automatically.
+> Prices guide each person to their comparative advantage—automatically.
 
 . . .
 
-No one needs to know everyone's abilities.
+No central planner needed.
 
 . . .
 
-**Prices contain the information** needed to coordinate specialization across millions of people.
+**Prices contain the information** needed to coordinate production across millions of people.
 
 # When Markets Fail {background-color="#800000"}
 
