@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nDate\nDay\nInstructor\nTopic\n\n\n\n\n1\nMar 24\nTue\nJohn\nThe Basics of Economics 1\n\n\n\nMar 26\nThu\nJohn\nThe Basics of Economics 2\n\n\n2\nMar 31\nTue\nJohn\nCorrelation vs Causation\n\n\n\nApr 2\nThu\nJohn\nExperimental Economics\n\n\n3\nApr 7\nTue\nJohn\nEducation\n\n\n\nApr 9\nThu\nJohn\nDiscrimination\n\n\n4\nApr 14\nTue\nJohn\nScaling\n\n\n\nApr 16\nThu\nJohn\nPartnerships with Organizations\n\n\n5\nApr 21\nTue\nJohn\nMidterm\n\n\n\nApr 23\nThu\nEvan\nIncentives\n\n\n6\nApr 28\nTue\nEvan\nMarkets and their failures\n\n\n\nApr 30\nThu\nEvan\nStatistical uncertainty\n\n\n7\nMay 5\nTue\nEvan\nQuasi-experiments\n\n\n\nMay 7\nThu\nEvan\nRisk and insurance\n\n\n8\nMay 12\nTue\nEvan\nLabor markets\n\n\n\nMay 14\nThu\nEvan\nTechnology, growth, and AI\n\n\n9\nMay 19\nTue\nEvan\nEquity vs. efficiency\n\n\n\nMay 21\nThu\nEvan\nMidterm\n\n\nFinals\nMay 26–29\n\n\nFinal Exam"
+    "text": "Week\nDate\nDay\nInstructor\nTopic\n\n\n\n\n1\nMar 24\nTue\nJohn\nThe Basics of Economics 1\n\n\n\nMar 26\nThu\nJohn\nThe Basics of Economics 2\n\n\n2\nMar 31\nTue\nJohn\nCorrelation vs Causation\n\n\n\nApr 2\nThu\nJohn\nExperimental Economics\n\n\n3\nApr 7\nTue\nJohn\nEducation\n\n\n\nApr 9\nThu\nJohn\nDiscrimination\n\n\n4\nApr 14\nTue\nJohn\nScaling\n\n\n\nApr 16\nThu\nJohn\nPartnerships with Organizations\n\n\n5\nApr 21\nTue\nJohn\nMidterm\n\n\n\nApr 23\nThu\nEvan\nIncentives\n\n\n6\nApr 28\nTue\nEvan\nMarkets and their failures\n\n\n\nApr 30\nThu\nEvan\nEquity vs. efficiency\n\n\n7\nMay 5\nTue\nEvan\nStatistical uncertainty\n\n\n\nMay 7\nThu\nEvan\nQuasi-experiments\n\n\n8\nMay 12\nTue\nEvan\nRisk and insurance\n\n\n\nMay 14\nThu\nEvan\nLabor markets\n\n\n9\nMay 19\nTue\nEvan\nTechnology, growth, and AI\n\n\n\nMay 21\nThu\nEvan\nMidterm\n\n\nFinals\nMay 26–29\n\n\nFinal Exam"
   },
   {
     "objectID": "lectures/incentives.html#recall-our-first-principle",
@@ -214,14 +214,14 @@
     "href": "lectures/incentives.html#soviet-nail-factory",
     "title": "Incentives",
     "section": "Soviet nail factory",
-    "text": "Soviet nail factory\n\n\nA nail factory in Kuibyshev is given a production quota by number of nails.\n. . .\nWhat do you think happens?\n. . .\nFactory produced only tiny nails."
+    "text": "Soviet nail factory\n\n\nA nail factory in Kuibyshev is given a production quota by number of nails.\n\nWhat do you think happens?\n\n\nFactory produced only tiny nails."
   },
   {
     "objectID": "lectures/incentives.html#soviet-nail-factory-continued",
     "href": "lectures/incentives.html#soviet-nail-factory-continued",
     "title": "Incentives",
     "section": "Soviet nail factory (continued)",
-    "text": "Soviet nail factory (continued)\nThe planners wise up. They switch to a quota by weight.\n\nNow what happens?\n\n\nFactory switched to producing only huge nails.\n\n\nNo one ever made medium nails."
+    "text": "Soviet nail factory (continued)\nThe planners wise up. They switch to a quota by weight.\n\nNow what happens?\n\n\nFactory switched to producing only huge nails—as in the cartoon:\n\n“Who needs such a nail?”\n“That’s nothing! The main thing is we immediately fulfilled the plan for nails…”\n\n\n\nNo one ever made medium nails."
   },
   {
     "objectID": "lectures/incentives.html#ban-the-box",
@@ -369,5 +369,89 @@
     "title": "Lectures",
     "section": "",
     "text": "Lecture slides will be posted here as the course progresses."
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias",
+    "href": "lectures/incentives.html#present-bias",
+    "title": "Incentives",
+    "section": "Present bias",
+    "text": "Present bias\nQuestion 1: Would you rather have…\n\nA: $100 today\nB: $110 next week\n\n\nQuestion 2: Would you rather have…\n\nC: $100 in 52 weeks\nD: $110 in 53 weeks"
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias-in-action",
+    "href": "lectures/incentives.html#present-bias-in-action",
+    "title": "Incentives",
+    "section": "Present bias in action",
+    "text": "Present bias in action\nWhy present bias matters for policy:\n\n\nPeople under-save for retirement\nPeople procrastinate on exercise, healthy eating\nStudents cram instead of studying gradually\n\n\n\nPolicy responses:\n\nCommitment devices (automatic savings plans)\nDeadlines and penalties\n“Cooling off” periods for major purchases\n\n\nReference: Laibson (1997). “Golden Eggs and Hyperbolic Discounting.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#mental-accounting",
+    "href": "lectures/incentives.html#mental-accounting",
+    "title": "Incentives",
+    "section": "Mental accounting",
+    "text": "Mental accounting\nYou receive $1,000. How much would you spend on something fun?\n\nScenario A: It’s a tax refund\nScenario B: It’s from your regular paycheck\n\n\nMost people spend more in Scenario A—but why?\n\n\nMoney is fungible—a dollar is a dollar.\n\n\n\nPeople treat money differently depending on where it “comes from.”\n\n\nReference: Thaler (1999). “Mental Accounting Matters.” Journal of Behavioral Decision Making."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-sunk-cost-fallacy",
+    "href": "lectures/incentives.html#the-sunk-cost-fallacy",
+    "title": "Incentives",
+    "section": "The sunk cost fallacy",
+    "text": "The sunk cost fallacy\nYou paid $50 for a concert ticket. It’s raining, you feel sick, and you don’t want to go.\n\nShould you go?\n\n\nEconomically: The $50 is gone either way. Only future costs and benefits matter.\n\n\nIn practice: Most people go—to “not waste” the $50.\n\n\n\nPeople continue investing because of what they’ve already spent, not what they’ll gain."
+  },
+  {
+    "objectID": "lectures/incentives.html#anchoring",
+    "href": "lectures/incentives.html#anchoring",
+    "title": "Incentives",
+    "section": "Anchoring",
+    "text": "Anchoring\nInitial information disproportionately influences judgments.\n\nClassic experiment: Spin a wheel (rigged to land on 10 or 65).\nAsk: “What percentage of African countries are in the UN?”\n\n\n\nWheel shows 10 → average guess: 25%\nWheel shows 65 → average guess: 45%\n\n\n\nThe random number shouldn’t matter—but it does.\n\nReference: Tversky & Kahneman (1974). “Judgment under Uncertainty: Heuristics and Biases.” Science."
+  },
+  {
+    "objectID": "lectures/incentives.html#anchoring-in-the-real-world",
+    "href": "lectures/incentives.html#anchoring-in-the-real-world",
+    "title": "Incentives",
+    "section": "Anchoring in the real world",
+    "text": "Anchoring in the real world\nWhere anchoring affects economic decisions:\n\n\nNegotiations: First offer sets the range\nRetail: “Was $100, now $60!” vs. just “$60”\nSentencing: Prosecutors’ recommendations influence judges\nSalaries: Your current pay anchors future offers"
+  },
+  {
+    "objectID": "lectures/incentives.html#using-biases-for-good-nudges",
+    "href": "lectures/incentives.html#using-biases-for-good-nudges",
+    "title": "Incentives",
+    "section": "Using biases for good: Nudges",
+    "text": "Using biases for good: Nudges\nA nudge is a small design change that influences behavior without restricting choice.\n\nExamples:\n\nAutomatic enrollment in retirement savings\nPutting healthy food at eye level in cafeterias\nDefault to double-sided printing\n\n\n\n\n“Libertarian paternalism”—helping people make better choices for themselves.\n\n\nReference: Thaler & Sunstein (2008). “Nudge: Improving Decisions About Health, Wealth, and Happiness.”"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-policy-debate",
+    "href": "lectures/incentives.html#the-policy-debate",
+    "title": "Incentives",
+    "section": "The policy debate",
+    "text": "The policy debate\nCritics of nudges argue:\n\n\nWho decides what’s “better”?\nSlippery slope to manipulation\nTreats symptoms, not causes\n\n\n\nDefenders respond:\n\n\n\nThere’s always a default—might as well make it good\nPreserves freedom of choice\nLow cost, high impact"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-asian-disease-problem",
+    "href": "lectures/incentives.html#the-asian-disease-problem",
+    "title": "Incentives",
+    "section": "The Asian Disease Problem",
+    "text": "The Asian Disease Problem\nA disease outbreak will kill 600 people. You must choose a response:\n\nThe name comes from Tversky & Kahneman’s original 1981 paper, which described “an unusual Asian disease” as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.\n\n\nFrame A (lives saved):\n\nProgram A: 200 people will be saved\nProgram B: 1/3 chance all 600 saved, 2/3 chance no one saved\n\n\n\nWhat do most people choose?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-asian-disease-problem-continued",
+    "href": "lectures/incentives.html#the-asian-disease-problem-continued",
+    "title": "Incentives",
+    "section": "The Asian Disease Problem (continued)",
+    "text": "The Asian Disease Problem (continued)\nNow consider a different framing:\n\nFrame B (lives lost):\n\nProgram C: 400 people will die\nProgram D: 1/3 chance no one dies, 2/3 chance all 600 die\n\n\n\nWhat do most people choose now?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-result",
+    "href": "lectures/incentives.html#the-result",
+    "title": "Incentives",
+    "section": "The result",
+    "text": "The result\nFrame A (gains): 72% choose the certain option (Program A)\nFrame B (losses): 78% choose the risky option (Program D)\n\nBut A = C and B = D!\n\n\n\nWhen facing gains, people are risk-averse.\nWhen facing losses, people are risk-seeking.\n\n\n\n(The name comes from the original 1981 paper’s hypothetical “unusual Asian disease”—chosen to be unfamiliar and politically neutral.)\n\nReference: Tversky & Kahneman (1981). “The Framing of Decisions and the Psychology of Choice.” Science."
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias-continued",
+    "href": "lectures/incentives.html#present-bias-continued",
+    "title": "Incentives",
+    "section": "Present bias (continued)",
+    "text": "Present bias (continued)\nMost people choose A (money now) but D (more money later).\n\nBut wait—both questions have the same tradeoff: $10 for one week of waiting!\n\n\nThis is time-inconsistent behavior.\n\n\n\nPeople overweight immediate rewards relative to future rewards."
   }
 ]

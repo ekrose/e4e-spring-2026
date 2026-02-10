@@ -15,11 +15,11 @@ title: "Schedule"
 | 5 | Apr 21 | Tue | John | **Midterm** |
 |   | Apr 23 | Thu | Evan | Incentives |
 | 6 | Apr 28 | Tue | Evan | Markets and their failures |
-|   | Apr 30 | Thu | Evan | Statistical uncertainty |
-| 7 | May 5 | Tue | Evan | Quasi-experiments |
-|   | May 7 | Thu | Evan | Risk and insurance |
-| 8 | May 12 | Tue | Evan | Labor markets |
-|   | May 14 | Thu | Evan | Technology, growth, and AI |
-| 9 | May 19 | Tue | Evan | Equity vs. efficiency |
+|   | Apr 30 | Thu | Evan | Equity vs. efficiency |
+| 7 | May 5 | Tue | Evan | Statistical uncertainty |
+|   | May 7 | Thu | Evan | Quasi-experiments |
+| 8 | May 12 | Tue | Evan | Risk and insurance |
+|   | May 14 | Thu | Evan | Labor markets |
+| 9 | May 19 | Tue | Evan | Technology, growth, and AI |
 |   | May 21 | Thu | Evan | **Midterm** |
 | Finals | May 26–29 | | | **Final Exam** |
