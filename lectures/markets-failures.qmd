@@ -296,84 +296,127 @@ When demand for gold increases:
 
 # Specialization and Comparative Advantage {background-color="#800000"}
 
-Why we don't all make our own shoes
+Why hire someone who's worse than you at everything?
 
-## Beyond Single Markets
+## Sam's Business
 
-Prices don't just coordinate *within* a market.
-
-. . .
-
-They coordinate *across* markets.
+**Sam** runs a small business selling custom t-shirts and posters.
 
 . . .
 
-This unlocks the gains from **specialization** and **comparative advantage**.
-
-## A Campus Business
-
-**Sam** and **Taylor** run a booth at a campus fair.
-
-They sell two products: **custom t-shirts** ($10) and **posters** ($5).
+- T-shirts sell for **$10**
+- Posters sell for **$5**
 
 . . .
 
-They each have **6 hours** to prepare inventory.
+Sam has **6 hours** today to make inventory.
+
+## Sam's Productivity
+
+Sam can make:
+
+- **4 t-shirts per hour**, OR
+- **4 posters per hour**
 
 . . .
 
-How should they divide the work?
+Sam is equally good at both. In 6 hours, Sam faces a tradeoff:
 
-## Their Productivity
+- 24 t-shirts and 0 posters, OR
+- 0 t-shirts and 24 posters, OR
+- Some mix in between
 
-| | T-shirts per hour | Posters per hour |
-|--|-------------------|------------------|
-| Sam | 3 | 6 |
-| Taylor | 1 | 4 |
+## Sam Working Alone
 
-. . .
-
-Sam is faster at **both** tasks.
+If Sam splits time 50/50:
 
 . . .
 
-Should Sam just do everything?
-
-## Without Specialization
-
-If each splits their time 50/50:
+- 3 hours × 4 t-shirts = **12 t-shirts** ($120)
+- 3 hours × 4 posters = **12 posters** ($60)
 
 . . .
 
-**Sam** (3 hrs each): 9 t-shirts + 18 posters
+**Total revenue: $180**
 
-**Taylor** (3 hrs each): 3 t-shirts + 12 posters
+## Enter Taylor
+
+Taylor is looking for work. Taylor can make:
+
+- **1 t-shirt per hour**, OR
+- **2 posters per hour**
 
 . . .
 
-**Total: 12 t-shirts + 30 posters**
+Taylor is **slower than Sam at both tasks**.
 
-Revenue: 12 × $10 + 30 × $5 = **$270**
+. . .
 
-## Opportunity Cost
+Taylor wants **$50** for 6 hours of work.
+
+## Should Sam Hire Taylor?
+
+Taylor is worse at everything Sam does.
+
+. . .
+
+Why would Sam pay $50 to hire someone less productive?
+
+. . .
+
+Let's do the math.
+
+## Hiring Taylor (No Specialization)
+
+Both split their time 50/50:
+
+. . .
+
+**Sam**: 12 t-shirts + 12 posters = $180
+
+**Taylor**: 3 t-shirts + 6 posters = $60
+
+. . .
+
+**Total revenue: $240**
+
+Minus Taylor's wage: $240 - $50 = **$190 profit**
+
+. . .
+
+> That's **$10 more** than Sam working alone!
+
+## Why Did Hiring Help?
+
+Even though Taylor is slower, Taylor still adds output.
+
+. . .
+
+Sam's time is limited. Taylor's contribution—even if small—expands what's possible.
+
+. . .
+
+But can we do better?
+
+## Opportunity Costs
 
 What does each person **give up** to make a t-shirt?
 
 . . .
 
-**Sam**: Making 1 t-shirt (20 min) means 2 fewer posters
+**Sam**: 1 t-shirt (15 min) = 1 poster forgone
 
-> Sam's opportunity cost: 1 t-shirt = 2 posters
+> Sam's opportunity cost: 1 t-shirt = 1 poster
 
 . . .
 
-**Taylor**: Making 1 t-shirt (60 min) means 4 fewer posters
+**Taylor**: 1 t-shirt (60 min) = 2 posters forgone
 
-> Taylor's opportunity cost: 1 t-shirt = 4 posters
+> Taylor's opportunity cost: 1 t-shirt = 2 posters
 
 ## Comparative Advantage
 
-Sam's opportunity cost of t-shirts is **lower** (2 vs 4 posters).
+Taylor gives up **more** to make t-shirts (2 posters vs 1).
 
 . . .
 
@@ -381,115 +424,86 @@ Sam's opportunity cost of t-shirts is **lower** (2 vs 4 posters).
 
 . . .
 
-Taylor's opportunity cost of posters is **lower**.
+Sam gives up **more** to make posters (1 t-shirt vs 0.5).
 
 . . .
 
 > Taylor has **comparative advantage** in posters.
 
-## With Specialization
+## The Insight
+
+Even though Sam is faster at posters (4/hr vs 2/hr)...
+
+. . .
+
+...every hour Sam spends on posters is an hour **not** spent on t-shirts.
+
+. . .
+
+Sam should focus on t-shirts. Taylor should focus on posters.
+
+## Hiring Taylor (With Specialization)
 
 Each focuses on their comparative advantage:
 
 . . .
 
-**Sam** (6 hrs on t-shirts): 18 t-shirts
+**Sam**: 6 hours × 4 t-shirts = **24 t-shirts** ($240)
 
-**Taylor** (6 hrs on posters): 24 posters
+**Taylor**: 6 hours × 2 posters = **12 posters** ($60)
 
 . . .
 
-**Total: 18 t-shirts + 24 posters**
+**Total revenue: $300**
 
-Revenue: 18 × $10 + 24 × $5 = **$300**
+Minus Taylor's wage: $300 - $50 = **$250 profit**
 
 ## The Gains from Specialization
 
-| | T-shirts | Posters | Revenue |
-|--|----------|---------|---------|
-| Without | 12 | 30 | $270 |
-| With | 18 | 24 | **$300** |
+| Scenario | Output | Revenue | Wage | Profit |
+|----------|--------|---------|------|--------|
+| Sam alone | 12T + 12P | $180 | $0 | $180 |
+| Hire, no specialize | 15T + 18P | $240 | $50 | $190 |
+| Hire + specialize | 24T + 12P | $300 | $50 | **$250** |
+
+## Two Key Insights
+
+**1. Hiring someone "worse" can be profitable**
+
+- Taylor adds $10 in profit even without specialization
 
 . . .
 
-> **$30 more revenue** from the same 12 hours of work!
+**2. Specializing by comparative advantage is even better**
 
-. . .
-
-Specialization increased total value by **11%**.
-
-## The Key Insight
-
-Even though Sam is faster at *everything*...
-
-. . .
-
-...they still gain by having Taylor specialize in posters.
-
-. . .
-
-> **Comparative advantage** (relative productivity) matters more than **absolute advantage** (who's faster).
-
-## Why This Works
-
-Sam is "only" 1.5× faster at posters, but 3× faster at t-shirts.
-
-. . .
-
-Every hour Sam spends on posters is an hour *not* spent on t-shirts—where Sam's advantage is biggest.
-
-. . .
-
-> Focus on what you're *relatively* best at, even if you're better at everything.
+- Specialization adds another $60 in profit
+- Total gain: **$70 more** than Sam alone
 
 ## The Real World
 
 This is why:
 
-- Countries trade (even rich ones with poor ones)
+- Lawyers hire paralegals (even for tasks lawyers do faster)
+- Rich countries trade with poor countries
 - You don't grow your own food
-- Lawyers hire assistants (even for tasks they could do faster)
 
 . . .
 
-> Specialization according to comparative advantage makes **everyone** better off.
+> **Comparative advantage**—not absolute advantage—determines who should do what.
 
 ## How Do People Know What to Specialize In?
 
-Sam and Taylor calculated opportunity costs.
+We calculated opportunity costs. In real life, nobody does this math.
 
 . . .
 
-In real life, nobody does this math. So how does it work?
+**Prices and wages** tell you what to specialize in.
 
 . . .
 
-**Prices tell you.**
+If poster-making pays well, more people make posters.
 
-## How Do Markets Coordinate This?
-
-In real life, no one calculates opportunity costs.
-
-. . .
-
-Instead, **prices** tell you what to do.
-
-## Prices as Signals for Specialization
-
-If coding pays $75/hr and writing pays $25/hr:
-
-- Everyone wants to code
-
-. . .
-
-But then:
-
-- Too many coders → coding wages fall
-- Too few writers → writing wages rise
-
-. . .
-
-Prices adjust until someone finds it worthwhile to write.
+If it pays poorly, they switch to something else.
 
 ## The Invisible Hand
 

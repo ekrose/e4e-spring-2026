@@ -585,7 +585,7 @@
     "href": "lectures/markets-failures.html#comparative-advantage",
     "title": "Markets and Their Failures",
     "section": "Comparative Advantage",
-    "text": "Comparative Advantage\nSam’s opportunity cost of t-shirts is lower (2 vs 4 posters).\n\n\nSam has comparative advantage in t-shirts.\n\n\n\nTaylor’s opportunity cost of posters is lower.\n\n\n\nTaylor has comparative advantage in posters."
+    "text": "Comparative Advantage\nTaylor gives up more to make t-shirts (2 posters vs 1).\n\n\nSam has comparative advantage in t-shirts.\n\n\n\nSam gives up more to make posters (1 t-shirt vs 0.5).\n\n\n\nTaylor has comparative advantage in posters."
   },
   {
     "objectID": "lectures/markets-failures.html#the-key-insight",
@@ -823,7 +823,7 @@
     "href": "lectures/markets-failures.html#how-do-people-know-what-to-specialize-in",
     "title": "Markets and Their Failures",
     "section": "How Do People Know What to Specialize In?",
-    "text": "How Do People Know What to Specialize In?\nSam and Taylor calculated opportunity costs.\n\nIn real life, nobody does this math. So how does it work?\n\n\nPrices tell you."
+    "text": "How Do People Know What to Specialize In?\nWe calculated opportunity costs. In real life, nobody does this math.\n\nPrices and wages tell you what to specialize in.\n\n\nIf poster-making pays well, more people make posters.\nIf it pays poorly, they switch to something else."
   },
   {
     "objectID": "lectures/markets-failures.html#prices-coordinate-specialization",
@@ -963,7 +963,7 @@
     "href": "lectures/markets-failures.html#the-gains-from-specialization",
     "title": "Markets and Their Failures",
     "section": "The Gains from Specialization",
-    "text": "The Gains from Specialization\n\n\n\n\nT-shirts\nPosters\nRevenue\n\n\n\n\nWithout\n12\n30\n$270\n\n\nWith\n18\n24\n$300\n\n\n\n\n\n$30 more revenue from the same 12 hours of work!\n\n\n\nSpecialization increased total value by 11%."
+    "text": "The Gains from Specialization\n\n\n\nScenario\nOutput\nRevenue\nWage\nProfit\n\n\n\n\nSam alone\n12T + 12P\n$180\n$0\n$180\n\n\nHire, no specialize\n15T + 18P\n$240\n$50\n$190\n\n\nHire + specialize\n24T + 12P\n$300\n$50\n$250"
   },
   {
     "objectID": "lectures/markets-failures.html#why-this-works",
@@ -977,6 +977,83 @@
     "href": "lectures/markets-failures.html#the-real-world",
     "title": "Markets and Their Failures",
     "section": "The Real World",
-    "text": "The Real World\nThis is why:\n\nCountries trade (even rich ones with poor ones)\nYou don’t grow your own food\nLawyers hire assistants (even for tasks they could do faster)\n\n\n\nSpecialization according to comparative advantage makes everyone better off."
+    "text": "The Real World\nThis is why:\n\nLawyers hire paralegals (even for tasks lawyers do faster)\nRich countries trade with poor countries\nYou don’t grow your own food\n\n\n\nComparative advantage—not absolute advantage—determines who should do what."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#sams-business",
+    "href": "lectures/markets-failures.html#sams-business",
+    "title": "Markets and Their Failures",
+    "section": "Sam’s Business",
+    "text": "Sam’s Business\nSam runs a small business selling custom t-shirts and posters.\n\n\nT-shirts sell for $10\nPosters sell for $5\n\n\n\nSam has 6 hours today to make inventory."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#sams-productivity",
+    "href": "lectures/markets-failures.html#sams-productivity",
+    "title": "Markets and Their Failures",
+    "section": "Sam’s Productivity",
+    "text": "Sam’s Productivity\nSam can make:\n\n4 t-shirts per hour, OR\n4 posters per hour\n\n\nSam is equally good at both. In 6 hours, Sam faces a tradeoff:\n\n24 t-shirts and 0 posters, OR\n0 t-shirts and 24 posters, OR\nSome mix in between"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#sam-working-alone",
+    "href": "lectures/markets-failures.html#sam-working-alone",
+    "title": "Markets and Their Failures",
+    "section": "Sam Working Alone",
+    "text": "Sam Working Alone\nIf Sam splits time 50/50:\n\n\n3 hours × 4 t-shirts = 12 t-shirts ($120)\n3 hours × 4 posters = 12 posters ($60)\n\n\n\nTotal revenue: $180"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#enter-taylor",
+    "href": "lectures/markets-failures.html#enter-taylor",
+    "title": "Markets and Their Failures",
+    "section": "Enter Taylor",
+    "text": "Enter Taylor\nTaylor is looking for work. Taylor can make:\n\n1 t-shirt per hour, OR\n2 posters per hour\n\n\nTaylor is slower than Sam at both tasks.\n\n\nTaylor wants $50 for 6 hours of work."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#should-sam-hire-taylor",
+    "href": "lectures/markets-failures.html#should-sam-hire-taylor",
+    "title": "Markets and Their Failures",
+    "section": "Should Sam Hire Taylor?",
+    "text": "Should Sam Hire Taylor?\nTaylor is worse at everything Sam does.\n\nWhy would Sam pay $50 to hire someone less productive?\n\n\nLet’s do the math."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#hiring-taylor-no-specialization",
+    "href": "lectures/markets-failures.html#hiring-taylor-no-specialization",
+    "title": "Markets and Their Failures",
+    "section": "Hiring Taylor (No Specialization)",
+    "text": "Hiring Taylor (No Specialization)\nBoth split their time 50/50:\n\nSam: 12 t-shirts + 12 posters = $180\nTaylor: 3 t-shirts + 6 posters = $60\n\n\nTotal revenue: $240\nMinus Taylor’s wage: $240 - $50 = $190 profit\n\n\n\nThat’s $10 more than Sam working alone!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-did-hiring-help",
+    "href": "lectures/markets-failures.html#why-did-hiring-help",
+    "title": "Markets and Their Failures",
+    "section": "Why Did Hiring Help?",
+    "text": "Why Did Hiring Help?\nEven though Taylor is slower, Taylor still adds output.\n\nSam’s time is limited. Taylor’s contribution—even if small—expands what’s possible.\n\n\nBut can we do better?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#opportunity-costs",
+    "href": "lectures/markets-failures.html#opportunity-costs",
+    "title": "Markets and Their Failures",
+    "section": "Opportunity Costs",
+    "text": "Opportunity Costs\nWhat does each person give up to make a t-shirt?\n\nSam: 1 t-shirt (15 min) = 1 poster forgone\n\nSam’s opportunity cost: 1 t-shirt = 1 poster\n\n\n\nTaylor: 1 t-shirt (60 min) = 2 posters forgone\n\nTaylor’s opportunity cost: 1 t-shirt = 2 posters"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-insight",
+    "href": "lectures/markets-failures.html#the-insight",
+    "title": "Markets and Their Failures",
+    "section": "The Insight",
+    "text": "The Insight\nEven though Sam is faster at posters (4/hr vs 2/hr)…\n\n…every hour Sam spends on posters is an hour not spent on t-shirts.\n\n\nSam should focus on t-shirts. Taylor should focus on posters."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#hiring-taylor-with-specialization",
+    "href": "lectures/markets-failures.html#hiring-taylor-with-specialization",
+    "title": "Markets and Their Failures",
+    "section": "Hiring Taylor (With Specialization)",
+    "text": "Hiring Taylor (With Specialization)\nEach focuses on their comparative advantage:\n\nSam: 6 hours × 4 t-shirts = 24 t-shirts ($240)\nTaylor: 6 hours × 2 posters = 12 posters ($60)\n\n\nTotal revenue: $300\nMinus Taylor’s wage: $300 - $50 = $250 profit"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#two-key-insights",
+    "href": "lectures/markets-failures.html#two-key-insights",
+    "title": "Markets and Their Failures",
+    "section": "Two Key Insights",
+    "text": "Two Key Insights\n1. Hiring someone “worse” can be profitable\n\nTaylor adds $10 in profit even without specialization\n\n\n2. Specializing by comparative advantage is even better\n\nSpecialization adds another $60 in profit\nTotal gain: $70 more than Sam alone"
   }
 ]
