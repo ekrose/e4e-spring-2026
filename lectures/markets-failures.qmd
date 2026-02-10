@@ -296,7 +296,7 @@ When demand for gold increases:
 
 # Specialization and Comparative Advantage {background-color="#800000"}
 
-How prices coordinate production across markets
+Why should people specialize?
 
 ## Two Types of Workers
 
@@ -318,51 +318,69 @@ Both groups *can* produce either good, but with different abilities.
 
 We can illustrate what each group can produce with a **PPF**.
 
-![](images/both-ppfs-simple.svg){fig-align="center" width="75%"}
+![](images/both-ppfs-simple.svg){fig-align="center" width="70%"}
 
 ## The Trade-Off
 
-:::: {.columns}
-::: {.column width="50%"}
-The PPF shows trade-offs.
-
-More houses = fewer TikToks.
-
-> Reallocating the *marginal* worker between activities.
-:::
-::: {.column width="50%"}
-![](images/both-ppfs-simple.svg){fig-align="center" width="100%"}
-:::
-::::
-
-## Why Is the PPF Curved?
-
-:::: {.columns}
-::: {.column width="50%"}
-The first TikTok comes from the most social-media-savvy worker.
-
-More TikToks require less suited workers.
-
-> **Increasing opportunity cost**
-:::
-::: {.column width="50%"}
-![](images/both-ppfs-simple.svg){fig-align="center" width="100%"}
-:::
-::::
-
-## How Should These Groups Allocate Time?
-
-Construction workers *could* spend all their time on houses.
-
-Content creators *could* spend all their time on TikToks.
+The PPF shows trade-offs: more houses means fewer TikToks.
 
 . . .
 
-But is that the best allocation?
+The curve bows outward because of **increasing opportunity cost**.
 
 . . .
 
-**Prices help us answer this question.**
+> The first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers.
+
+## Comparing Opportunity Costs
+
+At any point, the **slope** of the PPF tells us the opportunity cost.
+
+. . .
+
+Let's compare the two groups at the same level of TikTok production...
+
+## Comparative Advantage
+
+![](images/both-ppfs-comp-adv.svg){fig-align="center" width="75%"}
+
+## What This Means
+
+For construction workers, TikToks are **expensive** — each one costs many houses.
+
+. . .
+
+For content creators, TikToks are **cheap** — each one costs few houses.
+
+. . .
+
+> Construction workers have **comparative advantage** in houses.
+>
+> Content creators have **comparative advantage** in TikToks.
+
+## The Key Insight
+
+Comparative advantage is about **relative** costs, not absolute ability.
+
+. . .
+
+Even if construction workers were better at *both* activities, content creators still have lower opportunity cost for TikToks.
+
+. . .
+
+**Each group should specialize in their comparative advantage.**
+
+## But How Much to Specialize?
+
+Comparative advantage tells us *what* to focus on.
+
+. . .
+
+But how do groups know *how much* of each good to produce?
+
+. . .
+
+**Prices answer this question.**
 
 ## Market Prices
 
@@ -375,59 +393,30 @@ Suppose houses and TikToks trade in markets:
 
 Where on the PPF should each group locate?
 
-## Finding the Optimal Point
+## The Optimal Point
 
-:::: {.columns}
-::: {.column width="45%"}
-Where opportunity cost equals the price ratio.
+Each group should produce where their **opportunity cost equals the price ratio**.
 
-At that point, shifting production either way would reduce income.
-:::
-::: {.column width="55%"}
-![](images/both-ppfs.svg){fig-align="center" width="100%"}
-:::
-::::
+. . .
 
-## This Allocation Maximizes Value
+At that point, shifting production either way would reduce total income.
+
+## Finding the Optimum
+
+![](images/both-ppfs.svg){fig-align="center" width="75%"}
+
+## This Allocation Maximizes Total Value
 
 At these optimal points, **total value produced is maximized**.
 
 . . .
 
-- Each group produces where their tradeoff matches market prices
+- The tangent lines have the same slope (the price ratio)
 - No reallocation could increase total output value
 
 . . .
 
-> **Prices guide us to the most valuable use of resources.**
-
-## Comparative Advantage
-
-Why does each group specialize differently?
-
-. . .
-
-**Opportunity costs differ:**
-
-- Construction workers give up many houses per TikTok
-- Content creators give up few houses per TikTok
-
-. . .
-
-> Content creators have **comparative advantage** in TikToks — even if construction workers are better at *both*.
-
-## Trade Makes Both Better Off
-
-Because opportunity costs differ, **trade benefits everyone**:
-
-. . .
-
-- Each group focuses on low opportunity cost activities
-- They trade to get what they want
-
-. . .
-
-Total production is *higher* than if each made everything themselves.
+> **Given prices, this is the best we can do.**
 
 ## The Magic of Prices
 

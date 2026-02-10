@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380">
+  <!-- Background -->
+  <rect width="500" height="380" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="60" y1="40" x2="60" y2="320" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="320" x2="460" y2="320" stroke="#333" stroke-width="2"/>
+
+  <!-- Arrow heads -->
+  <polygon points="60,40 55,50 65,50" fill="#333"/>
+  <polygon points="460,320 450,315 450,325" fill="#333"/>
+
+  <!-- Axis labels -->
+  <text x="20" y="180" font-family="Inter, sans-serif" font-size="14" fill="#333" transform="rotate(-90, 20, 180)">Houses</text>
+  <text x="260" y="360" font-family="Inter, sans-serif" font-size="14" fill="#333" text-anchor="middle">TikToks</text>
+
+  <!-- Construction Worker PPF -->
+  <path d="M 60 70 Q 200 80 300 320" stroke="#800000" stroke-width="3" fill="none"/>
+  <path d="M 60 70 Q 200 80 300 320 L 60 320 Z" fill="#800000" fill-opacity="0.06"/>
+
+  <!-- Content Creator PPF -->
+  <path d="M 60 200 Q 260 210 420 320" stroke="#ff8243" stroke-width="3" fill="none"/>
+  <path d="M 60 200 Q 260 210 420 320 L 60 320 Z" fill="#ff8243" fill-opacity="0.06"/>
+
+  <!-- Vertical line at TikToks = 150 to compare slopes -->
+  <line x1="150" y1="50" x2="150" y2="320" stroke="#666" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="155" y="340" font-family="Inter, sans-serif" font-size="10" fill="#666">Same TikToks</text>
+
+  <!-- Points where line intersects each PPF -->
+  <!-- CW at x=150: approximately y=92 -->
+  <circle cx="150" cy="92" r="6" fill="#800000"/>
+  <!-- CC at x=150: approximately y=225 -->
+  <circle cx="150" cy="225" r="6" fill="#ff8243"/>
+
+  <!-- Tangent lines showing slope at each point -->
+  <!-- CW tangent - STEEP (houses drop fast per TikTok) -->
+  <line x1="110" y1="70" x2="190" y2="130" stroke="#800000" stroke-width="2.5"/>
+
+  <!-- CC tangent - FLAT (houses drop slowly per TikTok) -->
+  <line x1="100" y1="212" x2="200" y2="243" stroke="#ff8243" stroke-width="2.5"/>
+
+  <!-- Annotation for CW -->
+  <text x="195" y="95" font-family="Inter, sans-serif" font-size="11" fill="#800000" font-weight="bold">Steep slope:</text>
+  <text x="195" y="110" font-family="Inter, sans-serif" font-size="10" fill="#800000">1 more TikTok costs</text>
+  <text x="195" y="123" font-family="Inter, sans-serif" font-size="10" fill="#800000">MANY houses</text>
+
+  <!-- Annotation for CC -->
+  <text x="210" y="220" font-family="Inter, sans-serif" font-size="11" fill="#ff8243" font-weight="bold">Flat slope:</text>
+  <text x="210" y="235" font-family="Inter, sans-serif" font-size="10" fill="#ff8243">1 more TikTok costs</text>
+  <text x="210" y="248" font-family="Inter, sans-serif" font-size="10" fill="#ff8243">FEW houses</text>
+
+  <!-- Labels for curves -->
+  <text x="170" y="62" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">Construction Workers</text>
+  <text x="330" y="285" font-family="Inter, sans-serif" font-size="12" fill="#ff8243" font-weight="bold">Content Creators</text>
+
+  <!-- Key insight box -->
+  <rect x="310" y="125" width="170" height="70" fill="white" stroke="#2E7D32" stroke-width="2" rx="5"/>
+  <text x="320" y="145" font-family="Inter, sans-serif" font-size="11" fill="#2E7D32" font-weight="bold">Comparative advantage:</text>
+  <text x="320" y="162" font-family="Inter, sans-serif" font-size="10" fill="#800000">CW: houses (cheap)</text>
+  <text x="320" y="178" font-family="Inter, sans-serif" font-size="10" fill="#ff8243">CC: TikToks (cheap)</text>
+</svg>

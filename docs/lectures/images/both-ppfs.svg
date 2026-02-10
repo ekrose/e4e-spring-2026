@@ -14,32 +14,40 @@
   <text x="20" y="180" font-family="Inter, sans-serif" font-size="14" fill="#333" transform="rotate(-90, 20, 180)">Houses</text>
   <text x="260" y="360" font-family="Inter, sans-serif" font-size="14" fill="#333" text-anchor="middle">TikToks</text>
 
-  <!-- Construction Worker PPF - concave, high houses, medium TikToks -->
-  <path d="M 60 70 Q 220 90 300 320" stroke="#800000" stroke-width="3" fill="none"/>
+  <!-- Construction Worker PPF -->
+  <path d="M 60 70 Q 200 80 300 320" stroke="#800000" stroke-width="3" fill="none"/>
+  <path d="M 60 70 Q 200 80 300 320 L 60 320 Z" fill="#800000" fill-opacity="0.06"/>
 
-  <!-- Shaded feasible region for construction workers -->
-  <path d="M 60 70 Q 220 90 300 320 L 60 320 Z" fill="#800000" fill-opacity="0.06"/>
+  <!-- Content Creator PPF -->
+  <path d="M 60 200 Q 260 210 420 320" stroke="#ff8243" stroke-width="3" fill="none"/>
+  <path d="M 60 200 Q 260 210 420 320 L 60 320 Z" fill="#ff8243" fill-opacity="0.06"/>
 
-  <!-- Content Creator PPF - mirror image: drops quickly then levels out -->
-  <path d="M 60 200 Q 100 310 420 320" stroke="#ff8243" stroke-width="3" fill="none"/>
+  <!-- Optimal point for CW - mostly houses -->
+  <circle cx="120" cy="82" r="8" fill="#2E7D32"/>
+  <text x="75" y="55" font-family="Inter, sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">Optimal</text>
 
-  <!-- Shaded feasible region for content creators -->
-  <path d="M 60 200 Q 100 310 420 320 L 60 320 Z" fill="#ff8243" fill-opacity="0.06"/>
+  <!-- Optimal point for CC - mostly TikToks -->
+  <circle cx="320" cy="280" r="8" fill="#2E7D32"/>
+  <text x="330" y="270" font-family="Inter, sans-serif" font-size="10" fill="#2E7D32" font-weight="bold">Optimal</text>
 
-  <!-- Optimal point for construction workers - mostly houses, some TikToks -->
-  <circle cx="130" cy="95" r="7" fill="#2E7D32"/>
+  <!-- Parallel tangent lines - SAME SLOPE (price ratio) -->
+  <!-- CW tangent through (120, 82) -->
+  <line x1="70" y1="57" x2="180" y2="112" stroke="#2E7D32" stroke-width="2.5" stroke-dasharray="8,4"/>
 
-  <!-- Optimal point for content creators - mostly TikToks, some houses -->
-  <circle cx="280" cy="315" r="7" fill="#2E7D32"/>
+  <!-- CC tangent through (320, 280) - SAME SLOPE as CW tangent -->
+  <line x1="260" y1="250" x2="380" y2="310" stroke="#2E7D32" stroke-width="2.5" stroke-dasharray="8,4"/>
 
-  <!-- Parallel tangent lines (same slope = price ratio) -->
-  <!-- CW tangent: slope ~0.5, through (130, 95) -->
-  <line x1="70" y1="65" x2="190" y2="125" stroke="#2E7D32" stroke-width="2" stroke-dasharray="6,4"/>
-
-  <!-- CC tangent: same slope ~0.5, through (280, 315) -->
-  <line x1="200" y1="275" x2="360" y2="355" stroke="#2E7D32" stroke-width="2" stroke-dasharray="6,4"/>
+  <!-- Price ratio annotation -->
+  <text x="185" y="105" font-family="Inter, sans-serif" font-size="10" fill="#2E7D32">slope = price ratio</text>
+  <text x="385" y="300" font-family="Inter, sans-serif" font-size="10" fill="#2E7D32">same slope!</text>
 
   <!-- Labels for curves -->
-  <text x="180" y="85" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">Construction Workers</text>
-  <text x="250" y="295" font-family="Inter, sans-serif" font-size="12" fill="#ff8243" font-weight="bold">Content Creators</text>
+  <text x="170" y="62" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">Construction Workers</text>
+  <text x="350" y="320" font-family="Inter, sans-serif" font-size="12" fill="#ff8243" font-weight="bold">Content Creators</text>
+
+  <!-- Key insight box -->
+  <rect x="300" y="55" width="180" height="55" fill="white" stroke="#2E7D32" stroke-width="2" rx="5"/>
+  <text x="310" y="75" font-family="Inter, sans-serif" font-size="11" fill="#2E7D32" font-weight="bold">At these points:</text>
+  <text x="310" y="92" font-family="Inter, sans-serif" font-size="10" fill="#333">Total value is MAXIMIZED</text>
+  <text x="310" y="105" font-family="Inter, sans-serif" font-size="9" fill="#666">(tangent slopes = price ratio)</text>
 </svg>

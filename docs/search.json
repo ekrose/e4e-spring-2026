@@ -585,14 +585,14 @@
     "href": "lectures/markets-failures.html#comparative-advantage",
     "title": "Markets and Their Failures",
     "section": "Comparative Advantage",
-    "text": "Comparative Advantage\nWhy does each group specialize differently?\n\nOpportunity costs differ:\n\nConstruction workers give up many houses per TikTok\nContent creators give up few houses per TikTok\n\n\n\n\nContent creators have comparative advantage in TikToks — even if construction workers are better at both."
+    "text": "Comparative Advantage"
   },
   {
     "objectID": "lectures/markets-failures.html#the-key-insight",
     "href": "lectures/markets-failures.html#the-key-insight",
     "title": "Markets and Their Failures",
     "section": "The Key Insight",
-    "text": "The Key Insight\nEven though Sam is faster at everything…\n\n…they still gain by having Taylor specialize in posters.\n\n\n\nComparative advantage (relative productivity) matters more than absolute advantage (who’s faster)."
+    "text": "The Key Insight\nComparative advantage is about relative costs, not absolute ability.\n\nEven if construction workers were better at both activities, content creators still have lower opportunity cost for TikToks.\n\n\nEach group should specialize in their comparative advantage."
   },
   {
     "objectID": "lectures/markets-failures.html#how-prices-coordinate-specialization",
@@ -1180,7 +1180,7 @@
     "href": "lectures/markets-failures.html#the-trade-off",
     "title": "Markets and Their Failures",
     "section": "The Trade-Off",
-    "text": "The Trade-Off\n\n\nThe PPF shows trade-offs.\nMore houses = fewer TikToks.\n\nReallocating the marginal worker between activities."
+    "text": "The Trade-Off\nThe PPF shows trade-offs: more houses means fewer TikToks.\n\nThe curve bows outward because of increasing opportunity cost.\n\n\n\nThe first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers."
   },
   {
     "objectID": "lectures/markets-failures.html#how-should-these-groups-allocate-time",
@@ -1216,5 +1216,47 @@
     "title": "Markets and Their Failures",
     "section": "This Allocation Maximizes Value",
     "text": "This Allocation Maximizes Value\nAt these optimal points, total value produced is maximized.\n\n\nEach group produces where their tradeoff matches market prices\nNo reallocation could increase total output value\n\n\n\n\nPrices guide us to the most valuable use of resources."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#comparing-opportunity-costs",
+    "href": "lectures/markets-failures.html#comparing-opportunity-costs",
+    "title": "Markets and Their Failures",
+    "section": "Comparing Opportunity Costs",
+    "text": "Comparing Opportunity Costs\nAt any point, the slope of the PPF tells us the opportunity cost.\n\nLet’s compare the two groups at the same level of TikTok production…"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-this-means",
+    "href": "lectures/markets-failures.html#what-this-means",
+    "title": "Markets and Their Failures",
+    "section": "What This Means",
+    "text": "What This Means\nFor construction workers, TikToks are expensive — each one costs many houses.\n\nFor content creators, TikToks are cheap — each one costs few houses.\n\n\n\nConstruction workers have comparative advantage in houses.\nContent creators have comparative advantage in TikToks."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#but-how-much-to-specialize",
+    "href": "lectures/markets-failures.html#but-how-much-to-specialize",
+    "title": "Markets and Their Failures",
+    "section": "But How Much to Specialize?",
+    "text": "But How Much to Specialize?\nComparative advantage tells us what to focus on.\n\nBut how do groups know how much of each good to produce?\n\n\nPrices answer this question."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-optimal-point",
+    "href": "lectures/markets-failures.html#the-optimal-point",
+    "title": "Markets and Their Failures",
+    "section": "The Optimal Point",
+    "text": "The Optimal Point\nEach group should produce where their opportunity cost equals the price ratio.\n\nAt that point, shifting production either way would reduce total income."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#finding-the-optimum",
+    "href": "lectures/markets-failures.html#finding-the-optimum",
+    "title": "Markets and Their Failures",
+    "section": "Finding the Optimum",
+    "text": "Finding the Optimum"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
+    "href": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
+    "title": "Markets and Their Failures",
+    "section": "This Allocation Maximizes Total Value",
+    "text": "This Allocation Maximizes Total Value\nAt these optimal points, total value produced is maximized.\n\n\nThe tangent lines have the same slope (the price ratio)\nNo reallocation could increase total output value\n\n\n\n\nGiven prices, this is the best we can do."
   }
 ]
