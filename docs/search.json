@@ -676,14 +676,14 @@
     "href": "lectures/markets-failures.html#lets-play-externalities-edition",
     "title": "Markets and Their Failures",
     "section": "Let’s Play: Externalities Edition",
-    "text": "Let’s Play: Externalities Edition\nBack to our credit market.\n\nNew rule: Every trade now costs the rest of the class 10 cents each.\n\n\n(Imagine each trade generates noise that bothers everyone.)\n\n\nShould the same trades happen as before?"
+    "text": "Let’s Play: Externalities Edition\nBack to our credit market.\n\nNew rule: Each credit point sold reduces the value of ALL other credits by 5%.\n\n\nIf 5 trades happen, every credit (traded or not) is worth only 75% of a point.\n\n\nThis is like a curve: the more points out there, the less each one helps your grade."
   },
   {
     "objectID": "lectures/markets-failures.html#discussion-externality-game",
     "href": "lectures/markets-failures.html#discussion-externality-game",
     "title": "Markets and Their Failures",
     "section": "Discussion: Externality Game",
-    "text": "Discussion: Externality Game\n\nWhich trades were still beneficial overall?\nWhich trades were privately beneficial but socially harmful?\nHow might we fix this?"
+    "text": "Discussion: Externality Game\n\nHow many trades are privately beneficial?\nHow many trades are socially beneficial (counting harm to others)?\nWho bears the cost of your trade?\nHow might we fix this?"
   },
   {
     "objectID": "lectures/markets-failures.html#perfect-competition-assumption",
@@ -859,5 +859,12 @@
     "title": "Markets and Their Failures",
     "section": "Lemons Game: The Rules",
     "text": "Lemons Game: The Rules\nSellers: You know if your credit is real (worth 1 point) or fake (worth 0).\n\nBuyers: You don’t know which sellers have real credits.\n\n\nSellers: What’s your WTA now?\nBuyers: What’s your WTP now?\n\n\nSubmit your answers!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#externalities-game-think-about-it",
+    "href": "lectures/markets-failures.html#externalities-game-think-about-it",
+    "title": "Markets and Their Failures",
+    "section": "Externalities Game: Think About It",
+    "text": "Externalities Game: Think About It\nYou’re a buyer. You still want a credit point.\n\nBut when you buy one, you make everyone else’s credits less valuable.\n\n\nDo you consider that cost when deciding to trade?\n\n\nShould that cost affect whether the trade happens?"
   }
 ]

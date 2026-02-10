@@ -701,20 +701,37 @@ Back to our credit market.
 
 . . .
 
-New rule: Every trade now **costs the rest of the class 10 cents each**.
+New rule: **Each credit point sold reduces the value of ALL other credits by 5%.**
 
 . . .
 
-(Imagine each trade generates noise that bothers everyone.)
+If 5 trades happen, every credit (traded or not) is worth only 75% of a point.
 
 . . .
 
-**Should the same trades happen as before?**
+This is like a curve: the more points out there, the less each one helps your grade.
+
+## Externalities Game: Think About It
+
+You're a buyer. You still want a credit point.
+
+. . .
+
+But when you buy one, you make *everyone else's* credits less valuable.
+
+. . .
+
+**Do you consider that cost when deciding to trade?**
+
+. . .
+
+**Should** that cost affect whether the trade happens?
 
 ## Discussion: Externality Game
 
-- Which trades were still beneficial overall?
-- Which trades were privately beneficial but socially harmful?
+- How many trades are privately beneficial?
+- How many trades are *socially* beneficial (counting harm to others)?
+- Who bears the cost of your trade?
 - How might we fix this?
 
 # Failure #3: Market Power {background-color="#800000"}
