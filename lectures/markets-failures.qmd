@@ -310,139 +310,153 @@ They coordinate *across* markets.
 
 This unlocks the gains from **specialization** and **comparative advantage**.
 
-## A Tale of Two Students
+## A Campus Business
 
-Meet **Alex** and **Jordan**. They're working on a group project that requires:
+**Sam** and **Taylor** run a booth at a campus fair.
 
-- Writing a 10-page report
-- Building a website
-
-. . .
-
-Here's how long each task takes them:
-
-| Task | Alex | Jordan |
-|------|------|--------|
-| Write report | 10 hours | 5 hours |
-| Build website | 2 hours | 4 hours |
-
-## Who's "Better"?
-
-**Absolute advantage**: Who can do the task faster?
+They sell two products: **custom t-shirts** ($10) and **posters** ($5).
 
 . . .
 
-- Jordan is faster at writing (5 hrs vs 10 hrs)
-- Alex is faster at coding (2 hrs vs 4 hrs)
+They each have **6 hours** to prepare inventory.
 
 . . .
 
-Seems obvious: Jordan writes, Alex codes.
+How should they divide the work?
+
+## Their Productivity
+
+| | T-shirts per hour | Posters per hour |
+|--|-------------------|------------------|
+| Sam | 3 | 6 |
+| Taylor | 1 | 4 |
 
 . . .
 
-But what if there were *two* reports and *two* websites?
+Sam is faster at **both** tasks.
 
-## The Surprising Math
+. . .
 
-**Without specialization** (each does one of each):
+Should Sam just do everything?
 
-| | Alex | Jordan | Total |
-|---|------|--------|-------|
-| Report | 10 hrs | 5 hrs | |
-| Website | 2 hrs | 4 hrs | |
-| **Total** | 12 hrs | 9 hrs | **21 hrs** |
+## Without Specialization
+
+If each splits their time 50/50:
+
+. . .
+
+**Sam** (3 hrs each): 9 t-shirts + 18 posters
+
+**Taylor** (3 hrs each): 3 t-shirts + 12 posters
+
+. . .
+
+**Total: 12 t-shirts + 30 posters**
+
+Revenue: 12 × $10 + 30 × $5 = **$270**
+
+## Opportunity Cost
+
+What does each person **give up** to make a t-shirt?
+
+. . .
+
+**Sam**: Making 1 t-shirt (20 min) means 2 fewer posters
+
+> Sam's opportunity cost: 1 t-shirt = 2 posters
+
+. . .
+
+**Taylor**: Making 1 t-shirt (60 min) means 4 fewer posters
+
+> Taylor's opportunity cost: 1 t-shirt = 4 posters
+
+## Comparative Advantage
+
+Sam's opportunity cost of t-shirts is **lower** (2 vs 4 posters).
+
+. . .
+
+> Sam has **comparative advantage** in t-shirts.
+
+. . .
+
+Taylor's opportunity cost of posters is **lower**.
+
+. . .
+
+> Taylor has **comparative advantage** in posters.
 
 ## With Specialization
 
-What if Alex does *both* websites and Jordan does *both* reports?
+Each focuses on their comparative advantage:
 
 . . .
 
-| | Alex | Jordan | Total |
-|---|------|--------|-------|
-| Reports | 0 | 10 hrs | |
-| Websites | 4 hrs | 0 | |
-| **Total** | 4 hrs | 10 hrs | **14 hrs** |
+**Sam** (6 hrs on t-shirts): 18 t-shirts
+
+**Taylor** (6 hrs on posters): 24 posters
 
 . . .
 
-> **7 hours saved!** Same output, less total work.
+**Total: 18 t-shirts + 24 posters**
 
-## What If One Person Is Better at Everything?
+Revenue: 18 × $10 + 24 × $5 = **$300**
 
-New example: **Sam** and **Taylor** face a **deadline**.
+## The Gains from Specialization
 
-They need 2 reports and 2 websites done by 5pm. It's now 11am.
-
-| Task | Sam | Taylor |
-|------|-----|--------|
-| Write report | 2 hours | 4 hours |
-| Build website | 1 hour | 2 hours |
-
-Sam is faster at **both** tasks!
-
-## The Deadline Problem
-
-If Sam does everything alone:
-
-- 2 reports (4 hrs) + 2 websites (2 hrs) = **6 hours**
-- Done by 5pm? Yes!
+| | T-shirts | Posters | Revenue |
+|--|----------|---------|---------|
+| Without | 12 | 30 | $270 |
+| With | 18 | 24 | **$300** |
 
 . . .
 
-But what if they only have **4 hours** until deadline?
+> **$30 more revenue** from the same 12 hours of work!
 
 . . .
 
-Sam alone can't finish. They need to work **in parallel**.
-
-## Working in Parallel
-
-**Option A**: Each does 1 report + 1 website
-
-- Sam: 2 + 1 = 3 hrs
-- Taylor: 4 + 2 = 6 hrs
-- **Calendar time: 6 hours** (limited by Taylor) ❌
-
-## Specializing by Comparative Advantage
-
-Who has lower **opportunity cost** for each task?
-
-- Sam: 1 website costs 0.5 reports forgone
-- Taylor: 1 website costs 0.5 reports forgone
-
-. . .
-
-Same ratio! But Sam is 2x faster at both. So have Sam do more total work:
-
-## A Better Split
-
-**Option B**: Sam does 2 websites + 1 report, Taylor does 1 report
-
-- Sam: 1 + 1 + 2 = **4 hrs**
-- Taylor: **4 hrs**
-- **Calendar time: 4 hours** ✓
-
-. . .
-
-By working in parallel and having the faster person do more, they meet the deadline.
+Specialization increased total value by **11%**.
 
 ## The Key Insight
 
-> Comparative advantage matters when there are **constraints**—time, capacity, or resources.
+Even though Sam is faster at *everything*...
 
 . . .
 
-In the real world, no person or country can do everything.
+...they still gain by having Taylor specialize in posters.
 
 . . .
 
-This is why countries trade. This is why you hire specialists.
+> **Comparative advantage** (relative productivity) matters more than **absolute advantage** (who's faster).
+
+## Why This Works
+
+Sam is "only" 1.5× faster at posters, but 3× faster at t-shirts.
+
+. . .
+
+Every hour Sam spends on posters is an hour *not* spent on t-shirts—where Sam's advantage is biggest.
+
+. . .
+
+> Focus on what you're *relatively* best at, even if you're better at everything.
+
+## The Real World
+
+This is why:
+
+- Countries trade (even rich ones with poor ones)
+- You don't grow your own food
+- Lawyers hire assistants (even for tasks they could do faster)
+
+. . .
+
+> Specialization according to comparative advantage makes **everyone** better off.
 
 ## How Do People Know What to Specialize In?
 
-In our examples, we calculated opportunity costs.
+Sam and Taylor calculated opportunity costs.
 
 . . .
 

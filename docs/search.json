@@ -578,21 +578,21 @@
     "href": "lectures/markets-failures.html#with-specialization",
     "title": "Markets and Their Failures",
     "section": "With Specialization",
-    "text": "With Specialization\nWhat if Alex does both websites and Jordan does both reports?\n\n\n\n\n\nAlex\nJordan\nTotal\n\n\n\n\nReports\n0\n10 hrs\n\n\n\nWebsites\n4 hrs\n0\n\n\n\nTotal\n4 hrs\n10 hrs\n14 hrs\n\n\n\n\n\n\n7 hours saved! Same output, less total work."
+    "text": "With Specialization\nEach focuses on their comparative advantage:\n\nSam (6 hrs on t-shirts): 18 t-shirts\nTaylor (6 hrs on posters): 24 posters\n\n\nTotal: 18 t-shirts + 24 posters\nRevenue: 18 × $10 + 24 × $5 = $300"
   },
   {
     "objectID": "lectures/markets-failures.html#comparative-advantage",
     "href": "lectures/markets-failures.html#comparative-advantage",
     "title": "Markets and Their Failures",
     "section": "Comparative Advantage",
-    "text": "Comparative Advantage\nComparative advantage: Who has the lower opportunity cost?\n\nFor Alex, building a website costs:\n\n2 hours that could have produced 2/10 = 0.2 reports\n\n\n\nFor Jordan, building a website costs:\n\n4 hours that could have produced 4/5 = 0.8 reports\n\n\n\nAlex has the comparative advantage in websites (lower opportunity cost)."
+    "text": "Comparative Advantage\nSam’s opportunity cost of t-shirts is lower (2 vs 4 posters).\n\n\nSam has comparative advantage in t-shirts.\n\n\n\nTaylor’s opportunity cost of posters is lower.\n\n\n\nTaylor has comparative advantage in posters."
   },
   {
     "objectID": "lectures/markets-failures.html#the-key-insight",
     "href": "lectures/markets-failures.html#the-key-insight",
     "title": "Markets and Their Failures",
     "section": "The Key Insight",
-    "text": "The Key Insight\n\nComparative advantage matters when there are constraints—time, capacity, or resources.\n\n\nIn the real world, no person or country can do everything.\n\n\nThis is why countries trade. This is why you hire specialists."
+    "text": "The Key Insight\nEven though Sam is faster at everything…\n\n…they still gain by having Taylor specialize in posters.\n\n\n\nComparative advantage (relative productivity) matters more than absolute advantage (who’s faster)."
   },
   {
     "objectID": "lectures/markets-failures.html#how-prices-coordinate-specialization",
@@ -823,7 +823,7 @@
     "href": "lectures/markets-failures.html#how-do-people-know-what-to-specialize-in",
     "title": "Markets and Their Failures",
     "section": "How Do People Know What to Specialize In?",
-    "text": "How Do People Know What to Specialize In?\nIn our examples, we calculated opportunity costs.\n\nIn real life, nobody does this math. So how does it work?\n\n\nPrices tell you."
+    "text": "How Do People Know What to Specialize In?\nSam and Taylor calculated opportunity costs.\n\nIn real life, nobody does this math. So how does it work?\n\n\nPrices tell you."
   },
   {
     "objectID": "lectures/markets-failures.html#prices-coordinate-specialization",
@@ -929,5 +929,54 @@
     "title": "Markets and Their Failures",
     "section": "Coase Example",
     "text": "Coase Example\nFactory pollutes, harms nearby residents.\n\n\nIf residents have right to clean air → factory pays them\nIf factory has right to pollute → residents pay factory\n\n\n\nEither way, they negotiate to the efficient level of pollution!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#a-campus-business",
+    "href": "lectures/markets-failures.html#a-campus-business",
+    "title": "Markets and Their Failures",
+    "section": "A Campus Business",
+    "text": "A Campus Business\nSam and Taylor run a booth at a campus fair.\nThey sell two products: custom t-shirts ($10) and posters ($5).\n\nThey each have 6 hours to prepare inventory.\n\n\nHow should they divide the work?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#their-productivity",
+    "href": "lectures/markets-failures.html#their-productivity",
+    "title": "Markets and Their Failures",
+    "section": "Their Productivity",
+    "text": "Their Productivity\n\n\n\n\nT-shirts per hour\nPosters per hour\n\n\n\n\nSam\n3\n6\n\n\nTaylor\n1\n4\n\n\n\n\nSam is faster at both tasks.\n\n\nShould Sam just do everything?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#without-specialization",
+    "href": "lectures/markets-failures.html#without-specialization",
+    "title": "Markets and Their Failures",
+    "section": "Without Specialization",
+    "text": "Without Specialization\nIf each splits their time 50/50:\n\nSam (3 hrs each): 9 t-shirts + 18 posters\nTaylor (3 hrs each): 3 t-shirts + 12 posters\n\n\nTotal: 12 t-shirts + 30 posters\nRevenue: 12 × $10 + 30 × $5 = $270"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#opportunity-cost",
+    "href": "lectures/markets-failures.html#opportunity-cost",
+    "title": "Markets and Their Failures",
+    "section": "Opportunity Cost",
+    "text": "Opportunity Cost\nWhat does each person give up to make a t-shirt?\n\nSam: Making 1 t-shirt (20 min) means 2 fewer posters\n\nSam’s opportunity cost: 1 t-shirt = 2 posters\n\n\n\nTaylor: Making 1 t-shirt (60 min) means 4 fewer posters\n\nTaylor’s opportunity cost: 1 t-shirt = 4 posters"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-gains-from-specialization",
+    "href": "lectures/markets-failures.html#the-gains-from-specialization",
+    "title": "Markets and Their Failures",
+    "section": "The Gains from Specialization",
+    "text": "The Gains from Specialization\n\n\n\n\nT-shirts\nPosters\nRevenue\n\n\n\n\nWithout\n12\n30\n$270\n\n\nWith\n18\n24\n$300\n\n\n\n\n\n$30 more revenue from the same 12 hours of work!\n\n\n\nSpecialization increased total value by 11%."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-this-works",
+    "href": "lectures/markets-failures.html#why-this-works",
+    "title": "Markets and Their Failures",
+    "section": "Why This Works",
+    "text": "Why This Works\nSam is “only” 1.5× faster at posters, but 3× faster at t-shirts.\n\nEvery hour Sam spends on posters is an hour not spent on t-shirts—where Sam’s advantage is biggest.\n\n\n\nFocus on what you’re relatively best at, even if you’re better at everything."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-real-world",
+    "href": "lectures/markets-failures.html#the-real-world",
+    "title": "Markets and Their Failures",
+    "section": "The Real World",
+    "text": "The Real World\nThis is why:\n\nCountries trade (even rich ones with poor ones)\nYou don’t grow your own food\nLawyers hire assistants (even for tasks they could do faster)\n\n\n\nSpecialization according to comparative advantage makes everyone better off."
   }
 ]
