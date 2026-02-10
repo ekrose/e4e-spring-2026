@@ -4,7 +4,7 @@ title: "Lectures"
 
 Lecture slides will be posted here as the course progresses.
 
-<!--
-To add a lecture, simply add a link below:
+## Evan's Lectures
+
 - [Incentives](incentives.qmd)
--->
+- [Markets and Their Failures](markets-failures.qmd)

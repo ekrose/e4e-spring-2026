@@ -1,0 +1,894 @@
+---
+title: "Markets and Their Failures"
+subtitle: "Economics for Everyone"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    preview-links: auto
+---
+
+## Today's Journey
+
+Markets are one of the most powerful institutions humans have ever created.
+
+. . .
+
+Today we'll explore:
+
+- Why markets are so good at delivering benefits
+- How prices coordinate complex economic activity
+- The gains from specialization
+- When and why markets fail
+- What we can do about those failures
+
+## Key Ideas for Today
+
+**Gains from trade**: The benefits buyers and sellers get from exchange
+
+. . .
+
+**Comparative advantage**: The returns to focusing on what you're *relatively* better at
+
+. . .
+
+**Markets as surplus maximizers**: Under ideal conditions, markets deliver maximum total benefits
+
+. . .
+
+**Market failures**: Forces that prevent markets from achieving their potential
+
+# Let's Create a Market {background-color="#800000"}
+
+A classroom experiment
+
+## Our Very Own Market
+
+I'm going to allocate half the class **one point of extra credit**.
+
+. . .
+
+You will be the **sellers** in this market.
+
+. . .
+
+The other half of the class will be the **buyers**.
+
+## Your Task
+
+**If you are a seller:**
+
+> Report the *lowest* price (in dollars) at which you would give up your extra credit point.
+
+. . .
+
+**If you are a buyer:**
+
+> Report the *highest* price (in dollars) at which you would buy an extra credit point.
+
+. . .
+
+Take a moment to reflect. What is that point really worth to you?
+
+## Submit Your Answer
+
+**[Poll link: pollev.com/e4e]**
+
+<!-- Replace with actual poll link -->
+
+## Let's See What We Got
+
+<!-- Draw supply and demand curves live from poll results -->
+
+![](images/supply-demand-blank.svg){fig-align="center" width="70%"}
+
+## Discussion
+
+- Who wants to trade at the equilibrium price?
+
+. . .
+
+- Do the traders benefit? How much?
+
+. . .
+
+- What about the people who *didn't* trade?
+
+. . .
+
+- What role does the price play here?
+
+# The First Welfare Theorem {background-color="#800000"}
+
+Why markets maximize benefits
+
+## Willingness to Pay and Accept
+
+Consider a market for a single good (say, toasters).
+
+. . .
+
+**Sellers** each have a *willingness to accept* (WTA)
+
+> The smallest amount they'd take to part with the good
+
+. . .
+
+**Buyers** each have a *willingness to pay* (WTP)
+
+> The highest amount they'd pay to acquire the good
+
+## Surplus: The Gains from Trade
+
+When a buyer pays **less** than their WTP:
+
+> They get **consumer surplus** = WTP - Price
+
+. . .
+
+When a seller receives **more** than their WTA:
+
+> They get **producer surplus** = Price - WTA
+
+. . .
+
+**Total surplus** = Consumer surplus + Producer surplus
+
+## What Happens at Equilibrium?
+
+At the equilibrium price $p$:
+
+. . .
+
+- Every seller with WTA ≤ $p$ has sold
+- Every buyer with WTP ≥ $p$ has bought
+
+. . .
+
+The only remaining sellers want *more* than $p$.
+
+The only remaining buyers will pay *less* than $p$.
+
+. . .
+
+> **No more gains from trade exist!**
+
+## The First Welfare Theorem
+
+> Under certain conditions, competitive markets automatically maximize total surplus.
+
+. . .
+
+This is remarkable. No central planner needed.
+
+. . .
+
+Just people pursuing their own interests, guided by prices.
+
+. . .
+
+Adam Smith called this the "invisible hand."
+
+## Prices as Signals
+
+Here's something remarkable about the equilibrium price:
+
+. . .
+
+**For sellers**: The price reflects the *marginal cost* of production
+
+> The cost of producing one more unit
+
+. . .
+
+**For buyers**: The price reflects the *marginal benefit* of consumption
+
+> The value of consuming one more unit
+
+. . .
+
+At equilibrium: **Marginal cost = Marginal benefit = Price**
+
+## Why This Matters
+
+The price tells producers: "This is what society values an extra unit at."
+
+. . .
+
+The price tells consumers: "This is what it costs society to make an extra unit."
+
+. . .
+
+> **Prices coordinate decisions across millions of people who will never meet.**
+
+. . .
+
+No one needs to know the whole picture. The price contains the information.
+
+# How Markets Find Prices {background-color="#800000"}
+
+The discovery process
+
+## Price Discovery in the Real World
+
+Real markets are messy. Prices don't appear by magic.
+
+. . .
+
+**If price is too high:** Excess supply
+
+- Sellers undercut each other to secure trades
+
+. . .
+
+**If price is too low:** Excess demand
+
+- Buyers offer premiums to secure goods
+
+. . .
+
+Market pressures push toward equilibrium.
+
+## Examples of Price Discovery
+
+**Retail inventory management**
+
+- Prices drop when shelves are full
+- Prices rise when stock runs low
+
+. . .
+
+**Auctions**
+
+- eBay, art markets, Treasury bonds
+- Price emerges from competitive bidding
+
+. . .
+
+**Entry and exit**
+
+- High profits → new firms enter → prices fall
+- Losses → firms exit → prices rise
+
+## A Deeper Point
+
+You might think: supply and demand *determine* price.
+
+. . .
+
+But in practice, prices are *discovered* through experimentation.
+
+. . .
+
+In this sense: **prices determine supply and demand.**
+
+. . .
+
+Prices are *signals* that coordinate behavior.
+
+## Case Study: Gold
+
+What determines how much gold gets mined?
+
+. . .
+
+![](images/gold-cost-curve.svg){fig-align="center" width="70%"}
+
+## Gold: When Demand Surges
+
+When demand for gold increases:
+
+. . .
+
+1. Price rises
+
+. . .
+
+2. Mining operations that were unprofitable become profitable
+
+. . .
+
+3. Supply expands
+
+. . .
+
+> The price *signal* coordinated this response—no central planner required.
+
+# Specialization and Comparative Advantage {background-color="#800000"}
+
+Why we don't all make our own shoes
+
+## Beyond Single Markets
+
+Prices don't just coordinate *within* a market.
+
+. . .
+
+They coordinate *across* markets.
+
+. . .
+
+This unlocks the gains from **specialization** and **comparative advantage**.
+
+## A Tale of Two Students
+
+Meet **Alex** and **Jordan**. They're working on a group project that requires:
+
+- Writing a 10-page report
+- Building a website
+
+. . .
+
+Here's how long each task takes them:
+
+| Task | Alex | Jordan |
+|------|------|--------|
+| Write report | 10 hours | 5 hours |
+| Build website | 2 hours | 4 hours |
+
+## Who's "Better"?
+
+**Absolute advantage**: Who can do the task faster?
+
+. . .
+
+- Jordan is faster at writing (5 hrs vs 10 hrs)
+- Alex is faster at coding (2 hrs vs 4 hrs)
+
+. . .
+
+Seems obvious: Jordan writes, Alex codes.
+
+. . .
+
+But what if there were *two* reports and *two* websites?
+
+## The Surprising Math
+
+**Without specialization** (each does one of each):
+
+| | Alex | Jordan | Total |
+|---|------|--------|-------|
+| Report | 10 hrs | 5 hrs | |
+| Website | 2 hrs | 4 hrs | |
+| **Total** | 12 hrs | 9 hrs | **21 hrs** |
+
+## With Specialization
+
+What if Alex does *both* websites and Jordan does *both* reports?
+
+. . .
+
+| | Alex | Jordan | Total |
+|---|------|--------|-------|
+| Reports | 0 | 10 hrs | |
+| Websites | 4 hrs | 0 | |
+| **Total** | 4 hrs | 10 hrs | **14 hrs** |
+
+. . .
+
+> **7 hours saved!** Same output, less total work.
+
+## But Wait—What If One Person Is Better at Everything?
+
+New example: **Sam** and **Taylor**
+
+| Task | Sam | Taylor |
+|------|-----|--------|
+| Write report | 2 hours | 6 hours |
+| Build website | 1 hour | 4 hours |
+
+. . .
+
+Sam has **absolute advantage in both tasks**!
+
+. . .
+
+Should Sam just do everything?
+
+## Let's Do the Math
+
+Suppose we need 2 reports and 2 websites.
+
+. . .
+
+**If Sam does everything:**
+
+- 2 reports × 2 hrs + 2 websites × 1 hr = **6 hours for Sam**
+- Taylor does nothing
+
+. . .
+
+**If they split evenly** (1 each):
+
+- Sam: 2 + 1 = 3 hrs
+- Taylor: 6 + 4 = 10 hrs
+- **Total: 13 hours**
+
+## The Power of Comparative Advantage
+
+What's each person's **opportunity cost** of a website?
+
+. . .
+
+**Sam**: 1 hr website = 0.5 reports given up
+
+**Taylor**: 4 hr website = 4/6 = 0.67 reports given up
+
+. . .
+
+Sam has comparative advantage in websites (lower opportunity cost).
+
+Taylor has comparative advantage in... reports!
+
+## Specialization Wins Again
+
+**Taylor does 2 reports, Sam does 2 websites:**
+
+- Sam: 2 websites × 1 hr = **2 hours**
+- Taylor: 2 reports × 6 hrs = **12 hours**
+- Total: **14 hours**
+
+. . .
+
+But wait—Sam had 4 hours of free time. What if Sam helps with reports?
+
+. . .
+
+**Sam does 2 websites + 1 report, Taylor does 1 report:**
+
+- Sam: 2 + 2 = **4 hours**
+- Taylor: **6 hours**
+- Total: **10 hours** (vs 13 without specialization)
+
+## Comparative Advantage: The Key Insight
+
+> Even if someone is better at *everything*, there are still gains from specialization based on *comparative* advantage.
+
+. . .
+
+The person with absolute advantage in everything should focus on what they're *relatively* best at.
+
+. . .
+
+This is why countries trade. This is why you don't grow your own food.
+
+## How Do People Know What to Specialize In?
+
+In our examples, we calculated opportunity costs.
+
+. . .
+
+In real life, nobody does this math. So how does it work?
+
+. . .
+
+**Prices tell you.**
+
+## Prices Coordinate Specialization
+
+Suppose there's a market for coding and writing work:
+
+| Task | Market Price |
+|------|--------------|
+| Write 1 report | $100 |
+| Build 1 website | $150 |
+
+. . .
+
+What should Sam do? What should Taylor do?
+
+## Calculating Returns
+
+**Sam's hourly earnings:**
+
+- Writing: $100 / 2 hrs = **$50/hr**
+- Coding: $150 / 1 hr = **$150/hr**
+
+. . .
+
+**Taylor's hourly earnings:**
+
+- Writing: $100 / 6 hrs = **$17/hr**
+- Coding: $150 / 4 hrs = **$38/hr**
+
+. . .
+
+Sam should code. Taylor should... also code?
+
+## The Market Adjusts
+
+If everyone wants to code, what happens?
+
+. . .
+
+- Supply of coding ↑ → coding prices ↓
+- Supply of writing ↓ → writing prices ↑
+
+. . .
+
+Prices adjust until it's worthwhile for *someone* to write.
+
+. . .
+
+> **Relative prices** guide each person to their comparative advantage—automatically.
+
+## The Magic
+
+No one needs to know everyone's abilities.
+
+. . .
+
+No one needs to calculate opportunity costs.
+
+. . .
+
+**Prices contain the information** needed to coordinate specialization across millions of people.
+
+. . .
+
+> This is the "invisible hand" at work.
+
+# When Markets Fail {background-color="#800000"}
+
+The fine print on that welfare theorem
+
+## Remember Those "Conditions"?
+
+The First Welfare Theorem says markets maximize surplus...
+
+. . .
+
+...**under certain conditions.**
+
+. . .
+
+When these conditions fail, we get **market failures**.
+
+. . .
+
+Let's explore the three most important ones.
+
+# Failure #1: Information Asymmetry {background-color="#800000"}
+
+When some know more than others
+
+## The Market for "Lemons"
+
+Imagine you're buying a used car.
+
+. . .
+
+- Some used cars are great ("peaches")
+- Some are terrible ("lemons")
+
+. . .
+
+**The seller knows which type they have. You don't.**
+
+## What Happens?
+
+You're willing to pay the *average* value.
+
+. . .
+
+But sellers of good cars won't accept that—it's below their car's worth.
+
+. . .
+
+So good cars exit the market.
+
+. . .
+
+Only lemons remain!
+
+. . .
+
+> **Adverse selection**: The market unravels because of information asymmetry.
+
+::: {.notes}
+Reference: Akerlof, G. (1970). "The Market for Lemons." Quarterly Journal of Economics.
+:::
+
+## Let's Play: Lemons Edition
+
+Let's revisit our extra credit market.
+
+. . .
+
+Sellers: I'm going to randomly assign you to **real** or **fake** credits.
+
+. . .
+
+Check your email/phone now—I've sent half of you a message saying "REAL" and half "FAKE."
+
+. . .
+
+*(If you didn't get a message, your credit is FAKE.)*
+
+## Lemons Game: The Rules
+
+**Sellers**: You know if your credit is real (worth 1 point) or fake (worth 0).
+
+. . .
+
+**Buyers**: You *don't* know which sellers have real credits.
+
+. . .
+
+Sellers: What's your WTA now?
+
+Buyers: What's your WTP now?
+
+. . .
+
+**Submit your answers!**
+
+## Discussion: Lemons Game
+
+- What happened to the market?
+- Did good credits trade?
+- How does this compare to used cars, health insurance, job markets?
+
+## Real-World Responses
+
+How do markets cope with information problems?
+
+. . .
+
+- **Warranties and guarantees**
+- **Reputation systems** (Yelp, eBay ratings)
+- **Certification** (inspections, credentials)
+- **Regulation** (disclosure requirements)
+
+# Failure #2: Externalities {background-color="#800000"}
+
+When your choices affect others
+
+## What's an Externality?
+
+An **externality** is a cost or benefit that affects someone *not* involved in the transaction.
+
+. . .
+
+**Negative externality**: Your action harms others
+
+> Factory pollution, secondhand smoke, loud music
+
+. . .
+
+**Positive externality**: Your action helps others
+
+> Vaccinations, education, beautiful gardens
+
+## Why Externalities Cause Failure
+
+When you buy gas, you pay for:
+
+- The cost of extracting and refining oil
+- The gas station's markup
+
+. . .
+
+You *don't* pay for:
+
+- Air pollution affecting your neighbors
+- Climate change affecting everyone
+
+. . .
+
+> The market price is "wrong"—it doesn't reflect the true social cost.
+
+## The Result
+
+![](images/externality-diagram.svg){fig-align="center" width="70%"}
+
+## Too Much of a Bad Thing
+
+With negative externalities:
+
+- Private cost < Social cost
+- Market produces **too much** of the good
+- Total surplus is *not* maximized
+
+. . .
+
+> Pollution is the classic example. The market "fails" because prices don't include all costs.
+
+## Let's Play: Externalities Edition
+
+Back to our credit market.
+
+. . .
+
+New rule: Every trade now **costs the rest of the class 10 cents each**.
+
+. . .
+
+(Imagine each trade generates noise that bothers everyone.)
+
+. . .
+
+**Should the same trades happen as before?**
+
+## Discussion: Externality Game
+
+- Which trades were still beneficial overall?
+- Which trades were privately beneficial but socially harmful?
+- How might we fix this?
+
+# Failure #3: Market Power {background-color="#800000"}
+
+When someone controls the market
+
+## Perfect Competition Assumption
+
+The welfare theorem assumes **price-taking** behavior:
+
+> No individual buyer or seller can affect the market price.
+
+. . .
+
+But what if one seller controls most of the supply?
+
+## Monopoly Pricing
+
+A monopolist can **set** the price.
+
+. . .
+
+They'll charge more than the competitive price.
+
+. . .
+
+Result:
+
+- Some beneficial trades don't happen
+- Total surplus decreases
+- The monopolist captures more surplus, but overall pie shrinks
+
+## Let's Play: Monopoly Edition
+
+New game structure:
+
+. . .
+
+I'll sell all the credits to **one student** at the earlier market price.
+
+. . .
+
+That student becomes the **monopolist** and sells to everyone else.
+
+. . .
+
+**Monopolist**: What price will you charge?
+
+## Discussion: Monopoly Game
+
+- What price did the monopolist choose?
+- How many trades happened compared to the competitive market?
+- Who won? Who lost?
+
+## Real-World Market Power
+
+- **Tech giants**: Google, Apple, Amazon, Meta
+- **Pharmaceuticals**: Patent-protected drugs
+- **Utilities**: Natural monopolies (water, electricity)
+- **Local markets**: The only hospital in a rural area
+
+# Addressing Market Failures {background-color="#800000"}
+
+What can be done?
+
+## The Role of Government
+
+When markets fail, government intervention *can* help:
+
+. . .
+
+**Information problems**:
+
+- Disclosure requirements
+- Consumer protection laws
+- Professional licensing
+
+. . .
+
+**Externalities**:
+
+- Taxes on harmful activities (carbon tax)
+- Subsidies for beneficial activities (education)
+- Regulation (emission standards)
+
+## Government Responses (continued)
+
+**Market power**:
+
+- Antitrust enforcement
+- Price regulation for utilities
+- Promoting competition
+
+. . .
+
+> But government intervention has its own costs and can fail too. More on this later in the course.
+
+## The Coase Theorem
+
+Sometimes markets can solve their own failures.
+
+. . .
+
+**Coase's insight**: If property rights are clear and transaction costs are low, private bargaining can achieve efficiency.
+
+. . .
+
+*Example*: Factory pollutes, affects nearby residents.
+
+- If residents have right to clean air → factory pays them to allow pollution
+- If factory has right to pollute → residents pay factory to reduce
+
+. . .
+
+Either way, they negotiate to the efficient outcome!
+
+::: {.notes}
+Reference: Coase, R. (1960). "The Problem of Social Cost." Journal of Law and Economics.
+:::
+
+## When Coase Works (and Doesn't)
+
+**Works well**:
+
+- Small number of parties
+- Easy to measure the harm
+- Clear property rights
+
+. . .
+
+**Doesn't work**:
+
+- Many affected parties (climate change)
+- Hard to identify who's harmed
+- High transaction costs
+
+# Key Takeaways {background-color="#800000"}
+
+## What We Learned Today
+
+1. **Markets are powerful**: They maximize total surplus by exhausting gains from trade
+
+. . .
+
+2. **Prices are signals**: They coordinate complex activity without central planning
+
+. . .
+
+3. **Specialization creates value**: Comparative advantage means everyone benefits from trade
+
+. . .
+
+4. **Markets can fail**: Information asymmetry, externalities, and market power
+
+. . .
+
+5. **Failures can be addressed**: Government intervention, private bargaining, institutional design
+
+## The Bottom Line
+
+> A market is a wonderful thing.
+
+. . .
+
+Thinking like an economist means:
+
+- Understanding when markets work their magic
+- Recognizing when they don't
+- Designing institutions to help them succeed
+
+## Next Time
+
+**Equity vs. Efficiency**
+
+- Is maximizing surplus enough?
+- What about fairness?
+- The fundamental tradeoffs in economic policy

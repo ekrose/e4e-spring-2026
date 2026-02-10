@@ -7,6 +7,62 @@
     "text": "Week\nDate\nDay\nInstructor\nTopic\n\n\n\n\n1\nMar 24\nTue\nJohn\nThe Basics of Economics 1\n\n\n\nMar 26\nThu\nJohn\nThe Basics of Economics 2\n\n\n2\nMar 31\nTue\nJohn\nCorrelation vs Causation\n\n\n\nApr 2\nThu\nJohn\nExperimental Economics\n\n\n3\nApr 7\nTue\nJohn\nEducation\n\n\n\nApr 9\nThu\nJohn\nDiscrimination\n\n\n4\nApr 14\nTue\nJohn\nScaling\n\n\n\nApr 16\nThu\nJohn\nPartnerships with Organizations\n\n\n5\nApr 21\nTue\nJohn\nMidterm\n\n\n\nApr 23\nThu\nEvan\nIncentives\n\n\n6\nApr 28\nTue\nEvan\nMarkets and their failures\n\n\n\nApr 30\nThu\nEvan\nEquity vs. efficiency\n\n\n7\nMay 5\nTue\nEvan\nStatistical uncertainty\n\n\n\nMay 7\nThu\nEvan\nQuasi-experiments\n\n\n8\nMay 12\nTue\nEvan\nRisk and insurance\n\n\n\nMay 14\nThu\nEvan\nLabor markets\n\n\n9\nMay 19\nTue\nEvan\nTechnology, growth, and AI\n\n\n\nMay 21\nThu\nEvan\nMidterm\n\n\nFinals\nMay 26–29\n\n\nFinal Exam"
   },
   {
+    "objectID": "lectures/index.html",
+    "href": "lectures/index.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture slides will be posted here as the course progresses."
+  },
+  {
+    "objectID": "lectures/index.html#evans-lectures",
+    "href": "lectures/index.html#evans-lectures",
+    "title": "Lectures",
+    "section": "Evan’s Lectures",
+    "text": "Evan’s Lectures\n\nIncentives\nMarkets and Their Failures"
+  },
+  {
+    "objectID": "index.html#course-staff",
+    "href": "index.html#course-staff",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Course Staff",
+    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: TBD"
+  },
+  {
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Logistics",
+    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: TBD"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Course Description",
+    "text": "Course Description\nBecause modern economics puts such a heavy stress on technical rigor, the most interesting economic ideas are often buried behind abstract mathematical notation. Professors List and Rose will explore these big ideas without the math, making the beauty and power of economic thinking available to everyone.\nWe will discuss what it means to think like an economist, how you can use economic thinking to make the world a better place, and how economists think about today’s biggest issues, including what makes your rent get more expensive every year, why discrimination persists (and how to fix it), and how generative artificial intelligence will reshape the labor market."
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNo prior economics background required."
+  },
+  {
+    "objectID": "index.html#coursework",
+    "href": "index.html#coursework",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Coursework",
+    "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "lectures/incentives.html#recall-our-first-principle",
     "href": "lectures/incentives.html#recall-our-first-principle",
     "title": "Incentives",
@@ -294,6 +350,62 @@
     "text": "Loss aversion\nPeople feel losses more strongly than equivalent gains.\n\n\nLosing $100 feels worse than gaining $100 feels good\nRatio is roughly 2:1\n\n\n\nImplications:\n\nFraming matters (gains vs. losses)\nPeople may reject gambles that are favorable on average\nStatus quo bias"
   },
   {
+    "objectID": "lectures/incentives.html#the-asian-disease-problem",
+    "href": "lectures/incentives.html#the-asian-disease-problem",
+    "title": "Incentives",
+    "section": "The Asian Disease Problem",
+    "text": "The Asian Disease Problem\nA disease outbreak will kill 600 people. You must choose a response:\n\nThe name comes from Tversky & Kahneman’s original 1981 paper, which described “an unusual Asian disease” as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.\n\n\nFrame A (lives saved):\n\nProgram A: 200 people will be saved\nProgram B: 1/3 chance all 600 saved, 2/3 chance no one saved\n\n\n\nWhat do most people choose?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-asian-disease-problem-continued",
+    "href": "lectures/incentives.html#the-asian-disease-problem-continued",
+    "title": "Incentives",
+    "section": "The Asian Disease Problem (continued)",
+    "text": "The Asian Disease Problem (continued)\nNow consider a different framing:\n\nFrame B (lives lost):\n\nProgram C: 400 people will die\nProgram D: 1/3 chance no one dies, 2/3 chance all 600 die\n\n\n\nWhat do most people choose now?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-result",
+    "href": "lectures/incentives.html#the-result",
+    "title": "Incentives",
+    "section": "The result",
+    "text": "The result\nFrame A (gains): 72% choose the certain option (Program A)\nFrame B (losses): 78% choose the risky option (Program D)\n\nBut A = C and B = D!\n\n\n\nWhen facing gains, people are risk-averse.\nWhen facing losses, people are risk-seeking.\n\n\n\n(The name comes from the original 1981 paper’s hypothetical “unusual Asian disease”—chosen to be unfamiliar and politically neutral.)\n\nReference: Tversky & Kahneman (1981). “The Framing of Decisions and the Psychology of Choice.” Science."
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias",
+    "href": "lectures/incentives.html#present-bias",
+    "title": "Incentives",
+    "section": "Present bias",
+    "text": "Present bias\nQuestion 1: Would you rather have…\n\nA: $100 today\nB: $110 next week\n\n\nQuestion 2: Would you rather have…\n\nC: $100 in 52 weeks\nD: $110 in 53 weeks"
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias-continued",
+    "href": "lectures/incentives.html#present-bias-continued",
+    "title": "Incentives",
+    "section": "Present bias (continued)",
+    "text": "Present bias (continued)\nMost people choose A (money now) but D (more money later).\n\nBut wait—both questions have the same tradeoff: $10 for one week of waiting!\n\n\nThis is time-inconsistent behavior.\n\n\n\nPeople overweight immediate rewards relative to future rewards."
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias-in-action",
+    "href": "lectures/incentives.html#present-bias-in-action",
+    "title": "Incentives",
+    "section": "Present bias in action",
+    "text": "Present bias in action\nWhy present bias matters for policy:\n\n\nPeople under-save for retirement\nPeople procrastinate on exercise, healthy eating\nStudents cram instead of studying gradually\n\n\n\nPolicy responses:\n\nCommitment devices (automatic savings plans)\nDeadlines and penalties\n“Cooling off” periods for major purchases\n\n\nReference: Laibson (1997). “Golden Eggs and Hyperbolic Discounting.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#mental-accounting",
+    "href": "lectures/incentives.html#mental-accounting",
+    "title": "Incentives",
+    "section": "Mental accounting",
+    "text": "Mental accounting\nYou receive $1,000. How much would you spend on something fun?\n\nScenario A: It’s a tax refund\nScenario B: It’s from your regular paycheck\n\n\nMost people spend more in Scenario A—but why?\n\n\nMoney is fungible—a dollar is a dollar.\n\n\n\nPeople treat money differently depending on where it “comes from.”\n\n\nReference: Thaler (1999). “Mental Accounting Matters.” Journal of Behavioral Decision Making."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-sunk-cost-fallacy",
+    "href": "lectures/incentives.html#the-sunk-cost-fallacy",
+    "title": "Incentives",
+    "section": "The sunk cost fallacy",
+    "text": "The sunk cost fallacy\nYou paid $50 for a concert ticket. It’s raining, you feel sick, and you don’t want to go.\n\nShould you go?\n\n\nEconomically: The $50 is gone either way. Only future costs and benefits matter.\n\n\nIn practice: Most people go—to “not waste” the $50.\n\n\n\nPeople continue investing because of what they’ve already spent, not what they’ll gain."
+  },
+  {
     "objectID": "lectures/incentives.html#what-we-learned-today",
     "href": "lectures/incentives.html#what-we-learned-today",
     "title": "Incentives",
@@ -322,136 +434,430 @@
     "text": "Questions?"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "lectures/markets-failures.html#todays-journey",
+    "href": "lectures/markets-failures.html#todays-journey",
+    "title": "Markets and Their Failures",
+    "section": "Today’s Journey",
+    "text": "Today’s Journey\nMarkets are one of the most powerful institutions humans have ever created.\n\nToday we’ll explore:\n\nWhy markets are so good at delivering benefits\nHow prices coordinate complex economic activity\nThe gains from specialization\nWhen and why markets fail\nWhat we can do about those failures"
   },
   {
-    "objectID": "index.html#course-staff",
-    "href": "index.html#course-staff",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Course Staff",
-    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: TBD"
+    "objectID": "lectures/markets-failures.html#key-ideas-for-today",
+    "href": "lectures/markets-failures.html#key-ideas-for-today",
+    "title": "Markets and Their Failures",
+    "section": "Key Ideas for Today",
+    "text": "Key Ideas for Today\nGains from trade: The benefits buyers and sellers get from exchange\n\nComparative advantage: The returns to focusing on what you’re relatively better at\n\n\nMarkets as surplus maximizers: Under ideal conditions, markets deliver maximum total benefits\n\n\nMarket failures: Forces that prevent markets from achieving their potential"
   },
   {
-    "objectID": "index.html#logistics",
-    "href": "index.html#logistics",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Logistics",
-    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: TBD"
+    "objectID": "lectures/markets-failures.html#our-very-own-market",
+    "href": "lectures/markets-failures.html#our-very-own-market",
+    "title": "Markets and Their Failures",
+    "section": "Our Very Own Market",
+    "text": "Our Very Own Market\nI’m going to allocate half the class one point of extra credit.\n\nYou will be the sellers in this market.\n\n\nThe other half of the class will be the buyers."
   },
   {
-    "objectID": "index.html#course-description",
-    "href": "index.html#course-description",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Course Description",
-    "text": "Course Description\nBecause modern economics puts such a heavy stress on technical rigor, the most interesting economic ideas are often buried behind abstract mathematical notation. Professors List and Rose will explore these big ideas without the math, making the beauty and power of economic thinking available to everyone.\nWe will discuss what it means to think like an economist, how you can use economic thinking to make the world a better place, and how economists think about today’s biggest issues, including what makes your rent get more expensive every year, why discrimination persists (and how to fix it), and how generative artificial intelligence will reshape the labor market."
+    "objectID": "lectures/markets-failures.html#your-task",
+    "href": "lectures/markets-failures.html#your-task",
+    "title": "Markets and Their Failures",
+    "section": "Your Task",
+    "text": "Your Task\nIf you are a seller:\n\nReport the lowest price (in dollars) at which you would give up your extra credit point.\n\n\nIf you are a buyer:\n\nReport the highest price (in dollars) at which you would buy an extra credit point.\n\n\n\nTake a moment to reflect. What is that point really worth to you?"
   },
   {
-    "objectID": "index.html#prerequisites",
-    "href": "index.html#prerequisites",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nNo prior economics background required."
+    "objectID": "lectures/markets-failures.html#submit-your-answer",
+    "href": "lectures/markets-failures.html#submit-your-answer",
+    "title": "Markets and Their Failures",
+    "section": "Submit Your Answer",
+    "text": "Submit Your Answer\n[Poll link: pollev.com/e4e]"
   },
   {
-    "objectID": "index.html#coursework",
-    "href": "index.html#coursework",
-    "title": "Economics for Everyone | Spring 2026",
-    "section": "Coursework",
-    "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
+    "objectID": "lectures/markets-failures.html#lets-see-what-we-got",
+    "href": "lectures/markets-failures.html#lets-see-what-we-got",
+    "title": "Markets and Their Failures",
+    "section": "Let’s See What We Got",
+    "text": "Let’s See What We Got"
   },
   {
-    "objectID": "lectures/index.html",
-    "href": "lectures/index.html",
-    "title": "Lectures",
-    "section": "",
-    "text": "Lecture slides will be posted here as the course progresses."
+    "objectID": "lectures/markets-failures.html#discussion",
+    "href": "lectures/markets-failures.html#discussion",
+    "title": "Markets and Their Failures",
+    "section": "Discussion",
+    "text": "Discussion\n\nWho wants to trade at the equilibrium price?\n\n\n\nDo the traders benefit? How much?\n\n\n\n\nWhat about the people who didn’t trade?\n\n\n\n\nWhat role does the price play here?"
   },
   {
-    "objectID": "lectures/incentives.html#present-bias",
-    "href": "lectures/incentives.html#present-bias",
-    "title": "Incentives",
-    "section": "Present bias",
-    "text": "Present bias\nQuestion 1: Would you rather have…\n\nA: $100 today\nB: $110 next week\n\n\nQuestion 2: Would you rather have…\n\nC: $100 in 52 weeks\nD: $110 in 53 weeks"
+    "objectID": "lectures/markets-failures.html#willingness-to-pay-and-accept",
+    "href": "lectures/markets-failures.html#willingness-to-pay-and-accept",
+    "title": "Markets and Their Failures",
+    "section": "Willingness to Pay and Accept",
+    "text": "Willingness to Pay and Accept\nConsider a market for a single good (say, toasters).\n\nSellers each have a willingness to accept (WTA)\n\nThe smallest amount they’d take to part with the good\n\n\n\nBuyers each have a willingness to pay (WTP)\n\nThe highest amount they’d pay to acquire the good"
   },
   {
-    "objectID": "lectures/incentives.html#present-bias-in-action",
-    "href": "lectures/incentives.html#present-bias-in-action",
-    "title": "Incentives",
-    "section": "Present bias in action",
-    "text": "Present bias in action\nWhy present bias matters for policy:\n\n\nPeople under-save for retirement\nPeople procrastinate on exercise, healthy eating\nStudents cram instead of studying gradually\n\n\n\nPolicy responses:\n\nCommitment devices (automatic savings plans)\nDeadlines and penalties\n“Cooling off” periods for major purchases\n\n\nReference: Laibson (1997). “Golden Eggs and Hyperbolic Discounting.” Quarterly Journal of Economics."
+    "objectID": "lectures/markets-failures.html#surplus-the-gains-from-trade",
+    "href": "lectures/markets-failures.html#surplus-the-gains-from-trade",
+    "title": "Markets and Their Failures",
+    "section": "Surplus: The Gains from Trade",
+    "text": "Surplus: The Gains from Trade\nWhen a buyer pays less than their WTP:\n\nThey get consumer surplus = WTP - Price\n\n\nWhen a seller receives more than their WTA:\n\nThey get producer surplus = Price - WTA\n\n\n\nTotal surplus = Consumer surplus + Producer surplus"
   },
   {
-    "objectID": "lectures/incentives.html#mental-accounting",
-    "href": "lectures/incentives.html#mental-accounting",
-    "title": "Incentives",
-    "section": "Mental accounting",
-    "text": "Mental accounting\nYou receive $1,000. How much would you spend on something fun?\n\nScenario A: It’s a tax refund\nScenario B: It’s from your regular paycheck\n\n\nMost people spend more in Scenario A—but why?\n\n\nMoney is fungible—a dollar is a dollar.\n\n\n\nPeople treat money differently depending on where it “comes from.”\n\n\nReference: Thaler (1999). “Mental Accounting Matters.” Journal of Behavioral Decision Making."
+    "objectID": "lectures/markets-failures.html#what-happens-at-equilibrium",
+    "href": "lectures/markets-failures.html#what-happens-at-equilibrium",
+    "title": "Markets and Their Failures",
+    "section": "What Happens at Equilibrium?",
+    "text": "What Happens at Equilibrium?\nAt the equilibrium price \\(p\\):\n\n\nEvery seller with WTA ≤ \\(p\\) has sold\nEvery buyer with WTP ≥ \\(p\\) has bought\n\n\n\nThe only remaining sellers want more than \\(p\\).\nThe only remaining buyers will pay less than \\(p\\).\n\n\n\nNo more gains from trade exist!"
   },
   {
-    "objectID": "lectures/incentives.html#the-sunk-cost-fallacy",
-    "href": "lectures/incentives.html#the-sunk-cost-fallacy",
-    "title": "Incentives",
-    "section": "The sunk cost fallacy",
-    "text": "The sunk cost fallacy\nYou paid $50 for a concert ticket. It’s raining, you feel sick, and you don’t want to go.\n\nShould you go?\n\n\nEconomically: The $50 is gone either way. Only future costs and benefits matter.\n\n\nIn practice: Most people go—to “not waste” the $50.\n\n\n\nPeople continue investing because of what they’ve already spent, not what they’ll gain."
+    "objectID": "lectures/markets-failures.html#the-first-welfare-theorem-1",
+    "href": "lectures/markets-failures.html#the-first-welfare-theorem-1",
+    "title": "Markets and Their Failures",
+    "section": "The First Welfare Theorem",
+    "text": "The First Welfare Theorem\n\nUnder certain conditions, competitive markets automatically maximize total surplus.\n\n\nThis is remarkable. No central planner needed.\n\n\nJust people pursuing their own interests, guided by prices.\n\n\nAdam Smith called this the “invisible hand.”"
   },
   {
-    "objectID": "lectures/incentives.html#anchoring",
-    "href": "lectures/incentives.html#anchoring",
-    "title": "Incentives",
-    "section": "Anchoring",
-    "text": "Anchoring\nInitial information disproportionately influences judgments.\n\nClassic experiment: Spin a wheel (rigged to land on 10 or 65).\nAsk: “What percentage of African countries are in the UN?”\n\n\n\nWheel shows 10 → average guess: 25%\nWheel shows 65 → average guess: 45%\n\n\n\nThe random number shouldn’t matter—but it does.\n\nReference: Tversky & Kahneman (1974). “Judgment under Uncertainty: Heuristics and Biases.” Science."
+    "objectID": "lectures/markets-failures.html#price-discovery-in-the-real-world",
+    "href": "lectures/markets-failures.html#price-discovery-in-the-real-world",
+    "title": "Markets and Their Failures",
+    "section": "Price Discovery in the Real World",
+    "text": "Price Discovery in the Real World\nReal markets are messy. Prices don’t appear by magic.\n\nIf price is too high: Excess supply\n\nSellers undercut each other to secure trades\n\n\n\nIf price is too low: Excess demand\n\nBuyers offer premiums to secure goods\n\n\n\nMarket pressures push toward equilibrium."
   },
   {
-    "objectID": "lectures/incentives.html#anchoring-in-the-real-world",
-    "href": "lectures/incentives.html#anchoring-in-the-real-world",
-    "title": "Incentives",
-    "section": "Anchoring in the real world",
-    "text": "Anchoring in the real world\nWhere anchoring affects economic decisions:\n\n\nNegotiations: First offer sets the range\nRetail: “Was $100, now $60!” vs. just “$60”\nSentencing: Prosecutors’ recommendations influence judges\nSalaries: Your current pay anchors future offers"
+    "objectID": "lectures/markets-failures.html#examples-of-price-discovery",
+    "href": "lectures/markets-failures.html#examples-of-price-discovery",
+    "title": "Markets and Their Failures",
+    "section": "Examples of Price Discovery",
+    "text": "Examples of Price Discovery\nRetail inventory management\n\nPrices drop when shelves are full\nPrices rise when stock runs low\n\n\nAuctions\n\neBay, art markets, Treasury bonds\nPrice emerges from competitive bidding\n\n\n\nEntry and exit\n\nHigh profits → new firms enter → prices fall\nLosses → firms exit → prices rise"
   },
   {
-    "objectID": "lectures/incentives.html#using-biases-for-good-nudges",
-    "href": "lectures/incentives.html#using-biases-for-good-nudges",
-    "title": "Incentives",
-    "section": "Using biases for good: Nudges",
-    "text": "Using biases for good: Nudges\nA nudge is a small design change that influences behavior without restricting choice.\n\nExamples:\n\nAutomatic enrollment in retirement savings\nPutting healthy food at eye level in cafeterias\nDefault to double-sided printing\n\n\n\n\n“Libertarian paternalism”—helping people make better choices for themselves.\n\n\nReference: Thaler & Sunstein (2008). “Nudge: Improving Decisions About Health, Wealth, and Happiness.”"
+    "objectID": "lectures/markets-failures.html#a-deeper-point",
+    "href": "lectures/markets-failures.html#a-deeper-point",
+    "title": "Markets and Their Failures",
+    "section": "A Deeper Point",
+    "text": "A Deeper Point\nYou might think: supply and demand determine price.\n\nBut in practice, prices are discovered through experimentation.\n\n\nIn this sense: prices determine supply and demand.\n\n\nPrices are signals that coordinate behavior."
   },
   {
-    "objectID": "lectures/incentives.html#the-policy-debate",
-    "href": "lectures/incentives.html#the-policy-debate",
-    "title": "Incentives",
-    "section": "The policy debate",
-    "text": "The policy debate\nCritics of nudges argue:\n\n\nWho decides what’s “better”?\nSlippery slope to manipulation\nTreats symptoms, not causes\n\n\n\nDefenders respond:\n\n\n\nThere’s always a default—might as well make it good\nPreserves freedom of choice\nLow cost, high impact"
+    "objectID": "lectures/markets-failures.html#case-study-gold",
+    "href": "lectures/markets-failures.html#case-study-gold",
+    "title": "Markets and Their Failures",
+    "section": "Case Study: Gold",
+    "text": "Case Study: Gold\nWhat determines how much gold gets mined?"
   },
   {
-    "objectID": "lectures/incentives.html#the-asian-disease-problem",
-    "href": "lectures/incentives.html#the-asian-disease-problem",
-    "title": "Incentives",
-    "section": "The Asian Disease Problem",
-    "text": "The Asian Disease Problem\nA disease outbreak will kill 600 people. You must choose a response:\n\nThe name comes from Tversky & Kahneman’s original 1981 paper, which described “an unusual Asian disease” as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.\n\n\nFrame A (lives saved):\n\nProgram A: 200 people will be saved\nProgram B: 1/3 chance all 600 saved, 2/3 chance no one saved\n\n\n\nWhat do most people choose?"
+    "objectID": "lectures/markets-failures.html#gold-when-demand-surges",
+    "href": "lectures/markets-failures.html#gold-when-demand-surges",
+    "title": "Markets and Their Failures",
+    "section": "Gold: When Demand Surges",
+    "text": "Gold: When Demand Surges\nWhen demand for gold increases:\n\n\nPrice rises\n\n\n\n\nMining operations that were unprofitable become profitable\n\n\n\n\nSupply expands\n\n\n\n\nThe price signal coordinated this response—no central planner required."
   },
   {
-    "objectID": "lectures/incentives.html#the-asian-disease-problem-continued",
-    "href": "lectures/incentives.html#the-asian-disease-problem-continued",
-    "title": "Incentives",
-    "section": "The Asian Disease Problem (continued)",
-    "text": "The Asian Disease Problem (continued)\nNow consider a different framing:\n\nFrame B (lives lost):\n\nProgram C: 400 people will die\nProgram D: 1/3 chance no one dies, 2/3 chance all 600 die\n\n\n\nWhat do most people choose now?"
+    "objectID": "lectures/markets-failures.html#beyond-single-markets",
+    "href": "lectures/markets-failures.html#beyond-single-markets",
+    "title": "Markets and Their Failures",
+    "section": "Beyond Single Markets",
+    "text": "Beyond Single Markets\nPrices don’t just coordinate within a market.\n\nThey coordinate across markets.\n\n\nThis unlocks the gains from specialization and comparative advantage."
   },
   {
-    "objectID": "lectures/incentives.html#the-result",
-    "href": "lectures/incentives.html#the-result",
-    "title": "Incentives",
-    "section": "The result",
-    "text": "The result\nFrame A (gains): 72% choose the certain option (Program A)\nFrame B (losses): 78% choose the risky option (Program D)\n\nBut A = C and B = D!\n\n\n\nWhen facing gains, people are risk-averse.\nWhen facing losses, people are risk-seeking.\n\n\n\n(The name comes from the original 1981 paper’s hypothetical “unusual Asian disease”—chosen to be unfamiliar and politically neutral.)\n\nReference: Tversky & Kahneman (1981). “The Framing of Decisions and the Psychology of Choice.” Science."
+    "objectID": "lectures/markets-failures.html#a-tale-of-two-students",
+    "href": "lectures/markets-failures.html#a-tale-of-two-students",
+    "title": "Markets and Their Failures",
+    "section": "A Tale of Two Students",
+    "text": "A Tale of Two Students\nMeet Alex and Jordan. They’re working on a group project that requires:\n\nWriting a 10-page report\nBuilding a website\n\n\nHere’s how long each task takes them:\n\n\n\nTask\nAlex\nJordan\n\n\n\n\nWrite report\n10 hours\n5 hours\n\n\nBuild website\n2 hours\n4 hours"
   },
   {
-    "objectID": "lectures/incentives.html#present-bias-continued",
-    "href": "lectures/incentives.html#present-bias-continued",
-    "title": "Incentives",
-    "section": "Present bias (continued)",
-    "text": "Present bias (continued)\nMost people choose A (money now) but D (more money later).\n\nBut wait—both questions have the same tradeoff: $10 for one week of waiting!\n\n\nThis is time-inconsistent behavior.\n\n\n\nPeople overweight immediate rewards relative to future rewards."
+    "objectID": "lectures/markets-failures.html#whos-better",
+    "href": "lectures/markets-failures.html#whos-better",
+    "title": "Markets and Their Failures",
+    "section": "Who’s “Better”?",
+    "text": "Who’s “Better”?\nAbsolute advantage: Who can do the task faster?\n\n\nJordan is faster at writing (5 hrs vs 10 hrs)\nAlex is faster at coding (2 hrs vs 4 hrs)\n\n\n\nSeems obvious: Jordan writes, Alex codes.\n\n\nBut what if there were two reports and two websites?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-surprising-math",
+    "href": "lectures/markets-failures.html#the-surprising-math",
+    "title": "Markets and Their Failures",
+    "section": "The Surprising Math",
+    "text": "The Surprising Math\nWithout specialization (each does one of each):\n\n\n\n\nAlex\nJordan\nTotal\n\n\n\n\nReport\n10 hrs\n5 hrs\n\n\n\nWebsite\n2 hrs\n4 hrs\n\n\n\nTotal\n12 hrs\n9 hrs\n21 hrs"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#with-specialization",
+    "href": "lectures/markets-failures.html#with-specialization",
+    "title": "Markets and Their Failures",
+    "section": "With Specialization",
+    "text": "With Specialization\nWhat if Alex does both websites and Jordan does both reports?\n\n\n\n\n\nAlex\nJordan\nTotal\n\n\n\n\nReports\n0\n10 hrs\n\n\n\nWebsites\n4 hrs\n0\n\n\n\nTotal\n4 hrs\n10 hrs\n14 hrs\n\n\n\n\n\n\n7 hours saved! Same output, less total work."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#comparative-advantage",
+    "href": "lectures/markets-failures.html#comparative-advantage",
+    "title": "Markets and Their Failures",
+    "section": "Comparative Advantage",
+    "text": "Comparative Advantage\nComparative advantage: Who has the lower opportunity cost?\n\nFor Alex, building a website costs:\n\n2 hours that could have produced 2/10 = 0.2 reports\n\n\n\nFor Jordan, building a website costs:\n\n4 hours that could have produced 4/5 = 0.8 reports\n\n\n\nAlex has the comparative advantage in websites (lower opportunity cost)."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-key-insight",
+    "href": "lectures/markets-failures.html#the-key-insight",
+    "title": "Markets and Their Failures",
+    "section": "The Key Insight",
+    "text": "The Key Insight\nEven if someone is better at everything (absolute advantage in all tasks)…\n\n…there are still gains from specialization based on comparative advantage.\n\n\n\nThis is why countries trade. This is why you don’t grow your own food."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#how-prices-coordinate-specialization",
+    "href": "lectures/markets-failures.html#how-prices-coordinate-specialization",
+    "title": "Markets and Their Failures",
+    "section": "How Prices Coordinate Specialization",
+    "text": "How Prices Coordinate Specialization\nHow do Alex and Jordan know who should do what?\n\nIn real markets: prices and wages provide the signal.\n\n\n\nHigh wages for coders → more people learn to code\nLow prices for imported goods → domestic producers shift to other products\n\n\n\nNo one needs to see the whole picture. Prices coordinate automatically."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#remember-those-conditions",
+    "href": "lectures/markets-failures.html#remember-those-conditions",
+    "title": "Markets and Their Failures",
+    "section": "Remember Those “Conditions”?",
+    "text": "Remember Those “Conditions”?\nThe First Welfare Theorem says markets maximize surplus…\n\n…under certain conditions.\n\n\nWhen these conditions fail, we get market failures.\n\n\nLet’s explore the three most important ones."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-market-for-lemons",
+    "href": "lectures/markets-failures.html#the-market-for-lemons",
+    "title": "Markets and Their Failures",
+    "section": "The Market for “Lemons”",
+    "text": "The Market for “Lemons”\nImagine you’re buying a used car.\n\n\nSome used cars are great (“peaches”)\nSome are terrible (“lemons”)\n\n\n\nThe seller knows which type they have. You don’t."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-happens",
+    "href": "lectures/markets-failures.html#what-happens",
+    "title": "Markets and Their Failures",
+    "section": "What Happens?",
+    "text": "What Happens?\nYou’re willing to pay the average value.\n\nBut sellers of good cars won’t accept that—it’s below their car’s worth.\n\n\nSo good cars exit the market.\n\n\nOnly lemons remain!\n\n\n\nAdverse selection: The market unravels because of information asymmetry.\n\n\nReference: Akerlof, G. (1970). “The Market for Lemons.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-play-lemons-edition",
+    "href": "lectures/markets-failures.html#lets-play-lemons-edition",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Play: Lemons Edition",
+    "text": "Let’s Play: Lemons Edition\nLet’s revisit our extra credit market.\n\nSellers: I’m going to randomly assign you to real or fake credits.\n\n\nCheck your email/phone now—I’ve sent half of you a message saying “REAL” and half “FAKE.”\n\n\n(If you didn’t get a message, your credit is FAKE.)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion-lemons-game",
+    "href": "lectures/markets-failures.html#discussion-lemons-game",
+    "title": "Markets and Their Failures",
+    "section": "Discussion: Lemons Game",
+    "text": "Discussion: Lemons Game\n\nWhat happened to the market?\nDid good credits trade?\nHow does this compare to used cars, health insurance, job markets?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#real-world-responses",
+    "href": "lectures/markets-failures.html#real-world-responses",
+    "title": "Markets and Their Failures",
+    "section": "Real-World Responses",
+    "text": "Real-World Responses\nHow do markets cope with information problems?\n\n\nWarranties and guarantees\nReputation systems (Yelp, eBay ratings)\nCertification (inspections, credentials)\nRegulation (disclosure requirements)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#whats-an-externality",
+    "href": "lectures/markets-failures.html#whats-an-externality",
+    "title": "Markets and Their Failures",
+    "section": "What’s an Externality?",
+    "text": "What’s an Externality?\nAn externality is a cost or benefit that affects someone not involved in the transaction.\n\nNegative externality: Your action harms others\n\nFactory pollution, secondhand smoke, loud music\n\n\n\nPositive externality: Your action helps others\n\nVaccinations, education, beautiful gardens"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-externalities-cause-failure",
+    "href": "lectures/markets-failures.html#why-externalities-cause-failure",
+    "title": "Markets and Their Failures",
+    "section": "Why Externalities Cause Failure",
+    "text": "Why Externalities Cause Failure\nWhen you buy gas, you pay for:\n\nThe cost of extracting and refining oil\nThe gas station’s markup\n\n\nYou don’t pay for:\n\nAir pollution affecting your neighbors\nClimate change affecting everyone\n\n\n\n\nThe market price is “wrong”—it doesn’t reflect the true social cost."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-result",
+    "href": "lectures/markets-failures.html#the-result",
+    "title": "Markets and Their Failures",
+    "section": "The Result",
+    "text": "The Result"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#too-much-of-a-bad-thing",
+    "href": "lectures/markets-failures.html#too-much-of-a-bad-thing",
+    "title": "Markets and Their Failures",
+    "section": "Too Much of a Bad Thing",
+    "text": "Too Much of a Bad Thing\nWith negative externalities:\n\nPrivate cost &lt; Social cost\nMarket produces too much of the good\nTotal surplus is not maximized\n\n\n\nPollution is the classic example. The market “fails” because prices don’t include all costs."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-play-externalities-edition",
+    "href": "lectures/markets-failures.html#lets-play-externalities-edition",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Play: Externalities Edition",
+    "text": "Let’s Play: Externalities Edition\nBack to our credit market.\n\nNew rule: Every trade now costs the rest of the class 10 cents each.\n\n\n(Imagine each trade generates noise that bothers everyone.)\n\n\nShould the same trades happen as before?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion-externality-game",
+    "href": "lectures/markets-failures.html#discussion-externality-game",
+    "title": "Markets and Their Failures",
+    "section": "Discussion: Externality Game",
+    "text": "Discussion: Externality Game\n\nWhich trades were still beneficial overall?\nWhich trades were privately beneficial but socially harmful?\nHow might we fix this?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#perfect-competition-assumption",
+    "href": "lectures/markets-failures.html#perfect-competition-assumption",
+    "title": "Markets and Their Failures",
+    "section": "Perfect Competition Assumption",
+    "text": "Perfect Competition Assumption\nThe welfare theorem assumes price-taking behavior:\n\nNo individual buyer or seller can affect the market price.\n\n\nBut what if one seller controls most of the supply?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#monopoly-pricing",
+    "href": "lectures/markets-failures.html#monopoly-pricing",
+    "title": "Markets and Their Failures",
+    "section": "Monopoly Pricing",
+    "text": "Monopoly Pricing\nA monopolist can set the price.\n\nThey’ll charge more than the competitive price.\n\n\nResult:\n\nSome beneficial trades don’t happen\nTotal surplus decreases\nThe monopolist captures more surplus, but overall pie shrinks"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-play-monopoly-edition",
+    "href": "lectures/markets-failures.html#lets-play-monopoly-edition",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Play: Monopoly Edition",
+    "text": "Let’s Play: Monopoly Edition\nNew game structure:\n\nI’ll sell all the credits to one student at the earlier market price.\n\n\nThat student becomes the monopolist and sells to everyone else.\n\n\nMonopolist: What price will you charge?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion-monopoly-game",
+    "href": "lectures/markets-failures.html#discussion-monopoly-game",
+    "title": "Markets and Their Failures",
+    "section": "Discussion: Monopoly Game",
+    "text": "Discussion: Monopoly Game\n\nWhat price did the monopolist choose?\nHow many trades happened compared to the competitive market?\nWho won? Who lost?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#real-world-market-power",
+    "href": "lectures/markets-failures.html#real-world-market-power",
+    "title": "Markets and Their Failures",
+    "section": "Real-World Market Power",
+    "text": "Real-World Market Power\n\nTech giants: Google, Apple, Amazon, Meta\nPharmaceuticals: Patent-protected drugs\nUtilities: Natural monopolies (water, electricity)\nLocal markets: The only hospital in a rural area"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-role-of-government",
+    "href": "lectures/markets-failures.html#the-role-of-government",
+    "title": "Markets and Their Failures",
+    "section": "The Role of Government",
+    "text": "The Role of Government\nWhen markets fail, government intervention can help:\n\nInformation problems:\n\nDisclosure requirements\nConsumer protection laws\nProfessional licensing\n\n\n\nExternalities:\n\nTaxes on harmful activities (carbon tax)\nSubsidies for beneficial activities (education)\nRegulation (emission standards)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#government-responses-continued",
+    "href": "lectures/markets-failures.html#government-responses-continued",
+    "title": "Markets and Their Failures",
+    "section": "Government Responses (continued)",
+    "text": "Government Responses (continued)\nMarket power:\n\nAntitrust enforcement\nPrice regulation for utilities\nPromoting competition\n\n\n\nBut government intervention has its own costs and can fail too. More on this later in the course."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-coase-theorem",
+    "href": "lectures/markets-failures.html#the-coase-theorem",
+    "title": "Markets and Their Failures",
+    "section": "The Coase Theorem",
+    "text": "The Coase Theorem\nSometimes markets can solve their own failures.\n\nCoase’s insight: If property rights are clear and transaction costs are low, private bargaining can achieve efficiency.\n\n\nExample: Factory pollutes, affects nearby residents.\n\nIf residents have right to clean air → factory pays them to allow pollution\nIf factory has right to pollute → residents pay factory to reduce\n\n\n\nEither way, they negotiate to the efficient outcome!\n\nReference: Coase, R. (1960). “The Problem of Social Cost.” Journal of Law and Economics."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#when-coase-works-and-doesnt",
+    "href": "lectures/markets-failures.html#when-coase-works-and-doesnt",
+    "title": "Markets and Their Failures",
+    "section": "When Coase Works (and Doesn’t)",
+    "text": "When Coase Works (and Doesn’t)\nWorks well:\n\nSmall number of parties\nEasy to measure the harm\nClear property rights\n\n\nDoesn’t work:\n\nMany affected parties (climate change)\nHard to identify who’s harmed\nHigh transaction costs"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-we-learned-today",
+    "href": "lectures/markets-failures.html#what-we-learned-today",
+    "title": "Markets and Their Failures",
+    "section": "What We Learned Today",
+    "text": "What We Learned Today\n\nMarkets are powerful: They maximize total surplus by exhausting gains from trade\n\n\n\nPrices are signals: They coordinate complex activity without central planning\n\n\n\n\nSpecialization creates value: Comparative advantage means everyone benefits from trade\n\n\n\n\nMarkets can fail: Information asymmetry, externalities, and market power\n\n\n\n\nFailures can be addressed: Government intervention, private bargaining, institutional design"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-bottom-line",
+    "href": "lectures/markets-failures.html#the-bottom-line",
+    "title": "Markets and Their Failures",
+    "section": "The Bottom Line",
+    "text": "The Bottom Line\n\nA market is a wonderful thing.\n\n\nThinking like an economist means:\n\nUnderstanding when markets work their magic\nRecognizing when they don’t\nDesigning institutions to help them succeed"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#next-time",
+    "href": "lectures/markets-failures.html#next-time",
+    "title": "Markets and Their Failures",
+    "section": "Next Time",
+    "text": "Next Time\nEquity vs. Efficiency\n\nIs maximizing surplus enough?\nWhat about fairness?\nThe fundamental tradeoffs in economic policy"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#prices-as-signals",
+    "href": "lectures/markets-failures.html#prices-as-signals",
+    "title": "Markets and Their Failures",
+    "section": "Prices as Signals",
+    "text": "Prices as Signals\nHere’s something remarkable about the equilibrium price:\n\nFor sellers: The price reflects the marginal cost of production\n\nThe cost of producing one more unit\n\n\n\nFor buyers: The price reflects the marginal benefit of consumption\n\nThe value of consuming one more unit\n\n\n\nAt equilibrium: Marginal cost = Marginal benefit = Price"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-this-matters",
+    "href": "lectures/markets-failures.html#why-this-matters",
+    "title": "Markets and Their Failures",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThe price tells producers: “This is what society values an extra unit at.”\n\nThe price tells consumers: “This is what it costs society to make an extra unit.”\n\n\n\nPrices coordinate decisions across millions of people who will never meet.\n\n\n\nNo one needs to know the whole picture. The price contains the information."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#but-waitwhat-if-one-person-is-better-at-everything",
+    "href": "lectures/markets-failures.html#but-waitwhat-if-one-person-is-better-at-everything",
+    "title": "Markets and Their Failures",
+    "section": "But Wait—What If One Person Is Better at Everything?",
+    "text": "But Wait—What If One Person Is Better at Everything?\nNew example: Sam and Taylor\n\n\n\nTask\nSam\nTaylor\n\n\n\n\nWrite report\n2 hours\n6 hours\n\n\nBuild website\n1 hour\n4 hours\n\n\n\n\nSam has absolute advantage in both tasks!\n\n\nShould Sam just do everything?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-do-the-math",
+    "href": "lectures/markets-failures.html#lets-do-the-math",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Do the Math",
+    "text": "Let’s Do the Math\nSuppose we need 2 reports and 2 websites.\n\nIf Sam does everything:\n\n2 reports × 2 hrs + 2 websites × 1 hr = 6 hours for Sam\nTaylor does nothing\n\n\n\nIf they split evenly (1 each):\n\nSam: 2 + 1 = 3 hrs\nTaylor: 6 + 4 = 10 hrs\nTotal: 13 hours"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-power-of-comparative-advantage",
+    "href": "lectures/markets-failures.html#the-power-of-comparative-advantage",
+    "title": "Markets and Their Failures",
+    "section": "The Power of Comparative Advantage",
+    "text": "The Power of Comparative Advantage\nWhat’s each person’s opportunity cost of a website?\n\nSam: 1 hr website = 0.5 reports given up\nTaylor: 4 hr website = 4/6 = 0.67 reports given up\n\n\nSam has comparative advantage in websites (lower opportunity cost).\nTaylor has comparative advantage in… reports!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#specialization-wins-again",
+    "href": "lectures/markets-failures.html#specialization-wins-again",
+    "title": "Markets and Their Failures",
+    "section": "Specialization Wins Again",
+    "text": "Specialization Wins Again\nTaylor does 2 reports, Sam does 2 websites:\n\nSam: 2 websites × 1 hr = 2 hours\nTaylor: 2 reports × 6 hrs = 12 hours\nTotal: 14 hours\n\n\nBut wait—Sam had 4 hours of free time. What if Sam helps with reports?\n\n\nSam does 2 websites + 1 report, Taylor does 1 report:\n\nSam: 2 + 2 = 4 hours\nTaylor: 6 hours\nTotal: 10 hours (vs 13 without specialization)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#comparative-advantage-the-key-insight",
+    "href": "lectures/markets-failures.html#comparative-advantage-the-key-insight",
+    "title": "Markets and Their Failures",
+    "section": "Comparative Advantage: The Key Insight",
+    "text": "Comparative Advantage: The Key Insight\n\nEven if someone is better at everything, there are still gains from specialization based on comparative advantage.\n\n\nThe person with absolute advantage in everything should focus on what they’re relatively best at.\n\n\nThis is why countries trade. This is why you don’t grow your own food."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#how-do-people-know-what-to-specialize-in",
+    "href": "lectures/markets-failures.html#how-do-people-know-what-to-specialize-in",
+    "title": "Markets and Their Failures",
+    "section": "How Do People Know What to Specialize In?",
+    "text": "How Do People Know What to Specialize In?\nIn our examples, we calculated opportunity costs.\n\nIn real life, nobody does this math. So how does it work?\n\n\nPrices tell you."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#prices-coordinate-specialization",
+    "href": "lectures/markets-failures.html#prices-coordinate-specialization",
+    "title": "Markets and Their Failures",
+    "section": "Prices Coordinate Specialization",
+    "text": "Prices Coordinate Specialization\nSuppose there’s a market for coding and writing work:\n\n\n\nTask\nMarket Price\n\n\n\n\nWrite 1 report\n$100\n\n\nBuild 1 website\n$150\n\n\n\n\nWhat should Sam do? What should Taylor do?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#calculating-returns",
+    "href": "lectures/markets-failures.html#calculating-returns",
+    "title": "Markets and Their Failures",
+    "section": "Calculating Returns",
+    "text": "Calculating Returns\nSam’s hourly earnings:\n\nWriting: $100 / 2 hrs = $50/hr\nCoding: $150 / 1 hr = $150/hr\n\n\nTaylor’s hourly earnings:\n\nWriting: $100 / 6 hrs = $17/hr\nCoding: $150 / 4 hrs = $38/hr\n\n\n\nSam should code. Taylor should… also code?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-market-adjusts",
+    "href": "lectures/markets-failures.html#the-market-adjusts",
+    "title": "Markets and Their Failures",
+    "section": "The Market Adjusts",
+    "text": "The Market Adjusts\nIf everyone wants to code, what happens?\n\n\nSupply of coding ↑ → coding prices ↓\nSupply of writing ↓ → writing prices ↑\n\n\n\nPrices adjust until it’s worthwhile for someone to write.\n\n\n\nRelative prices guide each person to their comparative advantage—automatically."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-magic",
+    "href": "lectures/markets-failures.html#the-magic",
+    "title": "Markets and Their Failures",
+    "section": "The Magic",
+    "text": "The Magic\nNo one needs to know everyone’s abilities.\n\nNo one needs to calculate opportunity costs.\n\n\nPrices contain the information needed to coordinate specialization across millions of people.\n\n\n\nThis is the “invisible hand” at work."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lemons-game-the-rules",
+    "href": "lectures/markets-failures.html#lemons-game-the-rules",
+    "title": "Markets and Their Failures",
+    "section": "Lemons Game: The Rules",
+    "text": "Lemons Game: The Rules\nSellers: You know if your credit is real (worth 1 point) or fake (worth 0).\n\nBuyers: You don’t know which sellers have real credits.\n\n\nSellers: What’s your WTA now?\nBuyers: What’s your WTP now?\n\n\nSubmit your answers!"
   }
 ]
