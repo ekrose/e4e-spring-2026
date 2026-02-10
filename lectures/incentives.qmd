@@ -459,7 +459,11 @@ The planners wise up. They switch to a quota **by weight**.
 
 . . .
 
-Factory switched to producing only huge nails.
+Factory switched to producing only huge nails—as in the cartoon:
+
+> *"Who needs such a nail?"*
+>
+> *"That's nothing! The main thing is we immediately fulfilled the plan for nails..."*
 
 . . .
 
@@ -643,6 +647,10 @@ People feel losses more strongly than equivalent gains.
 
 A disease outbreak will kill 600 people. You must choose a response:
 
+::: {.notes}
+The name comes from Tversky & Kahneman's original 1981 paper, which described "an unusual Asian disease" as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.
+:::
+
 . . .
 
 **Frame A (lives saved):**
@@ -689,6 +697,10 @@ But A = C and B = D!
 >
 > When facing losses, people are **risk-seeking**.
 
+. . .
+
+*(The name comes from the original 1981 paper's hypothetical "unusual Asian disease"—chosen to be unfamiliar and politically neutral.)*
+
 ::: {.notes}
 Reference: Tversky & Kahneman (1981). "The Framing of Decisions and the Psychology of Choice." Science.
 :::
@@ -697,19 +709,35 @@ Reference: Tversky & Kahneman (1981). "The Framing of Decisions and the Psycholo
 
 ## Present bias
 
-People overweight immediate rewards relative to future rewards.
+**Question 1:** Would you rather have...
+
+- **A:** $100 today
+- **B:** $110 next week
 
 . . .
 
-**Example:** You prefer $100 today over $110 next week.
+**Question 2:** Would you rather have...
+
+- **C:** $100 in 52 weeks
+- **D:** $110 in 53 weeks
+
+---
+
+## Present bias (continued)
+
+Most people choose **A** (money now) but **D** (more money later).
 
 . . .
 
-But you'd take $110 in 53 weeks over $100 in 52 weeks.
+But wait—both questions have the same tradeoff: $10 for one week of waiting!
 
 . . .
 
-Same tradeoff, different choice. This is **time-inconsistent**.
+This is **time-inconsistent** behavior.
+
+. . .
+
+> People overweight immediate rewards relative to future rewards.
 
 ---
 
@@ -739,19 +767,25 @@ Reference: Laibson (1997). "Golden Eggs and Hyperbolic Discounting." Quarterly J
 
 ## Mental accounting
 
-People treat money differently depending on where it "comes from."
+You receive $1,000. How much would you spend on something fun?
 
 . . .
 
-**Example:** You're more likely to spend a $1,000 tax refund than $1,000 from your regular paycheck.
+**Scenario A:** It's a tax refund
+
+**Scenario B:** It's from your regular paycheck
 
 . . .
 
-But money is **fungible**—a dollar is a dollar.
+Most people spend more in Scenario A—but why?
 
 . . .
 
-Why might this be rational? (Budgeting, self-control)
+Money is **fungible**—a dollar is a dollar.
+
+. . .
+
+> People treat money differently depending on where it "comes from."
 
 ::: {.notes}
 Reference: Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Decision Making.
@@ -761,15 +795,11 @@ Reference: Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Dec
 
 ## The sunk cost fallacy
 
-People continue investing in something because of what they've already spent.
+You paid $50 for a concert ticket. It's raining, you feel sick, and you don't want to go.
 
 . . .
 
-**Example:** You paid $50 for a concert ticket. It's raining, you feel sick, and you don't want to go.
-
-. . .
-
-Should you go?
+**Should you go?**
 
 . . .
 
@@ -777,89 +807,11 @@ Should you go?
 
 . . .
 
-**In practice:** People often go—to "not waste" the $50.
-
----
-
-## Anchoring
-
-Initial information disproportionately influences judgments.
+**In practice:** Most people go—to "not waste" the $50.
 
 . . .
 
-**Classic experiment:** Spin a wheel (rigged to land on 10 or 65).
-
-Ask: "What percentage of African countries are in the UN?"
-
-. . .
-
-- Wheel shows 10 → average guess: **25%**
-- Wheel shows 65 → average guess: **45%**
-
-. . .
-
-The random number shouldn't matter—but it does.
-
-::: {.notes}
-Reference: Tversky & Kahneman (1974). "Judgment under Uncertainty: Heuristics and Biases." Science.
-:::
-
----
-
-## Anchoring in the real world
-
-Where anchoring affects economic decisions:
-
-. . .
-
-- **Negotiations:** First offer sets the range
-- **Retail:** "Was $100, now $60!" vs. just "$60"
-- **Sentencing:** Prosecutors' recommendations influence judges
-- **Salaries:** Your current pay anchors future offers
-
----
-
-## Using biases for good: Nudges
-
-A **nudge** is a small design change that influences behavior without restricting choice.
-
-. . .
-
-**Examples:**
-
-- Automatic enrollment in retirement savings
-- Putting healthy food at eye level in cafeterias
-- Default to double-sided printing
-
-. . .
-
-> "Libertarian paternalism"—helping people make better choices for themselves.
-
-::: {.notes}
-Reference: Thaler & Sunstein (2008). "Nudge: Improving Decisions About Health, Wealth, and Happiness."
-:::
-
----
-
-## The policy debate
-
-**Critics of nudges argue:**
-
-. . .
-
-- Who decides what's "better"?
-- Slippery slope to manipulation
-- Treats symptoms, not causes
-
-. . .
-
-**Defenders respond:**
-
-. . .
-
-- There's always a default—might as well make it good
-- Preserves freedom of choice
-- Low cost, high impact
+> People continue investing because of what they've already spent, not what they'll gain.
 
 # Wrapping up {background-color="#800000"}
 
