@@ -369,89 +369,76 @@ What if Alex does *both* websites and Jordan does *both* reports?
 
 > **7 hours saved!** Same output, less total work.
 
-## But Wait—What If One Person Is Better at Everything?
+## What If One Person Is Better at Everything?
 
-New example: **Sam** and **Taylor**
+New example: **Sam** and **Taylor** face a **deadline**.
+
+They need 2 reports and 2 websites done by 5pm. It's now 11am.
 
 | Task | Sam | Taylor |
 |------|-----|--------|
-| Write report | 2 hours | 6 hours |
-| Build website | 1 hour | 4 hours |
+| Write report | 2 hours | 4 hours |
+| Build website | 1 hour | 2 hours |
+
+Sam is faster at **both** tasks!
+
+## The Deadline Problem
+
+If Sam does everything alone:
+
+- 2 reports (4 hrs) + 2 websites (2 hrs) = **6 hours**
+- Done by 5pm? Yes!
 
 . . .
 
-Sam has **absolute advantage in both tasks**!
+But what if they only have **4 hours** until deadline?
 
 . . .
 
-Should Sam just do everything?
+Sam alone can't finish. They need to work **in parallel**.
 
-## Let's Do the Math
+## Working in Parallel
 
-Suppose we need 2 reports and 2 websites.
-
-. . .
-
-**If Sam does everything:**
-
-- 2 reports × 2 hrs + 2 websites × 1 hr = **6 hours for Sam**
-- Taylor does nothing
-
-. . .
-
-**If they split evenly** (1 each):
+**Option A**: Each does 1 report + 1 website
 
 - Sam: 2 + 1 = 3 hrs
-- Taylor: 6 + 4 = 10 hrs
-- **Total: 13 hours**
+- Taylor: 4 + 2 = 6 hrs
+- **Calendar time: 6 hours** (limited by Taylor) ❌
 
-## The Power of Comparative Advantage
+## Specializing by Comparative Advantage
 
-What's each person's **opportunity cost** of a website?
+Who has lower **opportunity cost** for each task?
 
-. . .
-
-**Sam**: 1 hr website = 0.5 reports given up
-
-**Taylor**: 4 hr website = 4/6 = 0.67 reports given up
+- Sam: 1 website costs 0.5 reports forgone
+- Taylor: 1 website costs 0.5 reports forgone
 
 . . .
 
-Sam has comparative advantage in websites (lower opportunity cost).
+Same ratio! But Sam is 2x faster at both. So have Sam do more total work:
 
-Taylor has comparative advantage in... reports!
+## A Better Split
 
-## Specialization Wins Again
+**Option B**: Sam does 2 websites + 1 report, Taylor does 1 report
 
-**Taylor does 2 reports, Sam does 2 websites:**
-
-- Sam: 2 websites × 1 hr = **2 hours**
-- Taylor: 2 reports × 6 hrs = **12 hours**
-- Total: **14 hours**
+- Sam: 1 + 1 + 2 = **4 hrs**
+- Taylor: **4 hrs**
+- **Calendar time: 4 hours** ✓
 
 . . .
 
-But wait—Sam had 4 hours of free time. What if Sam helps with reports?
+By working in parallel and having the faster person do more, they meet the deadline.
+
+## The Key Insight
+
+> Comparative advantage matters when there are **constraints**—time, capacity, or resources.
 
 . . .
 
-**Sam does 2 websites + 1 report, Taylor does 1 report:**
-
-- Sam: 2 + 2 = **4 hours**
-- Taylor: **6 hours**
-- Total: **10 hours** (vs 13 without specialization)
-
-## Comparative Advantage: The Key Insight
-
-> Even if someone is better at *everything*, there are still gains from specialization based on *comparative* advantage.
+In the real world, no person or country can do everything.
 
 . . .
 
-The person with absolute advantage in everything should focus on what they're *relatively* best at.
-
-. . .
-
-This is why countries trade. This is why you don't grow your own food.
+This is why countries trade. This is why you hire specialists.
 
 ## How Do People Know What to Specialize In?
 
@@ -465,69 +452,42 @@ In real life, nobody does this math. So how does it work?
 
 **Prices tell you.**
 
-## Prices Coordinate Specialization
+## How Do Markets Coordinate This?
 
-Suppose there's a market for coding and writing work:
-
-| Task | Market Price |
-|------|--------------|
-| Write 1 report | $100 |
-| Build 1 website | $150 |
+In real life, no one calculates opportunity costs.
 
 . . .
 
-What should Sam do? What should Taylor do?
+Instead, **prices** tell you what to do.
 
-## Calculating Returns
+## Prices as Signals for Specialization
 
-**Sam's hourly earnings:**
+If coding pays $75/hr and writing pays $25/hr:
 
-- Writing: $100 / 2 hrs = **$50/hr**
-- Coding: $150 / 1 hr = **$150/hr**
-
-. . .
-
-**Taylor's hourly earnings:**
-
-- Writing: $100 / 6 hrs = **$17/hr**
-- Coding: $150 / 4 hrs = **$38/hr**
+- Everyone wants to code
 
 . . .
 
-Sam should code. Taylor should... also code?
+But then:
 
-## The Market Adjusts
-
-If everyone wants to code, what happens?
-
-. . .
-
-- Supply of coding ↑ → coding prices ↓
-- Supply of writing ↓ → writing prices ↑
+- Too many coders → coding wages fall
+- Too few writers → writing wages rise
 
 . . .
 
-Prices adjust until it's worthwhile for *someone* to write.
+Prices adjust until someone finds it worthwhile to write.
 
-. . .
+## The Invisible Hand
 
 > **Relative prices** guide each person to their comparative advantage—automatically.
 
-## The Magic
+. . .
 
 No one needs to know everyone's abilities.
 
 . . .
 
-No one needs to calculate opportunity costs.
-
-. . .
-
 **Prices contain the information** needed to coordinate specialization across millions of people.
-
-. . .
-
-> This is the "invisible hand" at work.
 
 # When Markets Fail {background-color="#800000"}
 
@@ -831,64 +791,69 @@ When markets fail, government intervention *can* help:
 
 ## The Coase Theorem
 
-Sometimes markets can solve their own failures.
+Sometimes private bargaining can solve externalities.
 
 . . .
 
-**Coase's insight**: If property rights are clear and transaction costs are low, private bargaining can achieve efficiency.
-
-. . .
-
-*Example*: Factory pollutes, affects nearby residents.
-
-- If residents have right to clean air → factory pays them to allow pollution
-- If factory has right to pollute → residents pay factory to reduce
-
-. . .
-
-Either way, they negotiate to the efficient outcome!
+**Coase's insight**: If property rights are clear and transaction costs are low, people negotiate to the efficient outcome.
 
 ::: {.notes}
 Reference: Coase, R. (1960). "The Problem of Social Cost." Journal of Law and Economics.
 :::
 
-## When Coase Works (and Doesn't)
+## Coase Example
 
-**Works well**:
-
-- Small number of parties
-- Easy to measure the harm
-- Clear property rights
+Factory pollutes, harms nearby residents.
 
 . . .
 
+- If residents have right to clean air → factory pays them
+- If factory has right to pollute → residents pay factory
+
+. . .
+
+Either way, they negotiate to the efficient level of pollution!
+
+## When Coase Works (and Doesn't)
+
+:::: {.columns}
+::: {.column width="50%"}
+**Works well**:
+
+- Few parties
+- Harm is measurable
+- Clear property rights
+:::
+::: {.column width="50%"}
 **Doesn't work**:
 
-- Many affected parties (climate change)
-- Hard to identify who's harmed
+- Many parties (climate)
+- Hard to measure harm
 - High transaction costs
+:::
+::::
 
 # Key Takeaways {background-color="#800000"}
 
 ## What We Learned Today
 
-1. **Markets are powerful**: They maximize total surplus by exhausting gains from trade
+1. **Markets maximize surplus** by exhausting gains from trade
 
 . . .
 
-2. **Prices are signals**: They coordinate complex activity without central planning
+2. **Prices are signals** that coordinate without central planning
 
 . . .
 
-3. **Specialization creates value**: Comparative advantage means everyone benefits from trade
+3. **Comparative advantage** makes specialization valuable
 
 . . .
 
-4. **Markets can fail**: Information asymmetry, externalities, and market power
+4. **Markets can fail**: info asymmetry, externalities, market power
 
 . . .
 
-5. **Failures can be addressed**: Government intervention, private bargaining, institutional design
+5. **Failures can be addressed**: government, bargaining, institutions
 
 ## The Bottom Line
 
