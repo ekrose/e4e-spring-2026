@@ -294,206 +294,150 @@ When demand for gold increases:
 
 > The price *signal* coordinated this response—no central planner required.
 
-# Specialization and Prices {background-color="#800000"}
+# Specialization and Comparative Advantage {background-color="#800000"}
 
-How do people decide what to produce?
+How prices coordinate production across markets
 
 ## Two Types of Workers
 
-Let's think about an economy with two types of workers:
+Consider an economy with two groups of workers:
 
 . . .
 
-**Construction workers** — skilled at building things
+**Construction workers** — tend to be better at building houses
 
 . . .
 
-**Content creators** — skilled at making TikToks
+**Content creators** — tend to be better at making TikToks
 
 . . .
 
-Each worker can produce *either* good, but with different productivities.
-
-## What Can Each Type Produce?
-
-In one day:
-
-. . .
-
-**Construction worker** can build:
-
-- **2 houses**, OR
-- **1 TikTok**
-
-. . .
-
-**Content creator** can make:
-
-- **0.5 houses**, OR
-- **4 TikToks**
-
-## Absolute Advantage
-
-Who is better at what?
-
-. . .
-
-Construction workers are **4× better** at building houses (2 vs 0.5)
-
-. . .
-
-Content creators are **4× better** at making TikToks (4 vs 1)
-
-. . .
-
-Each type has **absolute advantage** in their natural specialty.
+Both groups *can* produce either good, but with different abilities.
 
 ## The Production Possibilities Frontier
 
-Recall from last time: a **PPF** shows the combinations of goods you can produce.
+We can illustrate what each group can produce with a **PPF**.
+
+![](images/both-ppfs-simple.svg){fig-align="center" width="75%"}
+
+## The Trade-Off
+
+:::: {.columns}
+::: {.column width="50%"}
+The PPF shows trade-offs.
 
 . . .
 
-If you spend *all* your time on one good, you get the maximum of that good.
+More houses = fewer TikToks.
 
 . . .
 
-If you split your time, you get some of each.
-
-## Construction Worker's PPF
-
-![](images/cw-ppf.svg){fig-align="center" width="80%"}
+> Reallocating the *marginal* worker between activities.
+:::
+::: {.column width="50%"}
+![](images/both-ppfs-simple.svg){fig-align="center" width="100%"}
+:::
+::::
 
 ## Why Is the PPF Curved?
 
-The PPF bows *outward* from the origin.
+:::: {.columns}
+::: {.column width="50%"}
+The first TikTok comes from the most social-media-savvy worker.
 
 . . .
 
-This reflects **increasing opportunity cost**:
+More TikToks require less suited workers.
 
 . . .
 
-- The first hour on houses uses your best house-building skills
-- Later hours use skills less suited to construction
+> **Increasing opportunity cost**
+:::
+::: {.column width="50%"}
+![](images/both-ppfs-simple.svg){fig-align="center" width="100%"}
+:::
+::::
+
+## How Should These Groups Allocate Time?
+
+Construction workers *could* spend all their time on houses.
+
+Content creators *could* spend all their time on TikToks.
 
 . . .
 
-As you make more of one good, each additional unit costs more of the other.
-
-## Content Creator's PPF
-
-![](images/cc-ppf.svg){fig-align="center" width="80%"}
-
-## Same Shape, Different Scale
-
-Both PPFs are curved outward.
+But is that the best allocation?
 
 . . .
 
-But they differ in what each worker can produce at maximum.
-
-. . .
-
-**The question**: Where on their PPF should each worker produce?
-
-# Enter Prices {background-color="#800000"}
-
-How markets guide production decisions
+**Prices help us answer this question.**
 
 ## Market Prices
 
-Suppose houses and TikToks trade in a market:
+Suppose houses and TikToks trade in markets:
 
-. . .
-
-- **Houses**: $200 each
+- **Houses**: $200,000 each
 - **TikToks**: $50 each
 
 . . .
 
-Houses are worth **4× as much** as TikToks.
+Where on the PPF should each group locate?
 
-## What Should Workers Produce?
+## Finding the Optimal Point
 
-Each worker wants to **maximize their income**.
-
-. . .
-
-Should construction workers make houses or TikToks?
+:::: {.columns}
+::: {.column width="45%"}
+Where opportunity cost equals the price ratio.
 
 . . .
 
-Should content creators make houses or TikToks?
+At that point, shifting production either way would reduce income.
+:::
+::: {.column width="55%"}
+![](images/both-ppfs.svg){fig-align="center" width="100%"}
+:::
+::::
+
+## This Allocation Maximizes Value
+
+At these optimal points, **total value produced is maximized**.
 
 . . .
 
-Let's think about the tradeoffs.
-
-## The Optimal Production Point
-
-A worker should produce where the **opportunity cost** equals the **price ratio**.
+- Each group produces where their tradeoff matches market prices
+- No reallocation could increase total output value
 
 . . .
 
-> At the optimal point, the slope of the PPF equals the relative price.
+> **Prices guide us to the most valuable use of resources.**
+
+## Comparative Advantage
+
+Why does each group specialize differently?
 
 . . .
 
-This is where shifting production wouldn't increase income.
+**Opportunity costs differ:**
 
-## Construction Worker's Choice
-
-![](images/cw-ppf.svg){fig-align="center" width="70%"}
-
-. . .
-
-Mostly houses, but *some* TikToks — where PPF slope = price ratio.
-
-## Why Not All Houses?
-
-At the corner (all houses), making one more house costs very few TikToks.
+- Construction workers give up many houses per TikTok
+- Content creators give up few houses per TikTok
 
 . . .
 
-But the market values houses at only 4 TikToks each.
+> Content creators have **comparative advantage** in TikToks — even if construction workers are better at *both*.
+
+## Trade Makes Both Better Off
+
+Because opportunity costs differ, **trade benefits everyone**:
 
 . . .
 
-> Better to make some TikToks where the tradeoff is favorable.
-
-## Content Creator's Choice
-
-![](images/cc-ppf.svg){fig-align="center" width="70%"}
+- Each group focuses on low opportunity cost activities
+- They trade to get what they want
 
 . . .
 
-Mostly TikToks, but *some* houses — where PPF slope = price ratio.
-
-## The Pattern
-
-Each worker:
-
-- Focuses **mostly** on what they're good at
-- Does **a little** of the other activity
-
-. . .
-
-The exact mix depends on where opportunity cost = price ratio.
-
-## What If Prices Changed?
-
-If TikToks became more valuable (say, $100 each):
-
-. . .
-
-- The price ratio would shift
-- Both workers would make *more* TikToks
-- Both optimal points would move along their PPFs
-
-. . .
-
-> **Prices tell workers where to produce.**
+Total production is *higher* than if each made everything themselves.
 
 ## The Magic of Prices
 
