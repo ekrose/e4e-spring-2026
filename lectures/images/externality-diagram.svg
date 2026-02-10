@@ -14,75 +14,72 @@
   <text x="25" y="200" font-family="Inter, sans-serif" font-size="14" fill="#333" transform="rotate(-90, 25, 200)">Price / Cost</text>
   <text x="285" y="385" font-family="Inter, sans-serif" font-size="14" fill="#333" text-anchor="middle">Quantity</text>
 
-  <!-- Demand curve (downward sloping) -->
-  <line x1="100" y1="80" x2="450" y2="300" stroke="#333" stroke-width="2.5"/>
-  <text x="460" y="305" font-family="Inter, sans-serif" font-size="13" fill="#333">Demand</text>
-  <text x="460" y="320" font-family="Inter, sans-serif" font-size="11" fill="#333">(MB)</text>
+  <!-- Demand curve (downward sloping): from (100, 100) to (450, 320) -->
+  <line x1="100" y1="100" x2="450" y2="320" stroke="#333" stroke-width="2.5"/>
+  <text x="458" y="315" font-family="Inter, sans-serif" font-size="12" fill="#333">Demand</text>
 
-  <!-- Private Supply / Marginal Private Cost (upward sloping, lower) -->
-  <line x1="100" y1="280" x2="450" y2="120" stroke="#2E7D32" stroke-width="2.5"/>
-  <text x="460" y="115" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32">Supply</text>
-  <text x="460" y="130" font-family="Inter, sans-serif" font-size="11" fill="#2E7D32">(Private MC)</text>
+  <!-- Private Supply / MC (upward sloping): from (100, 300) to (450, 100) -->
+  <line x1="100" y1="300" x2="450" y2="100" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="458" y="95" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32">Private MC</text>
 
-  <!-- Social Cost (upward sloping, higher - parallel to private) -->
-  <line x1="100" y1="220" x2="450" y2="60" stroke="#800000" stroke-width="2.5"/>
-  <text x="460" y="55" font-family="Inter, sans-serif" font-size="12" fill="#800000">Social MC</text>
-  <text x="460" y="70" font-family="Inter, sans-serif" font-size="11" fill="#800000">(includes external cost)</text>
+  <!-- Social MC (upward sloping, above private): from (100, 240) to (450, 40) -->
+  <line x1="100" y1="240" x2="450" y2="40" stroke="#800000" stroke-width="2.5"/>
+  <text x="458" y="50" font-family="Inter, sans-serif" font-size="12" fill="#800000">Social MC</text>
 
-  <!-- Calculate intersection points -->
-  <!-- Demand: y = 80 + (300-80)/(450-100) * (x-100) = 80 + 0.629(x-100) -->
-  <!-- Private: y = 280 - (280-120)/(450-100) * (x-100) = 280 - 0.457(x-100) -->
-  <!-- Social: y = 220 - (220-60)/(450-100) * (x-100) = 220 - 0.457(x-100) -->
+  <!--
+  Calculations:
+  Demand: y = 100 + (220/350)*(x-100) = 100 + 0.629*(x-100)
+  Private MC: y = 300 - (200/350)*(x-100) = 300 - 0.571*(x-100)
+  Social MC: y = 240 - (200/350)*(x-100) = 240 - 0.571*(x-100)
 
-  <!-- Market eq (Demand = Private): 80 + 0.629(x-100) = 280 - 0.457(x-100) -->
-  <!-- 0.629x - 62.9 + 80 = 280 - 0.457x + 45.7 -->
-  <!-- 1.086x = 217.6 + 62.9 -->
-  <!-- x ≈ 284, y ≈ 196 -->
+  Market eq (Demand = Private MC):
+  100 + 0.629*(x-100) = 300 - 0.571*(x-100)
+  100 + 0.629x - 62.9 = 300 - 0.571x + 57.1
+  1.2x = 300 + 57.1 - 100 + 62.9 = 320
+  x = 267
+  y = 100 + 0.629*(267-100) = 100 + 105 = 205
 
-  <!-- Social optimum (Demand = Social): 80 + 0.629(x-100) = 220 - 0.457(x-100) -->
-  <!-- 1.086x = 157.6 + 62.9 -->
-  <!-- x ≈ 203, y ≈ 145 -->
+  Social optimum (Demand = Social MC):
+  100 + 0.629*(x-100) = 240 - 0.571*(x-100)
+  1.2x = 240 + 57.1 - 100 + 62.9 = 260
+  x = 217
+  y = 100 + 0.629*(217-100) = 100 + 73.6 = 174
 
-  <!-- Market equilibrium point (where demand meets private supply) -->
-  <circle cx="284" cy="196" r="5" fill="#2E7D32"/>
+  Social MC at x=267: y = 240 - 0.571*(267-100) = 240 - 95.4 = 145
+  -->
 
-  <!-- Social optimum point (where demand meets social cost) -->
-  <circle cx="203" cy="145" r="5" fill="#800000"/>
+  <!-- Market equilibrium point (Demand = Private MC) -->
+  <circle cx="267" cy="205" r="5" fill="#2E7D32"/>
+
+  <!-- Social optimum point (Demand = Social MC) -->
+  <circle cx="217" cy="174" r="5" fill="#800000"/>
+
+  <!-- Point on Social MC at Q_market -->
+  <circle cx="267" cy="145" r="4" fill="#800000"/>
 
   <!-- Vertical dashed lines to x-axis -->
-  <line x1="284" y1="196" x2="284" y2="350" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="284" y="365" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">Q market</text>
+  <line x1="267" y1="205" x2="267" y2="350" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="267" y="368" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">Q mkt</text>
 
-  <line x1="203" y1="145" x2="203" y2="350" stroke="#800000" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="203" y="365" font-family="Inter, sans-serif" font-size="12" fill="#800000" text-anchor="middle">Q optimal</text>
+  <line x1="217" y1="174" x2="217" y2="350" stroke="#800000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="217" y="368" font-family="Inter, sans-serif" font-size="12" fill="#800000" text-anchor="middle">Q*</text>
 
-  <!-- Point on social cost curve at Q market -->
-  <!-- At x=284: Social y = 220 - 0.457(284-100) = 220 - 84 = 136 -->
-  <circle cx="284" cy="136" r="4" fill="#800000"/>
+  <!-- Deadweight loss triangle -->
+  <!-- Vertices: (217, 174), (267, 205), (267, 145) -->
+  <!-- This is the area where Social MC > Demand between Q* and Q_mkt -->
+  <path d="M 217 174 L 267 205 L 267 145 Z" fill="#800000" fill-opacity="0.3" stroke="#800000" stroke-width="1.5"/>
 
-  <!-- Deadweight loss triangle: between Q optimal and Q market -->
-  <!-- Three points: -->
-  <!-- 1. Social optimum: (203, 145) - where demand = social cost -->
-  <!-- 2. Market demand at Q market: (284, 196) -->
-  <!-- 3. Social cost at Q market: (284, 136) -->
-  <path d="M 203 145 L 284 196 L 284 136 Z" fill="#800000" fill-opacity="0.25" stroke="#800000" stroke-width="1.5"/>
+  <!-- DWL label -->
+  <text x="300" y="165" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">DWL</text>
+  <line x1="295" y1="168" x2="255" y2="175" stroke="#800000" stroke-width="1"/>
 
-  <!-- DWL label with arrow -->
-  <text x="320" y="155" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">Deadweight</text>
-  <text x="320" y="170" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">Loss</text>
-  <line x1="315" y1="160" x2="275" y2="165" stroke="#800000" stroke-width="1.5"/>
-  <polygon points="275,165 282,160 280,168" fill="#800000"/>
-
-  <!-- External cost bracket on left side -->
-  <line x1="95" y1="220" x2="95" y2="280" stroke="#666" stroke-width="1.5"/>
-  <line x1="90" y1="220" x2="100" y2="220" stroke="#666" stroke-width="1.5"/>
-  <line x1="90" y1="280" x2="100" y2="280" stroke="#666" stroke-width="1.5"/>
-  <text x="60" y="255" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">External</text>
-  <text x="60" y="268" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">cost</text>
+  <!-- External cost bracket -->
+  <line x1="95" y1="240" x2="95" y2="300" stroke="#666" stroke-width="1.5"/>
+  <line x1="90" y1="240" x2="100" y2="240" stroke="#666" stroke-width="1.5"/>
+  <line x1="90" y1="300" x2="100" y2="300" stroke="#666" stroke-width="1.5"/>
+  <text x="60" y="275" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">External</text>
+  <text x="60" y="288" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">cost</text>
 
   <!-- Title -->
   <text x="285" y="30" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Negative Externality: Market Overproduces</text>
-
-  <!-- Bottom explanation -->
-  <text x="285" y="405" font-family="Inter, sans-serif" font-size="12" fill="#666" text-anchor="middle">Units between Q optimal and Q market cost more to society than they're worth</text>
 </svg>
