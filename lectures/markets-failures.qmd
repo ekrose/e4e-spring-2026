@@ -326,11 +326,7 @@ We can illustrate what each group can produce with a **PPF**.
 ::: {.column width="50%"}
 The PPF shows trade-offs.
 
-. . .
-
 More houses = fewer TikToks.
-
-. . .
 
 > Reallocating the *marginal* worker between activities.
 :::
@@ -345,11 +341,7 @@ More houses = fewer TikToks.
 ::: {.column width="50%"}
 The first TikTok comes from the most social-media-savvy worker.
 
-. . .
-
 More TikToks require less suited workers.
-
-. . .
 
 > **Increasing opportunity cost**
 :::
@@ -388,8 +380,6 @@ Where on the PPF should each group locate?
 :::: {.columns}
 ::: {.column width="45%"}
 Where opportunity cost equals the price ratio.
-
-. . .
 
 At that point, shifting production either way would reduce income.
 :::
