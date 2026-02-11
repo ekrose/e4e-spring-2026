@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 420">
+  <!-- Background -->
+  <rect width="550" height="420" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="70" y1="50" x2="70" y2="350" stroke="#333" stroke-width="2"/>
+  <line x1="70" y1="350" x2="500" y2="350" stroke="#333" stroke-width="2"/>
+
+  <!-- Arrow heads -->
+  <polygon points="70,50 65,60 75,60" fill="#333"/>
+  <polygon points="500,350 490,345 490,355" fill="#333"/>
+
+  <!-- Axis labels -->
+  <text x="25" y="200" font-family="Inter, sans-serif" font-size="14" fill="#333" transform="rotate(-90, 25, 200)">Price / Cost</text>
+  <text x="285" y="385" font-family="Inter, sans-serif" font-size="14" fill="#333" text-anchor="middle">Quantity</text>
+
+  <!-- Demand curve (downward sloping): from (100, 100) to (450, 320) -->
+  <line x1="100" y1="100" x2="450" y2="320" stroke="#333" stroke-width="2.5"/>
+  <text x="458" y="315" font-family="Inter, sans-serif" font-size="12" fill="#333">Demand</text>
+
+  <!-- Private Supply / MC (upward sloping): from (100, 300) to (450, 100) -->
+  <line x1="100" y1="300" x2="450" y2="100" stroke="#2E7D32" stroke-width="2.5"/>
+  <text x="458" y="95" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32">Private MC</text>
+
+  <!-- Social MC (upward sloping, above private): from (100, 240) to (450, 40) -->
+  <line x1="100" y1="240" x2="450" y2="40" stroke="#800000" stroke-width="2.5"/>
+  <text x="458" y="50" font-family="Inter, sans-serif" font-size="12" fill="#800000">Social MC</text>
+
+  <!--
+  Calculations:
+  Demand: y = 100 + (220/350)*(x-100) = 100 + 0.629*(x-100)
+  Private MC: y = 300 - (200/350)*(x-100) = 300 - 0.571*(x-100)
+  Social MC: y = 240 - (200/350)*(x-100) = 240 - 0.571*(x-100)
+
+  Market eq (Demand = Private MC):
+  100 + 0.629*(x-100) = 300 - 0.571*(x-100)
+  100 + 0.629x - 62.9 = 300 - 0.571x + 57.1
+  1.2x = 300 + 57.1 - 100 + 62.9 = 320
+  x = 267
+  y = 100 + 0.629*(267-100) = 100 + 105 = 205
+
+  Social optimum (Demand = Social MC):
+  100 + 0.629*(x-100) = 240 - 0.571*(x-100)
+  1.2x = 240 + 57.1 - 100 + 62.9 = 260
+  x = 217
+  y = 100 + 0.629*(217-100) = 100 + 73.6 = 174
+
+  Social MC at x=267: y = 240 - 0.571*(267-100) = 240 - 95.4 = 145
+  -->
+
+  <!-- Market equilibrium point (Demand = Private MC) -->
+  <circle cx="267" cy="205" r="5" fill="#2E7D32"/>
+
+  <!-- Social optimum point (Demand = Social MC) -->
+  <circle cx="217" cy="174" r="5" fill="#800000"/>
+
+  <!-- Point on Social MC at Q_market -->
+  <circle cx="267" cy="145" r="4" fill="#800000"/>
+
+  <!-- Vertical dashed lines to x-axis -->
+  <line x1="267" y1="205" x2="267" y2="350" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="267" y="368" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">Q mkt</text>
+
+  <line x1="217" y1="174" x2="217" y2="350" stroke="#800000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="217" y="368" font-family="Inter, sans-serif" font-size="12" fill="#800000" text-anchor="middle">Q*</text>
+
+  <!-- Deadweight loss triangle -->
+  <!-- Vertices: (217, 174), (267, 205), (267, 145) -->
+  <!-- This is the area where Social MC > Demand between Q* and Q_mkt -->
+  <path d="M 217 174 L 267 205 L 267 145 Z" fill="#800000" fill-opacity="0.3" stroke="#800000" stroke-width="1.5"/>
+
+  <!-- DWL label -->
+  <text x="300" y="165" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">DWL</text>
+  <line x1="295" y1="168" x2="255" y2="175" stroke="#800000" stroke-width="1"/>
+
+  <!-- External cost bracket -->
+  <line x1="95" y1="240" x2="95" y2="300" stroke="#666" stroke-width="1.5"/>
+  <line x1="90" y1="240" x2="100" y2="240" stroke="#666" stroke-width="1.5"/>
+  <line x1="90" y1="300" x2="100" y2="300" stroke="#666" stroke-width="1.5"/>
+  <text x="60" y="275" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">External</text>
+  <text x="60" y="288" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">cost</text>
+
+  <!-- Title -->
+  <text x="285" y="30" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Negative Externality: Market Overproduces</text>
+</svg>
