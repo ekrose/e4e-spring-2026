@@ -8,3 +8,4 @@ Lecture slides will be posted here as the course progresses.
 
 - [Incentives](incentives.qmd)
 - [Markets and Their Failures](markets-failures.qmd)
+- [Equity vs. Efficiency](equity-efficiency.qmd)

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450">
+  <!-- Background -->
+  <rect width="700" height="450" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#333">
+    Global Income Distribution (2020)
+  </text>
+  <text x="350" y="55" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#666">
+    Share of global income by region
+  </text>
+
+  <!-- Axes -->
+  <line x1="120" y1="380" x2="650" y2="380" stroke="#333" stroke-width="1.5"/>
+  <line x1="120" y1="380" x2="120" y2="90" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Y-axis labels -->
+  <text x="110" y="385" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">0%</text>
+  <text x="110" y="310" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">20%</text>
+  <text x="110" y="235" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">40%</text>
+  <text x="110" y="160" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">60%</text>
+  <text x="110" y="95" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">80%</text>
+
+  <!-- Grid lines -->
+  <line x1="120" y1="310" x2="650" y2="310" stroke="#eee" stroke-width="1"/>
+  <line x1="120" y1="235" x2="650" y2="235" stroke="#eee" stroke-width="1"/>
+  <line x1="120" y1="160" x2="650" y2="160" stroke="#eee" stroke-width="1"/>
+
+  <!-- Bar width: 70px, gap: 20px -->
+  <!-- Europe bar - ~38% -->
+  <rect x="140" y="237" width="70" height="143" fill="#800000" rx="3"/>
+  <text x="175" y="225" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#800000">38%</text>
+  <text x="175" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">Europe</text>
+
+  <!-- North America bar - ~23% -->
+  <rect x="230" y="294" width="70" height="86" fill="#a03030" rx="3"/>
+  <text x="265" y="282" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#a03030">23%</text>
+  <text x="265" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">N. America</text>
+
+  <!-- East Asia bar - ~20% -->
+  <rect x="320" y="305" width="70" height="75" fill="#c05050" rx="3"/>
+  <text x="355" y="293" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#c05050">20%</text>
+  <text x="355" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">E. Asia</text>
+
+  <!-- Latin America bar - ~8% -->
+  <rect x="410" y="350" width="70" height="30" fill="#ff8243" rx="3"/>
+  <text x="445" y="338" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#ff8243">8%</text>
+  <text x="445" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">L. America</text>
+
+  <!-- South Asia bar - ~6% -->
+  <rect x="500" y="358" width="70" height="22" fill="#ffaa77" rx="3"/>
+  <text x="535" y="346" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#cc7733">6%</text>
+  <text x="535" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">S. Asia</text>
+
+  <!-- Africa bar - ~5% -->
+  <rect x="590" y="361" width="70" height="19" fill="#ffcc99" rx="3"/>
+  <text x="625" y="349" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#aa6633">5%</text>
+  <text x="625" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">Africa</text>
+
+  <!-- Annotation box -->
+  <rect x="400" y="100" width="240" height="85" fill="white" stroke="#ddd" rx="6" opacity="0.95"/>
+  <text x="520" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#333">
+    <tspan font-weight="600">Europe + N. America</tspan>: ~15% of world pop.
+  </text>
+  <text x="520" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#333">
+    capture ~61% of global income
+  </text>
+  <text x="520" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#333">
+    <tspan font-weight="600">Africa + S. Asia</tspan>: ~35% of world pop.
+  </text>
+  <text x="520" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#333">
+    capture ~11% of global income
+  </text>
+
+  <!-- Source -->
+  <text x="650" y="435" text-anchor="end" font-family="Inter, sans-serif" font-size="10" fill="#999">
+    Source: World Inequality Report 2022 (stylized)
+  </text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 450">
+  <defs>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#800000;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#800000;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="bottomGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff8243;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#ff8243;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="450" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="600" fill="#333">
+    U.S. Income Inequality: 1960-2020
+  </text>
+
+  <!-- Axes -->
+  <line x1="80" y1="380" x2="650" y2="380" stroke="#333" stroke-width="1.5"/>
+  <line x1="80" y1="380" x2="80" y2="70" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Y-axis labels -->
+  <text x="70" y="385" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">0%</text>
+  <text x="70" y="307" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">15%</text>
+  <text x="70" y="229" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">30%</text>
+  <text x="70" y="151" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">45%</text>
+  <text x="70" y="73" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#666">60%</text>
+
+  <!-- Y-axis title -->
+  <text x="25" y="225" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333" transform="rotate(-90 25 225)">
+    Share of National Income
+  </text>
+
+  <!-- X-axis labels -->
+  <text x="80" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">1960</text>
+  <text x="175" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">1970</text>
+  <text x="270" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">1980</text>
+  <text x="365" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">1990</text>
+  <text x="460" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">2000</text>
+  <text x="555" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">2010</text>
+  <text x="650" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#666">2020</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="307" x2="650" y2="307" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="80" y1="229" x2="650" y2="229" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="80" y1="151" x2="650" y2="151" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Vertical reference line at 1980 -->
+  <line x1="270" y1="70" x2="270" y2="380" stroke="#ccc" stroke-width="1" stroke-dasharray="6,3"/>
+  <text x="275" y="85" font-family="Inter, sans-serif" font-size="11" fill="#888">1980</text>
+
+  <!-- Top 10% line (maroon) - starts ~35%, rises to ~45% -->
+  <!-- Area fill -->
+  <path d="M80,200 L127,198 L175,196 L222,198 L270,200
+           L317,180 L365,160 L412,148 L460,145 L507,138 L555,125 L602,120 L650,118
+           L650,380 L80,380 Z"
+        fill="url(#topGrad)"/>
+  <!-- Line -->
+  <path d="M80,200 L127,198 L175,196 L222,198 L270,200
+           L317,180 L365,160 L412,148 L460,145 L507,138 L555,125 L602,120 L650,118"
+        fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Bottom 50% line (orange) - starts ~20%, falls to ~13% -->
+  <!-- Area fill -->
+  <path d="M80,280 L127,278 L175,277 L222,278 L270,280
+           L317,290 L365,300 L412,310 L460,318 L507,322 L555,328 L602,330 L650,332
+           L650,380 L80,380 Z"
+        fill="url(#bottomGrad)"/>
+  <!-- Line -->
+  <path d="M80,280 L127,278 L175,277 L222,278 L270,280
+           L317,290 L365,300 L412,310 L460,318 L507,322 L555,328 L602,330 L650,332"
+        fill="none" stroke="#ff8243" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Legend -->
+  <rect x="450" y="52" width="190" height="55" fill="white" stroke="#ddd" rx="4"/>
+  <line x1="460" y1="70" x2="490" y2="70" stroke="#800000" stroke-width="3"/>
+  <text x="500" y="74" font-family="Inter, sans-serif" font-size="13" fill="#333">Top 10%</text>
+  <line x1="460" y1="92" x2="490" y2="92" stroke="#ff8243" stroke-width="3"/>
+  <text x="500" y="96" font-family="Inter, sans-serif" font-size="13" fill="#333">Bottom 50%</text>
+
+  <!-- Annotations -->
+  <text x="650" y="105" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#800000">~46%</text>
+  <text x="650" y="348" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#ff8243">~13%</text>
+
+  <!-- Source -->
+  <text x="650" y="435" text-anchor="end" font-family="Inter, sans-serif" font-size="10" fill="#999">
+    Source: World Inequality Database (stylized)
+  </text>
+</svg>

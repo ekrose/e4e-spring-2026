@@ -18,7 +18,448 @@
     "href": "lectures/index.html#evans-lectures",
     "title": "Lectures",
     "section": "Evan’s Lectures",
-    "text": "Evan’s Lectures\n\nIncentives\nMarkets and Their Failures"
+    "text": "Evan’s Lectures\n\nIncentives\nMarkets and Their Failures\nEquity vs. Efficiency"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#recall-our-last-class",
+    "href": "lectures/equity-efficiency.html#recall-our-last-class",
+    "title": "Equity vs. Efficiency",
+    "section": "Recall our last class",
+    "text": "Recall our last class\nWe created a market for extra credit.\n\nThe outcome was efficient—we exhausted all gains from trade.\n\n\nBut was it fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-question-of-endowments",
+    "href": "lectures/equity-efficiency.html#a-question-of-endowments",
+    "title": "Equity vs. Efficiency",
+    "section": "A question of endowments",
+    "text": "A question of endowments\nSome of you happened to be given an extra credit point.\n\nSome of you didn’t.\n\n\nEven though the market outcome maximized total surplus, who benefited depended entirely on those initial endowments."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-fundamental-distinction",
+    "href": "lectures/equity-efficiency.html#the-fundamental-distinction",
+    "title": "Equity vs. Efficiency",
+    "section": "The fundamental distinction",
+    "text": "The fundamental distinction\n\nEfficiency asks: How big is the pie?\n\n\n\nEquity asks: How is the pie divided?\n\n\n\nFailure to separate these is probably one of the biggest conceptual mistakes in policy today."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#todays-roadmap",
+    "href": "lectures/equity-efficiency.html#todays-roadmap",
+    "title": "Equity vs. Efficiency",
+    "section": "Today’s roadmap",
+    "text": "Today’s roadmap\n\nTrends in inequality\nWhat “fairness” means\nIdeal redistribution (and why it’s impossible)\nThe costs of real-world redistribution\nWhen distortions are actually good"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#efficiency",
+    "href": "lectures/equity-efficiency.html#efficiency",
+    "title": "Equity vs. Efficiency",
+    "section": "Efficiency",
+    "text": "Efficiency\n\nWhether the economy is set up to generate the maximum total benefits\n\n\nEfficiency is about the size of the pie.\n\n\nAn efficient allocation leaves no gains from trade unexploited."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#equity",
+    "href": "lectures/equity-efficiency.html#equity",
+    "title": "Equity vs. Efficiency",
+    "section": "Equity",
+    "text": "Equity\n\nWhether the distribution of benefits is judged to be fair\n\n\nEquity is about how the pie is divided.\n\n\nNote: This is a normative judgment—outside economics per se."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#distortions",
+    "href": "lectures/equity-efficiency.html#distortions",
+    "title": "Equity vs. Efficiency",
+    "section": "Distortions",
+    "text": "Distortions\n\nWhen policy drives a wedge between social value and private return\n\n\nDistortions cause people to make decisions that don’t maximize total surplus.\n\n\nThey’re usually the cost of achieving a more equitable distribution."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#deadweight-loss",
+    "href": "lectures/equity-efficiency.html#deadweight-loss",
+    "title": "Equity vs. Efficiency",
+    "section": "Deadweight loss",
+    "text": "Deadweight loss\n\nThe loss in total benefits that results from distortions\n\n\nWhen we redistribute, the pie often shrinks.\n\n\nDeadweight loss measures how much it shrinks."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#second-best",
+    "href": "lectures/equity-efficiency.html#second-best",
+    "title": "Equity vs. Efficiency",
+    "section": "Second best",
+    "text": "Second best\n\nThe lowest-cost way to achieve a particular distribution\n\n\nIf we can’t achieve equity for free, what’s the most efficient way to get there?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#us-income-inequality-the-headline",
+    "href": "lectures/equity-efficiency.html#us-income-inequality-the-headline",
+    "title": "Equity vs. Efficiency",
+    "section": "US income inequality: The headline",
+    "text": "US income inequality: The headline\n\n\nSource: World Inequality Database. Shows share of national income going to top 10% vs bottom 50%."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-happened",
+    "href": "lectures/equity-efficiency.html#what-happened",
+    "title": "Equity vs. Efficiency",
+    "section": "What happened?",
+    "text": "What happened?\nFrom ~1980 onward:\n\nTop 10% share rose from ~35% to ~45%\nBottom 50% share fell from ~20% to ~13%\n\n\nThe gains from economic growth went disproportionately to the top."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#another-perspective-top-1",
+    "href": "lectures/equity-efficiency.html#another-perspective-top-1",
+    "title": "Equity vs. Efficiency",
+    "section": "Another perspective: Top 1%",
+    "text": "Another perspective: Top 1%\nThe top 1% now earns about 20% of all income.\n\nIn the 1970s, it was closer to 10%.\n\n\n\nThe very top has pulled away even from the rest of the top 10%."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#wealth-inequality-is-even-starker",
+    "href": "lectures/equity-efficiency.html#wealth-inequality-is-even-starker",
+    "title": "Equity vs. Efficiency",
+    "section": "Wealth inequality is even starker",
+    "text": "Wealth inequality is even starker\nIncome: What you earn each year\nWealth: What you own (assets minus debts)\n\nThe top 1% owns roughly 30% of all wealth.\n\n\nThe bottom 50% owns about 2%."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-global-perspective",
+    "href": "lectures/equity-efficiency.html#a-global-perspective",
+    "title": "Equity vs. Efficiency",
+    "section": "A global perspective",
+    "text": "A global perspective\n\n\nData from World Inequality Report. Shows global income distribution by region."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-elephant-curve",
+    "href": "lectures/equity-efficiency.html#the-elephant-curve",
+    "title": "Equity vs. Efficiency",
+    "section": "The elephant curve",
+    "text": "The elephant curve\nOver the past 40 years, who gained the most globally?\n\n\nThe global middle class (especially China, India)\nThe global top 1%\n\n\n\nWho gained the least?\n\n\n\nThe working and middle classes in rich countries."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-does-this-matter",
+    "href": "lectures/equity-efficiency.html#why-does-this-matter",
+    "title": "Equity vs. Efficiency",
+    "section": "Why does this matter?",
+    "text": "Why does this matter?\nInequality affects:\n\nPolitical stability\nSocial mobility\nHealth outcomes\nTrust in institutions\n\n\nBut whether it’s a problem depends on your values."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#lets-find-out-what-you-think",
+    "href": "lectures/equity-efficiency.html#lets-find-out-what-you-think",
+    "title": "Equity vs. Efficiency",
+    "section": "Let’s find out what you think",
+    "text": "Let’s find out what you think\nI’m going to describe some scenarios.\n\nFor each one, tell me what the fair outcome is.\n\n\n[Poll: pollev.com/e4e]"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#scenario-1-the-shipwreck",
+    "href": "lectures/equity-efficiency.html#scenario-1-the-shipwreck",
+    "title": "Equity vs. Efficiency",
+    "section": "Scenario 1: The shipwreck",
+    "text": "Scenario 1: The shipwreck\nYou’re on a lifeboat with 10 others. You have 100 units of food.\n\nOption A: Everyone gets 10 units\nOption B: The person who can ration best distributes it (total consumed: 120 equivalent units due to efficiency)\nOption C: Whoever grabbed it first keeps it\n\n\nWhat’s fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#scenario-2-the-inheritance",
+    "href": "lectures/equity-efficiency.html#scenario-2-the-inheritance",
+    "title": "Equity vs. Efficiency",
+    "section": "Scenario 2: The inheritance",
+    "text": "Scenario 2: The inheritance\nA wealthy person dies. Should their children:\n\nA: Inherit everything (property rights)\nB: Inherit nothing—it goes to charity (equal opportunity)\nC: Inherit some, with the rest taxed (compromise)\n\n\nWhat’s fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#scenario-3-the-kidney",
+    "href": "lectures/equity-efficiency.html#scenario-3-the-kidney",
+    "title": "Equity vs. Efficiency",
+    "section": "Scenario 3: The kidney",
+    "text": "Scenario 3: The kidney\nOne kidney is available. Three patients need it:\n\nA: A 25-year-old who will live 40 more years\nB: A 65-year-old who invented a life-saving drug\nC: Whoever has waited longest on the list\n\n\nWhat’s fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-point",
+    "href": "lectures/equity-efficiency.html#the-point",
+    "title": "Equity vs. Efficiency",
+    "section": "The point",
+    "text": "The point\nThere’s no consensus on what “fair” means.\n\nDifferent frameworks give different answers.\n\n\nLet’s look at the main ones."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#utilitarianism",
+    "href": "lectures/equity-efficiency.html#utilitarianism",
+    "title": "Equity vs. Efficiency",
+    "section": "Utilitarianism",
+    "text": "Utilitarianism\n\nMaximize total well-being across all people.\n\n\nImplication: Transfer resources until marginal utility is equalized.\n\n\nIf a dollar means more to a poor person than a rich person, transfer it.\n\n\nProblem: Doesn’t care about distribution per se—only totals."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#rawlsian-maximin",
+    "href": "lectures/equity-efficiency.html#rawlsian-maximin",
+    "title": "Equity vs. Efficiency",
+    "section": "Rawlsian maximin",
+    "text": "Rawlsian maximin\n\nMaximize the well-being of the worst-off person.\n\n\nJohn Rawls asked: What rules would you choose behind a “veil of ignorance”?\n\n\nIf you didn’t know your place in society, you’d protect the bottom.\n\n\nProblem: Ignores everyone except the very worst off."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#libertarianism",
+    "href": "lectures/equity-efficiency.html#libertarianism",
+    "title": "Equity vs. Efficiency",
+    "section": "Libertarianism",
+    "text": "Libertarianism\n\nRespect property rights and voluntary exchange.\n\n\nWhatever distribution emerges from fair processes is fair.\n\n\nProblem: Ignores how initial endowments were acquired."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#equality-of-opportunity",
+    "href": "lectures/equity-efficiency.html#equality-of-opportunity",
+    "title": "Equity vs. Efficiency",
+    "section": "Equality of opportunity",
+    "text": "Equality of opportunity\n\nEveryone should have the same starting point.\n\n\nInequality of outcomes is okay if it results from fair competition.\n\n\nProblem: Hard to define and achieve equal starting points."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#equality-of-outcomes",
+    "href": "lectures/equity-efficiency.html#equality-of-outcomes",
+    "title": "Equity vs. Efficiency",
+    "section": "Equality of outcomes",
+    "text": "Equality of outcomes\n\nEveryone should end up with the same amount.\n\n\nProblem: Eliminates incentives; practically impossible."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#where-do-you-stand",
+    "href": "lectures/equity-efficiency.html#where-do-you-stand",
+    "title": "Equity vs. Efficiency",
+    "section": "Where do you stand?",
+    "text": "Where do you stand?\n[Poll: Which framework resonates most with you?]\n\n\nUtilitarian (maximize total well-being)\nRawlsian (protect the worst off)\nLibertarian (respect property rights)\nEqual opportunity\nEqual outcomes"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-economists-role",
+    "href": "lectures/equity-efficiency.html#the-economists-role",
+    "title": "Equity vs. Efficiency",
+    "section": "The economist’s role",
+    "text": "The economist’s role\nEconomics can’t tell you which framework is “right.”\n\nThat’s a normative judgment—a question of values.\n\n\nBut economics can tell you:\n\nWhat are the costs of achieving different distributions?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-remarkable-result",
+    "href": "lectures/equity-efficiency.html#a-remarkable-result",
+    "title": "Equity vs. Efficiency",
+    "section": "A remarkable result",
+    "text": "A remarkable result\nSuppose the market allocation differs from your preferred “fair” outcome.\n\nCan we get to the fair outcome without losing efficiency?\n\n\nYes—in theory."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-second-welfare-theorem",
+    "href": "lectures/equity-efficiency.html#the-second-welfare-theorem",
+    "title": "Equity vs. Efficiency",
+    "section": "The Second Welfare Theorem",
+    "text": "The Second Welfare Theorem\n\nAny efficient allocation can be achieved by:\n\nRedistributing initial endowments\nThen letting the market work\n\n\n\nIf we could just reshuffle who starts with what, markets would do the rest."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#back-to-our-classroom-market",
+    "href": "lectures/equity-efficiency.html#back-to-our-classroom-market",
+    "title": "Equity vs. Efficiency",
+    "section": "Back to our classroom market",
+    "text": "Back to our classroom market\nImagine I wanted to help students who most need the extra credit.\n\nIdeal solution: Give the initial extra credit points to them instead.\n\n\nThen let the market play out normally.\n\n\nEfficient and equitable!"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-catch",
+    "href": "lectures/equity-efficiency.html#the-catch",
+    "title": "Equity vs. Efficiency",
+    "section": "The catch",
+    "text": "The catch\nThis requires lump-sum taxes and transfers.\n\nLump-sum means:\n\nPre-specified amounts\nDo not depend on your behavior or choices\n\n\n\nLike a fixed tax you pay regardless of what you do."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-lump-sum-works",
+    "href": "lectures/equity-efficiency.html#why-lump-sum-works",
+    "title": "Equity vs. Efficiency",
+    "section": "Why lump-sum works",
+    "text": "Why lump-sum works\nIf a tax doesn’t depend on your choices, it doesn’t distort them.\n\nYou face the same incentives as before—you just start with less money.\n\n\n\nNo deadweight loss. No distortion. Just redistribution."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-problem",
+    "href": "lectures/equity-efficiency.html#the-problem",
+    "title": "Equity vs. Efficiency",
+    "section": "The problem",
+    "text": "The problem\nWhat could we actually tax in a lump-sum way?\n\nWe’d need to tax something immutable—that you can’t change.\n\n\nOne serious proposal: tax height."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#wait-really",
+    "href": "lectures/equity-efficiency.html#wait-really",
+    "title": "Equity vs. Efficiency",
+    "section": "Wait, really?",
+    "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\n\n“The case for taxing height is about as good as the case for taxing income.”\n\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
+    "href": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
+    "title": "Equity vs. Efficiency",
+    "section": "Why we can’t do lump-sum",
+    "text": "Why we can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-simple-idea",
+    "href": "lectures/equity-efficiency.html#a-simple-idea",
+    "title": "Equity vs. Efficiency",
+    "section": "A simple idea",
+    "text": "A simple idea\nRich people have a lot of money.\n\nPoor people need money.\n\n\nWhy not just tax the rich and give to the poor?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-behavioral-response",
+    "href": "lectures/equity-efficiency.html#the-behavioral-response",
+    "title": "Equity vs. Efficiency",
+    "section": "The behavioral response",
+    "text": "The behavioral response\nWe covered this in our lecture on incentives.\n\nWhen you tax income, you change the return to working.\n\n\nHigher taxes → work becomes less attractive → people work less."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#recall-the-laffer-curve",
+    "href": "lectures/equity-efficiency.html#recall-the-laffer-curve",
+    "title": "Equity vs. Efficiency",
+    "section": "Recall the Laffer curve",
+    "text": "Recall the Laffer curve\n\nAt some point, raising rates actually lowers revenue."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-real-cost",
+    "href": "lectures/equity-efficiency.html#the-real-cost",
+    "title": "Equity vs. Efficiency",
+    "section": "The real cost",
+    "text": "The real cost\nEven before we hit the peak, higher taxes cause:\n\nReduced labor supply\nLess entrepreneurship\nMore tax avoidance\n\n\nThe tax base shrinks—so the pie gets smaller."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-tradeoff",
+    "href": "lectures/equity-efficiency.html#the-tradeoff",
+    "title": "Equity vs. Efficiency",
+    "section": "The tradeoff",
+    "text": "The tradeoff\n\nWe can make the distribution more equal…\n…but often at the cost of a smaller pie.\n\n\nThis is the fundamental equity-efficiency tradeoff."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#how-big-is-this-cost",
+    "href": "lectures/equity-efficiency.html#how-big-is-this-cost",
+    "title": "Equity vs. Efficiency",
+    "section": "How big is this cost?",
+    "text": "How big is this cost?\nRemember the elasticity of taxable income?\n\nBest estimates suggest it’s around 0.25.\n\n\nNot zero—but not enormous either.\n\n\n\nWe can redistribute, but there’s a cost."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#an-illustration-with-our-workers",
+    "href": "lectures/equity-efficiency.html#an-illustration-with-our-workers",
+    "title": "Equity vs. Efficiency",
+    "section": "An illustration with our workers",
+    "text": "An illustration with our workers\nLet’s go back to our construction workers and content creators.\n\nSuppose society decides it’s unfair that TikTokers might earn more than construction workers.\n\n\nPolicy: Tax TikTok earnings and subsidize construction wages."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-happens",
+    "href": "lectures/equity-efficiency.html#what-happens",
+    "title": "Equity vs. Efficiency",
+    "section": "What happens?",
+    "text": "What happens?\nThe tax drives a wedge between what consumers pay and what creators receive.\n\nSome content creators switch to construction work.\n\n\nBut wait—these are people whose comparative advantage is in TikToks!"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-distortion-visualized",
+    "href": "lectures/equity-efficiency.html#the-distortion-visualized",
+    "title": "Equity vs. Efficiency",
+    "section": "The distortion visualized",
+    "text": "The distortion visualized"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-math",
+    "href": "lectures/equity-efficiency.html#the-math",
+    "title": "Equity vs. Efficiency",
+    "section": "The math",
+    "text": "The math\nBefore the tax: \\[P_H \\cdot H_0 + P_T \\cdot T_0 = \\text{Total Value}\\]\n\nAfter the tax, people reallocate. But: \\[P_H \\cdot H_1 + P_T \\cdot T_1 &lt; P_H \\cdot H_0 + P_T \\cdot T_0\\]\n\n\n\nTotal value produced has fallen—even though we collected tax revenue."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-the-loss",
+    "href": "lectures/equity-efficiency.html#why-the-loss",
+    "title": "Equity vs. Efficiency",
+    "section": "Why the loss?",
+    "text": "Why the loss?\nWe’ve shifted production to people who are relatively bad at it.\n\nContent creators forced into construction produce fewer houses than real construction workers would.\n\n\nConstruction workers staying put don’t make up the difference.\n\n\n\nDeadweight loss: The economy produces less than it could."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-if-we-used-lump-sum-transfers",
+    "href": "lectures/equity-efficiency.html#what-if-we-used-lump-sum-transfers",
+    "title": "Equity vs. Efficiency",
+    "section": "What if we used lump-sum transfers?",
+    "text": "What if we used lump-sum transfers?\nSuppose we could tax content creators a fixed amount—regardless of whether they work in TikTok or construction.\n\nThen the tax doesn’t affect their work decisions.\n\n\nNo reallocation. No distortion. No deadweight loss.\n\n\nBut we can’t observe “being a content creator” independent of their choices."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#recall-externalities",
+    "href": "lectures/equity-efficiency.html#recall-externalities",
+    "title": "Equity vs. Efficiency",
+    "section": "Recall externalities",
+    "text": "Recall externalities\nAn externality is when your action affects others who aren’t part of the transaction.\n\n\nNegative: Pollution, congestion, secondhand smoke\nPositive: Vaccination, education"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-problem-with-externalities",
+    "href": "lectures/equity-efficiency.html#the-problem-with-externalities",
+    "title": "Equity vs. Efficiency",
+    "section": "The problem with externalities",
+    "text": "The problem with externalities\nWithout intervention, markets produce:\n\nToo much of goods with negative externalities\nToo little of goods with positive externalities\n\n\nPrices don’t reflect the true social costs and benefits."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-pigouvian-solution",
+    "href": "lectures/equity-efficiency.html#the-pigouvian-solution",
+    "title": "Equity vs. Efficiency",
+    "section": "The Pigouvian solution",
+    "text": "The Pigouvian solution\nArthur Pigou’s insight: Tax negative externalities, subsidize positive ones.\n\nA tax equal to the external cost makes people internalize the harm.\n\n\n\nA distortion that corrects a market failure can increase efficiency."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#carbon-tax-example",
+    "href": "lectures/equity-efficiency.html#carbon-tax-example",
+    "title": "Equity vs. Efficiency",
+    "section": "Carbon tax example",
+    "text": "Carbon tax example\nBurning fossil fuels causes climate change.\n\nA carbon tax makes polluters pay for this harm.\n\n\nResult: Less pollution, and higher total surplus.\n\n\n\nThis is a “good” distortion—it fixes a broken price signal."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-key-insight",
+    "href": "lectures/equity-efficiency.html#the-key-insight",
+    "title": "Equity vs. Efficiency",
+    "section": "The key insight",
+    "text": "The key insight\nDistortions are costly when they push us away from efficiency.\n\nBut when markets are already failing, the right distortion can push us toward efficiency."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#public-goods",
+    "href": "lectures/equity-efficiency.html#public-goods",
+    "title": "Equity vs. Efficiency",
+    "section": "Public goods",
+    "text": "Public goods\nSome goods can’t be provided by markets:\n\nNational defense\nBasic research\nPublic health infrastructure\n\n\nThese require tax revenue to provide."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-necessity-of-taxes",
+    "href": "lectures/equity-efficiency.html#the-necessity-of-taxes",
+    "title": "Equity vs. Efficiency",
+    "section": "The necessity of taxes",
+    "text": "The necessity of taxes\nIf we need taxes to fund public goods, we’ll have some distortion.\n\nThe goal isn’t to eliminate distortion—it’s to minimize it.\n\n\n\nRaise the revenue you need in the least costly way possible."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#efficient-taxation",
+    "href": "lectures/equity-efficiency.html#efficient-taxation",
+    "title": "Equity vs. Efficiency",
+    "section": "Efficient taxation",
+    "text": "Efficient taxation\nEconomic research suggests:\n\nBroad bases, low rates minimize distortion\nTax things that are hard to change (land, consumption)\nAvoid taxing things that are easy to move (capital, mobile workers)\n\n\nThis is why economists often prefer consumption taxes to income taxes."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#sometimes-we-can-do-both",
+    "href": "lectures/equity-efficiency.html#sometimes-we-can-do-both",
+    "title": "Equity vs. Efficiency",
+    "section": "Sometimes we can do both",
+    "text": "Sometimes we can do both\nIn rare cases, we can increase both efficiency and equity:\n\n\nRemoving regulations that protect the wealthy (occupational licensing, zoning)\nFixing market failures that hurt the poor (predatory lending, pollution in poor neighborhoods)\nInvesting in human capital (education for disadvantaged kids)\n\n\n\nThese are win-wins—but they’re not always available."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-hard-cases",
+    "href": "lectures/equity-efficiency.html#the-hard-cases",
+    "title": "Equity vs. Efficiency",
+    "section": "The hard cases",
+    "text": "The hard cases\nMost of the time, we face real tradeoffs.\n\nMore redistribution → more distortion → smaller pie.\n\n\nThe question isn’t whether to redistribute—it’s how much.\n\n\n\nThe answer depends on your values and the costs."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#key-takeaways",
+    "href": "lectures/equity-efficiency.html#key-takeaways",
+    "title": "Equity vs. Efficiency",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nEfficiency and equity are distinct—don’t conflate size with distribution\n\n\n\nFairness is normative—economics can’t tell you what’s fair\n\n\n\n\nIdeal redistribution is impossible—lump-sum taxes aren’t feasible\n\n\n\n\nReal redistribution has costs—distortions reduce total output\n\n\n\n\nSometimes distortions help—when correcting externalities"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#thinking-like-an-economist",
+    "href": "lectures/equity-efficiency.html#thinking-like-an-economist",
+    "title": "Equity vs. Efficiency",
+    "section": "Thinking like an economist",
+    "text": "Thinking like an economist\nAn economist holds both ideas in mind:\n\n\nMarkets are powerful tools for efficiency\nDistribution matters and may require intervention\n\n\n\n\nThe goal is to understand the tradeoffs and quantify them."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#next-time",
+    "href": "lectures/equity-efficiency.html#next-time",
+    "title": "Equity vs. Efficiency",
+    "section": "Next time",
+    "text": "Next time\nWe’ll explore how economists actually measure the effects of policies.\n\nHow do we know if a policy worked?\n\n\nThe answer: Causation and experiments."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#questions",
+    "href": "lectures/equity-efficiency.html#questions",
+    "title": "Equity vs. Efficiency",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "index.html#course-staff",
@@ -54,13 +495,6 @@
     "title": "Economics for Everyone | Spring 2026",
     "section": "Coursework",
     "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "lectures/incentives.html#recall-our-first-principle",
@@ -511,6 +945,20 @@
     "text": "The First Welfare Theorem\n\nUnder certain conditions, competitive markets automatically maximize total surplus.\n\n\nThis is remarkable. No central planner needed.\n\n\nJust people pursuing their own interests, guided by prices.\n\n\nAdam Smith called this the “invisible hand.”"
   },
   {
+    "objectID": "lectures/markets-failures.html#prices-as-signals",
+    "href": "lectures/markets-failures.html#prices-as-signals",
+    "title": "Markets and Their Failures",
+    "section": "Prices as Signals",
+    "text": "Prices as Signals\nHere’s something remarkable about the equilibrium price:\n\nFor sellers: The price reflects the marginal cost of production\n\nThe cost of producing one more unit\n\n\n\nFor buyers: The price reflects the marginal benefit of consumption\n\nThe value of consuming one more unit\n\n\n\nAt equilibrium: Marginal cost = Marginal benefit = Price"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-this-matters",
+    "href": "lectures/markets-failures.html#why-this-matters",
+    "title": "Markets and Their Failures",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThe price tells producers: “This is what society values an extra unit at.”\n\nThe price tells consumers: “This is what it costs society to make an extra unit.”\n\n\n\nPrices coordinate decisions across millions of people who will never meet.\n\n\n\nNo one needs to know the whole picture. The price contains the information."
+  },
+  {
     "objectID": "lectures/markets-failures.html#price-discovery-in-the-real-world",
     "href": "lectures/markets-failures.html#price-discovery-in-the-real-world",
     "title": "Markets and Their Failures",
@@ -546,39 +994,32 @@
     "text": "Gold: When Demand Surges\nWhen demand for gold increases:\n\n\nPrice rises\n\n\n\n\nMining operations that were unprofitable become profitable\n\n\n\n\nSupply expands\n\n\n\n\nThe price signal coordinated this response—no central planner required."
   },
   {
-    "objectID": "lectures/markets-failures.html#beyond-single-markets",
-    "href": "lectures/markets-failures.html#beyond-single-markets",
+    "objectID": "lectures/markets-failures.html#two-types-of-workers",
+    "href": "lectures/markets-failures.html#two-types-of-workers",
     "title": "Markets and Their Failures",
-    "section": "Beyond Single Markets",
-    "text": "Beyond Single Markets\nPrices don’t just coordinate within a market.\n\nThey coordinate across markets.\n\n\nThis unlocks the gains from specialization and comparative advantage."
+    "section": "Two Types of Workers",
+    "text": "Two Types of Workers\nConsider an economy with two groups of workers:\n\nConstruction workers — tend to be better at building houses\n\n\nContent creators — tend to be better at making TikToks\n\n\nBoth groups can produce either good, but with different abilities."
   },
   {
-    "objectID": "lectures/markets-failures.html#a-tale-of-two-students",
-    "href": "lectures/markets-failures.html#a-tale-of-two-students",
+    "objectID": "lectures/markets-failures.html#the-production-possibilities-frontier",
+    "href": "lectures/markets-failures.html#the-production-possibilities-frontier",
     "title": "Markets and Their Failures",
-    "section": "A Tale of Two Students",
-    "text": "A Tale of Two Students\nMeet Alex and Jordan. They’re working on a group project that requires:\n\nWriting a 10-page report\nBuilding a website\n\n\nHere’s how long each task takes them:\n\n\n\nTask\nAlex\nJordan\n\n\n\n\nWrite report\n10 hours\n5 hours\n\n\nBuild website\n2 hours\n4 hours"
+    "section": "The Production Possibilities Frontier",
+    "text": "The Production Possibilities Frontier\nWe can illustrate what each group can produce with a PPF."
   },
   {
-    "objectID": "lectures/markets-failures.html#whos-better",
-    "href": "lectures/markets-failures.html#whos-better",
+    "objectID": "lectures/markets-failures.html#the-trade-off",
+    "href": "lectures/markets-failures.html#the-trade-off",
     "title": "Markets and Their Failures",
-    "section": "Who’s “Better”?",
-    "text": "Who’s “Better”?\nAbsolute advantage: Who can do the task faster?\n\n\nJordan is faster at writing (5 hrs vs 10 hrs)\nAlex is faster at coding (2 hrs vs 4 hrs)\n\n\n\nSeems obvious: Jordan writes, Alex codes.\n\n\nBut what if there were two reports and two websites?"
+    "section": "The Trade-Off",
+    "text": "The Trade-Off\nThe PPF shows trade-offs: more houses means fewer TikToks.\n\nThe curve bows outward because of increasing opportunity cost.\n\n\n\nThe first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers."
   },
   {
-    "objectID": "lectures/markets-failures.html#the-surprising-math",
-    "href": "lectures/markets-failures.html#the-surprising-math",
+    "objectID": "lectures/markets-failures.html#comparing-opportunity-costs",
+    "href": "lectures/markets-failures.html#comparing-opportunity-costs",
     "title": "Markets and Their Failures",
-    "section": "The Surprising Math",
-    "text": "The Surprising Math\nWithout specialization (each does one of each):\n\n\n\n\nAlex\nJordan\nTotal\n\n\n\n\nReport\n10 hrs\n5 hrs\n\n\n\nWebsite\n2 hrs\n4 hrs\n\n\n\nTotal\n12 hrs\n9 hrs\n21 hrs"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#with-specialization",
-    "href": "lectures/markets-failures.html#with-specialization",
-    "title": "Markets and Their Failures",
-    "section": "With Specialization",
-    "text": "With Specialization\nEach focuses on their comparative advantage:\n\nSam (6 hrs on t-shirts): 18 t-shirts\nTaylor (6 hrs on posters): 24 posters\n\n\nTotal: 18 t-shirts + 24 posters\nRevenue: 18 × $10 + 24 × $5 = $300"
+    "section": "Comparing Opportunity Costs",
+    "text": "Comparing Opportunity Costs\nAt any point, the slope of the PPF tells us the opportunity cost.\n\nLet’s compare the two groups at the same level of TikTok production…"
   },
   {
     "objectID": "lectures/markets-failures.html#comparative-advantage",
@@ -588,6 +1029,13 @@
     "text": "Comparative Advantage"
   },
   {
+    "objectID": "lectures/markets-failures.html#what-this-means",
+    "href": "lectures/markets-failures.html#what-this-means",
+    "title": "Markets and Their Failures",
+    "section": "What This Means",
+    "text": "What This Means\nFor construction workers, TikToks are expensive — each one costs many houses.\n\nFor content creators, TikToks are cheap — each one costs few houses.\n\n\n\nConstruction workers have comparative advantage in houses.\nContent creators have comparative advantage in TikToks."
+  },
+  {
     "objectID": "lectures/markets-failures.html#the-key-insight",
     "href": "lectures/markets-failures.html#the-key-insight",
     "title": "Markets and Their Failures",
@@ -595,11 +1043,53 @@
     "text": "The Key Insight\nComparative advantage is about relative costs, not absolute ability.\n\nEven if construction workers were better at both activities, content creators still have lower opportunity cost for TikToks.\n\n\nEach group should specialize in their comparative advantage."
   },
   {
-    "objectID": "lectures/markets-failures.html#how-prices-coordinate-specialization",
-    "href": "lectures/markets-failures.html#how-prices-coordinate-specialization",
+    "objectID": "lectures/markets-failures.html#but-how-much-to-specialize",
+    "href": "lectures/markets-failures.html#but-how-much-to-specialize",
     "title": "Markets and Their Failures",
-    "section": "How Prices Coordinate Specialization",
-    "text": "How Prices Coordinate Specialization\nHow do Alex and Jordan know who should do what?\n\nIn real markets: prices and wages provide the signal.\n\n\n\nHigh wages for coders → more people learn to code\nLow prices for imported goods → domestic producers shift to other products\n\n\n\nNo one needs to see the whole picture. Prices coordinate automatically."
+    "section": "But How Much to Specialize?",
+    "text": "But How Much to Specialize?\nComparative advantage tells us what to focus on.\n\nBut how do groups know how much of each good to produce?\n\n\nPrices answer this question."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#market-prices",
+    "href": "lectures/markets-failures.html#market-prices",
+    "title": "Markets and Their Failures",
+    "section": "Market Prices",
+    "text": "Market Prices\nSuppose houses and TikToks trade in markets:\n\nHouses: $200,000 each\nTikToks: $50 each\n\n\nWhere on the PPF should each group locate?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-optimal-point",
+    "href": "lectures/markets-failures.html#the-optimal-point",
+    "title": "Markets and Their Failures",
+    "section": "The Optimal Point",
+    "text": "The Optimal Point\nEach group should produce where their opportunity cost equals the price ratio.\n\nAt that point, shifting production either way would reduce total income."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#finding-the-optimum",
+    "href": "lectures/markets-failures.html#finding-the-optimum",
+    "title": "Markets and Their Failures",
+    "section": "Finding the Optimum",
+    "text": "Finding the Optimum"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
+    "href": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
+    "title": "Markets and Their Failures",
+    "section": "This Allocation Maximizes Total Value",
+    "text": "This Allocation Maximizes Total Value\nAt these optimal points, total value produced is maximized.\n\n\nThe tangent lines have the same slope (the price ratio)\nNo reallocation could increase total output value\n\n\n\n\nGiven prices, this is the best we can do."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-magic-of-prices",
+    "href": "lectures/markets-failures.html#the-magic-of-prices",
+    "title": "Markets and Their Failures",
+    "section": "The Magic of Prices",
+    "text": "The Magic of Prices\nWorkers don’t need to know each other’s abilities.\n\nThey don’t need to coordinate with anyone.\n\n\nThey just respond to prices — and the economy specializes efficiently."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-invisible-hand",
+    "href": "lectures/markets-failures.html#the-invisible-hand",
+    "title": "Markets and Their Failures",
+    "section": "The Invisible Hand",
+    "text": "The Invisible Hand\n\nPrices guide each person to their comparative advantage—automatically.\n\n\nNo central planner needed.\n\n\nPrices contain the information needed to coordinate production across millions of people."
   },
   {
     "objectID": "lectures/markets-failures.html#remember-those-conditions",
@@ -628,6 +1118,13 @@
     "title": "Markets and Their Failures",
     "section": "Let’s Play: Lemons Edition",
     "text": "Let’s Play: Lemons Edition\nLet’s revisit our extra credit market.\n\nSellers: I’m going to randomly assign you to real or fake credits.\n\n\nCheck your email/phone now—I’ve sent half of you a message saying “REAL” and half “FAKE.”\n\n\n(If you didn’t get a message, your credit is FAKE.)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lemons-game-the-rules",
+    "href": "lectures/markets-failures.html#lemons-game-the-rules",
+    "title": "Markets and Their Failures",
+    "section": "Lemons Game: The Rules",
+    "text": "Lemons Game: The Rules\nSellers: You know if your credit is real (worth 1 point) or fake (worth 0).\n\nBuyers: You don’t know which sellers have real credits.\n\n\nSellers: What’s your WTA now?\nBuyers: What’s your WTP now?\n\n\nSubmit your answers!"
   },
   {
     "objectID": "lectures/markets-failures.html#discussion-lemons-game",
@@ -677,6 +1174,13 @@
     "title": "Markets and Their Failures",
     "section": "Let’s Play: Externalities Edition",
     "text": "Let’s Play: Externalities Edition\nBack to our credit market.\n\nNew rule: Each credit point sold reduces the value of ALL other credits by 5%.\n\n\nIf 5 trades happen, every credit (traded or not) is worth only 75% of a point.\n\n\nThis is like a curve: the more points out there, the less each one helps your grade."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#externalities-game-think-about-it",
+    "href": "lectures/markets-failures.html#externalities-game-think-about-it",
+    "title": "Markets and Their Failures",
+    "section": "Externalities Game: Think About It",
+    "text": "Externalities Game: Think About It\nYou’re a buyer. You still want a credit point.\n\nBut when you buy one, you make everyone else’s credits less valuable.\n\n\nDo you consider that cost when deciding to trade?\n\n\nShould that cost affect whether the trade happens?"
   },
   {
     "objectID": "lectures/markets-failures.html#discussion-externality-game",
@@ -742,6 +1246,13 @@
     "text": "The Coase Theorem\nSometimes private bargaining can solve externalities.\n\nCoase’s insight: If property rights are clear and transaction costs are low, people negotiate to the efficient outcome.\n\nReference: Coase, R. (1960). “The Problem of Social Cost.” Journal of Law and Economics."
   },
   {
+    "objectID": "lectures/markets-failures.html#coase-example",
+    "href": "lectures/markets-failures.html#coase-example",
+    "title": "Markets and Their Failures",
+    "section": "Coase Example",
+    "text": "Coase Example\nFactory pollutes, harms nearby residents.\n\n\nIf residents have right to clean air → factory pays them\nIf factory has right to pollute → residents pay factory\n\n\n\nEither way, they negotiate to the efficient level of pollution!"
+  },
+  {
     "objectID": "lectures/markets-failures.html#when-coase-works-and-doesnt",
     "href": "lectures/markets-failures.html#when-coase-works-and-doesnt",
     "title": "Markets and Their Failures",
@@ -768,495 +1279,5 @@
     "title": "Markets and Their Failures",
     "section": "Next Time",
     "text": "Next Time\nEquity vs. Efficiency\n\nIs maximizing surplus enough?\nWhat about fairness?\nThe fundamental tradeoffs in economic policy"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#prices-as-signals",
-    "href": "lectures/markets-failures.html#prices-as-signals",
-    "title": "Markets and Their Failures",
-    "section": "Prices as Signals",
-    "text": "Prices as Signals\nHere’s something remarkable about the equilibrium price:\n\nFor sellers: The price reflects the marginal cost of production\n\nThe cost of producing one more unit\n\n\n\nFor buyers: The price reflects the marginal benefit of consumption\n\nThe value of consuming one more unit\n\n\n\nAt equilibrium: Marginal cost = Marginal benefit = Price"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#why-this-matters",
-    "href": "lectures/markets-failures.html#why-this-matters",
-    "title": "Markets and Their Failures",
-    "section": "Why This Matters",
-    "text": "Why This Matters\nThe price tells producers: “This is what society values an extra unit at.”\n\nThe price tells consumers: “This is what it costs society to make an extra unit.”\n\n\n\nPrices coordinate decisions across millions of people who will never meet.\n\n\n\nNo one needs to know the whole picture. The price contains the information."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#but-waitwhat-if-one-person-is-better-at-everything",
-    "href": "lectures/markets-failures.html#but-waitwhat-if-one-person-is-better-at-everything",
-    "title": "Markets and Their Failures",
-    "section": "But Wait—What If One Person Is Better at Everything?",
-    "text": "But Wait—What If One Person Is Better at Everything?\nNew example: Sam and Taylor\n\n\n\nTask\nSam\nTaylor\n\n\n\n\nWrite report\n2 hours\n6 hours\n\n\nBuild website\n1 hour\n4 hours\n\n\n\n\nSam has absolute advantage in both tasks!\n\n\nShould Sam just do everything?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#lets-do-the-math",
-    "href": "lectures/markets-failures.html#lets-do-the-math",
-    "title": "Markets and Their Failures",
-    "section": "Let’s Do the Math",
-    "text": "Let’s Do the Math\nSuppose we need 2 reports and 2 websites.\n\nIf Sam does everything:\n\n2 reports × 2 hrs + 2 websites × 1 hr = 6 hours for Sam\nTaylor does nothing\n\n\n\nIf they split evenly (1 each):\n\nSam: 2 + 1 = 3 hrs\nTaylor: 6 + 4 = 10 hrs\nTotal: 13 hours"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-power-of-comparative-advantage",
-    "href": "lectures/markets-failures.html#the-power-of-comparative-advantage",
-    "title": "Markets and Their Failures",
-    "section": "The Power of Comparative Advantage",
-    "text": "The Power of Comparative Advantage\nWhat’s each person’s opportunity cost of a website?\n\nSam: 1 hr website = 0.5 reports given up\nTaylor: 4 hr website = 4/6 = 0.67 reports given up\n\n\nSam has comparative advantage in websites (lower opportunity cost).\nTaylor has comparative advantage in… reports!"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#specialization-wins-again",
-    "href": "lectures/markets-failures.html#specialization-wins-again",
-    "title": "Markets and Their Failures",
-    "section": "Specialization Wins Again",
-    "text": "Specialization Wins Again\nTaylor does 2 reports, Sam does 2 websites:\n\nSam: 2 websites × 1 hr = 2 hours\nTaylor: 2 reports × 6 hrs = 12 hours\nTotal: 14 hours\n\n\nBut wait—Sam had 4 hours of free time. What if Sam helps with reports?\n\n\nSam does 2 websites + 1 report, Taylor does 1 report:\n\nSam: 2 + 2 = 4 hours\nTaylor: 6 hours\nTotal: 10 hours (vs 13 without specialization)"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#comparative-advantage-the-key-insight",
-    "href": "lectures/markets-failures.html#comparative-advantage-the-key-insight",
-    "title": "Markets and Their Failures",
-    "section": "Comparative Advantage: The Key Insight",
-    "text": "Comparative Advantage: The Key Insight\n\nEven if someone is better at everything, there are still gains from specialization based on comparative advantage.\n\n\nThe person with absolute advantage in everything should focus on what they’re relatively best at.\n\n\nThis is why countries trade. This is why you don’t grow your own food."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#how-do-people-know-what-to-specialize-in",
-    "href": "lectures/markets-failures.html#how-do-people-know-what-to-specialize-in",
-    "title": "Markets and Their Failures",
-    "section": "How Do People Know What to Specialize In?",
-    "text": "How Do People Know What to Specialize In?\nWe calculated opportunity costs. In real life, nobody does this math.\n\nPrices and wages tell you what to specialize in.\n\n\nIf poster-making pays well, more people make posters.\nIf it pays poorly, they switch to something else."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#prices-coordinate-specialization",
-    "href": "lectures/markets-failures.html#prices-coordinate-specialization",
-    "title": "Markets and Their Failures",
-    "section": "Prices Coordinate Specialization",
-    "text": "Prices Coordinate Specialization\nSuppose there’s a market for coding and writing work:\n\n\n\nTask\nMarket Price\n\n\n\n\nWrite 1 report\n$100\n\n\nBuild 1 website\n$150\n\n\n\n\nWhat should Sam do? What should Taylor do?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#calculating-returns",
-    "href": "lectures/markets-failures.html#calculating-returns",
-    "title": "Markets and Their Failures",
-    "section": "Calculating Returns",
-    "text": "Calculating Returns\nSam’s hourly earnings:\n\nWriting: $100 / 2 hrs = $50/hr\nCoding: $150 / 1 hr = $150/hr\n\n\nTaylor’s hourly earnings:\n\nWriting: $100 / 6 hrs = $17/hr\nCoding: $150 / 4 hrs = $38/hr\n\n\n\nSam should code. Taylor should… also code?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-market-adjusts",
-    "href": "lectures/markets-failures.html#the-market-adjusts",
-    "title": "Markets and Their Failures",
-    "section": "The Market Adjusts",
-    "text": "The Market Adjusts\nIf everyone wants to code, what happens?\n\n\nSupply of coding ↑ → coding prices ↓\nSupply of writing ↓ → writing prices ↑\n\n\n\nPrices adjust until it’s worthwhile for someone to write.\n\n\n\nRelative prices guide each person to their comparative advantage—automatically."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-magic",
-    "href": "lectures/markets-failures.html#the-magic",
-    "title": "Markets and Their Failures",
-    "section": "The Magic",
-    "text": "The Magic\nNo one needs to know everyone’s abilities.\n\nNo one needs to calculate opportunity costs.\n\n\nPrices contain the information needed to coordinate specialization across millions of people.\n\n\n\nThis is the “invisible hand” at work."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#lemons-game-the-rules",
-    "href": "lectures/markets-failures.html#lemons-game-the-rules",
-    "title": "Markets and Their Failures",
-    "section": "Lemons Game: The Rules",
-    "text": "Lemons Game: The Rules\nSellers: You know if your credit is real (worth 1 point) or fake (worth 0).\n\nBuyers: You don’t know which sellers have real credits.\n\n\nSellers: What’s your WTA now?\nBuyers: What’s your WTP now?\n\n\nSubmit your answers!"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#externalities-game-think-about-it",
-    "href": "lectures/markets-failures.html#externalities-game-think-about-it",
-    "title": "Markets and Their Failures",
-    "section": "Externalities Game: Think About It",
-    "text": "Externalities Game: Think About It\nYou’re a buyer. You still want a credit point.\n\nBut when you buy one, you make everyone else’s credits less valuable.\n\n\nDo you consider that cost when deciding to trade?\n\n\nShould that cost affect whether the trade happens?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#what-if-one-person-is-better-at-everything",
-    "href": "lectures/markets-failures.html#what-if-one-person-is-better-at-everything",
-    "title": "Markets and Their Failures",
-    "section": "What If One Person Is Better at Everything?",
-    "text": "What If One Person Is Better at Everything?\nNew example: Sam and Taylor face a deadline.\nThey need 2 reports and 2 websites done by 5pm. It’s now 11am.\n\n\n\nTask\nSam\nTaylor\n\n\n\n\nWrite report\n2 hours\n4 hours\n\n\nBuild website\n1 hour\n2 hours\n\n\n\nSam is faster at both tasks!"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-deadline-problem",
-    "href": "lectures/markets-failures.html#the-deadline-problem",
-    "title": "Markets and Their Failures",
-    "section": "The Deadline Problem",
-    "text": "The Deadline Problem\nIf Sam does everything alone:\n\n2 reports (4 hrs) + 2 websites (2 hrs) = 6 hours\nDone by 5pm? Yes!\n\n\nBut what if they only have 4 hours until deadline?\n\n\nSam alone can’t finish. They need to work in parallel."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#working-in-parallel",
-    "href": "lectures/markets-failures.html#working-in-parallel",
-    "title": "Markets and Their Failures",
-    "section": "Working in Parallel",
-    "text": "Working in Parallel\nOption A: Each does 1 report + 1 website\n\nSam: 2 + 1 = 3 hrs\nTaylor: 4 + 2 = 6 hrs\nCalendar time: 6 hours (limited by Taylor) ❌"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#specializing-by-comparative-advantage",
-    "href": "lectures/markets-failures.html#specializing-by-comparative-advantage",
-    "title": "Markets and Their Failures",
-    "section": "Specializing by Comparative Advantage",
-    "text": "Specializing by Comparative Advantage\nWho has lower opportunity cost for each task?\n\nSam: 1 website costs 0.5 reports forgone\nTaylor: 1 website costs 0.5 reports forgone\n\n\nSame ratio! But Sam is 2x faster at both. So have Sam do more total work:"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#a-better-split",
-    "href": "lectures/markets-failures.html#a-better-split",
-    "title": "Markets and Their Failures",
-    "section": "A Better Split",
-    "text": "A Better Split\nOption B: Sam does 2 websites + 1 report, Taylor does 1 report\n\nSam: 1 + 1 + 2 = 4 hrs\nTaylor: 4 hrs\nCalendar time: 4 hours ✓\n\n\nBy working in parallel and having the faster person do more, they meet the deadline."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#how-do-markets-coordinate-this",
-    "href": "lectures/markets-failures.html#how-do-markets-coordinate-this",
-    "title": "Markets and Their Failures",
-    "section": "How Do Markets Coordinate This?",
-    "text": "How Do Markets Coordinate This?\nIn real life, no one calculates opportunity costs.\n\nInstead, prices tell you what to do."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#prices-as-signals-for-specialization",
-    "href": "lectures/markets-failures.html#prices-as-signals-for-specialization",
-    "title": "Markets and Their Failures",
-    "section": "Prices as Signals for Specialization",
-    "text": "Prices as Signals for Specialization\nIf coding pays $75/hr and writing pays $25/hr:\n\nEveryone wants to code\n\n\nBut then:\n\nToo many coders → coding wages fall\nToo few writers → writing wages rise\n\n\n\nPrices adjust until someone finds it worthwhile to write."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-invisible-hand",
-    "href": "lectures/markets-failures.html#the-invisible-hand",
-    "title": "Markets and Their Failures",
-    "section": "The Invisible Hand",
-    "text": "The Invisible Hand\n\nPrices guide each person to their comparative advantage—automatically.\n\n\nNo central planner needed.\n\n\nPrices contain the information needed to coordinate production across millions of people."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#coase-example",
-    "href": "lectures/markets-failures.html#coase-example",
-    "title": "Markets and Their Failures",
-    "section": "Coase Example",
-    "text": "Coase Example\nFactory pollutes, harms nearby residents.\n\n\nIf residents have right to clean air → factory pays them\nIf factory has right to pollute → residents pay factory\n\n\n\nEither way, they negotiate to the efficient level of pollution!"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#a-campus-business",
-    "href": "lectures/markets-failures.html#a-campus-business",
-    "title": "Markets and Their Failures",
-    "section": "A Campus Business",
-    "text": "A Campus Business\nSam and Taylor run a booth at a campus fair.\nThey sell two products: custom t-shirts ($10) and posters ($5).\n\nThey each have 6 hours to prepare inventory.\n\n\nHow should they divide the work?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#their-productivity",
-    "href": "lectures/markets-failures.html#their-productivity",
-    "title": "Markets and Their Failures",
-    "section": "Their Productivity",
-    "text": "Their Productivity\n\n\n\n\nT-shirts per hour\nPosters per hour\n\n\n\n\nSam\n3\n6\n\n\nTaylor\n1\n4\n\n\n\n\nSam is faster at both tasks.\n\n\nShould Sam just do everything?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#without-specialization",
-    "href": "lectures/markets-failures.html#without-specialization",
-    "title": "Markets and Their Failures",
-    "section": "Without Specialization",
-    "text": "Without Specialization\nIf each splits their time 50/50:\n\nSam (3 hrs each): 9 t-shirts + 18 posters\nTaylor (3 hrs each): 3 t-shirts + 12 posters\n\n\nTotal: 12 t-shirts + 30 posters\nRevenue: 12 × $10 + 30 × $5 = $270"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#opportunity-cost",
-    "href": "lectures/markets-failures.html#opportunity-cost",
-    "title": "Markets and Their Failures",
-    "section": "Opportunity Cost",
-    "text": "Opportunity Cost\nWhat does each person give up to make a t-shirt?\n\nSam: Making 1 t-shirt (20 min) means 2 fewer posters\n\nSam’s opportunity cost: 1 t-shirt = 2 posters\n\n\n\nTaylor: Making 1 t-shirt (60 min) means 4 fewer posters\n\nTaylor’s opportunity cost: 1 t-shirt = 4 posters"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-gains-from-specialization",
-    "href": "lectures/markets-failures.html#the-gains-from-specialization",
-    "title": "Markets and Their Failures",
-    "section": "The Gains from Specialization",
-    "text": "The Gains from Specialization\n\n\n\nScenario\nOutput\nRevenue\nWage\nProfit\n\n\n\n\nSam alone\n12T + 12P\n$180\n$0\n$180\n\n\nHire, no specialize\n15T + 18P\n$240\n$50\n$190\n\n\nHire + specialize\n24T + 12P\n$300\n$50\n$250"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#why-this-works",
-    "href": "lectures/markets-failures.html#why-this-works",
-    "title": "Markets and Their Failures",
-    "section": "Why This Works",
-    "text": "Why This Works\nSam is “only” 1.5× faster at posters, but 3× faster at t-shirts.\n\nEvery hour Sam spends on posters is an hour not spent on t-shirts—where Sam’s advantage is biggest.\n\n\n\nFocus on what you’re relatively best at, even if you’re better at everything."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-real-world",
-    "href": "lectures/markets-failures.html#the-real-world",
-    "title": "Markets and Their Failures",
-    "section": "The Real World",
-    "text": "The Real World\nThis is why:\n\nLawyers hire paralegals (even for tasks lawyers do faster)\nRich countries trade with poor countries\nYou don’t grow your own food\n\n\n\nComparative advantage—not absolute advantage—determines who should do what."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#sams-business",
-    "href": "lectures/markets-failures.html#sams-business",
-    "title": "Markets and Their Failures",
-    "section": "Sam’s Business",
-    "text": "Sam’s Business\nSam runs a small business selling custom t-shirts and posters.\n\n\nT-shirts sell for $10\nPosters sell for $5\n\n\n\nSam has 6 hours today to make inventory."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#sams-productivity",
-    "href": "lectures/markets-failures.html#sams-productivity",
-    "title": "Markets and Their Failures",
-    "section": "Sam’s Productivity",
-    "text": "Sam’s Productivity\nSam can make:\n\n4 t-shirts per hour, OR\n4 posters per hour\n\n\nSam is equally good at both. In 6 hours, Sam faces a tradeoff:\n\n24 t-shirts and 0 posters, OR\n0 t-shirts and 24 posters, OR\nSome mix in between"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#sam-working-alone",
-    "href": "lectures/markets-failures.html#sam-working-alone",
-    "title": "Markets and Their Failures",
-    "section": "Sam Working Alone",
-    "text": "Sam Working Alone\nIf Sam splits time 50/50:\n\n\n3 hours × 4 t-shirts = 12 t-shirts ($120)\n3 hours × 4 posters = 12 posters ($60)\n\n\n\nTotal revenue: $180"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#enter-taylor",
-    "href": "lectures/markets-failures.html#enter-taylor",
-    "title": "Markets and Their Failures",
-    "section": "Enter Taylor",
-    "text": "Enter Taylor\nTaylor is looking for work. Taylor can make:\n\n1 t-shirt per hour, OR\n2 posters per hour\n\n\nTaylor is slower than Sam at both tasks.\n\n\nTaylor wants $50 for 6 hours of work."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#should-sam-hire-taylor",
-    "href": "lectures/markets-failures.html#should-sam-hire-taylor",
-    "title": "Markets and Their Failures",
-    "section": "Should Sam Hire Taylor?",
-    "text": "Should Sam Hire Taylor?\nTaylor is worse at everything Sam does.\n\nWhy would Sam pay $50 to hire someone less productive?\n\n\nLet’s do the math."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#hiring-taylor-no-specialization",
-    "href": "lectures/markets-failures.html#hiring-taylor-no-specialization",
-    "title": "Markets and Their Failures",
-    "section": "Hiring Taylor (No Specialization)",
-    "text": "Hiring Taylor (No Specialization)\nBoth split their time 50/50:\n\nSam: 12 t-shirts + 12 posters = $180\nTaylor: 3 t-shirts + 6 posters = $60\n\n\nTotal revenue: $240\nMinus Taylor’s wage: $240 - $50 = $190 profit\n\n\n\nThat’s $10 more than Sam working alone!"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#why-did-hiring-help",
-    "href": "lectures/markets-failures.html#why-did-hiring-help",
-    "title": "Markets and Their Failures",
-    "section": "Why Did Hiring Help?",
-    "text": "Why Did Hiring Help?\nEven though Taylor is slower, Taylor still adds output.\n\nSam’s time is limited. Taylor’s contribution—even if small—expands what’s possible.\n\n\nBut can we do better?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#opportunity-costs",
-    "href": "lectures/markets-failures.html#opportunity-costs",
-    "title": "Markets and Their Failures",
-    "section": "Opportunity Costs",
-    "text": "Opportunity Costs\nWhat does each person give up to make a t-shirt?\n\nSam: 1 t-shirt (15 min) = 1 poster forgone\n\nSam’s opportunity cost: 1 t-shirt = 1 poster\n\n\n\nTaylor: 1 t-shirt (60 min) = 2 posters forgone\n\nTaylor’s opportunity cost: 1 t-shirt = 2 posters"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-insight",
-    "href": "lectures/markets-failures.html#the-insight",
-    "title": "Markets and Their Failures",
-    "section": "The Insight",
-    "text": "The Insight\nEven though Sam is faster at posters (4/hr vs 2/hr)…\n\n…every hour Sam spends on posters is an hour not spent on t-shirts.\n\n\nSam should focus on t-shirts. Taylor should focus on posters."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#hiring-taylor-with-specialization",
-    "href": "lectures/markets-failures.html#hiring-taylor-with-specialization",
-    "title": "Markets and Their Failures",
-    "section": "Hiring Taylor (With Specialization)",
-    "text": "Hiring Taylor (With Specialization)\nEach focuses on their comparative advantage:\n\nSam: 6 hours × 4 t-shirts = 24 t-shirts ($240)\nTaylor: 6 hours × 2 posters = 12 posters ($60)\n\n\nTotal revenue: $300\nMinus Taylor’s wage: $300 - $50 = $250 profit"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#two-key-insights",
-    "href": "lectures/markets-failures.html#two-key-insights",
-    "title": "Markets and Their Failures",
-    "section": "Two Key Insights",
-    "text": "Two Key Insights\n1. Hiring someone “worse” can be profitable\n\nTaylor adds $10 in profit even without specialization\n\n\n2. Specializing by comparative advantage is even better\n\nSpecialization adds another $60 in profit\nTotal gain: $70 more than Sam alone"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#two-types-of-workers",
-    "href": "lectures/markets-failures.html#two-types-of-workers",
-    "title": "Markets and Their Failures",
-    "section": "Two Types of Workers",
-    "text": "Two Types of Workers\nConsider an economy with two groups of workers:\n\nConstruction workers — tend to be better at building houses\n\n\nContent creators — tend to be better at making TikToks\n\n\nBoth groups can produce either good, but with different abilities."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#what-can-each-type-produce",
-    "href": "lectures/markets-failures.html#what-can-each-type-produce",
-    "title": "Markets and Their Failures",
-    "section": "What Can Each Type Produce?",
-    "text": "What Can Each Type Produce?\nIn one day:\n\nConstruction worker can build:\n\n2 houses, OR\n1 TikTok\n\n\n\nContent creator can make:\n\n0.5 houses, OR\n4 TikToks"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#absolute-advantage",
-    "href": "lectures/markets-failures.html#absolute-advantage",
-    "title": "Markets and Their Failures",
-    "section": "Absolute Advantage",
-    "text": "Absolute Advantage\nWho is better at what?\n\nConstruction workers are 4× better at building houses (2 vs 0.5)\n\n\nContent creators are 4× better at making TikToks (4 vs 1)\n\n\nEach type has absolute advantage in their natural specialty."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-production-possibilities-frontier",
-    "href": "lectures/markets-failures.html#the-production-possibilities-frontier",
-    "title": "Markets and Their Failures",
-    "section": "The Production Possibilities Frontier",
-    "text": "The Production Possibilities Frontier\nWe can illustrate what each group can produce with a PPF."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#construction-workers-ppf",
-    "href": "lectures/markets-failures.html#construction-workers-ppf",
-    "title": "Markets and Their Failures",
-    "section": "Construction Worker’s PPF",
-    "text": "Construction Worker’s PPF"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#why-is-the-ppf-curved",
-    "href": "lectures/markets-failures.html#why-is-the-ppf-curved",
-    "title": "Markets and Their Failures",
-    "section": "Why Is the PPF Curved?",
-    "text": "Why Is the PPF Curved?\n\n\nThe first TikTok comes from the most social-media-savvy worker.\nMore TikToks require less suited workers.\n\nIncreasing opportunity cost"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#content-creators-ppf",
-    "href": "lectures/markets-failures.html#content-creators-ppf",
-    "title": "Markets and Their Failures",
-    "section": "Content Creator’s PPF",
-    "text": "Content Creator’s PPF"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#same-shape-different-scale",
-    "href": "lectures/markets-failures.html#same-shape-different-scale",
-    "title": "Markets and Their Failures",
-    "section": "Same Shape, Different Scale",
-    "text": "Same Shape, Different Scale\nBoth PPFs are curved outward.\n\nBut they differ in what each worker can produce at maximum.\n\n\nThe question: Where on their PPF should each worker produce?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#market-prices",
-    "href": "lectures/markets-failures.html#market-prices",
-    "title": "Markets and Their Failures",
-    "section": "Market Prices",
-    "text": "Market Prices\nSuppose houses and TikToks trade in markets:\n\nHouses: $200,000 each\nTikToks: $50 each\n\n\nWhere on the PPF should each group locate?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#what-should-workers-produce",
-    "href": "lectures/markets-failures.html#what-should-workers-produce",
-    "title": "Markets and Their Failures",
-    "section": "What Should Workers Produce?",
-    "text": "What Should Workers Produce?\nEach worker wants to maximize their income.\n\nShould construction workers make houses or TikToks?\n\n\nShould content creators make houses or TikToks?\n\n\nLet’s think about the tradeoffs."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-optimal-production-point",
-    "href": "lectures/markets-failures.html#the-optimal-production-point",
-    "title": "Markets and Their Failures",
-    "section": "The Optimal Production Point",
-    "text": "The Optimal Production Point\nA worker should produce where the opportunity cost equals the price ratio.\n\n\nAt the optimal point, the slope of the PPF equals the relative price.\n\n\n\nThis is where shifting production wouldn’t increase income."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#construction-workers-choice",
-    "href": "lectures/markets-failures.html#construction-workers-choice",
-    "title": "Markets and Their Failures",
-    "section": "Construction Worker’s Choice",
-    "text": "Construction Worker’s Choice\n\n\nMostly houses, but some TikToks — where PPF slope = price ratio."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#why-not-all-houses",
-    "href": "lectures/markets-failures.html#why-not-all-houses",
-    "title": "Markets and Their Failures",
-    "section": "Why Not All Houses?",
-    "text": "Why Not All Houses?\nAt the corner (all houses), making one more house costs very few TikToks.\n\nBut the market values houses at only 4 TikToks each.\n\n\n\nBetter to make some TikToks where the tradeoff is favorable."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#content-creators-choice",
-    "href": "lectures/markets-failures.html#content-creators-choice",
-    "title": "Markets and Their Failures",
-    "section": "Content Creator’s Choice",
-    "text": "Content Creator’s Choice\n\n\nMostly TikToks, but some houses — where PPF slope = price ratio."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-pattern",
-    "href": "lectures/markets-failures.html#the-pattern",
-    "title": "Markets and Their Failures",
-    "section": "The Pattern",
-    "text": "The Pattern\nEach worker:\n\nFocuses mostly on what they’re good at\nDoes a little of the other activity\n\n\nThe exact mix depends on where opportunity cost = price ratio."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#what-if-prices-changed",
-    "href": "lectures/markets-failures.html#what-if-prices-changed",
-    "title": "Markets and Their Failures",
-    "section": "What If Prices Changed?",
-    "text": "What If Prices Changed?\nIf TikToks became more valuable (say, $100 each):\n\n\nThe price ratio would shift\nBoth workers would make more TikToks\nBoth optimal points would move along their PPFs\n\n\n\n\nPrices tell workers where to produce."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-magic-of-prices",
-    "href": "lectures/markets-failures.html#the-magic-of-prices",
-    "title": "Markets and Their Failures",
-    "section": "The Magic of Prices",
-    "text": "The Magic of Prices\nWorkers don’t need to know each other’s abilities.\n\nThey don’t need to coordinate with anyone.\n\n\nThey just respond to prices — and the economy specializes efficiently."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-trade-off",
-    "href": "lectures/markets-failures.html#the-trade-off",
-    "title": "Markets and Their Failures",
-    "section": "The Trade-Off",
-    "text": "The Trade-Off\nThe PPF shows trade-offs: more houses means fewer TikToks.\n\nThe curve bows outward because of increasing opportunity cost.\n\n\n\nThe first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#how-should-these-groups-allocate-time",
-    "href": "lectures/markets-failures.html#how-should-these-groups-allocate-time",
-    "title": "Markets and Their Failures",
-    "section": "How Should These Groups Allocate Time?",
-    "text": "How Should These Groups Allocate Time?\nConstruction workers could spend all their time on houses.\nContent creators could spend all their time on TikToks.\n\nBut is that the best allocation?\n\n\nPrices help us answer this question."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#finding-the-optimal-point",
-    "href": "lectures/markets-failures.html#finding-the-optimal-point",
-    "title": "Markets and Their Failures",
-    "section": "Finding the Optimal Point",
-    "text": "Finding the Optimal Point\n\n\nWhere opportunity cost equals the price ratio.\nAt that point, shifting production either way would reduce income."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#prices-produce-specialization",
-    "href": "lectures/markets-failures.html#prices-produce-specialization",
-    "title": "Markets and Their Failures",
-    "section": "Prices Produce Specialization",
-    "text": "Prices Produce Specialization\nNotice what these prices have done:\n\nBecause construction workers are better at housing, their opportunity cost of making TikToks is very high.\n\n\nFor content creators, the opportunity cost of TikToks is low — they’d give up very little housing.\n\n\n\nEach group naturally specializes in what they’re relatively better at."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#trade-makes-both-better-off",
-    "href": "lectures/markets-failures.html#trade-makes-both-better-off",
-    "title": "Markets and Their Failures",
-    "section": "Trade Makes Both Better Off",
-    "text": "Trade Makes Both Better Off\nBecause opportunity costs differ, trade benefits everyone:\n\n\nEach group focuses on low opportunity cost activities\nThey trade to get what they want\n\n\n\nTotal production is higher than if each made everything themselves."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#this-allocation-maximizes-value",
-    "href": "lectures/markets-failures.html#this-allocation-maximizes-value",
-    "title": "Markets and Their Failures",
-    "section": "This Allocation Maximizes Value",
-    "text": "This Allocation Maximizes Value\nAt these optimal points, total value produced is maximized.\n\n\nEach group produces where their tradeoff matches market prices\nNo reallocation could increase total output value\n\n\n\n\nPrices guide us to the most valuable use of resources."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#comparing-opportunity-costs",
-    "href": "lectures/markets-failures.html#comparing-opportunity-costs",
-    "title": "Markets and Their Failures",
-    "section": "Comparing Opportunity Costs",
-    "text": "Comparing Opportunity Costs\nAt any point, the slope of the PPF tells us the opportunity cost.\n\nLet’s compare the two groups at the same level of TikTok production…"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#what-this-means",
-    "href": "lectures/markets-failures.html#what-this-means",
-    "title": "Markets and Their Failures",
-    "section": "What This Means",
-    "text": "What This Means\nFor construction workers, TikToks are expensive — each one costs many houses.\n\nFor content creators, TikToks are cheap — each one costs few houses.\n\n\n\nConstruction workers have comparative advantage in houses.\nContent creators have comparative advantage in TikToks."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#but-how-much-to-specialize",
-    "href": "lectures/markets-failures.html#but-how-much-to-specialize",
-    "title": "Markets and Their Failures",
-    "section": "But How Much to Specialize?",
-    "text": "But How Much to Specialize?\nComparative advantage tells us what to focus on.\n\nBut how do groups know how much of each good to produce?\n\n\nPrices answer this question."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#the-optimal-point",
-    "href": "lectures/markets-failures.html#the-optimal-point",
-    "title": "Markets and Their Failures",
-    "section": "The Optimal Point",
-    "text": "The Optimal Point\nEach group should produce where their opportunity cost equals the price ratio.\n\nAt that point, shifting production either way would reduce total income."
-  },
-  {
-    "objectID": "lectures/markets-failures.html#finding-the-optimum",
-    "href": "lectures/markets-failures.html#finding-the-optimum",
-    "title": "Markets and Their Failures",
-    "section": "Finding the Optimum",
-    "text": "Finding the Optimum"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
-    "href": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
-    "title": "Markets and Their Failures",
-    "section": "This Allocation Maximizes Total Value",
-    "text": "This Allocation Maximizes Total Value\nAt these optimal points, total value produced is maximized.\n\n\nThe tangent lines have the same slope (the price ratio)\nNo reallocation could increase total output value\n\n\n\n\nGiven prices, this is the best we can do."
   }
 ]
