@@ -1,0 +1,1990 @@
+[
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\nDate\nDay\nInstructor\nTopic\n\n\n\n\n1\nMar 24\nTue\nJohn\nThe Basics of Economics 1\n\n\n\nMar 26\nThu\nJohn\nThe Basics of Economics 2\n\n\n2\nMar 31\nTue\nJohn\nCorrelation vs Causation\n\n\n\nApr 2\nThu\nJohn\nExperimental Economics\n\n\n3\nApr 7\nTue\nJohn\nEducation\n\n\n\nApr 9\nThu\nJohn\nDiscrimination\n\n\n4\nApr 14\nTue\nJohn\nScaling\n\n\n\nApr 16\nThu\nJohn\nPartnerships with Organizations\n\n\n5\nApr 21\nTue\nJohn\nMidterm\n\n\n\nApr 23\nThu\nEvan\nIncentives\n\n\n6\nApr 28\nTue\nEvan\nMarkets and their failures\n\n\n\nApr 30\nThu\nEvan\nEquity vs. efficiency\n\n\n7\nMay 5\nTue\nEvan\nStatistical uncertainty\n\n\n\nMay 7\nThu\nEvan\nQuasi-experiments\n\n\n8\nMay 12\nTue\nEvan\nRisk and insurance\n\n\n\nMay 14\nThu\nEvan\nLabor markets\n\n\n9\nMay 19\nTue\nEvan\nTechnology, growth, and AI\n\n\n\nMay 21\nThu\nEvan\nMidterm\n\n\nFinals\nMay 26–29\n\n\nFinal Exam"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#why-do-we-need-quasi-experiments",
+    "href": "lectures/quasi-experiments.html#why-do-we-need-quasi-experiments",
+    "title": "Quasi-Experiments",
+    "section": "Why do we need quasi-experiments?",
+    "text": "Why do we need quasi-experiments?\nMany important questions can’t be answered with randomized experiments:\n\n\nDoes the minimum wage reduce employment?\nDoes going to prison increase or decrease future crime?\nDoes expanding health insurance improve health outcomes?\n\n\n\n\nThe problem: We can’t randomly assign wages, prison sentences, or health coverage."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#natural-experiments",
+    "href": "lectures/quasi-experiments.html#natural-experiments",
+    "title": "Quasi-Experiments",
+    "section": "Natural experiments",
+    "text": "Natural experiments\nSometimes the world gives us variation that looks like an experiment.\n\nNatural experiment: Real-world variation that allows researchers to identify causal effects without explicit randomization.\n\n\nThe key insight: Find settings where treatment is determined by factors unrelated to outcomes."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-quasi-experimental-toolkit",
+    "href": "lectures/quasi-experiments.html#the-quasi-experimental-toolkit",
+    "title": "Quasi-Experiments",
+    "section": "The quasi-experimental toolkit",
+    "text": "The quasi-experimental toolkit\nToday we’ll cover four major approaches:\n\n\nInterrupted time series — Before vs. after a sudden change\n\n\n\n\nDifference-in-differences — Compare changes across groups\n\n\n\n\nRegression discontinuity — Exploit arbitrary cutoffs\n\n\n\n\nInstrumental variables — Use external sources of variation"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#whats-the-catch",
+    "href": "lectures/quasi-experiments.html#whats-the-catch",
+    "title": "Quasi-Experiments",
+    "section": "What’s the catch?",
+    "text": "What’s the catch?\nThere’s no free lunch.\n\nEach method requires identifying assumptions — conditions that must hold for the estimates to be causal.\n\n\nAnd we need specification tests — diagnostics to assess whether those assumptions are plausible.\n\n\n\nKey insight: Being a good economist means knowing both the methods and their limitations."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-minimum-wage-debate",
+    "href": "lectures/quasi-experiments.html#the-minimum-wage-debate",
+    "title": "Quasi-Experiments",
+    "section": "The minimum wage debate",
+    "text": "The minimum wage debate\nTextbook economics: Higher minimum wage → Less employment\n\nThe argument:\n\nHigher wages = higher labor costs\nFirms hire fewer workers\nSome workers lose their jobs\n\n\n\nBut is this what actually happens?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-challenge-of-studying-minimum-wage",
+    "href": "lectures/quasi-experiments.html#the-challenge-of-studying-minimum-wage",
+    "title": "Quasi-Experiments",
+    "section": "The challenge of studying minimum wage",
+    "text": "The challenge of studying minimum wage\nWhy can’t we just compare states with different minimum wages?\n\nSelection problem: States that raise minimum wages might be different in many ways.\n\nStronger economies\nDifferent industries\nDifferent political preferences\n\n\n\nAny employment difference could reflect these factors, not the minimum wage."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#card-and-kruegers-natural-experiment",
+    "href": "lectures/quasi-experiments.html#card-and-kruegers-natural-experiment",
+    "title": "Quasi-Experiments",
+    "section": "Card and Krueger’s natural experiment",
+    "text": "Card and Krueger’s natural experiment\nIn 1992, New Jersey raised its minimum wage from $4.25 to $5.05.\n\nNeighboring Pennsylvania did not change its minimum wage.\n\n\n\n\nNew Jersey\n\nTreatment group\nMinimum wage: $4.25 → $5.05\n\n\nPennsylvania\n\nControl group\nMinimum wage: $4.25 (unchanged)"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-study-design",
+    "href": "lectures/quasi-experiments.html#the-study-design",
+    "title": "Quasi-Experiments",
+    "section": "The study design",
+    "text": "The study design\nCard and Krueger surveyed fast food restaurants in both states:\n\n\nBefore: February 1992 (before NJ increase)\nAfter: November 1992 (after NJ increase)\n\n\n\nThey measured employment at each restaurant."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-did-they-find",
+    "href": "lectures/quasi-experiments.html#what-did-they-find",
+    "title": "Quasi-Experiments",
+    "section": "What did they find?",
+    "text": "What did they find?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-surprising-result",
+    "href": "lectures/quasi-experiments.html#the-surprising-result",
+    "title": "Quasi-Experiments",
+    "section": "The surprising result",
+    "text": "The surprising result\nEmployment in New Jersey increased relative to Pennsylvania.\n\nThis challenged the conventional wisdom that minimum wage increases destroy jobs.\n\n\n\nThe lesson: Economic theory gives us predictions, but data tells us what actually happens."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#why-might-the-textbook-be-wrong",
+    "href": "lectures/quasi-experiments.html#why-might-the-textbook-be-wrong",
+    "title": "Quasi-Experiments",
+    "section": "Why might the textbook be wrong?",
+    "text": "Why might the textbook be wrong?\nSeveral explanations have been proposed:\n\n\nMonopsony power — Employers have wage-setting power\n\n\n\n\nEfficiency wages — Higher wages increase productivity\n\n\n\n\nReduced turnover — Less costly hiring and training\n\n\n\n\nPrice adjustments — Costs passed to consumers"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#discussion-what-makes-this-convincing",
+    "href": "lectures/quasi-experiments.html#discussion-what-makes-this-convincing",
+    "title": "Quasi-Experiments",
+    "section": "Discussion: What makes this convincing?",
+    "text": "Discussion: What makes this convincing?\nThink about:\n\nWhy is Pennsylvania a good comparison for New Jersey?\nWhat could still go wrong with this design?\nWould you be convinced?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-simplest-quasi-experiment",
+    "href": "lectures/quasi-experiments.html#the-simplest-quasi-experiment",
+    "title": "Quasi-Experiments",
+    "section": "The simplest quasi-experiment",
+    "text": "The simplest quasi-experiment\nIdea: Compare outcomes before and after a sudden change."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-george-floyd-and-police-violence",
+    "href": "lectures/quasi-experiments.html#example-george-floyd-and-police-violence",
+    "title": "Quasi-Experiments",
+    "section": "Example: George Floyd and police violence",
+    "text": "Example: George Floyd and police violence\nBruhn (2023) studied what happened to police killings after George Floyd’s murder in May 2020.\n\nThe event: A dramatic, sudden shift in public attention to police violence.\n\n\nThe question: Did this attention actually reduce police killings?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-the-data-showed",
+    "href": "lectures/quasi-experiments.html#what-the-data-showed",
+    "title": "Quasi-Experiments",
+    "section": "What the data showed",
+    "text": "What the data showed"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#interpreting-the-results",
+    "href": "lectures/quasi-experiments.html#interpreting-the-results",
+    "title": "Quasi-Experiments",
+    "section": "Interpreting the results",
+    "text": "Interpreting the results\nPolice killings fell significantly after the event.\n\nBut is this causal? What else changed in May 2020?\n\n\nPotential confounds:\n\nCOVID-19 pandemic\nProtests and civil unrest\nPolicy changes in many departments\nEconomic disruption"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-limits-of-interrupted-time-series",
+    "href": "lectures/quasi-experiments.html#the-limits-of-interrupted-time-series",
+    "title": "Quasi-Experiments",
+    "section": "The limits of interrupted time series",
+    "text": "The limits of interrupted time series\nStrengths:\n\nSimple and intuitive\nWorks with just one group\nEasy to visualize\n\n\nWeaknesses:\n\nCan’t separate the event from other changes\nAssumes the trend would have continued\nNo control group to benchmark against\n\n\n\n\nBottom line: Good for description, risky for causal claims."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-key-insight",
+    "href": "lectures/quasi-experiments.html#the-key-insight",
+    "title": "Quasi-Experiments",
+    "section": "The key insight",
+    "text": "The key insight\nWhat if we could account for time trends using a comparison group?\n\nDifference-in-differences (DiD):\n\nCompare treated group before and after (first difference)\nCompare control group before and after (second difference)\nSubtract to remove common trends (difference in differences)"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-did-logic",
+    "href": "lectures/quasi-experiments.html#the-did-logic",
+    "title": "Quasi-Experiments",
+    "section": "The DiD logic",
+    "text": "The DiD logic"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-parallel-trends-assumption",
+    "href": "lectures/quasi-experiments.html#the-parallel-trends-assumption",
+    "title": "Quasi-Experiments",
+    "section": "The parallel trends assumption",
+    "text": "The parallel trends assumption\nFor DiD to work, we need to assume:\n\n\nWithout treatment, the treated and control groups would have followed parallel trends.\n\n\n\nThis is the key identifying assumption.\n\n\nWe can never prove it’s true (we don’t observe the counterfactual), but we can look for evidence against it."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#testing-parallel-trends",
+    "href": "lectures/quasi-experiments.html#testing-parallel-trends",
+    "title": "Quasi-Experiments",
+    "section": "Testing parallel trends",
+    "text": "Testing parallel trends\nPre-trends test: Do the groups have similar trends before treatment?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-medicaid-expansion-and-mortality",
+    "href": "lectures/quasi-experiments.html#example-medicaid-expansion-and-mortality",
+    "title": "Quasi-Experiments",
+    "section": "Example: Medicaid expansion and mortality",
+    "text": "Example: Medicaid expansion and mortality\nThe Affordable Care Act allowed states to expand Medicaid coverage.\n\nSome states expanded in 2014, others did not.\n\n\nResearch question: Did Medicaid expansion reduce deaths?\n\nMiller et al. (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-study-design-1",
+    "href": "lectures/quasi-experiments.html#the-study-design-1",
+    "title": "Quasi-Experiments",
+    "section": "The study design",
+    "text": "The study design\n\n\nTreatment:\nStates that expanded Medicaid\n\nControl:\nStates that did not expand\n\n\nCompare changes in mortality rates before and after 2014."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#results-lives-saved",
+    "href": "lectures/quasi-experiments.html#results-lives-saved",
+    "title": "Quasi-Experiments",
+    "section": "Results: Lives saved",
+    "text": "Results: Lives saved\nThe study found that Medicaid expansion reduced mortality.\n\nApproximately 1 death prevented per 1,300 people covered.\n\n\nEffects were largest for:\n\nMiddle-aged adults\nPeople with treatable conditions\nCounties with higher pre-existing uninsurance\n\n\nMiller, Johnson, and Wherry (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-anxiety",
+    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-anxiety",
+    "title": "Quasi-Experiments",
+    "section": "Example: Cancer clusters and anxiety",
+    "text": "Example: Cancer clusters and anxiety\nDavis et al. studied what happens when communities learn they’re near a contaminated site.\n\nThe event: EPA designates a Superfund site (toxic waste cleanup needed).\n\n\nTreatment: People living near designated sites\nControl: People living near sites that will be designated later"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-they-found",
+    "href": "lectures/quasi-experiments.html#what-they-found",
+    "title": "Quasi-Experiments",
+    "section": "What they found",
+    "text": "What they found\nAfter Superfund designation:\n\nIncreased depression and anxiety diagnoses\nMore mental health prescriptions\nEffects concentrated among parents with young children\n\n\n\nKey insight: Even the information about environmental risk affects health.\n\n\nReference: Davis (2021). “The Economic Determinants of Mental Health.” Working paper."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#discussion-when-does-did-work",
+    "href": "lectures/quasi-experiments.html#discussion-when-does-did-work",
+    "title": "Quasi-Experiments",
+    "section": "Discussion: When does DiD work?",
+    "text": "Discussion: When does DiD work?\nThink about:\n\nWhat would make you believe the parallel trends assumption?\nWhen might treated and control groups trend differently?\nHow would you choose a control group?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-intuition",
+    "href": "lectures/quasi-experiments.html#the-intuition",
+    "title": "Quasi-Experiments",
+    "section": "The intuition",
+    "text": "The intuition\nMany policies have sharp cutoffs:\n\nYou’re eligible if your score is above X\nYou get the scholarship if your income is below Y\nYou’re assigned to the advanced class if you score above Z\n\n\nPeople just above and just below the cutoff are nearly identical…\n\n\n…except one group gets treated and the other doesn’t."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-rd-design",
+    "href": "lectures/quasi-experiments.html#the-rd-design",
+    "title": "Quasi-Experiments",
+    "section": "The RD design",
+    "text": "The RD design"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#why-this-works",
+    "href": "lectures/quasi-experiments.html#why-this-works",
+    "title": "Quasi-Experiments",
+    "section": "Why this works",
+    "text": "Why this works\nKey insight: At the cutoff, treatment is essentially random.\n\nSomeone who scored 79 vs 81 on a test:\n\nVery similar abilities\nVery similar backgrounds\nBut one gets the program, one doesn’t\n\n\n\n\nThe discontinuity creates a mini-experiment."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-class-size-and-learning",
+    "href": "lectures/quasi-experiments.html#example-class-size-and-learning",
+    "title": "Quasi-Experiments",
+    "section": "Example: Class size and learning",
+    "text": "Example: Class size and learning\nAngrist and Lavy (1999) studied how class size affects student achievement.\n\nThe setting: Israel has a rule (Maimonides’ Rule) that caps classes at 40 students.\n\n\n\n40 students → 1 class of 40\n41 students → 2 classes of ~20"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-class-size-discontinuity",
+    "href": "lectures/quasi-experiments.html#the-class-size-discontinuity",
+    "title": "Quasi-Experiments",
+    "section": "The class size discontinuity",
+    "text": "The class size discontinuity"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#results",
+    "href": "lectures/quasi-experiments.html#results",
+    "title": "Quasi-Experiments",
+    "section": "Results",
+    "text": "Results\nAt the discontinuity where classes suddenly get smaller:\n\n\nTest scores jump significantly\nEffect equivalent to about 0.2-0.3 standard deviations\n\n\n\n\nImplication: Smaller classes do improve learning.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-close-elections",
+    "href": "lectures/quasi-experiments.html#example-close-elections",
+    "title": "Quasi-Experiments",
+    "section": "Example: Close elections",
+    "text": "Example: Close elections\nLee (2008) studied whether winning an election affects future electoral success.\n\nThe cutoff: 50% of the vote\n\n49.9% → You lose\n50.1% → You win\n\n\n\nCandidates just above and below 50% had essentially identical support."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-winning-gets-you",
+    "href": "lectures/quasi-experiments.html#what-winning-gets-you",
+    "title": "Quasi-Experiments",
+    "section": "What winning gets you",
+    "text": "What winning gets you\nBarely winning an election vs. barely losing:\n\n\nIncumbency advantage of about 6-8 percentage points in the next election\nAccess to campaign resources\nName recognition\nAbility to deliver for constituents\n\n\nLee (2008). “Randomized Experiments from Non-random Selection in U.S. House Elections.” Journal of Econometrics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-college-access",
+    "href": "lectures/quasi-experiments.html#example-college-access",
+    "title": "Quasi-Experiments",
+    "section": "Example: College access",
+    "text": "Example: College access\nMountjoy (2022) studied the effects of attending a four-year vs. two-year college.\n\nThe design: Many students are at the margin of admission.\n\nJust above the cutoff → Admitted to four-year college\nJust below the cutoff → Community college"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-a-four-year-degree-gets-you",
+    "href": "lectures/quasi-experiments.html#what-a-four-year-degree-gets-you",
+    "title": "Quasi-Experiments",
+    "section": "What a four-year degree gets you",
+    "text": "What a four-year degree gets you\nAt the admission cutoff:\n\n\nHigher probability of getting a bachelor’s degree\nApproximately 10% higher earnings\nBut effects vary by student background\n\n\nMountjoy (2022). “Community Colleges and Upward Mobility.” American Economic Review."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-can-go-wrong-with-rd",
+    "href": "lectures/quasi-experiments.html#what-can-go-wrong-with-rd",
+    "title": "Quasi-Experiments",
+    "section": "What can go wrong with RD?",
+    "text": "What can go wrong with RD?\nManipulation: What if people can game the cutoff?\n\n\nStudents retaking tests until they pass\nDoctors rounding blood pressure readings\nOfficials adjusting income reports\n\n\n\nTest: Check for bunching at the cutoff."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#testing-for-manipulation",
+    "href": "lectures/quasi-experiments.html#testing-for-manipulation",
+    "title": "Quasi-Experiments",
+    "section": "Testing for manipulation",
+    "text": "Testing for manipulation"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#discussion-finding-discontinuities",
+    "href": "lectures/quasi-experiments.html#discussion-finding-discontinuities",
+    "title": "Quasi-Experiments",
+    "section": "Discussion: Finding discontinuities",
+    "text": "Discussion: Finding discontinuities\nThink about:\n\nWhat policies create sharp cutoffs?\nWhere might you look for RD opportunities?\nWhat makes a cutoff credible?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-problem",
+    "href": "lectures/quasi-experiments.html#the-problem",
+    "title": "Quasi-Experiments",
+    "section": "The problem",
+    "text": "The problem\nWhat if treatment is always correlated with outcomes?\n\nExample: Does education increase earnings?\n\nPeople who get more education might be:\n\nMore motivated\nMore able\nFrom wealthier families\n\n\n\n\nWe can’t just compare educated vs. less-educated people."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-iv-solution",
+    "href": "lectures/quasi-experiments.html#the-iv-solution",
+    "title": "Quasi-Experiments",
+    "section": "The IV solution",
+    "text": "The IV solution\nFind something that:\n\nAffects whether you get treated (education)\nOnly affects the outcome (earnings) through treatment\n\n\nThis is called an instrumental variable or instrument."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-iv-logic",
+    "href": "lectures/quasi-experiments.html#the-iv-logic",
+    "title": "Quasi-Experiments",
+    "section": "The IV logic",
+    "text": "The IV logic"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-birthday-and-education",
+    "href": "lectures/quasi-experiments.html#example-birthday-and-education",
+    "title": "Quasi-Experiments",
+    "section": "Example: Birthday and education",
+    "text": "Example: Birthday and education\nAngrist and Krueger (1991) used quarter of birth as an instrument for education.\n\nWhy quarter of birth matters:\n\nSchool entry cutoffs are based on birthdate\nCompulsory schooling laws require attendance until age 16\nPeople born earlier in the year can drop out with less education"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-clever-insight",
+    "href": "lectures/quasi-experiments.html#the-clever-insight",
+    "title": "Quasi-Experiments",
+    "section": "The clever insight",
+    "text": "The clever insight\nSomeone born in January vs. December:\n\n\nEssentially random (parents don’t plan this)\nBut affects years of schooling due to school rules\nQuarter of birth shouldn’t directly affect earnings\n\n\n\nSo any earnings difference must be through education!\n\nAngrist and Krueger (1991). “Does Compulsory School Attendance Affect Schooling and Earnings?” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#results-1",
+    "href": "lectures/quasi-experiments.html#results-1",
+    "title": "Quasi-Experiments",
+    "section": "Results",
+    "text": "Results\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 7-10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-eviction-and-poverty",
+    "href": "lectures/quasi-experiments.html#example-eviction-and-poverty",
+    "title": "Quasi-Experiments",
+    "section": "Example: Eviction and poverty",
+    "text": "Example: Eviction and poverty\nCollinson et al. studied whether eviction makes people poorer.\n\nThe problem: People who get evicted are different:\n\nLower income\nLess stable employment\nMay have other challenges\n\n\n\nThe instrument: Random assignment of cases to judges who differ in harshness.\n\nCollinson, Humphries, Mader, Reed, Tannenbaum, and van Dijk (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#judge-leniency-as-an-instrument",
+    "href": "lectures/quasi-experiments.html#judge-leniency-as-an-instrument",
+    "title": "Quasi-Experiments",
+    "section": "Judge leniency as an instrument",
+    "text": "Judge leniency as an instrument\nSome judges are “tough” (evict more often), some are “lenient.”\n\n\nCases are randomly assigned to judges\nYour judge’s leniency predicts whether you’re evicted\nBut judge assignment shouldn’t directly affect your outcomes\n\n\n\nThis isolates the causal effect of eviction itself."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-eviction-does",
+    "href": "lectures/quasi-experiments.html#what-eviction-does",
+    "title": "Quasi-Experiments",
+    "section": "What eviction does",
+    "text": "What eviction does\nBeing evicted (due to a harsh judge) leads to:\n\n\nHomelessness: Large increase in shelter use\nResidential instability: Frequent moves\nFinancial distress: Emergency room visits, debt collection\nNeighborhood downgrading: Move to worse areas\n\n\nCollinson et al. (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-can-go-wrong-with-iv",
+    "href": "lectures/quasi-experiments.html#what-can-go-wrong-with-iv",
+    "title": "Quasi-Experiments",
+    "section": "What can go wrong with IV?",
+    "text": "What can go wrong with IV?\nProblem 1: Weak instruments\nIf the instrument barely affects treatment, estimates are noisy and biased.\n\nProblem 2: Exclusion restriction violations\nWhat if the instrument affects outcomes directly?\n\nQuarter of birth → seasonal differences in health?\nJudge harshness → affects other case characteristics?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-exclusion-restriction",
+    "href": "lectures/quasi-experiments.html#the-exclusion-restriction",
+    "title": "Quasi-Experiments",
+    "section": "The exclusion restriction",
+    "text": "The exclusion restriction\n\nThe instrument must affect the outcome only through the treatment.\n\n\nThis assumption can never be tested directly.\n\n\nWe rely on:\n\nEconomic reasoning\nChecking for obvious violations\nTesting robustness to different instruments"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#matching-methods-to-questions",
+    "href": "lectures/quasi-experiments.html#matching-methods-to-questions",
+    "title": "Quasi-Experiments",
+    "section": "Matching methods to questions",
+    "text": "Matching methods to questions\n\n\n\nMethod\nWhen to use\nKey assumption\n\n\n\n\nITS\nSudden, universal change\nNo other changes\n\n\nDiD\nTreatment varies across groups\nParallel trends\n\n\nRD\nSharp eligibility cutoff\nNo manipulation\n\n\nIV\nExternal source of variation\nExclusion restriction"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-hierarchy-of-evidence",
+    "href": "lectures/quasi-experiments.html#the-hierarchy-of-evidence",
+    "title": "Quasi-Experiments",
+    "section": "The hierarchy of evidence",
+    "text": "The hierarchy of evidence\n\n\nRandomized experiments — Gold standard, but often infeasible\n\n\n\n\nNatural experiments — Next best, requires careful validation\n\n\n\n\nObservational comparisons — Last resort, highly susceptible to bias"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-makes-a-study-convincing",
+    "href": "lectures/quasi-experiments.html#what-makes-a-study-convincing",
+    "title": "Quasi-Experiments",
+    "section": "What makes a study convincing?",
+    "text": "What makes a study convincing?\n\nTransparency: Authors show their work, including failures\n\n\nRobustness: Results hold under different specifications\n\n\nMechanisms: Findings align with economic theory\n\n\nReplication: Other researchers find similar results"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-skeptics-checklist",
+    "href": "lectures/quasi-experiments.html#the-skeptics-checklist",
+    "title": "Quasi-Experiments",
+    "section": "The skeptic’s checklist",
+    "text": "The skeptic’s checklist\nWhen reading a quasi-experimental study, ask:\n\n\nWhat is the identifying assumption?\nWhat specification tests do they run?\nWhat could violate the assumption?\nHow robust are the results?\nDoes the mechanism make sense?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#discussion-designing-your-own-study",
+    "href": "lectures/quasi-experiments.html#discussion-designing-your-own-study",
+    "title": "Quasi-Experiments",
+    "section": "Discussion: Designing your own study",
+    "text": "Discussion: Designing your own study\nImagine you want to know:\n\nDoes remote work increase or decrease productivity?\n\n\nHow would you design a study using each method?\n\nInterrupted time series?\nDifference-in-differences?\nRegression discontinuity?\nInstrumental variables?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-we-learned-today",
+    "href": "lectures/quasi-experiments.html#what-we-learned-today",
+    "title": "Quasi-Experiments",
+    "section": "What we learned today",
+    "text": "What we learned today\n\nQuasi-experiments let us find causal effects without randomization.\n\n\nEach method has identifying assumptions that must be carefully evaluated.\n\n\nSpecification tests help us assess whether assumptions are plausible.\n\n\nBeing a good economist means knowing both methods and their limitations."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-power-of-quasi-experiments",
+    "href": "lectures/quasi-experiments.html#the-power-of-quasi-experiments",
+    "title": "Quasi-Experiments",
+    "section": "The power of quasi-experiments",
+    "text": "The power of quasi-experiments\nThese methods have transformed economics:\n\n\nMinimum wage research changed policy debates\nMedicaid studies informed healthcare policy\nEducation research shaped school funding decisions\nCriminal justice research influenced sentencing reform\n\n\n\n\nYou can change the world by finding the right natural experiment."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#next-time",
+    "href": "lectures/quasi-experiments.html#next-time",
+    "title": "Quasi-Experiments",
+    "section": "Next time",
+    "text": "Next time\nWe’ll continue with labor markets and the future of work:\n\nHow technology changes labor demand\nThe economics of artificial intelligence\nWhat skills will matter in the future"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#further-reading",
+    "href": "lectures/quasi-experiments.html#further-reading",
+    "title": "Quasi-Experiments",
+    "section": "Further reading",
+    "text": "Further reading\nFor those interested in learning more:\n\nAngrist & Pischke, Mastering ’Metrics (accessible introduction)\nCard, “The Elusive Search for Negative Wage Effects” (minimum wage review)\nLee & Lemieux, “Regression Discontinuity Designs in Economics” (RD methods)"
+  },
+  {
+    "objectID": "lectures/index.html",
+    "href": "lectures/index.html",
+    "title": "Lectures",
+    "section": "",
+    "text": "Lecture slides will be posted here as the course progresses.\n\nIncentives\nMarkets and Their Failures\nEquity vs. Efficiency\nUncertainty\nQuasi-Experiments"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#recall-our-last-class",
+    "href": "lectures/equity-efficiency.html#recall-our-last-class",
+    "title": "Equity vs. Efficiency",
+    "section": "Recall our last class",
+    "text": "Recall our last class\nWe created a market for extra credit.\n\nThe outcome was efficient—we exhausted all gains from trade.\n\n\nBut was it fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-question-of-endowments",
+    "href": "lectures/equity-efficiency.html#a-question-of-endowments",
+    "title": "Equity vs. Efficiency",
+    "section": "A question of endowments",
+    "text": "A question of endowments\nSome of you happened to be given an extra credit point.\n\nSome of you didn’t.\n\n\nEven though the market outcome maximized total surplus, who benefited depended entirely on those initial endowments."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-fundamental-distinction",
+    "href": "lectures/equity-efficiency.html#the-fundamental-distinction",
+    "title": "Equity vs. Efficiency",
+    "section": "The fundamental distinction",
+    "text": "The fundamental distinction\n\nEfficiency asks: How big is the pie?\n\n\n\nEquity asks: How is the pie divided?\n\n\n\nFailure to separate these is probably one of the biggest conceptual mistakes in policy today."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#todays-roadmap",
+    "href": "lectures/equity-efficiency.html#todays-roadmap",
+    "title": "Equity vs. Efficiency",
+    "section": "Today’s roadmap",
+    "text": "Today’s roadmap\n\nTrends in inequality\nWhat “fairness” means\nIdeal redistribution (and why it’s impossible)\nThe costs of real-world redistribution\nWhen distortions are actually good"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#efficiency",
+    "href": "lectures/equity-efficiency.html#efficiency",
+    "title": "Equity vs. Efficiency",
+    "section": "Efficiency",
+    "text": "Efficiency\n\nWhether the economy is set up to generate the maximum total benefits\n\n\nEfficiency is about the size of the pie.\n\n\nAn efficient allocation leaves no gains from trade unexploited."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#equity",
+    "href": "lectures/equity-efficiency.html#equity",
+    "title": "Equity vs. Efficiency",
+    "section": "Equity",
+    "text": "Equity\n\nWhether the distribution of benefits is judged to be fair\n\n\nEquity is about how the pie is divided.\n\n\nNote: This is a normative judgment—outside economics per se."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#distortions",
+    "href": "lectures/equity-efficiency.html#distortions",
+    "title": "Equity vs. Efficiency",
+    "section": "Distortions",
+    "text": "Distortions\n\nWhen policy drives a wedge between social value and private return\n\n\nDistortions cause people to make decisions that don’t maximize total surplus.\n\n\nThey’re usually the cost of achieving a more equitable distribution."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#deadweight-loss",
+    "href": "lectures/equity-efficiency.html#deadweight-loss",
+    "title": "Equity vs. Efficiency",
+    "section": "Deadweight loss",
+    "text": "Deadweight loss\n\nThe loss in total benefits that results from distortions\n\n\nWhen we redistribute, the pie often shrinks.\n\n\nDeadweight loss measures how much it shrinks."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#second-best",
+    "href": "lectures/equity-efficiency.html#second-best",
+    "title": "Equity vs. Efficiency",
+    "section": "Second best",
+    "text": "Second best\n\nThe lowest-cost way to achieve a particular distribution\n\n\nIf we can’t achieve equity for free, what’s the most efficient way to get there?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#us-income-inequality-the-headline",
+    "href": "lectures/equity-efficiency.html#us-income-inequality-the-headline",
+    "title": "Equity vs. Efficiency",
+    "section": "US income inequality: The headline",
+    "text": "US income inequality: The headline\n\n\nSource: World Inequality Database. Shows share of national income going to top 10% vs bottom 50%."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-happened",
+    "href": "lectures/equity-efficiency.html#what-happened",
+    "title": "Equity vs. Efficiency",
+    "section": "What happened?",
+    "text": "What happened?\nFrom ~1980 onward:\n\nTop 10% share rose from ~35% to ~45%\nBottom 50% share fell from ~20% to ~13%\n\n\nThe gains from economic growth went disproportionately to the top."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#another-perspective-top-1",
+    "href": "lectures/equity-efficiency.html#another-perspective-top-1",
+    "title": "Equity vs. Efficiency",
+    "section": "Another perspective: Top 1%",
+    "text": "Another perspective: Top 1%\nThe top 1% now earns about 20% of all income.\n\nIn the 1970s, it was closer to 10%.\n\n\n\nThe very top has pulled away even from the rest of the top 10%."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#wealth-inequality-is-even-starker",
+    "href": "lectures/equity-efficiency.html#wealth-inequality-is-even-starker",
+    "title": "Equity vs. Efficiency",
+    "section": "Wealth inequality is even starker",
+    "text": "Wealth inequality is even starker\nIncome: What you earn each year\nWealth: What you own (assets minus debts)\n\nThe top 1% owns roughly 30% of all wealth.\n\n\nThe bottom 50% owns about 2%."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-global-perspective",
+    "href": "lectures/equity-efficiency.html#a-global-perspective",
+    "title": "Equity vs. Efficiency",
+    "section": "A global perspective",
+    "text": "A global perspective\n\n\nData from World Inequality Report. Shows global income distribution by region."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-elephant-curve",
+    "href": "lectures/equity-efficiency.html#the-elephant-curve",
+    "title": "Equity vs. Efficiency",
+    "section": "The elephant curve",
+    "text": "The elephant curve\nOver the past 40 years, who gained the most globally?\n\n\nThe global middle class (especially China, India)\nThe global top 1%\n\n\n\nWho gained the least?\n\n\n\nThe working and middle classes in rich countries."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-does-this-matter",
+    "href": "lectures/equity-efficiency.html#why-does-this-matter",
+    "title": "Equity vs. Efficiency",
+    "section": "Why does this matter?",
+    "text": "Why does this matter?\nInequality affects:\n\nPolitical stability\nSocial mobility\nHealth outcomes\nTrust in institutions\n\n\nBut whether it’s a problem depends on your values."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#lets-find-out-what-you-think",
+    "href": "lectures/equity-efficiency.html#lets-find-out-what-you-think",
+    "title": "Equity vs. Efficiency",
+    "section": "Let’s find out what you think",
+    "text": "Let’s find out what you think\nI’m going to describe some scenarios.\n\nFor each one, tell me what the fair outcome is.\n\n\n[Poll: pollev.com/e4e]"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#scenario-1-the-shipwreck",
+    "href": "lectures/equity-efficiency.html#scenario-1-the-shipwreck",
+    "title": "Equity vs. Efficiency",
+    "section": "Scenario 1: The shipwreck",
+    "text": "Scenario 1: The shipwreck\nYou’re on a lifeboat with 10 others. You have 100 units of food.\n\nOption A: Everyone gets 10 units\nOption B: The person who can ration best distributes it (total consumed: 120 equivalent units due to efficiency)\nOption C: Whoever grabbed it first keeps it\n\n\nWhat’s fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#scenario-2-the-inheritance",
+    "href": "lectures/equity-efficiency.html#scenario-2-the-inheritance",
+    "title": "Equity vs. Efficiency",
+    "section": "Scenario 2: The inheritance",
+    "text": "Scenario 2: The inheritance\nA wealthy person dies. Should their children:\n\nA: Inherit everything (property rights)\nB: Inherit nothing—it goes to charity (equal opportunity)\nC: Inherit some, with the rest taxed (compromise)\n\n\nWhat’s fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#scenario-3-the-kidney",
+    "href": "lectures/equity-efficiency.html#scenario-3-the-kidney",
+    "title": "Equity vs. Efficiency",
+    "section": "Scenario 3: The kidney",
+    "text": "Scenario 3: The kidney\nOne kidney is available. Three patients need it:\n\nA: A 25-year-old who will live 40 more years\nB: A 65-year-old who invented a life-saving drug\nC: Whoever has waited longest on the list\n\n\nWhat’s fair?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-point",
+    "href": "lectures/equity-efficiency.html#the-point",
+    "title": "Equity vs. Efficiency",
+    "section": "The point",
+    "text": "The point\nThere’s no consensus on what “fair” means.\n\nDifferent frameworks give different answers.\n\n\nLet’s look at the main ones."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#utilitarianism",
+    "href": "lectures/equity-efficiency.html#utilitarianism",
+    "title": "Equity vs. Efficiency",
+    "section": "Utilitarianism",
+    "text": "Utilitarianism\n\nMaximize total well-being across all people.\n\n\nImplication: Transfer resources until marginal utility is equalized.\n\n\nIf a dollar means more to a poor person than a rich person, transfer it.\n\n\nProblem: Doesn’t care about distribution per se—only totals."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#rawlsian-maximin",
+    "href": "lectures/equity-efficiency.html#rawlsian-maximin",
+    "title": "Equity vs. Efficiency",
+    "section": "Rawlsian maximin",
+    "text": "Rawlsian maximin\n\nMaximize the well-being of the worst-off person.\n\n\nJohn Rawls asked: What rules would you choose behind a “veil of ignorance”?\n\n\nIf you didn’t know your place in society, you’d protect the bottom.\n\n\nProblem: Ignores everyone except the very worst off."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#libertarianism",
+    "href": "lectures/equity-efficiency.html#libertarianism",
+    "title": "Equity vs. Efficiency",
+    "section": "Libertarianism",
+    "text": "Libertarianism\n\nRespect property rights and voluntary exchange.\n\n\nWhatever distribution emerges from fair processes is fair.\n\n\nProblem: Ignores how initial endowments were acquired."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#equality-of-opportunity",
+    "href": "lectures/equity-efficiency.html#equality-of-opportunity",
+    "title": "Equity vs. Efficiency",
+    "section": "Equality of opportunity",
+    "text": "Equality of opportunity\n\nEveryone should have the same starting point.\n\n\nInequality of outcomes is okay if it results from fair competition.\n\n\nProblem: Hard to define and achieve equal starting points."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#equality-of-outcomes",
+    "href": "lectures/equity-efficiency.html#equality-of-outcomes",
+    "title": "Equity vs. Efficiency",
+    "section": "Equality of outcomes",
+    "text": "Equality of outcomes\n\nEveryone should end up with the same amount.\n\n\nProblem: Eliminates incentives; practically impossible."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#where-do-you-stand",
+    "href": "lectures/equity-efficiency.html#where-do-you-stand",
+    "title": "Equity vs. Efficiency",
+    "section": "Where do you stand?",
+    "text": "Where do you stand?\n[Poll: Which framework resonates most with you?]\n\n\nUtilitarian (maximize total well-being)\nRawlsian (protect the worst off)\nLibertarian (respect property rights)\nEqual opportunity\nEqual outcomes"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-economists-role",
+    "href": "lectures/equity-efficiency.html#the-economists-role",
+    "title": "Equity vs. Efficiency",
+    "section": "The economist’s role",
+    "text": "The economist’s role\nEconomics can’t tell you which framework is “right.”\n\nThat’s a normative judgment—a question of values.\n\n\nBut economics can tell you:\n\nWhat are the costs of achieving different distributions?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-remarkable-result",
+    "href": "lectures/equity-efficiency.html#a-remarkable-result",
+    "title": "Equity vs. Efficiency",
+    "section": "A remarkable result",
+    "text": "A remarkable result\nSuppose the market allocation differs from your preferred “fair” outcome.\n\nCan we get to the fair outcome without losing efficiency?\n\n\nYes—in theory."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-second-welfare-theorem",
+    "href": "lectures/equity-efficiency.html#the-second-welfare-theorem",
+    "title": "Equity vs. Efficiency",
+    "section": "The Second Welfare Theorem",
+    "text": "The Second Welfare Theorem\n\nAny efficient allocation can be achieved by:\n\nRedistributing initial endowments\nThen letting the market work\n\n\n\nIf we could just reshuffle who starts with what, markets would do the rest."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#back-to-our-classroom-market",
+    "href": "lectures/equity-efficiency.html#back-to-our-classroom-market",
+    "title": "Equity vs. Efficiency",
+    "section": "Back to our classroom market",
+    "text": "Back to our classroom market\nImagine I wanted to help students who most need the extra credit.\n\nIdeal solution: Give the initial extra credit points to them instead.\n\n\nThen let the market play out normally.\n\n\nEfficient and equitable!"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-catch",
+    "href": "lectures/equity-efficiency.html#the-catch",
+    "title": "Equity vs. Efficiency",
+    "section": "The catch",
+    "text": "The catch\nThis requires lump-sum taxes and transfers.\n\nLump-sum means:\n\nPre-specified amounts\nDo not depend on your behavior or choices\n\n\n\nLike a fixed tax you pay regardless of what you do."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-lump-sum-works",
+    "href": "lectures/equity-efficiency.html#why-lump-sum-works",
+    "title": "Equity vs. Efficiency",
+    "section": "Why lump-sum works",
+    "text": "Why lump-sum works\nIf a tax doesn’t depend on your choices, it doesn’t distort them.\n\nYou face the same incentives as before—you just start with less money.\n\n\n\nNo deadweight loss. No distortion. Just redistribution."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-problem",
+    "href": "lectures/equity-efficiency.html#the-problem",
+    "title": "Equity vs. Efficiency",
+    "section": "The problem",
+    "text": "The problem\nWhat could we actually tax in a lump-sum way?\n\nWe’d need to tax something immutable—that you can’t change.\n\n\nOne serious proposal: tax height."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#wait-really",
+    "href": "lectures/equity-efficiency.html#wait-really",
+    "title": "Equity vs. Efficiency",
+    "section": "Wait, really?",
+    "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\n\n“The case for taxing height is about as good as the case for taxing income.”\n\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
+    "href": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
+    "title": "Equity vs. Efficiency",
+    "section": "Why we can’t do lump-sum",
+    "text": "Why we can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#a-simple-idea",
+    "href": "lectures/equity-efficiency.html#a-simple-idea",
+    "title": "Equity vs. Efficiency",
+    "section": "A simple idea",
+    "text": "A simple idea\nRich people have a lot of money.\n\nPoor people need money.\n\n\nWhy not just tax the rich and give to the poor?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-behavioral-response",
+    "href": "lectures/equity-efficiency.html#the-behavioral-response",
+    "title": "Equity vs. Efficiency",
+    "section": "The behavioral response",
+    "text": "The behavioral response\nWe covered this in our lecture on incentives.\n\nWhen you tax income, you change the return to working.\n\n\nHigher taxes → work becomes less attractive → people work less."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#recall-the-laffer-curve",
+    "href": "lectures/equity-efficiency.html#recall-the-laffer-curve",
+    "title": "Equity vs. Efficiency",
+    "section": "Recall the Laffer curve",
+    "text": "Recall the Laffer curve\n\nAt some point, raising rates actually lowers revenue."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-real-cost",
+    "href": "lectures/equity-efficiency.html#the-real-cost",
+    "title": "Equity vs. Efficiency",
+    "section": "The real cost",
+    "text": "The real cost\nEven before we hit the peak, higher taxes cause:\n\nReduced labor supply\nLess entrepreneurship\nMore tax avoidance\n\n\nThe tax base shrinks—so the pie gets smaller."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-tradeoff",
+    "href": "lectures/equity-efficiency.html#the-tradeoff",
+    "title": "Equity vs. Efficiency",
+    "section": "The tradeoff",
+    "text": "The tradeoff\n\nWe can make the distribution more equal…\n…but often at the cost of a smaller pie.\n\n\nThis is the fundamental equity-efficiency tradeoff."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#how-big-is-this-cost",
+    "href": "lectures/equity-efficiency.html#how-big-is-this-cost",
+    "title": "Equity vs. Efficiency",
+    "section": "How big is this cost?",
+    "text": "How big is this cost?\nRemember the elasticity of taxable income?\n\nBest estimates suggest it’s around 0.25.\n\n\nNot zero—but not enormous either.\n\n\n\nWe can redistribute, but there’s a cost."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#an-illustration-with-our-workers",
+    "href": "lectures/equity-efficiency.html#an-illustration-with-our-workers",
+    "title": "Equity vs. Efficiency",
+    "section": "An illustration with our workers",
+    "text": "An illustration with our workers\nLet’s go back to our construction workers and content creators.\n\nSuppose society decides it’s unfair that TikTokers might earn more than construction workers.\n\n\nPolicy: Tax TikTok earnings and subsidize construction wages."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-happens",
+    "href": "lectures/equity-efficiency.html#what-happens",
+    "title": "Equity vs. Efficiency",
+    "section": "What happens?",
+    "text": "What happens?\nThe tax drives a wedge between what consumers pay and what creators receive.\n\nSome content creators switch to construction work.\n\n\nBut wait—these are people whose comparative advantage is in TikToks!"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-distortion-visualized",
+    "href": "lectures/equity-efficiency.html#the-distortion-visualized",
+    "title": "Equity vs. Efficiency",
+    "section": "The distortion visualized",
+    "text": "The distortion visualized"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-math",
+    "href": "lectures/equity-efficiency.html#the-math",
+    "title": "Equity vs. Efficiency",
+    "section": "The math",
+    "text": "The math\nBefore the tax: \\[P_H \\cdot H_0 + P_T \\cdot T_0 = \\text{Total Value}\\]\n\nAfter the tax, people reallocate. But: \\[P_H \\cdot H_1 + P_T \\cdot T_1 &lt; P_H \\cdot H_0 + P_T \\cdot T_0\\]\n\n\n\nTotal value produced has fallen—even though we collected tax revenue."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-the-loss",
+    "href": "lectures/equity-efficiency.html#why-the-loss",
+    "title": "Equity vs. Efficiency",
+    "section": "Why the loss?",
+    "text": "Why the loss?\nWe’ve shifted production to people who are relatively bad at it.\n\nContent creators forced into construction produce fewer houses than real construction workers would.\n\n\nConstruction workers staying put don’t make up the difference.\n\n\n\nDeadweight loss: The economy produces less than it could."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-if-we-used-lump-sum-transfers",
+    "href": "lectures/equity-efficiency.html#what-if-we-used-lump-sum-transfers",
+    "title": "Equity vs. Efficiency",
+    "section": "What if we used lump-sum transfers?",
+    "text": "What if we used lump-sum transfers?\nSuppose we could tax content creators a fixed amount—regardless of whether they work in TikTok or construction.\n\nThen the tax doesn’t affect their work decisions.\n\n\nNo reallocation. No distortion. No deadweight loss.\n\n\nBut we can’t observe “being a content creator” independent of their choices."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#recall-externalities",
+    "href": "lectures/equity-efficiency.html#recall-externalities",
+    "title": "Equity vs. Efficiency",
+    "section": "Recall externalities",
+    "text": "Recall externalities\nAn externality is when your action affects others who aren’t part of the transaction.\n\n\nNegative: Pollution, congestion, secondhand smoke\nPositive: Vaccination, education"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-problem-with-externalities",
+    "href": "lectures/equity-efficiency.html#the-problem-with-externalities",
+    "title": "Equity vs. Efficiency",
+    "section": "The problem with externalities",
+    "text": "The problem with externalities\nWithout intervention, markets produce:\n\nToo much of goods with negative externalities\nToo little of goods with positive externalities\n\n\nPrices don’t reflect the true social costs and benefits."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-pigouvian-solution",
+    "href": "lectures/equity-efficiency.html#the-pigouvian-solution",
+    "title": "Equity vs. Efficiency",
+    "section": "The Pigouvian solution",
+    "text": "The Pigouvian solution\nArthur Pigou’s insight: Tax negative externalities, subsidize positive ones.\n\nA tax equal to the external cost makes people internalize the harm.\n\n\n\nA distortion that corrects a market failure can increase efficiency."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#carbon-tax-example",
+    "href": "lectures/equity-efficiency.html#carbon-tax-example",
+    "title": "Equity vs. Efficiency",
+    "section": "Carbon tax example",
+    "text": "Carbon tax example\nBurning fossil fuels causes climate change.\n\nA carbon tax makes polluters pay for this harm.\n\n\nResult: Less pollution, and higher total surplus.\n\n\n\nThis is a “good” distortion—it fixes a broken price signal."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-key-insight",
+    "href": "lectures/equity-efficiency.html#the-key-insight",
+    "title": "Equity vs. Efficiency",
+    "section": "The key insight",
+    "text": "The key insight\nDistortions are costly when they push us away from efficiency.\n\nBut when markets are already failing, the right distortion can push us toward efficiency."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#public-goods",
+    "href": "lectures/equity-efficiency.html#public-goods",
+    "title": "Equity vs. Efficiency",
+    "section": "Public goods",
+    "text": "Public goods\nSome goods can’t be provided by markets:\n\nNational defense\nBasic research\nPublic health infrastructure\n\n\nThese require tax revenue to provide."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-necessity-of-taxes",
+    "href": "lectures/equity-efficiency.html#the-necessity-of-taxes",
+    "title": "Equity vs. Efficiency",
+    "section": "The necessity of taxes",
+    "text": "The necessity of taxes\nIf we need taxes to fund public goods, we’ll have some distortion.\n\nThe goal isn’t to eliminate distortion—it’s to minimize it.\n\n\n\nRaise the revenue you need in the least costly way possible."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#efficient-taxation",
+    "href": "lectures/equity-efficiency.html#efficient-taxation",
+    "title": "Equity vs. Efficiency",
+    "section": "Efficient taxation",
+    "text": "Efficient taxation\nEconomic research suggests:\n\nBroad bases, low rates minimize distortion\nTax things that are hard to change (land, consumption)\nAvoid taxing things that are easy to move (capital, mobile workers)\n\n\nThis is why economists often prefer consumption taxes to income taxes."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#sometimes-we-can-do-both",
+    "href": "lectures/equity-efficiency.html#sometimes-we-can-do-both",
+    "title": "Equity vs. Efficiency",
+    "section": "Sometimes we can do both",
+    "text": "Sometimes we can do both\nIn rare cases, we can increase both efficiency and equity:\n\n\nRemoving regulations that protect the wealthy (occupational licensing, zoning)\nFixing market failures that hurt the poor (predatory lending, pollution in poor neighborhoods)\nInvesting in human capital (education for disadvantaged kids)\n\n\n\nThese are win-wins—but they’re not always available."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-hard-cases",
+    "href": "lectures/equity-efficiency.html#the-hard-cases",
+    "title": "Equity vs. Efficiency",
+    "section": "The hard cases",
+    "text": "The hard cases\nMost of the time, we face real tradeoffs.\n\nMore redistribution → more distortion → smaller pie.\n\n\nThe question isn’t whether to redistribute—it’s how much.\n\n\n\nThe answer depends on your values and the costs."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#key-takeaways",
+    "href": "lectures/equity-efficiency.html#key-takeaways",
+    "title": "Equity vs. Efficiency",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nEfficiency and equity are distinct—don’t conflate size with distribution\n\n\n\nFairness is normative—economics can’t tell you what’s fair\n\n\n\n\nIdeal redistribution is impossible—lump-sum taxes aren’t feasible\n\n\n\n\nReal redistribution has costs—distortions reduce total output\n\n\n\n\nSometimes distortions help—when correcting externalities"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#thinking-like-an-economist",
+    "href": "lectures/equity-efficiency.html#thinking-like-an-economist",
+    "title": "Equity vs. Efficiency",
+    "section": "Thinking like an economist",
+    "text": "Thinking like an economist\nAn economist holds both ideas in mind:\n\n\nMarkets are powerful tools for efficiency\nDistribution matters and may require intervention\n\n\n\n\nThe goal is to understand the tradeoffs and quantify them."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#next-time",
+    "href": "lectures/equity-efficiency.html#next-time",
+    "title": "Equity vs. Efficiency",
+    "section": "Next time",
+    "text": "Next time\nWe’ll explore how economists actually measure the effects of policies.\n\nHow do we know if a policy worked?\n\n\nThe answer: Causation and experiments."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#questions",
+    "href": "lectures/equity-efficiency.html#questions",
+    "title": "Equity vs. Efficiency",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#course-staff",
+    "href": "index.html#course-staff",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Course Staff",
+    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: TBD"
+  },
+  {
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Logistics",
+    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: TBD"
+  },
+  {
+    "objectID": "index.html#course-description",
+    "href": "index.html#course-description",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Course Description",
+    "text": "Course Description\nBecause modern economics puts such a heavy stress on technical rigor, the most interesting economic ideas are often buried behind abstract mathematical notation. Professors List and Rose will explore these big ideas without the math, making the beauty and power of economic thinking available to everyone.\nWe will discuss what it means to think like an economist, how you can use economic thinking to make the world a better place, and how economists think about today’s biggest issues, including what makes your rent get more expensive every year, why discrimination persists (and how to fix it), and how generative artificial intelligence will reshape the labor market."
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nNo prior economics background required."
+  },
+  {
+    "objectID": "index.html#coursework",
+    "href": "index.html#coursework",
+    "title": "Economics for Everyone | Spring 2026",
+    "section": "Coursework",
+    "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
+  },
+  {
+    "objectID": "lectures/incentives.html#recall-our-first-principle",
+    "href": "lectures/incentives.html#recall-our-first-principle",
+    "title": "Incentives",
+    "section": "Recall our first principle",
+    "text": "Recall our first principle\n\nEconomists believe that people optimize.\n\n\nOptimization means people do their best given:\n\nTheir preferences\nThe constraints they face\n\n\n\nOptimization also means people respond to incentives."
+  },
+  {
+    "objectID": "lectures/incentives.html#what-is-an-incentive",
+    "href": "lectures/incentives.html#what-is-an-incentive",
+    "title": "Incentives",
+    "section": "What is an incentive?",
+    "text": "What is an incentive?\nAn incentive is anything that affects the payoffs of your choices.\n\nMonetary incentives:\n\nWages, prices, taxes, fines\n\n\n\nNon-monetary incentives:\n\nNorms, reputation, emotions\nConvenience, effort, time\nIdentity, social approval"
+  },
+  {
+    "objectID": "lectures/incentives.html#why-incentives-matter-for-policy",
+    "href": "lectures/incentives.html#why-incentives-matter-for-policy",
+    "title": "Incentives",
+    "section": "Why incentives matter for policy",
+    "text": "Why incentives matter for policy\nWhen you change incentives, people respond.\n\nThe impact of a policy change will almost always:\n\nNot be as if the world stood still\nNot be exactly what you predict\n\n\n\nIf you’re not careful, a policy might have the opposite effect of what you intended."
+  },
+  {
+    "objectID": "lectures/incentives.html#key-ideas-for-today",
+    "href": "lectures/incentives.html#key-ideas-for-today",
+    "title": "Incentives",
+    "section": "Key ideas for today",
+    "text": "Key ideas for today\n\nBehavioral response: Adjustments people make when incentives change\n\n\nStrategic interactions: How others’ choices affect my incentives\n\n\nUnintended consequences: When policies backfire due to unforeseen responses\n\n\nCognitive biases: Systematic departures from simple optimization"
+  },
+  {
+    "objectID": "lectures/incentives.html#thinking-like-an-economist",
+    "href": "lectures/incentives.html#thinking-like-an-economist",
+    "title": "Incentives",
+    "section": "Thinking like an economist",
+    "text": "Thinking like an economist\nThinking like an economist means:\n\nPredicting behavioral responses before policy\nMeasuring responses after policy\nDesigning better incentives based on what you learn"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-naive-view",
+    "href": "lectures/incentives.html#the-naive-view",
+    "title": "Incentives",
+    "section": "The naive view",
+    "text": "The naive view\nRaise the tax rate a little…\n\n…and you should collect more tax revenue.\n\n\nBut what might happen to the incomes of the highest earners?"
+  },
+  {
+    "objectID": "lectures/incentives.html#top-marginal-tax-rates-in-the-us",
+    "href": "lectures/incentives.html#top-marginal-tax-rates-in-the-us",
+    "title": "Incentives",
+    "section": "Top marginal tax rates in the US",
+    "text": "Top marginal tax rates in the US\n\n\n\n\n\n\nSource: Wikipedia / Tax Foundation. Shows dramatic variation from 90%+ in 1950s to ~35-40% today."
+  },
+  {
+    "objectID": "lectures/incentives.html#labor-supply-and-taxes",
+    "href": "lectures/incentives.html#labor-supply-and-taxes",
+    "title": "Incentives",
+    "section": "Labor supply and taxes",
+    "text": "Labor supply and taxes\nAs wages rise, people face a tradeoff:\n\nSubstitution effect: Higher wages make leisure more expensive → work more\nIncome effect: Higher wages mean you can afford more leisure → work less\n\n\nWhich dominates? It depends."
+  },
+  {
+    "objectID": "lectures/incentives.html#a-thought-experiment",
+    "href": "lectures/incentives.html#a-thought-experiment",
+    "title": "Incentives",
+    "section": "A thought experiment",
+    "text": "A thought experiment\nSuppose you’re in charge of tax policy.\n\nYou raise the top tax rate from 40% to 50%.\n\n\nWhat happens to tax revenue?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-laffer-curve-intuition",
+    "href": "lectures/incentives.html#the-laffer-curve-intuition",
+    "title": "Incentives",
+    "section": "The Laffer curve intuition",
+    "text": "The Laffer curve intuition\n\n\nAt 0% tax: $0 revenue\nAt 100% tax: $0 revenue (why work?)\nSomewhere in between: maximum revenue"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-key-insight",
+    "href": "lectures/incentives.html#the-key-insight",
+    "title": "Incentives",
+    "section": "The key insight",
+    "text": "The key insight\n\nRevenue = Tax Rate × Tax Base\n\n\nBut the tax base is endogenous.\n\n\nWhen rates rise, people may:\n\nWork fewer hours\nShift income to other forms\nMove to other jurisdictions\nEngage in avoidance or evasion"
+  },
+  {
+    "objectID": "lectures/incentives.html#what-does-the-evidence-say",
+    "href": "lectures/incentives.html#what-does-the-evidence-say",
+    "title": "Incentives",
+    "section": "What does the evidence say?",
+    "text": "What does the evidence say?\nBest empirical estimates suggest behavioral responses are modest in the short run.\n\nSaez, Slemrod & Giertz (2012):\n\nElasticity of taxable income ≈ 0.25\n“Behavioral responses are not negligible, but not as large as some claim”\n\n\nReference: Saez, Slemrod, and Giertz (2012). “The Elasticity of Taxable Income with Respect to Marginal Tax Rates.” Journal of Economic Literature 50(1): 3-50."
+  },
+  {
+    "objectID": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
+    "href": "lectures/incentives.html#what-does-this-imply-for-optimal-rates",
+    "title": "Incentives",
+    "section": "What does this imply for optimal rates?",
+    "text": "What does this imply for optimal rates?\nThe revenue-maximizing tax rate formula:\n\nt* = 1 / (1 + e)\n\n\nWith e ≈ 0.25:\n\nt* = 1 / 1.25 = 80%\n\n\n\nCurrent US top rate (~37%) is well below this.\n\n\nHigher rates would still raise revenue—though with efficiency costs."
+  },
+  {
+    "objectID": "lectures/incentives.html#but-some-people-are-very-responsive",
+    "href": "lectures/incentives.html#but-some-people-are-very-responsive",
+    "title": "Incentives",
+    "section": "But some people are very responsive",
+    "text": "But some people are very responsive\nEuropean soccer players provide a striking example.\n\nKleven, Landais & Saez (2013) studied player mobility across 14 countries:\n\nForeign players: elasticity ≈ 1.0 (highly responsive)\nDomestic players: elasticity ≈ 0.15 (less mobile)\n\n\n\nLower-tax countries attract the best talent.\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
+  },
+  {
+    "objectID": "lectures/incentives.html#spains-beckham-law",
+    "href": "lectures/incentives.html#spains-beckham-law",
+    "title": "Incentives",
+    "section": "Spain’s “Beckham Law”",
+    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%.\n\n\nGraph is stylized/illustrative based on patterns from Kleven, Landais & Saez (2013), not exact reproduction."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-lesson",
+    "href": "lectures/incentives.html#the-lesson",
+    "title": "Incentives",
+    "section": "The lesson",
+    "text": "The lesson\nWhen people can move, tax incentives matter a lot.\n\n\nForeign players: highly mobile → big response\nDomestic players: less mobile → small response\n\n\n\nThe size of behavioral responses depends on how easy it is to adjust."
+  },
+  {
+    "objectID": "lectures/incentives.html#an-important-clarification",
+    "href": "lectures/incentives.html#an-important-clarification",
+    "title": "Incentives",
+    "section": "An important clarification",
+    "text": "An important clarification\n\nThis is not an argument against taxes.\n\n\n\nIt’s an argument that behavior matters.\n\n\n\nRevenue effects depend on behavioral responses—we need to measure them."
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play-a-game",
+    "href": "lectures/incentives.html#lets-play-a-game",
+    "title": "Incentives",
+    "section": "Let’s play a game",
+    "text": "Let’s play a game\nI’m going to collect a number from everyone in the class.\n\nYour job: Guess what the class’s average guess will be, divided by two.\n\n\n\nPick any number from 0 to 100\nIf the class average is 50, the winning guess is 25"
+  },
+  {
+    "objectID": "lectures/incentives.html#submit-your-guess",
+    "href": "lectures/incentives.html#submit-your-guess",
+    "title": "Incentives",
+    "section": "Submit your guess",
+    "text": "Submit your guess\n[PollEverywhere QR code here]\n\nReady? Go!"
+  },
+  {
+    "objectID": "lectures/incentives.html#discussion",
+    "href": "lectures/incentives.html#discussion",
+    "title": "Incentives",
+    "section": "Discussion",
+    "text": "Discussion\n\nWhat were your individual incentives?\nWhat’s the “best” response?\nWhat would perfectly rational players do?"
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play-again",
+    "href": "lectures/incentives.html#lets-play-again",
+    "title": "Incentives",
+    "section": "Let’s play again",
+    "text": "Let’s play again\nNow that you’ve thought about it…\n\n[Play the game again]"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-20-bill-auction",
+    "href": "lectures/incentives.html#the-20-bill-auction",
+    "title": "Incentives",
+    "section": "The $20 bill auction",
+    "text": "The $20 bill auction\nHere’s a $20 bill. I’m going to auction it off.\n\nRules:\n\nStandard auction: highest bidder wins and pays their bid\nBut: The second-highest bidder also pays their bid (and gets nothing)\n\n\n\nWe’ll start at $1 and go up by $1 increments."
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play",
+    "href": "lectures/incentives.html#lets-play",
+    "title": "Incentives",
+    "section": "Let’s play",
+    "text": "Let’s play\nWho wants to bid $1?"
+  },
+  {
+    "objectID": "lectures/incentives.html#discussion-1",
+    "href": "lectures/incentives.html#discussion-1",
+    "title": "Incentives",
+    "section": "Discussion",
+    "text": "Discussion\nThink about what happened:\n\n\nWhat were the strategic incentives at each point?\n\n\n\n\nHow did past bids affect future incentives?\n\n\n\n\nWhat was the best approach from the start?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-key-lesson",
+    "href": "lectures/incentives.html#the-key-lesson",
+    "title": "Incentives",
+    "section": "The key lesson",
+    "text": "The key lesson\n\nEach step was locally rational.\n\n\n\nThe outcome was globally terrible.\n\n\n\nYou don’t need irrational people to get insane outcomes—just the wrong rules."
+  },
+  {
+    "objectID": "lectures/incentives.html#lets-play-again-1",
+    "href": "lectures/incentives.html#lets-play-again-1",
+    "title": "Incentives",
+    "section": "Let’s play again",
+    "text": "Let’s play again\nKnowing what you know now…"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-fundamental-insight",
+    "href": "lectures/incentives.html#the-fundamental-insight",
+    "title": "Incentives",
+    "section": "The fundamental insight",
+    "text": "The fundamental insight\nAs you can see, incentives are complicated.\n\nThe most fundamental reason policy is tricky:\n\nPeople respond to the incentive itself, not your objective."
+  },
+  {
+    "objectID": "lectures/incentives.html#this-isnt-about-bad-intentions",
+    "href": "lectures/incentives.html#this-isnt-about-bad-intentions",
+    "title": "Incentives",
+    "section": "This isn’t about bad intentions",
+    "text": "This isn’t about bad intentions\n\nPeople aren’t being malicious\nThey’re just playing the game you set up\nThe way they play depends on each other and their history"
+  },
+  {
+    "objectID": "lectures/incentives.html#goodharts-law",
+    "href": "lectures/incentives.html#goodharts-law",
+    "title": "Incentives",
+    "section": "Goodhart’s Law",
+    "text": "Goodhart’s Law\n\n“When a measure becomes a target, it ceases to be a good measure.”\n\n\nExamples:\n\nTeaching to the test\nPolicing quotas\nCorporate KPIs\nAcademic publishing (citations)"
+  },
+  {
+    "objectID": "lectures/incentives.html#soviet-nail-factory",
+    "href": "lectures/incentives.html#soviet-nail-factory",
+    "title": "Incentives",
+    "section": "Soviet nail factory",
+    "text": "Soviet nail factory\n\n\nA nail factory in Kuibyshev is given a production quota by number of nails.\n\nWhat do you think happens?\n\n\nFactory produced only tiny nails."
+  },
+  {
+    "objectID": "lectures/incentives.html#soviet-nail-factory-continued",
+    "href": "lectures/incentives.html#soviet-nail-factory-continued",
+    "title": "Incentives",
+    "section": "Soviet nail factory (continued)",
+    "text": "Soviet nail factory (continued)\nThe planners wise up. They switch to a quota by weight.\n\nNow what happens?\n\n\nFactory switched to producing only huge nails—as in the cartoon:\n\n“Who needs such a nail?”\n“That’s nothing! The main thing is we immediately fulfilled the plan for nails…”\n\n\n\nNo one ever made medium nails."
+  },
+  {
+    "objectID": "lectures/incentives.html#ban-the-box",
+    "href": "lectures/incentives.html#ban-the-box",
+    "title": "Incentives",
+    "section": "Ban the box",
+    "text": "Ban the box\nMany jurisdictions “banned the box”—employers can’t ask about criminal history on initial applications.\n\nIntended effect: Help people with records get jobs.\n\n\nBut think like an economist: What might employers do instead?"
+  },
+  {
+    "objectID": "lectures/incentives.html#ban-the-box-continued",
+    "href": "lectures/incentives.html#ban-the-box-continued",
+    "title": "Incentives",
+    "section": "Ban the box (continued)",
+    "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-evidence-agan-starr-2018",
+    "href": "lectures/incentives.html#the-evidence-agan-starr-2018",
+    "title": "Incentives",
+    "section": "The evidence: Agan & Starr (2018)",
+    "text": "The evidence: Agan & Starr (2018)\nField experiment: ~15,000 fictitious job applications in NJ and NYC\n\nBefore BTB (at companies with “the box”):\n\nWhite callback rate: 11.1%\nBlack callback rate: 10.9%\nGap: ~7% more callbacks for white applicants\n\n\n\nAfter BTB (box removed):\n\nWhite callback rate: 14.8%\nBlack callback rate: 10.3%\nGap: ~43% more callbacks for white applicants\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
+  },
+  {
+    "objectID": "lectures/incentives.html#a-policy-question",
+    "href": "lectures/incentives.html#a-policy-question",
+    "title": "Incentives",
+    "section": "A policy question",
+    "text": "A policy question\nYou want students to learn more. You have money for incentives.\n\nOption A: Pay students for good test scores\nOption B: Pay students for reading books\n\n\nWhich would you choose? Why?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-tradeoff",
+    "href": "lectures/incentives.html#the-tradeoff",
+    "title": "Incentives",
+    "section": "The tradeoff",
+    "text": "The tradeoff\nProblem with paying for test scores (outputs):\n\nStudents might not know how to improve\nMay encourage cheating\nMay distort effort toward test-taking skills\n\n\nPaying for reading books (inputs):\n\nStudents know exactly what to do\nHarder to game\nBuilds the skill you actually want"
+  },
+  {
+    "objectID": "lectures/incentives.html#evidence-from-fryer-2011",
+    "href": "lectures/incentives.html#evidence-from-fryer-2011",
+    "title": "Incentives",
+    "section": "Evidence from Fryer (2011)",
+    "text": "Evidence from Fryer (2011)\nRoland Fryer ran experiments in multiple cities:\n\n\nPay for actions students can control, not outcomes they can’t.\n\n\nReference: Fryer (2011). “Financial Incentives and Student Achievement.” Quarterly Journal of Economics 126(4): 1755-1798."
+  },
+  {
+    "objectID": "lectures/incentives.html#people-dont-always-respond-rationally",
+    "href": "lectures/incentives.html#people-dont-always-respond-rationally",
+    "title": "Incentives",
+    "section": "People don’t always respond “rationally”",
+    "text": "People don’t always respond “rationally”\nA final complication: people don’t always respond to incentives the way a simple model predicts.\n\nEconomists have documented many cognitive or behavioral biases."
+  },
+  {
+    "objectID": "lectures/incentives.html#inertia-and-defaults",
+    "href": "lectures/incentives.html#inertia-and-defaults",
+    "title": "Incentives",
+    "section": "Inertia and defaults",
+    "text": "Inertia and defaults\nWhen given choices, people tend to stick with the default option.\n\nExample: 401(k) enrollment\n\nOpt-in default: ~50% participation\nOpt-out default: ~90% participation\n\n\n\nSame options, very different outcomes.\n\nReference: Madrian & Shea (2001). “The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#is-this-really-a-bias",
+    "href": "lectures/incentives.html#is-this-really-a-bias",
+    "title": "Incentives",
+    "section": "Is this really a “bias”?",
+    "text": "Is this really a “bias”?\nImportant question: Why might people rationally stick with the default?\n\n\nInformation costs (the default might be a good recommendation)\nTime costs (switching takes effort)\nUncertainty (maybe the default-setter knows something)\n\n\n\nImportant to separate positive (what people do) from normative (what they should do)."
+  },
+  {
+    "objectID": "lectures/incentives.html#loss-aversion",
+    "href": "lectures/incentives.html#loss-aversion",
+    "title": "Incentives",
+    "section": "Loss aversion",
+    "text": "Loss aversion\nPeople feel losses more strongly than equivalent gains.\n\n\nLosing $100 feels worse than gaining $100 feels good\nRatio is roughly 2:1\n\n\n\nImplications:\n\nFraming matters (gains vs. losses)\nPeople may reject gambles that are favorable on average\nStatus quo bias"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-asian-disease-problem",
+    "href": "lectures/incentives.html#the-asian-disease-problem",
+    "title": "Incentives",
+    "section": "The Asian Disease Problem",
+    "text": "The Asian Disease Problem\nA disease outbreak will kill 600 people. You must choose a response:\n\nThe name comes from Tversky & Kahneman’s original 1981 paper, which described “an unusual Asian disease” as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.\n\n\nFrame A (lives saved):\n\nProgram A: 200 people will be saved\nProgram B: 1/3 chance all 600 saved, 2/3 chance no one saved\n\n\n\nWhat do most people choose?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-asian-disease-problem-continued",
+    "href": "lectures/incentives.html#the-asian-disease-problem-continued",
+    "title": "Incentives",
+    "section": "The Asian Disease Problem (continued)",
+    "text": "The Asian Disease Problem (continued)\nNow consider a different framing:\n\nFrame B (lives lost):\n\nProgram C: 400 people will die\nProgram D: 1/3 chance no one dies, 2/3 chance all 600 die\n\n\n\nWhat do most people choose now?"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-result",
+    "href": "lectures/incentives.html#the-result",
+    "title": "Incentives",
+    "section": "The result",
+    "text": "The result\nFrame A (gains): 72% choose the certain option (Program A)\nFrame B (losses): 78% choose the risky option (Program D)\n\nBut A = C and B = D!\n\n\n\nWhen facing gains, people are risk-averse.\nWhen facing losses, people are risk-seeking.\n\n\n\n(The name comes from the original 1981 paper’s hypothetical “unusual Asian disease”—chosen to be unfamiliar and politically neutral.)\n\nReference: Tversky & Kahneman (1981). “The Framing of Decisions and the Psychology of Choice.” Science."
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias",
+    "href": "lectures/incentives.html#present-bias",
+    "title": "Incentives",
+    "section": "Present bias",
+    "text": "Present bias\nQuestion 1: Would you rather have…\n\nA: $100 today\nB: $110 next week\n\n\nQuestion 2: Would you rather have…\n\nC: $100 in 52 weeks\nD: $110 in 53 weeks"
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias-continued",
+    "href": "lectures/incentives.html#present-bias-continued",
+    "title": "Incentives",
+    "section": "Present bias (continued)",
+    "text": "Present bias (continued)\nMost people choose A (money now) but D (more money later).\n\nBut wait—both questions have the same tradeoff: $10 for one week of waiting!\n\n\nThis is time-inconsistent behavior.\n\n\n\nPeople overweight immediate rewards relative to future rewards."
+  },
+  {
+    "objectID": "lectures/incentives.html#present-bias-in-action",
+    "href": "lectures/incentives.html#present-bias-in-action",
+    "title": "Incentives",
+    "section": "Present bias in action",
+    "text": "Present bias in action\nWhy present bias matters for policy:\n\n\nPeople under-save for retirement\nPeople procrastinate on exercise, healthy eating\nStudents cram instead of studying gradually\n\n\n\nPolicy responses:\n\nCommitment devices (automatic savings plans)\nDeadlines and penalties\n“Cooling off” periods for major purchases\n\n\nReference: Laibson (1997). “Golden Eggs and Hyperbolic Discounting.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/incentives.html#mental-accounting",
+    "href": "lectures/incentives.html#mental-accounting",
+    "title": "Incentives",
+    "section": "Mental accounting",
+    "text": "Mental accounting\nYou receive $1,000. How much would you spend on something fun?\n\nScenario A: It’s a tax refund\nScenario B: It’s from your regular paycheck\n\n\nMost people spend more in Scenario A—but why?\n\n\nMoney is fungible—a dollar is a dollar.\n\n\n\nPeople treat money differently depending on where it “comes from.”\n\n\nReference: Thaler (1999). “Mental Accounting Matters.” Journal of Behavioral Decision Making."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-sunk-cost-fallacy",
+    "href": "lectures/incentives.html#the-sunk-cost-fallacy",
+    "title": "Incentives",
+    "section": "The sunk cost fallacy",
+    "text": "The sunk cost fallacy\nYou paid $50 for a concert ticket. It’s raining, you feel sick, and you don’t want to go.\n\nShould you go?\n\n\nEconomically: The $50 is gone either way. Only future costs and benefits matter.\n\n\nIn practice: Most people go—to “not waste” the $50.\n\n\n\nPeople continue investing because of what they’ve already spent, not what they’ll gain."
+  },
+  {
+    "objectID": "lectures/incentives.html#what-we-learned-today",
+    "href": "lectures/incentives.html#what-we-learned-today",
+    "title": "Incentives",
+    "section": "What we learned today",
+    "text": "What we learned today\nIncentives determine:\n\nWhat people try\nWhat they ignore\nWhat they distort\nHow they adapt over time"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-bottom-line",
+    "href": "lectures/incentives.html#the-bottom-line",
+    "title": "Incentives",
+    "section": "The bottom line",
+    "text": "The bottom line\n\nPolicies don’t operate on a fixed world—they change the world they operate on.\n\n\nThinking like an economist means recognizing this when you design and evaluate policy."
+  },
+  {
+    "objectID": "lectures/incentives.html#looking-ahead",
+    "href": "lectures/incentives.html#looking-ahead",
+    "title": "Incentives",
+    "section": "Looking ahead",
+    "text": "Looking ahead\nFailing to account for behavioral responses can lead to disaster.\n\nBut doing so appropriately can be the key to managing everything—from your own life to the federal government."
+  },
+  {
+    "objectID": "lectures/incentives.html#questions",
+    "href": "lectures/incentives.html#questions",
+    "title": "Incentives",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#todays-journey",
+    "href": "lectures/markets-failures.html#todays-journey",
+    "title": "Markets and Their Failures",
+    "section": "Today’s Journey",
+    "text": "Today’s Journey\nMarkets are one of the most powerful institutions humans have ever created.\n\nToday we’ll explore:\n\nWhy markets are so good at delivering benefits\nHow prices coordinate complex economic activity\nThe gains from specialization\nWhen and why markets fail\nWhat we can do about those failures"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#key-ideas-for-today",
+    "href": "lectures/markets-failures.html#key-ideas-for-today",
+    "title": "Markets and Their Failures",
+    "section": "Key Ideas for Today",
+    "text": "Key Ideas for Today\nGains from trade: The benefits buyers and sellers get from exchange\n\nComparative advantage: The returns to focusing on what you’re relatively better at\n\n\nMarkets as surplus maximizers: Under ideal conditions, markets deliver maximum total benefits\n\n\nMarket failures: Forces that prevent markets from achieving their potential"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#our-very-own-market",
+    "href": "lectures/markets-failures.html#our-very-own-market",
+    "title": "Markets and Their Failures",
+    "section": "Our Very Own Market",
+    "text": "Our Very Own Market\nI’m going to allocate half the class one point of extra credit.\n\nYou will be the sellers in this market.\n\n\nThe other half of the class will be the buyers."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#your-task",
+    "href": "lectures/markets-failures.html#your-task",
+    "title": "Markets and Their Failures",
+    "section": "Your Task",
+    "text": "Your Task\nIf you are a seller:\n\nReport the lowest price (in dollars) at which you would give up your extra credit point.\n\n\nIf you are a buyer:\n\nReport the highest price (in dollars) at which you would buy an extra credit point.\n\n\n\nTake a moment to reflect. What is that point really worth to you?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#submit-your-answer",
+    "href": "lectures/markets-failures.html#submit-your-answer",
+    "title": "Markets and Their Failures",
+    "section": "Submit Your Answer",
+    "text": "Submit Your Answer\n[Poll link: pollev.com/e4e]"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-see-what-we-got",
+    "href": "lectures/markets-failures.html#lets-see-what-we-got",
+    "title": "Markets and Their Failures",
+    "section": "Let’s See What We Got",
+    "text": "Let’s See What We Got"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion",
+    "href": "lectures/markets-failures.html#discussion",
+    "title": "Markets and Their Failures",
+    "section": "Discussion",
+    "text": "Discussion\n\nWho wants to trade at the equilibrium price?\n\n\n\nDo the traders benefit? How much?\n\n\n\n\nWhat about the people who didn’t trade?\n\n\n\n\nWhat role does the price play here?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#willingness-to-pay-and-accept",
+    "href": "lectures/markets-failures.html#willingness-to-pay-and-accept",
+    "title": "Markets and Their Failures",
+    "section": "Willingness to Pay and Accept",
+    "text": "Willingness to Pay and Accept\nConsider a market for a single good (say, toasters).\n\nSellers each have a willingness to accept (WTA)\n\nThe smallest amount they’d take to part with the good\n\n\n\nBuyers each have a willingness to pay (WTP)\n\nThe highest amount they’d pay to acquire the good"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#surplus-the-gains-from-trade",
+    "href": "lectures/markets-failures.html#surplus-the-gains-from-trade",
+    "title": "Markets and Their Failures",
+    "section": "Surplus: The Gains from Trade",
+    "text": "Surplus: The Gains from Trade\nWhen a buyer pays less than their WTP:\n\nThey get consumer surplus = WTP - Price\n\n\nWhen a seller receives more than their WTA:\n\nThey get producer surplus = Price - WTA\n\n\n\nTotal surplus = Consumer surplus + Producer surplus"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-happens-at-equilibrium",
+    "href": "lectures/markets-failures.html#what-happens-at-equilibrium",
+    "title": "Markets and Their Failures",
+    "section": "What Happens at Equilibrium?",
+    "text": "What Happens at Equilibrium?\nAt the equilibrium price \\(p\\):\n\n\nEvery seller with WTA ≤ \\(p\\) has sold\nEvery buyer with WTP ≥ \\(p\\) has bought\n\n\n\nThe only remaining sellers want more than \\(p\\).\nThe only remaining buyers will pay less than \\(p\\).\n\n\n\nNo more gains from trade exist!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-first-welfare-theorem-1",
+    "href": "lectures/markets-failures.html#the-first-welfare-theorem-1",
+    "title": "Markets and Their Failures",
+    "section": "The First Welfare Theorem",
+    "text": "The First Welfare Theorem\n\nUnder certain conditions, competitive markets automatically maximize total surplus.\n\n\nThis is remarkable. No central planner needed.\n\n\nJust people pursuing their own interests, guided by prices.\n\n\nAdam Smith called this the “invisible hand.”"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#prices-as-signals",
+    "href": "lectures/markets-failures.html#prices-as-signals",
+    "title": "Markets and Their Failures",
+    "section": "Prices as Signals",
+    "text": "Prices as Signals\nHere’s something remarkable about the equilibrium price:\n\nFor sellers: The price reflects the marginal cost of production\n\nThe cost of producing one more unit\n\n\n\nFor buyers: The price reflects the marginal benefit of consumption\n\nThe value of consuming one more unit\n\n\n\nAt equilibrium: Marginal cost = Marginal benefit = Price"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-this-matters",
+    "href": "lectures/markets-failures.html#why-this-matters",
+    "title": "Markets and Their Failures",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThe price tells producers: “This is what society values an extra unit at.”\n\nThe price tells consumers: “This is what it costs society to make an extra unit.”\n\n\n\nPrices coordinate decisions across millions of people who will never meet.\n\n\n\nNo one needs to know the whole picture. The price contains the information."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#price-discovery-in-the-real-world",
+    "href": "lectures/markets-failures.html#price-discovery-in-the-real-world",
+    "title": "Markets and Their Failures",
+    "section": "Price Discovery in the Real World",
+    "text": "Price Discovery in the Real World\nReal markets are messy. Prices don’t appear by magic.\n\nIf price is too high: Excess supply\n\nSellers undercut each other to secure trades\n\n\n\nIf price is too low: Excess demand\n\nBuyers offer premiums to secure goods\n\n\n\nMarket pressures push toward equilibrium."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#examples-of-price-discovery",
+    "href": "lectures/markets-failures.html#examples-of-price-discovery",
+    "title": "Markets and Their Failures",
+    "section": "Examples of Price Discovery",
+    "text": "Examples of Price Discovery\nRetail inventory management\n\nPrices drop when shelves are full\nPrices rise when stock runs low\n\n\nAuctions\n\neBay, art markets, Treasury bonds\nPrice emerges from competitive bidding\n\n\n\nEntry and exit\n\nHigh profits → new firms enter → prices fall\nLosses → firms exit → prices rise"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#a-deeper-point",
+    "href": "lectures/markets-failures.html#a-deeper-point",
+    "title": "Markets and Their Failures",
+    "section": "A Deeper Point",
+    "text": "A Deeper Point\nYou might think: supply and demand determine price.\n\nBut in practice, prices are discovered through experimentation.\n\n\nIn this sense: prices determine supply and demand.\n\n\nPrices are signals that coordinate behavior."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#case-study-gold",
+    "href": "lectures/markets-failures.html#case-study-gold",
+    "title": "Markets and Their Failures",
+    "section": "Case Study: Gold",
+    "text": "Case Study: Gold\nWhat determines how much gold gets mined?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#gold-when-demand-surges",
+    "href": "lectures/markets-failures.html#gold-when-demand-surges",
+    "title": "Markets and Their Failures",
+    "section": "Gold: When Demand Surges",
+    "text": "Gold: When Demand Surges\nWhen demand for gold increases:\n\n\nPrice rises\n\n\n\n\nMining operations that were unprofitable become profitable\n\n\n\n\nSupply expands\n\n\n\n\nThe price signal coordinated this response—no central planner required."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#two-types-of-workers",
+    "href": "lectures/markets-failures.html#two-types-of-workers",
+    "title": "Markets and Their Failures",
+    "section": "Two Types of Workers",
+    "text": "Two Types of Workers\nConsider an economy with two groups of workers:\n\nConstruction workers — tend to be better at building houses\n\n\nContent creators — tend to be better at making TikToks\n\n\nBoth groups can produce either good, but with different abilities."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-production-possibilities-frontier",
+    "href": "lectures/markets-failures.html#the-production-possibilities-frontier",
+    "title": "Markets and Their Failures",
+    "section": "The Production Possibilities Frontier",
+    "text": "The Production Possibilities Frontier\nWe can illustrate what each group can produce with a PPF."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-trade-off",
+    "href": "lectures/markets-failures.html#the-trade-off",
+    "title": "Markets and Their Failures",
+    "section": "The Trade-Off",
+    "text": "The Trade-Off\nThe PPF shows trade-offs: more houses means fewer TikToks.\n\nThe curve bows outward because of increasing opportunity cost.\n\n\n\nThe first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#comparing-opportunity-costs",
+    "href": "lectures/markets-failures.html#comparing-opportunity-costs",
+    "title": "Markets and Their Failures",
+    "section": "Comparing Opportunity Costs",
+    "text": "Comparing Opportunity Costs\nAt any point, the slope of the PPF tells us the opportunity cost.\n\nLet’s compare the two groups at the same level of TikTok production…"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#comparative-advantage",
+    "href": "lectures/markets-failures.html#comparative-advantage",
+    "title": "Markets and Their Failures",
+    "section": "Comparative Advantage",
+    "text": "Comparative Advantage"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-this-means",
+    "href": "lectures/markets-failures.html#what-this-means",
+    "title": "Markets and Their Failures",
+    "section": "What This Means",
+    "text": "What This Means\nFor construction workers, TikToks are expensive — each one costs many houses.\n\nFor content creators, TikToks are cheap — each one costs few houses.\n\n\n\nConstruction workers have comparative advantage in houses.\nContent creators have comparative advantage in TikToks."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-key-insight",
+    "href": "lectures/markets-failures.html#the-key-insight",
+    "title": "Markets and Their Failures",
+    "section": "The Key Insight",
+    "text": "The Key Insight\nComparative advantage is about relative costs, not absolute ability.\n\nEven if construction workers were better at both activities, content creators still have lower opportunity cost for TikToks.\n\n\nEach group should specialize in their comparative advantage."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#but-how-much-to-specialize",
+    "href": "lectures/markets-failures.html#but-how-much-to-specialize",
+    "title": "Markets and Their Failures",
+    "section": "But How Much to Specialize?",
+    "text": "But How Much to Specialize?\nComparative advantage tells us what to focus on.\n\nBut how do groups know how much of each good to produce?\n\n\nPrices answer this question."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#market-prices",
+    "href": "lectures/markets-failures.html#market-prices",
+    "title": "Markets and Their Failures",
+    "section": "Market Prices",
+    "text": "Market Prices\nSuppose houses and TikToks trade in markets:\n\nHouses: $200,000 each\nTikToks: $50 each\n\n\nWhere on the PPF should each group locate?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-optimal-point",
+    "href": "lectures/markets-failures.html#the-optimal-point",
+    "title": "Markets and Their Failures",
+    "section": "The Optimal Point",
+    "text": "The Optimal Point\nEach group should produce where their opportunity cost equals the price ratio.\n\nAt that point, shifting production either way would reduce total income."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#finding-the-optimum",
+    "href": "lectures/markets-failures.html#finding-the-optimum",
+    "title": "Markets and Their Failures",
+    "section": "Finding the Optimum",
+    "text": "Finding the Optimum"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
+    "href": "lectures/markets-failures.html#this-allocation-maximizes-total-value",
+    "title": "Markets and Their Failures",
+    "section": "This Allocation Maximizes Total Value",
+    "text": "This Allocation Maximizes Total Value\nAt these optimal points, total value produced is maximized.\n\n\nThe tangent lines have the same slope (the price ratio)\nNo reallocation could increase total output value\n\n\n\n\nGiven prices, this is the best we can do."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-magic-of-prices",
+    "href": "lectures/markets-failures.html#the-magic-of-prices",
+    "title": "Markets and Their Failures",
+    "section": "The Magic of Prices",
+    "text": "The Magic of Prices\nWorkers don’t need to know each other’s abilities.\n\nThey don’t need to coordinate with anyone.\n\n\nThey just respond to prices — and the economy specializes efficiently."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-invisible-hand",
+    "href": "lectures/markets-failures.html#the-invisible-hand",
+    "title": "Markets and Their Failures",
+    "section": "The Invisible Hand",
+    "text": "The Invisible Hand\n\nPrices guide each person to their comparative advantage—automatically.\n\n\nNo central planner needed.\n\n\nPrices contain the information needed to coordinate production across millions of people."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#remember-those-conditions",
+    "href": "lectures/markets-failures.html#remember-those-conditions",
+    "title": "Markets and Their Failures",
+    "section": "Remember Those “Conditions”?",
+    "text": "Remember Those “Conditions”?\nThe First Welfare Theorem says markets maximize surplus…\n\n…under certain conditions.\n\n\nWhen these conditions fail, we get market failures.\n\n\nLet’s explore the three most important ones."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-market-for-lemons",
+    "href": "lectures/markets-failures.html#the-market-for-lemons",
+    "title": "Markets and Their Failures",
+    "section": "The Market for “Lemons”",
+    "text": "The Market for “Lemons”\nImagine you’re buying a used car.\n\n\nSome used cars are great (“peaches”)\nSome are terrible (“lemons”)\n\n\n\nThe seller knows which type they have. You don’t."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-happens",
+    "href": "lectures/markets-failures.html#what-happens",
+    "title": "Markets and Their Failures",
+    "section": "What Happens?",
+    "text": "What Happens?\nYou’re willing to pay the average value.\n\nBut sellers of good cars won’t accept that—it’s below their car’s worth.\n\n\nSo good cars exit the market.\n\n\nOnly lemons remain!\n\n\n\nAdverse selection: The market unravels because of information asymmetry.\n\n\nReference: Akerlof, G. (1970). “The Market for Lemons.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-play-lemons-edition",
+    "href": "lectures/markets-failures.html#lets-play-lemons-edition",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Play: Lemons Edition",
+    "text": "Let’s Play: Lemons Edition\nLet’s revisit our extra credit market.\n\nSellers: I’m going to randomly assign you to real or fake credits.\n\n\nCheck your email/phone now—I’ve sent half of you a message saying “REAL” and half “FAKE.”\n\n\n(If you didn’t get a message, your credit is FAKE.)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lemons-game-the-rules",
+    "href": "lectures/markets-failures.html#lemons-game-the-rules",
+    "title": "Markets and Their Failures",
+    "section": "Lemons Game: The Rules",
+    "text": "Lemons Game: The Rules\nSellers: You know if your credit is real (worth 1 point) or fake (worth 0).\n\nBuyers: You don’t know which sellers have real credits.\n\n\nSellers: What’s your WTA now?\nBuyers: What’s your WTP now?\n\n\nSubmit your answers!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion-lemons-game",
+    "href": "lectures/markets-failures.html#discussion-lemons-game",
+    "title": "Markets and Their Failures",
+    "section": "Discussion: Lemons Game",
+    "text": "Discussion: Lemons Game\n\nWhat happened to the market?\nDid good credits trade?\nHow does this compare to used cars, health insurance, job markets?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#real-world-responses",
+    "href": "lectures/markets-failures.html#real-world-responses",
+    "title": "Markets and Their Failures",
+    "section": "Real-World Responses",
+    "text": "Real-World Responses\nHow do markets cope with information problems?\n\n\nWarranties and guarantees\nReputation systems (Yelp, eBay ratings)\nCertification (inspections, credentials)\nRegulation (disclosure requirements)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#whats-an-externality",
+    "href": "lectures/markets-failures.html#whats-an-externality",
+    "title": "Markets and Their Failures",
+    "section": "What’s an Externality?",
+    "text": "What’s an Externality?\nAn externality is a cost or benefit that affects someone not involved in the transaction.\n\nNegative externality: Your action harms others\n\nFactory pollution, secondhand smoke, loud music\n\n\n\nPositive externality: Your action helps others\n\nVaccinations, education, beautiful gardens"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#why-externalities-cause-failure",
+    "href": "lectures/markets-failures.html#why-externalities-cause-failure",
+    "title": "Markets and Their Failures",
+    "section": "Why Externalities Cause Failure",
+    "text": "Why Externalities Cause Failure\nWhen you buy gas, you pay for:\n\nThe cost of extracting and refining oil\nThe gas station’s markup\n\n\nYou don’t pay for:\n\nAir pollution affecting your neighbors\nClimate change affecting everyone\n\n\n\n\nThe market price is “wrong”—it doesn’t reflect the true social cost."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-result",
+    "href": "lectures/markets-failures.html#the-result",
+    "title": "Markets and Their Failures",
+    "section": "The Result",
+    "text": "The Result"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#too-much-of-a-bad-thing",
+    "href": "lectures/markets-failures.html#too-much-of-a-bad-thing",
+    "title": "Markets and Their Failures",
+    "section": "Too Much of a Bad Thing",
+    "text": "Too Much of a Bad Thing\nWith negative externalities:\n\nPrivate cost &lt; Social cost\nMarket produces too much of the good\nTotal surplus is not maximized\n\n\n\nPollution is the classic example. The market “fails” because prices don’t include all costs."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-play-externalities-edition",
+    "href": "lectures/markets-failures.html#lets-play-externalities-edition",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Play: Externalities Edition",
+    "text": "Let’s Play: Externalities Edition\nBack to our credit market.\n\nNew rule: Each credit point sold reduces the value of ALL other credits by 5%.\n\n\nIf 5 trades happen, every credit (traded or not) is worth only 75% of a point.\n\n\nThis is like a curve: the more points out there, the less each one helps your grade."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#externalities-game-think-about-it",
+    "href": "lectures/markets-failures.html#externalities-game-think-about-it",
+    "title": "Markets and Their Failures",
+    "section": "Externalities Game: Think About It",
+    "text": "Externalities Game: Think About It\nYou’re a buyer. You still want a credit point.\n\nBut when you buy one, you make everyone else’s credits less valuable.\n\n\nDo you consider that cost when deciding to trade?\n\n\nShould that cost affect whether the trade happens?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion-externality-game",
+    "href": "lectures/markets-failures.html#discussion-externality-game",
+    "title": "Markets and Their Failures",
+    "section": "Discussion: Externality Game",
+    "text": "Discussion: Externality Game\n\nHow many trades are privately beneficial?\nHow many trades are socially beneficial (counting harm to others)?\nWho bears the cost of your trade?\nHow might we fix this?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#perfect-competition-assumption",
+    "href": "lectures/markets-failures.html#perfect-competition-assumption",
+    "title": "Markets and Their Failures",
+    "section": "Perfect Competition Assumption",
+    "text": "Perfect Competition Assumption\nThe welfare theorem assumes price-taking behavior:\n\nNo individual buyer or seller can affect the market price.\n\n\nBut what if one seller controls most of the supply?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#monopoly-pricing",
+    "href": "lectures/markets-failures.html#monopoly-pricing",
+    "title": "Markets and Their Failures",
+    "section": "Monopoly Pricing",
+    "text": "Monopoly Pricing\nA monopolist can set the price.\n\nThey’ll charge more than the competitive price.\n\n\nResult:\n\nSome beneficial trades don’t happen\nTotal surplus decreases\nThe monopolist captures more surplus, but overall pie shrinks"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#lets-play-monopoly-edition",
+    "href": "lectures/markets-failures.html#lets-play-monopoly-edition",
+    "title": "Markets and Their Failures",
+    "section": "Let’s Play: Monopoly Edition",
+    "text": "Let’s Play: Monopoly Edition\nNew game structure:\n\nI’ll sell all the credits to one student at the earlier market price.\n\n\nThat student becomes the monopolist and sells to everyone else.\n\n\nMonopolist: What price will you charge?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#discussion-monopoly-game",
+    "href": "lectures/markets-failures.html#discussion-monopoly-game",
+    "title": "Markets and Their Failures",
+    "section": "Discussion: Monopoly Game",
+    "text": "Discussion: Monopoly Game\n\nWhat price did the monopolist choose?\nHow many trades happened compared to the competitive market?\nWho won? Who lost?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#real-world-market-power",
+    "href": "lectures/markets-failures.html#real-world-market-power",
+    "title": "Markets and Their Failures",
+    "section": "Real-World Market Power",
+    "text": "Real-World Market Power\n\nTech giants: Google, Apple, Amazon, Meta\nPharmaceuticals: Patent-protected drugs\nUtilities: Natural monopolies (water, electricity)\nLocal markets: The only hospital in a rural area"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-role-of-government",
+    "href": "lectures/markets-failures.html#the-role-of-government",
+    "title": "Markets and Their Failures",
+    "section": "The Role of Government",
+    "text": "The Role of Government\nWhen markets fail, government intervention can help:\n\nInformation problems:\n\nDisclosure requirements\nConsumer protection laws\nProfessional licensing\n\n\n\nExternalities:\n\nTaxes on harmful activities (carbon tax)\nSubsidies for beneficial activities (education)\nRegulation (emission standards)"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#government-responses-continued",
+    "href": "lectures/markets-failures.html#government-responses-continued",
+    "title": "Markets and Their Failures",
+    "section": "Government Responses (continued)",
+    "text": "Government Responses (continued)\nMarket power:\n\nAntitrust enforcement\nPrice regulation for utilities\nPromoting competition\n\n\n\nBut government intervention has its own costs and can fail too. More on this later in the course."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-coase-theorem",
+    "href": "lectures/markets-failures.html#the-coase-theorem",
+    "title": "Markets and Their Failures",
+    "section": "The Coase Theorem",
+    "text": "The Coase Theorem\nSometimes private bargaining can solve externalities.\n\nCoase’s insight: If property rights are clear and transaction costs are low, people negotiate to the efficient outcome.\n\nReference: Coase, R. (1960). “The Problem of Social Cost.” Journal of Law and Economics."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#coase-example",
+    "href": "lectures/markets-failures.html#coase-example",
+    "title": "Markets and Their Failures",
+    "section": "Coase Example",
+    "text": "Coase Example\nFactory pollutes, harms nearby residents.\n\n\nIf residents have right to clean air → factory pays them\nIf factory has right to pollute → residents pay factory\n\n\n\nEither way, they negotiate to the efficient level of pollution!"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#when-coase-works-and-doesnt",
+    "href": "lectures/markets-failures.html#when-coase-works-and-doesnt",
+    "title": "Markets and Their Failures",
+    "section": "When Coase Works (and Doesn’t)",
+    "text": "When Coase Works (and Doesn’t)\n\n\nWorks well:\n\nFew parties\nHarm is measurable\nClear property rights\n\n\nDoesn’t work:\n\nMany parties (climate)\nHard to measure harm\nHigh transaction costs"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#what-we-learned-today",
+    "href": "lectures/markets-failures.html#what-we-learned-today",
+    "title": "Markets and Their Failures",
+    "section": "What We Learned Today",
+    "text": "What We Learned Today\n\nMarkets maximize surplus by exhausting gains from trade\n\n\n\nPrices are signals that coordinate without central planning\n\n\n\n\nComparative advantage makes specialization valuable\n\n\n\n\nMarkets can fail: info asymmetry, externalities, market power\n\n\n\n\nFailures can be addressed: government, bargaining, institutions"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#the-bottom-line",
+    "href": "lectures/markets-failures.html#the-bottom-line",
+    "title": "Markets and Their Failures",
+    "section": "The Bottom Line",
+    "text": "The Bottom Line\n\nA market is a wonderful thing.\n\n\nThinking like an economist means:\n\nUnderstanding when markets work their magic\nRecognizing when they don’t\nDesigning institutions to help them succeed"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#next-time",
+    "href": "lectures/markets-failures.html#next-time",
+    "title": "Markets and Their Failures",
+    "section": "Next Time",
+    "text": "Next Time\nEquity vs. Efficiency\n\nIs maximizing surplus enough?\nWhat about fairness?\nThe fundamental tradeoffs in economic policy"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#switching-gears",
+    "href": "lectures/uncertainty.html#switching-gears",
+    "title": "Uncertainty",
+    "section": "Switching gears",
+    "text": "Switching gears\nYou’ve learned one of the most important lessons about data analysis:\n\nCorrelation does not imply causation.\n\n\nToday we dive into a second crucial issue:\n\nHow to think about uncertainty."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#a-motivating-example",
+    "href": "lectures/uncertainty.html#a-motivating-example",
+    "title": "Uncertainty",
+    "section": "A motivating example",
+    "text": "A motivating example\nImagine we run an experiment in Chicago Heights.\n\n\nRandomly assign students to earn incentive payments for higher test scores\nTreatment group scores 11% higher than control\n\n\n\nGreat! But we run the experiment again…\n\n\n\nThis time the effect is 15%\n\n\n\nWhat is the true effect? 11%? 15%? Something else?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-fundamental-insight",
+    "href": "lectures/uncertainty.html#the-fundamental-insight",
+    "title": "Uncertainty",
+    "section": "The fundamental insight",
+    "text": "The fundamental insight\nEven under ideal conditions—a carefully designed randomized experiment—\n\nData do not give us the truth. They give us an estimate.\n\n\nAn estimate is hopefully informative about the truth, but we need to ask: how informative?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#youve-seen-this-before",
+    "href": "lectures/uncertainty.html#youve-seen-this-before",
+    "title": "Uncertainty",
+    "section": "You’ve seen this before",
+    "text": "You’ve seen this before\n“Margin of error” on a political poll\n\n“Confidence interval” on an effect estimate\n\n\n“Statistically significant” effect of a new drug\n\n\nThese are all ways of quantifying uncertainty."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#key-ideas-for-today",
+    "href": "lectures/uncertainty.html#key-ideas-for-today",
+    "title": "Uncertainty",
+    "section": "Key ideas for today",
+    "text": "Key ideas for today\n\nParameters vs. estimates: The difference between the “true” effect and what data give us\n\n\nStatistical uncertainty: How informative is any estimate about the underlying truth?\n\n\nSampling uncertainty: Uncertainty from only seeing a portion of the full data\n\n\nConfidence intervals: Measures of which parameters are consistent with your data\n\n\nBayesian reasoning: Combining evidence with prior knowledge"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#a-suspicious-evening",
+    "href": "lectures/uncertainty.html#a-suspicious-evening",
+    "title": "Uncertainty",
+    "section": "A suspicious evening",
+    "text": "A suspicious evening\nYou’re at the craps table. The dice keep coming up snake eyes way more than you’d like.\n\nIs the casino cheating?\n\n\nWhen nobody’s looking, you steal one of the dice to investigate later.\n(You’re still many hundreds in the hole.)"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#quick-probability-check",
+    "href": "lectures/uncertainty.html#quick-probability-check",
+    "title": "Uncertainty",
+    "section": "Quick probability check",
+    "text": "Quick probability check\nIf the die is fair, what’s the chance it comes up 1?\n\n\n1 in 6 (about 16.7%)\n\n\n\nIf we roll twice, what’s the chance of getting 1 both times?\n\n\n\n1/6 × 1/6 = 1/36 (about 2.8%)\n\n\n\nHow many 1s in a row before you get suspicious?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#a-more-formal-test",
+    "href": "lectures/uncertainty.html#a-more-formal-test",
+    "title": "Uncertainty",
+    "section": "A more formal test",
+    "text": "A more formal test\nThe casino probably isn’t that clumsy. You decide to run a proper experiment:\n\nRoll the die 100 times and count how often it comes up 1.\n\n\nIf the die is fair, how many 1s do you expect?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#what-do-you-think",
+    "href": "lectures/uncertainty.html#what-do-you-think",
+    "title": "Uncertainty",
+    "section": "What do you think?",
+    "text": "What do you think?\n[Poll Everywhere: You roll a fair die 100 times. How many 1s would make you suspicious?]"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#what-does-the-math-say",
+    "href": "lectures/uncertainty.html#what-does-the-math-say",
+    "title": "Uncertainty",
+    "section": "What does the math say?",
+    "text": "What does the math say?\n\nEven a fair die won’t give you exactly 16-17 ones every time."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-key-insight",
+    "href": "lectures/uncertainty.html#the-key-insight",
+    "title": "Uncertainty",
+    "section": "The key insight",
+    "text": "The key insight\n\nEven if the die is fair, there’s randomness affecting each roll.\n\n\nWe can’t expect exactly 1/6 ones. But we can quantify the range of outcomes we might see.\n\n\nIf we get 20 ones out of 100, is that suspicious?\n\n\nIf we get 30 ones? 40 ones?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#more-data-helps",
+    "href": "lectures/uncertainty.html#more-data-helps",
+    "title": "Uncertainty",
+    "section": "More data helps",
+    "text": "More data helps"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#why-does-more-data-help",
+    "href": "lectures/uncertainty.html#why-does-more-data-help",
+    "title": "Uncertainty",
+    "section": "Why does more data help?",
+    "text": "Why does more data help?\nAs we collect more data, we average out the randomness.\n\nWith 10 rolls, getting 3 ones (30%) isn’t unusual.\n\n\nWith 1,000 rolls, getting 300 ones (30%) would be extremely suspicious.\n\n\n\nMore data = Less uncertainty"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#same-idea-different-context",
+    "href": "lectures/uncertainty.html#same-idea-different-context",
+    "title": "Uncertainty",
+    "section": "Same idea, different context",
+    "text": "Same idea, different context\nThe die example is a type of sampling uncertainty.\n\n\nWe want to know: How often would this die show 1 if rolled infinitely many times?\nWe observe: The results of 100 rolls (a sample)\n\n\n\nThis same logic applies whenever our data is just a sample from a larger population."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#polling-example",
+    "href": "lectures/uncertainty.html#polling-example",
+    "title": "Uncertainty",
+    "section": "Polling example",
+    "text": "Polling example\nYou want to measure the share of voters who will support Republicans in the midterms.\n\nIdeal approach: Ask every voter in America.\n\n\nReality: That’s prohibitively expensive. So you ask a random sample."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#how-useful-is-your-sample",
+    "href": "lectures/uncertainty.html#how-useful-is-your-sample",
+    "title": "Uncertainty",
+    "section": "How useful is your sample?",
+    "text": "How useful is your sample?\nIf you ask 1 voter:\nHow confident are you that they represent all voters?\n\nIf you ask 10 voters:\nA bit better, but still pretty uncertain.\n\n\nIf you ask 1,000 voters:\nMuch more confident that your estimate is close to the truth."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-question",
+    "href": "lectures/uncertainty.html#the-question",
+    "title": "Uncertainty",
+    "section": "The question",
+    "text": "The question\nYou poll 100 voters and find 48% support Republicans.\n\nYour goal is to know the true support in the full population.\n\n\n\nHow close is 48% to the truth?\n\n\n\nThankfully, there are tools to answer this question."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-easiest-way-to-think-about-it",
+    "href": "lectures/uncertainty.html#the-easiest-way-to-think-about-it",
+    "title": "Uncertainty",
+    "section": "The easiest way to think about it",
+    "text": "The easiest way to think about it\nSuppose the true Republican vote share is 49%.\n\nIf we sample 100 voters at random, what estimates might we get?\n\n\nWe could simulate this thousands of times and see the distribution of possible results."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#building-a-confidence-interval",
+    "href": "lectures/uncertainty.html#building-a-confidence-interval",
+    "title": "Uncertainty",
+    "section": "Building a confidence interval",
+    "text": "Building a confidence interval\nYou poll 100 voters and find 48% support Republicans.\n\nNow ask: Which true values could have plausibly generated 48%?\n\n\nFor each possible true value, we can simulate what estimates we’d get…"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#testing-the-truth-is-it-50",
+    "href": "lectures/uncertainty.html#testing-the-truth-is-it-50",
+    "title": "Uncertainty",
+    "section": "Testing the truth: Is it 50%?",
+    "text": "Testing the truth: Is it 50%?\nIf the true share were 50%, simulations show we’d get estimates like 48% pretty often.\n\n\n50% is consistent with our data."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#testing-the-truth-is-it-55",
+    "href": "lectures/uncertainty.html#testing-the-truth-is-it-55",
+    "title": "Uncertainty",
+    "section": "Testing the truth: Is it 55%?",
+    "text": "Testing the truth: Is it 55%?\nIf the true share were 55%, getting 48% would be unusual but not crazy.\n\n\n55% is borderline—maybe consistent, maybe not."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#testing-the-truth-is-it-70",
+    "href": "lectures/uncertainty.html#testing-the-truth-is-it-70",
+    "title": "Uncertainty",
+    "section": "Testing the truth: Is it 70%?",
+    "text": "Testing the truth: Is it 70%?\nIf the true share were 70%, getting 48% would be extremely unlikely.\n\n\n70% is inconsistent with our data. We can rule it out."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-confidence-interval",
+    "href": "lectures/uncertainty.html#the-confidence-interval",
+    "title": "Uncertainty",
+    "section": "The confidence interval",
+    "text": "The confidence interval\nA 95% confidence interval is the set of true values that could have generated our estimate at least 95% of the time."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#what-does-the-length-tell-us",
+    "href": "lectures/uncertainty.html#what-does-the-length-tell-us",
+    "title": "Uncertainty",
+    "section": "What does the length tell us?",
+    "text": "What does the length tell us?\nThe length of the interval reflects your precision.\n\n\nShort CI = You can rule out many values (precise estimate)\nLong CI = Many values are still plausible (imprecise estimate)\n\n\n\nMore data → shorter confidence intervals."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#hypothesis-tests",
+    "href": "lectures/uncertainty.html#hypothesis-tests",
+    "title": "Uncertainty",
+    "section": "Hypothesis tests",
+    "text": "Hypothesis tests\nSometimes we just want a yes/no answer:\n\nAre the data consistent with a particular value?\n\n\nThis is called a hypothesis test.\n\n\nMost commonly: Can we rule out zero effect?\n\n\nIf zero is outside our confidence interval, we say the result is statistically significant."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#an-important-caveat",
+    "href": "lectures/uncertainty.html#an-important-caveat",
+    "title": "Uncertainty",
+    "section": "An important caveat",
+    "text": "An important caveat\nStatistically significant ≠ Important\n\n\nA tiny effect can be “significant” with enough data\nA big effect can be “not significant” with limited data\n\n\n\nSignificance just means: unlikely to be pure noise"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#a-subtle-problem",
+    "href": "lectures/uncertainty.html#a-subtle-problem",
+    "title": "Uncertainty",
+    "section": "A subtle problem",
+    "text": "A subtle problem\nEven our statistical tests are subject to uncertainty.\n\nI can never tell you with certainty whether the true vote share is 53% or 51%.\n\n\nThere’s always some chance my estimate is just a fluke."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#what-happens-with-many-tests",
+    "href": "lectures/uncertainty.html#what-happens-with-many-tests",
+    "title": "Uncertainty",
+    "section": "What happens with many tests?",
+    "text": "What happens with many tests?\nSuppose I give you 1,000 dice.\n\nYou don’t know this, but all of them are actually fair.\n\n\nYou test each die by rolling it 10 times."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-result",
+    "href": "lectures/uncertainty.html#the-result",
+    "title": "Uncertainty",
+    "section": "The result",
+    "text": "The result"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-problem",
+    "href": "lectures/uncertainty.html#the-problem",
+    "title": "Uncertainty",
+    "section": "The problem",
+    "text": "The problem\nGetting 5+ ones out of 10 rolls happens about 2% of the time for a fair die.\n\nBut with 1,000 dice, you expect about 20 dice to “look suspicious.”\n\n\nThese aren’t loaded—they’re false positives.\n\n\n\nMore tests = More flukes"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#p-hacking",
+    "href": "lectures/uncertainty.html#p-hacking",
+    "title": "Uncertainty",
+    "section": "P-hacking",
+    "text": "P-hacking\nThis is called the multiple hypothesis testing problem.\n\nIf I run many experiments and only report the winner, my tests become unreliable.\n\n\nCherry-picking results this way is sometimes called p-hacking."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#be-skeptical",
+    "href": "lectures/uncertainty.html#be-skeptical",
+    "title": "Uncertainty",
+    "section": "Be skeptical",
+    "text": "Be skeptical\n\nThinking like an economist means being skeptical when someone shows a “significant” result that may just be the survivor of many trials.\n\n\nAlways ask:\n\nHow many things did they test?\nAre they showing all results or just the “winners”?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#two-approaches-to-uncertainty",
+    "href": "lectures/uncertainty.html#two-approaches-to-uncertainty",
+    "title": "Uncertainty",
+    "section": "Two approaches to uncertainty",
+    "text": "Two approaches to uncertainty\nEverything we’ve discussed is sometimes called frequentist reasoning:\n\n\nQuantify uncertainty from seeing limited data—if we repeated the study, we might get different results.\n\n\n\nThere’s another approach: Bayesian reasoning."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#thomas-bayes-1701-1761",
+    "href": "lectures/uncertainty.html#thomas-bayes-1701-1761",
+    "title": "Uncertainty",
+    "section": "Thomas Bayes (1701-1761)",
+    "text": "Thomas Bayes (1701-1761)\n\n\n\n\n\nBayesian reasoning combines evidence with your prior knowledge.\n\nPortrait from Wikipedia Commons. Bayes was an English statistician and Presbyterian minister."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#lets-try-it",
+    "href": "lectures/uncertainty.html#lets-try-it",
+    "title": "Uncertainty",
+    "section": "Let’s try it",
+    "text": "Let’s try it\nThanks to the registrar, I know the average age of everyone in this room.\n\nWhat’s your guess?\n\nPoll Everywhere: What do you think the average age in this room is? (in years)"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#now-lets-collect-some-data",
+    "href": "lectures/uncertainty.html#now-lets-collect-some-data",
+    "title": "Uncertainty",
+    "section": "Now let’s collect some data",
+    "text": "Now let’s collect some data\n\nPick 3-4 students at random, have them announce their ages. Compute the sample average live.\n\n\nDo you want to change your guess?\n\nPoll Everywhere: Updated guess for average age?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#what-just-happened",
+    "href": "lectures/uncertainty.html#what-just-happened",
+    "title": "Uncertainty",
+    "section": "What just happened?",
+    "text": "What just happened?\nYou started with prior beliefs about the average age.\n\nYou saw evidence (the sample of ages).\n\n\nYou updated to form posterior beliefs.\n\n\n\nThis is Bayesian reasoning."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-key-questions",
+    "href": "lectures/uncertainty.html#the-key-questions",
+    "title": "Uncertainty",
+    "section": "The key questions",
+    "text": "The key questions\n\nHow much did your guess change?\nWhat determines how much weight you put on the evidence vs. your prior?\n\n\nFactors that matter:\n\nHow confident you were initially\nHow much evidence you saw\nHow surprising the evidence was"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#uncertainty-still-matters",
+    "href": "lectures/uncertainty.html#uncertainty-still-matters",
+    "title": "Uncertainty",
+    "section": "Uncertainty still matters",
+    "text": "Uncertainty still matters\nWhether you think like a frequentist or a Bayesian:\n\nBeing able to think about the precision of your estimates is essential.\n\n\nUncertainty determines how much weight to put on evidence vs. prior beliefs."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#what-we-learned-today",
+    "href": "lectures/uncertainty.html#what-we-learned-today",
+    "title": "Uncertainty",
+    "section": "What we learned today",
+    "text": "What we learned today\nData give us estimates, not truth.\n\nUncertainty is unavoidable—even in perfect experiments.\n\n\nMore data reduces uncertainty by averaging out randomness.\n\n\nConfidence intervals tell us which parameter values are consistent with our data.\n\n\nMultiple testing creates false positives—be skeptical of cherry-picked results."
+  },
+  {
+    "objectID": "lectures/uncertainty.html#the-bottom-line",
+    "href": "lectures/uncertainty.html#the-bottom-line",
+    "title": "Uncertainty",
+    "section": "The bottom line",
+    "text": "The bottom line\n\nThinking like an economist means understanding that results are subject to statistical uncertainty—and knowing how to quantify it.\n\n\nWhether you’re reading a poll, evaluating a drug trial, or running your own experiment, always ask:\n\nHow confident should I be?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#questions",
+    "href": "lectures/uncertainty.html#questions",
+    "title": "Uncertainty",
+    "section": "Questions?",
+    "text": "Questions?"
+  }
+]
