@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 380">
+  <style>
+    .axis { stroke: #333; stroke-width: 1.5; }
+    .label { font-family: Inter, sans-serif; font-size: 12px; fill: #333; }
+    .title { font-family: Inter, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+    .subtitle { font-family: Inter, sans-serif; font-size: 13px; fill: #666; }
+    .annotation { font-family: Inter, sans-serif; font-size: 11px; fill: #666; }
+    .bar { fill: #800000; }
+    .bar-suspect { fill: #ff8243; }
+
+    /* Animation for bars growing */
+    .bar, .bar-suspect {
+      animation: growBar 2s ease-out forwards;
+      transform-origin: bottom;
+    }
+    @keyframes growBar {
+      from { transform: scaleY(0); }
+      to { transform: scaleY(1); }
+    }
+
+    /* Staggered delays for each bar */
+    .bar:nth-child(1) { animation-delay: 0.1s; }
+    .bar:nth-child(2) { animation-delay: 0.2s; }
+    .bar:nth-child(3) { animation-delay: 0.3s; }
+    .bar:nth-child(4) { animation-delay: 0.4s; }
+    .bar:nth-child(5) { animation-delay: 0.5s; }
+    .bar:nth-child(6) { animation-delay: 0.6s; }
+    .bar-suspect { animation-delay: 0.7s; }
+  </style>
+
+  <!-- Title -->
+  <text x="325" y="25" text-anchor="middle" class="title">1,000 Fair Dice, Each Rolled 10 Times</text>
+  <text x="325" y="45" text-anchor="middle" class="subtitle">How many 1s did each die show?</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="70" x2="80" y2="290" class="axis"/>
+  <text x="30" y="180" text-anchor="middle" transform="rotate(-90,30,180)" class="label">Number of dice</text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="290" x2="580" y2="290" class="axis"/>
+  <text x="330" y="330" text-anchor="middle" class="label">Number of 1s (out of 10 rolls)</text>
+
+  <!-- Y-axis labels -->
+  <text x="70" y="290" text-anchor="end" class="annotation">0</text>
+  <text x="70" y="235" text-anchor="end" class="annotation">100</text>
+  <text x="70" y="180" text-anchor="end" class="annotation">200</text>
+  <text x="70" y="125" text-anchor="end" class="annotation">300</text>
+  <text x="70" y="70" text-anchor="end" class="annotation">400</text>
+
+  <!-- Bars (binomial distribution n=10, p=1/6) -->
+  <!-- Expected counts out of 1000 dice: -->
+  <!-- 0 ones: 162, 1 one: 323, 2 ones: 291, 3 ones: 155, 4 ones: 54, 5+ ones: ~15 -->
+
+  <g class="bars">
+    <!-- 0 ones: 162 dice -->
+    <rect x="105" y="201" width="60" height="89" class="bar">
+      <animate attributeName="height" from="0" to="89" dur="0.5s" begin="0.1s" fill="freeze"/>
+      <animate attributeName="y" from="290" to="201" dur="0.5s" begin="0.1s" fill="freeze"/>
+    </rect>
+
+    <!-- 1 one: 323 dice -->
+    <rect x="175" y="112" width="60" height="178" class="bar">
+      <animate attributeName="height" from="0" to="178" dur="0.5s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="y" from="290" to="112" dur="0.5s" begin="0.2s" fill="freeze"/>
+    </rect>
+
+    <!-- 2 ones: 291 dice -->
+    <rect x="245" y="130" width="60" height="160" class="bar">
+      <animate attributeName="height" from="0" to="160" dur="0.5s" begin="0.3s" fill="freeze"/>
+      <animate attributeName="y" from="290" to="130" dur="0.5s" begin="0.3s" fill="freeze"/>
+    </rect>
+
+    <!-- 3 ones: 155 dice -->
+    <rect x="315" y="205" width="60" height="85" class="bar">
+      <animate attributeName="height" from="0" to="85" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <animate attributeName="y" from="290" to="205" dur="0.5s" begin="0.4s" fill="freeze"/>
+    </rect>
+
+    <!-- 4 ones: 54 dice -->
+    <rect x="385" y="260" width="60" height="30" class="bar">
+      <animate attributeName="height" from="0" to="30" dur="0.5s" begin="0.5s" fill="freeze"/>
+      <animate attributeName="y" from="290" to="260" dur="0.5s" begin="0.5s" fill="freeze"/>
+    </rect>
+
+    <!-- 5+ ones: ~15 dice (SUSPICIOUS - highlighted) -->
+    <rect x="455" y="282" width="60" height="8" class="bar-suspect">
+      <animate attributeName="height" from="0" to="8" dur="0.5s" begin="0.6s" fill="freeze"/>
+      <animate attributeName="y" from="290" to="282" dur="0.5s" begin="0.6s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <!-- X-axis labels -->
+  <text x="135" y="308" text-anchor="middle" class="annotation">0</text>
+  <text x="205" y="308" text-anchor="middle" class="annotation">1</text>
+  <text x="275" y="308" text-anchor="middle" class="annotation">2</text>
+  <text x="345" y="308" text-anchor="middle" class="annotation">3</text>
+  <text x="415" y="308" text-anchor="middle" class="annotation">4</text>
+  <text x="485" y="308" text-anchor="middle" class="annotation">5+</text>
+
+  <!-- Annotation for suspicious dice -->
+  <line x1="485" y1="275" x2="485" y2="240" stroke="#ff8243" stroke-width="2"/>
+  <text x="485" y="232" text-anchor="middle" class="label" fill="#ff8243">~15 dice</text>
+  <text x="485" y="218" text-anchor="middle" class="annotation" fill="#ff8243">"look suspicious"</text>
+
+  <!-- Callout box -->
+  <rect x="500" y="90" width="140" height="70" fill="#fff3e6" stroke="#ff8243" rx="5" stroke-width="2"/>
+  <text x="570" y="112" text-anchor="middle" class="annotation" fill="#800000" font-weight="bold">But all 1,000</text>
+  <text x="570" y="128" text-anchor="middle" class="annotation" fill="#800000" font-weight="bold">dice are fair!</text>
+  <text x="570" y="148" text-anchor="middle" class="annotation">These are</text>
+  <text x="570" y="162" text-anchor="middle" class="annotation">false positives.</text>
+</svg>

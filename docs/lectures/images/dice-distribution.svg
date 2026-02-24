@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320">
+  <style>
+    .axis { stroke: #333; stroke-width: 1.5; }
+    .label { font-family: Inter, sans-serif; font-size: 12px; fill: #333; }
+    .title { font-family: Inter, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+    .annotation { font-family: Inter, sans-serif; font-size: 11px; fill: #666; }
+    .curve { fill: #800000; fill-opacity: 0.6; stroke: #800000; stroke-width: 2; }
+  </style>
+
+  <!-- Title -->
+  <text x="300" y="25" text-anchor="middle" class="title">Distribution of 1s in 100 Rolls of a Fair Die</text>
+
+  <!-- Y-axis -->
+  <line x1="70" y1="50" x2="70" y2="260" class="axis"/>
+  <text x="25" y="155" text-anchor="middle" transform="rotate(-90,25,155)" class="label">Probability</text>
+
+  <!-- X-axis -->
+  <line x1="70" y1="260" x2="550" y2="260" class="axis"/>
+  <text x="310" y="300" text-anchor="middle" class="label">Number of 1s out of 100 rolls</text>
+
+  <!-- Smooth bell curve (binomial n=100, p=1/6 approximated by normal) -->
+  <path d="M 70,260
+           C 90,260 100,259 120,257
+           C 140,254 160,248 180,238
+           C 200,225 220,205 240,175
+           C 260,140 280,100 300,75
+           C 320,100 340,140 360,175
+           C 380,205 400,225 420,238
+           C 440,248 460,254 480,257
+           C 500,259 510,260 530,260
+           L 530,260 L 70,260 Z"
+        class="curve"/>
+
+  <!-- X-axis labels -->
+  <text x="120" y="278" text-anchor="middle" class="annotation">5</text>
+  <text x="180" y="278" text-anchor="middle" class="annotation">10</text>
+  <text x="240" y="278" text-anchor="middle" class="annotation">12</text>
+  <text x="300" y="278" text-anchor="middle" class="annotation">17</text>
+  <text x="360" y="278" text-anchor="middle" class="annotation">22</text>
+  <text x="420" y="278" text-anchor="middle" class="annotation">25</text>
+  <text x="480" y="278" text-anchor="middle" class="annotation">30</text>
+
+  <!-- Expected value annotation -->
+  <line x1="300" y1="70" x2="300" y2="45" stroke="#800000" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="300" y="42" text-anchor="middle" class="annotation" fill="#800000">Expected: 16.7</text>
+</svg>

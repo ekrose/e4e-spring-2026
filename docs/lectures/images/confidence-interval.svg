@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400">
+  <style>
+    .axis { stroke: #333; stroke-width: 1.5; }
+    .label { font-family: Inter, sans-serif; font-size: 12px; fill: #333; }
+    .title { font-family: Inter, sans-serif; font-size: 16px; font-weight: bold; fill: #333; }
+    .subtitle { font-family: Inter, sans-serif; font-size: 13px; fill: #666; }
+    .annotation { font-family: Inter, sans-serif; font-size: 11px; fill: #666; }
+  </style>
+
+  <!-- Title -->
+  <text x="350" y="25" text-anchor="middle" class="title">Building a 95% Confidence Interval</text>
+  <text x="350" y="45" text-anchor="middle" class="subtitle">Which true values could have generated our estimate of 48%?</text>
+
+  <!-- Three small distributions showing test inversion -->
+
+  <!-- Distribution 1: Truth = 40% (rejected) -->
+  <g transform="translate(80, 80)">
+    <text x="70" y="0" text-anchor="middle" class="label">If truth = 40%</text>
+    <path d="M 0,90 C 20,88 40,75 60,45 C 70,25 80,45 100,75 C 120,88 140,90 140,90 L 0,90 Z"
+          fill="#ffcccc" stroke="#cc0000" stroke-width="1.5"/>
+    <line x1="70" y1="20" x2="70" y2="90" stroke="#cc0000" stroke-width="2" stroke-dasharray="4"/>
+    <text x="70" y="105" text-anchor="middle" class="annotation">40%</text>
+    <!-- Our estimate marker -->
+    <line x1="115" y1="75" x2="115" y2="55" stroke="#800000" stroke-width="3"/>
+    <circle cx="115" cy="55" r="4" fill="#800000"/>
+    <text x="115" y="48" text-anchor="middle" class="annotation" fill="#800000">48%</text>
+    <text x="70" y="125" text-anchor="middle" class="annotation" fill="#cc0000">48% too far right</text>
+    <text x="70" y="138" text-anchor="middle" class="label" fill="#cc0000">REJECT</text>
+  </g>
+
+  <!-- Distribution 2: Truth = 48% (accepted - centered) -->
+  <g transform="translate(280, 80)">
+    <text x="70" y="0" text-anchor="middle" class="label">If truth = 48%</text>
+    <path d="M 0,90 C 20,88 40,75 60,45 C 70,25 80,45 100,75 C 120,88 140,90 140,90 L 0,90 Z"
+          fill="#ccffcc" stroke="#008800" stroke-width="1.5"/>
+    <line x1="70" y1="20" x2="70" y2="90" stroke="#008800" stroke-width="2" stroke-dasharray="4"/>
+    <text x="70" y="105" text-anchor="middle" class="annotation">48%</text>
+    <!-- Our estimate marker - right on center -->
+    <line x1="70" y1="25" x2="70" y2="15" stroke="#800000" stroke-width="3"/>
+    <circle cx="70" cy="15" r="4" fill="#800000"/>
+    <text x="70" y="8" text-anchor="middle" class="annotation" fill="#800000">48%</text>
+    <text x="70" y="125" text-anchor="middle" class="annotation" fill="#008800">48% very likely!</text>
+    <text x="70" y="138" text-anchor="middle" class="label" fill="#008800">ACCEPT</text>
+  </g>
+
+  <!-- Distribution 3: Truth = 60% (rejected) -->
+  <g transform="translate(480, 80)">
+    <text x="70" y="0" text-anchor="middle" class="label">If truth = 60%</text>
+    <path d="M 0,90 C 20,88 40,75 60,45 C 70,25 80,45 100,75 C 120,88 140,90 140,90 L 0,90 Z"
+          fill="#ffcccc" stroke="#cc0000" stroke-width="1.5"/>
+    <line x1="70" y1="20" x2="70" y2="90" stroke="#cc0000" stroke-width="2" stroke-dasharray="4"/>
+    <text x="70" y="105" text-anchor="middle" class="annotation">60%</text>
+    <!-- Our estimate marker -->
+    <line x1="25" y1="75" x2="25" y2="55" stroke="#800000" stroke-width="3"/>
+    <circle cx="25" cy="55" r="4" fill="#800000"/>
+    <text x="25" y="48" text-anchor="middle" class="annotation" fill="#800000">48%</text>
+    <text x="70" y="125" text-anchor="middle" class="annotation" fill="#cc0000">48% too far left</text>
+    <text x="70" y="138" text-anchor="middle" class="label" fill="#cc0000">REJECT</text>
+  </g>
+
+  <!-- Bottom section: The resulting CI -->
+  <line x1="80" y1="260" x2="620" y2="260" class="axis"/>
+  <text x="350" y="290" text-anchor="middle" class="label">True Republican vote share (%)</text>
+
+  <!-- X-axis labels -->
+  <text x="80" y="278" text-anchor="middle" class="annotation">35</text>
+  <text x="170" y="278" text-anchor="middle" class="annotation">40</text>
+  <text x="260" y="278" text-anchor="middle" class="annotation">45</text>
+  <text x="350" y="278" text-anchor="middle" class="annotation">50</text>
+  <text x="440" y="278" text-anchor="middle" class="annotation">55</text>
+  <text x="530" y="278" text-anchor="middle" class="annotation">60</text>
+  <text x="620" y="278" text-anchor="middle" class="annotation">65</text>
+
+  <!-- Rejected region (left) -->
+  <rect x="80" y="240" width="115" height="20" fill="#ffcccc" opacity="0.7"/>
+
+  <!-- Accepted region (CI) -->
+  <rect x="195" y="240" width="220" height="20" fill="#ccffcc" stroke="#008800" stroke-width="2"/>
+
+  <!-- Rejected region (right) -->
+  <rect x="415" y="240" width="205" height="20" fill="#ffcccc" opacity="0.7"/>
+
+  <!-- Our estimate point -->
+  <circle cx="332" cy="250" r="6" fill="#800000"/>
+  <text x="332" y="230" text-anchor="middle" class="label" fill="#800000">Our estimate: 48%</text>
+
+  <!-- CI bounds labels -->
+  <text x="195" y="320" text-anchor="middle" class="annotation">38%</text>
+  <text x="415" y="320" text-anchor="middle" class="annotation">58%</text>
+
+  <!-- CI label -->
+  <line x1="195" y1="300" x2="415" y2="300" stroke="#008800" stroke-width="2"/>
+  <line x1="195" y1="295" x2="195" y2="305" stroke="#008800" stroke-width="2"/>
+  <line x1="415" y1="295" x2="415" y2="305" stroke="#008800" stroke-width="2"/>
+  <text x="305" y="345" text-anchor="middle" class="label" fill="#008800">95% Confidence Interval: 38% to 58%</text>
+
+  <!-- Legend -->
+  <rect x="80" y="360" width="15" height="12" fill="#ccffcc" stroke="#008800"/>
+  <text x="100" y="370" class="annotation">Values consistent with 48%</text>
+  <rect x="280" y="360" width="15" height="12" fill="#ffcccc" stroke="#cc0000"/>
+  <text x="300" y="370" class="annotation">Values we can rule out</text>
+</svg>
