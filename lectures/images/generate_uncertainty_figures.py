@@ -3,12 +3,13 @@
 Generate figures for the Uncertainty lecture using actual simulations.
 Run this script to regenerate all SVG figures from real data.
 
-Requirements: pip install numpy matplotlib
+Requirements: pip install numpy matplotlib scipy
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
+from scipy.stats import gaussian_kde
 
 # Set style
 plt.rcParams['font.family'] = 'sans-serif'
@@ -23,6 +24,8 @@ DARK_MAROON = '#4a0000'
 
 np.random.seed(42)  # For reproducibility
 
+N_SIMS = 10000  # Number of simulated experiments
+
 
 def fig1_dice_distribution():
     """
@@ -32,9 +35,8 @@ def fig1_dice_distribution():
     n_rolls = 100
     p_one = 1/6
 
-    # Simulate 10,000 experiments
-    n_sims = 10000
-    results = np.random.binomial(n_rolls, p_one, n_sims)
+    # Simulate N_SIMS experiments
+    results = np.random.binomial(n_rolls, p_one, N_SIMS)
 
     fig, ax = plt.subplots(figsize=(8, 5))
 
@@ -69,38 +71,39 @@ def fig1_dice_distribution():
 def fig2_sample_size_comparison():
     """
     Shows how uncertainty shrinks as sample size increases.
-    Distributions of estimated P(1) for N = 10, 100, 1000 rolls.
+    For each sample size, we simulate N_SIMS experiments.
+    Each experiment: roll die N times, compute proportion of 1s.
     """
     p_true = 1/6
-    n_sims = 10000
 
     sample_sizes = [10, 100, 1000]
     colors = [ORANGE, MAROON, DARK_MAROON]
-    alphas = [0.5, 0.6, 0.7]
+    alphas = [0.4, 0.5, 0.6]
 
-    fig, ax = plt.subplots(figsize=(9, 5))
+    fig, ax = plt.subplots(figsize=(9, 5.5))
 
     for n, color, alpha in zip(sample_sizes, colors, alphas):
-        # Simulate: for each experiment, roll n times, compute proportion of 1s
-        ones_count = np.random.binomial(n, p_true, n_sims)
+        # Simulate N_SIMS experiments, each rolling the die n times
+        ones_count = np.random.binomial(n, p_true, N_SIMS)
         proportions = ones_count / n
 
         # Plot kernel density estimate for smooth curve
-        from scipy.stats import gaussian_kde
-        kde = gaussian_kde(proportions, bw_method=0.15)
+        kde = gaussian_kde(proportions, bw_method=0.12)
         x = np.linspace(0, 0.5, 500)
-        ax.fill_between(x, kde(x), alpha=alpha, color=color, label=f'N = {n:,} rolls')
+        ax.fill_between(x, kde(x), alpha=alpha, color=color,
+                        label=f'N = {n:,} rolls per experiment')
         ax.plot(x, kde(x), color=color, linewidth=1.5)
 
     # True value line
-    ax.axvline(p_true, color='#333', linestyle='--', linewidth=2)
-    ax.text(p_true + 0.01, ax.get_ylim()[1] * 0.95, f'True: 1/6', fontsize=10)
+    ax.axvline(p_true, color='#333', linestyle='--', linewidth=2, label='True value: 1/6')
 
     ax.set_xlabel('Estimated probability of rolling a 1')
-    ax.set_ylabel('Probability Density')
-    ax.set_title('More Data = Less Uncertainty', fontweight='bold')
-    ax.legend(loc='upper right')
+    ax.set_ylabel('Density')
+    ax.set_title(f'More Data = Less Uncertainty\n({N_SIMS:,} simulated experiments for each sample size)',
+                 fontweight='bold')
+    ax.legend(loc='upper right', fontsize=10)
     ax.set_xlim(0, 0.5)
+    ax.set_ylim(bottom=0)
 
     plt.tight_layout()
     plt.savefig('sample-size-comparison.svg', format='svg', bbox_inches='tight')
@@ -112,80 +115,67 @@ def fig2_sample_size_comparison():
 def fig3_confidence_interval():
     """
     Illustrates confidence interval construction via test inversion.
-    For each hypothetical true value, shows whether our estimate of 48% is plausible.
+    Three panels showing: if truth were X, would we likely see 48%?
     """
     n_voters = 100
     our_estimate = 0.48
-    n_sims = 10000
 
-    fig, axes = plt.subplots(2, 1, figsize=(10, 7), height_ratios=[1, 0.4])
+    fig, axes = plt.subplots(1, 3, figsize=(12, 4))
 
-    # Top panel: Show distributions for different hypothetical true values
-    ax1 = axes[0]
+    test_values = [0.40, 0.48, 0.58]
+    results = ['REJECT', 'ACCEPT', 'REJECT']
+    result_colors = ['#cc0000', '#008800', '#cc0000']
+    fill_colors = ['#ffcccc', '#ccffcc', '#ffcccc']
 
-    test_values = [0.40, 0.48, 0.60]
-    colors = ['#cc0000', '#008800', '#cc0000']
-    fills = ['#ffcccc', '#ccffcc', '#ffcccc']
-    labels = ['Reject (40%)', 'Accept (48%)', 'Reject (60%)']
+    for ax, true_p, result, result_color, fill_color in zip(
+            axes, test_values, results, result_colors, fill_colors):
 
-    x = np.linspace(0.25, 0.75, 500)
-
-    for i, (true_p, color, fill, label) in enumerate(zip(test_values, colors, fills, labels)):
         # Distribution of estimates if true value were true_p
         std = np.sqrt(true_p * (1 - true_p) / n_voters)
+        x = np.linspace(true_p - 4*std, true_p + 4*std, 200)
         y = stats.norm.pdf(x, true_p, std)
 
-        # Offset for visibility
-        offset = i * 0.15
-        ax1.fill_between(x, y + offset, offset, alpha=0.5, color=fill)
-        ax1.plot(x, y + offset, color=color, linewidth=2)
-        ax1.axvline(true_p, ymin=offset/1.5, ymax=(max(y)+offset)/1.5,
-                   color=color, linestyle='--', linewidth=1.5)
+        # Fill the distribution
+        ax.fill_between(x, y, alpha=0.4, color=fill_color)
+        ax.plot(x, y, color=result_color, linewidth=2)
+
+        # Mark the true value
+        ax.axvline(true_p, color=result_color, linestyle='--', linewidth=1.5, alpha=0.7)
 
         # Mark our estimate
-        y_at_estimate = stats.norm.pdf(our_estimate, true_p, std)
-        ax1.plot(our_estimate, y_at_estimate + offset, 'o', color=MAROON, markersize=8)
+        y_at_est = stats.norm.pdf(our_estimate, true_p, std)
+        ax.plot(our_estimate, y_at_est, 'o', color=MAROON, markersize=10, zorder=5)
+        ax.axvline(our_estimate, color=MAROON, linewidth=2, alpha=0.8)
 
-        # Label
-        ax1.text(0.72, offset + 0.3, label, color=color, fontsize=10, fontweight='bold')
+        # Labels
+        ax.set_title(f'If true value = {true_p:.0%}', fontweight='bold', fontsize=12)
+        ax.set_xlabel('Possible poll results')
+        if ax == axes[0]:
+            ax.set_ylabel('Probability density')
 
-    ax1.axvline(our_estimate, color=MAROON, linewidth=2, label=f'Our estimate: {our_estimate:.0%}')
-    ax1.set_xlim(0.25, 0.75)
-    ax1.set_ylim(0, 1.5)
-    ax1.set_xlabel('Possible poll results')
-    ax1.set_ylabel('Probability density')
-    ax1.set_title('Testing Different Hypothetical True Values', fontweight='bold')
-    ax1.legend(loc='upper left')
+        # Result text
+        ax.text(0.5, 0.95, result, transform=ax.transAxes, fontsize=14,
+                fontweight='bold', color=result_color, ha='center', va='top')
 
-    # Bottom panel: The resulting confidence interval
-    ax2 = axes[1]
+        # Explanation
+        if result == 'REJECT':
+            if true_p < our_estimate:
+                expl = f'48% is too high\nto come from {true_p:.0%}'
+            else:
+                expl = f'48% is too low\nto come from {true_p:.0%}'
+        else:
+            expl = f'48% is plausible\nif truth is {true_p:.0%}'
+        ax.text(0.5, 0.82, expl, transform=ax.transAxes, fontsize=9,
+                ha='center', va='top', color='#666')
 
-    # Compute actual 95% CI
-    std_est = np.sqrt(our_estimate * (1 - our_estimate) / n_voters)
-    ci_low = our_estimate - 1.96 * std_est
-    ci_high = our_estimate + 1.96 * std_est
+        ax.set_ylim(bottom=0)
 
-    # Draw CI
-    ax2.barh(0, ci_high - ci_low, left=ci_low, height=0.3, color='#ccffcc',
-             edgecolor='#008800', linewidth=2)
-    ax2.barh(0, ci_low - 0.25, left=0.25, height=0.3, color='#ffcccc', alpha=0.5)
-    ax2.barh(0, 0.75 - ci_high, left=ci_high, height=0.3, color='#ffcccc', alpha=0.5)
-
-    ax2.plot(our_estimate, 0, 'o', color=MAROON, markersize=12, zorder=5)
-    ax2.text(our_estimate, 0.25, f'{our_estimate:.0%}', ha='center', fontsize=10, color=MAROON)
-
-    ax2.text(ci_low, -0.35, f'{ci_low:.0%}', ha='center', fontsize=9)
-    ax2.text(ci_high, -0.35, f'{ci_high:.0%}', ha='center', fontsize=9)
-
-    ax2.set_xlim(0.25, 0.75)
-    ax2.set_ylim(-0.5, 0.5)
-    ax2.set_xlabel('True Republican vote share')
-    ax2.set_title(f'95% Confidence Interval: {ci_low:.0%} to {ci_high:.0%}',
-                  fontweight='bold', color='#008800')
-    ax2.set_yticks([])
-    ax2.spines['left'].set_visible(False)
+    # Add annotation for "our estimate"
+    fig.text(0.5, 0.02, 'Red dot = our poll estimate (48%)', ha='center',
+             fontsize=10, color=MAROON)
 
     plt.tight_layout()
+    plt.subplots_adjust(bottom=0.15)
     plt.savefig('confidence-interval.svg', format='svg', bbox_inches='tight')
     plt.savefig('confidence-interval.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
@@ -204,7 +194,7 @@ def fig4_multiple_testing():
     # Simulate: each die rolled 10 times, count 1s
     ones_per_die = np.random.binomial(n_rolls, p_one, n_dice)
 
-    fig, ax = plt.subplots(figsize=(9, 5))
+    fig, ax = plt.subplots(figsize=(9, 5.5))
 
     # Count dice in each bin
     bins = np.arange(0, n_rolls + 2) - 0.5
@@ -220,28 +210,31 @@ def fig4_multiple_testing():
     # Count suspicious dice
     n_suspicious = np.sum(ones_per_die >= suspicious_threshold)
 
-    # Annotation
-    ax.annotate(f'{n_suspicious} dice\n"look suspicious"',
-                xy=(6, counts[6] if len(counts) > 6 else 10),
-                xytext=(7.5, max(counts) * 0.7),
-                fontsize=11, color=ORANGE, fontweight='bold',
-                arrowprops=dict(arrowstyle='->', color=ORANGE, lw=2))
-
-    # Add text box
-    textstr = f'All {n_dice:,} dice are fair!\nThese {n_suspicious} are false positives.'
-    props = dict(boxstyle='round', facecolor='#fff3e6', edgecolor=ORANGE, linewidth=2)
-    ax.text(0.98, 0.95, textstr, transform=ax.transAxes, fontsize=11,
-            verticalalignment='top', horizontalalignment='right', bbox=props)
-
-    # Theoretical expectation
+    # Theoretical expectation line
     expected_counts = n_dice * stats.binom.pmf(np.arange(n_rolls + 1), n_rolls, p_one)
     ax.plot(np.arange(n_rolls + 1), expected_counts, 'o-', color=DARK_MAROON,
             linewidth=2, markersize=6, label='Expected (theory)')
 
-    ax.set_xlabel('Number of 1s (out of 10 rolls)')
+    # Annotation arrow to suspicious dice
+    arrow_target_x = 5.5
+    arrow_target_y = counts[5] if len(counts) > 5 else 10
+    ax.annotate(f'{n_suspicious} dice "look suspicious"',
+                xy=(arrow_target_x, arrow_target_y),
+                xytext=(7, max(counts) * 0.85),
+                fontsize=11, color=ORANGE, fontweight='bold',
+                arrowprops=dict(arrowstyle='->', color=ORANGE, lw=2),
+                ha='left')
+
+    # Text box - positioned to not overlap with legend
+    textstr = f'But all {n_dice:,} dice are fair!\nThese are false positives.'
+    props = dict(boxstyle='round', facecolor='#fff3e6', edgecolor=ORANGE, linewidth=2)
+    ax.text(0.98, 0.65, textstr, transform=ax.transAxes, fontsize=11,
+            verticalalignment='top', horizontalalignment='right', bbox=props)
+
+    ax.set_xlabel('Number of 1s (out of 10 rolls per die)')
     ax.set_ylabel('Number of dice')
     ax.set_title(f'{n_dice:,} Fair Dice, Each Rolled {n_rolls} Times', fontweight='bold')
-    ax.legend(loc='upper right')
+    ax.legend(loc='upper left')
     ax.set_xlim(-0.5, 10.5)
 
     plt.tight_layout()
@@ -256,7 +249,7 @@ def fig4_multiple_testing():
 
 
 if __name__ == '__main__':
-    print("Generating Uncertainty lecture figures from simulations...\n")
+    print(f"Generating Uncertainty lecture figures from {N_SIMS:,} simulations...\n")
 
     fig1_dice_distribution()
     fig2_sample_size_comparison()
