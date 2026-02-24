@@ -120,7 +120,7 @@ def fig3_confidence_interval():
     n_voters = 100
     our_estimate = 0.48
 
-    fig, axes = plt.subplots(1, 3, figsize=(12, 4))
+    fig, axes = plt.subplots(1, 3, figsize=(13, 5))
 
     test_values = [0.40, 0.48, 0.58]
     results = ['REJECT', 'ACCEPT', 'REJECT']
@@ -148,34 +148,35 @@ def fig3_confidence_interval():
         ax.axvline(our_estimate, color=MAROON, linewidth=2, alpha=0.8)
 
         # Labels
-        ax.set_title(f'If true value = {true_p:.0%}', fontweight='bold', fontsize=12)
+        ax.set_title(f'If true value = {true_p:.0%}', fontweight='bold', fontsize=12, pad=10)
         ax.set_xlabel('Possible poll results')
         if ax == axes[0]:
             ax.set_ylabel('Probability density')
 
-        # Result text
-        ax.text(0.5, 0.95, result, transform=ax.transAxes, fontsize=14,
-                fontweight='bold', color=result_color, ha='center', va='top')
-
-        # Explanation
+        # Explanation text below x-axis using xlabel area
         if result == 'REJECT':
             if true_p < our_estimate:
-                expl = f'48% is too high\nto come from {true_p:.0%}'
+                expl = f'48% too high to come from {true_p:.0%}'
             else:
-                expl = f'48% is too low\nto come from {true_p:.0%}'
+                expl = f'48% too low to come from {true_p:.0%}'
         else:
-            expl = f'48% is plausible\nif truth is {true_p:.0%}'
-        ax.text(0.5, 0.82, expl, transform=ax.transAxes, fontsize=9,
-                ha='center', va='top', color='#666')
+            expl = f'48% is plausible if truth is {true_p:.0%}'
 
         ax.set_ylim(bottom=0)
 
+        # Add result badge below the plot
+        ax.text(0.5, -0.22, result, transform=ax.transAxes, fontsize=13,
+                fontweight='bold', color='white', ha='center', va='center',
+                bbox=dict(boxstyle='round,pad=0.3', facecolor=result_color, edgecolor='none'))
+        ax.text(0.5, -0.35, expl, transform=ax.transAxes, fontsize=9,
+                ha='center', va='center', color='#555')
+
     # Add annotation for "our estimate"
-    fig.text(0.5, 0.02, 'Red dot = our poll estimate (48%)', ha='center',
-             fontsize=10, color=MAROON)
+    fig.text(0.5, 0.02, 'Red line & dot = our poll estimate (48%)', ha='center',
+             fontsize=11, color=MAROON, fontweight='bold')
 
     plt.tight_layout()
-    plt.subplots_adjust(bottom=0.15)
+    plt.subplots_adjust(bottom=0.25)
     plt.savefig('confidence-interval.svg', format='svg', bbox_inches='tight')
     plt.savefig('confidence-interval.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
