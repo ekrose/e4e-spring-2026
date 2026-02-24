@@ -1,0 +1,68 @@
+<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px sans-serif; fill: #333; }
+    .label { font: 13px sans-serif; fill: #333; }
+    .axis-label { font: 11px sans-serif; fill: #666; }
+    .annotation { font: italic 12px sans-serif; fill: #800000; }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="380" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="300" y="28" text-anchor="middle" class="title">Class Size Jumps at Enrollment Cutoffs</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="50" x2="80" y2="290" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="290" x2="560" y2="290" stroke="#333" stroke-width="2"/>
+
+  <!-- Axis labels -->
+  <text x="40" y="170" text-anchor="middle" class="label" transform="rotate(-90, 40, 170)">Class Size</text>
+  <text x="320" y="320" text-anchor="middle" class="label">School Enrollment</text>
+
+  <!-- Y-axis values -->
+  <text x="70" y="265" text-anchor="end" class="axis-label">20</text>
+  <text x="70" y="185" text-anchor="end" class="axis-label">30</text>
+  <text x="70" y="105" text-anchor="end" class="axis-label">40</text>
+
+  <!-- Cutoff lines -->
+  <line x1="200" y1="50" x2="200" y2="290" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="360" y1="50" x2="360" y2="290" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="520" y1="50" x2="520" y2="290" stroke="#ccc" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Cutoff labels -->
+  <text x="200" y="305" text-anchor="middle" class="axis-label">40</text>
+  <text x="360" y="305" text-anchor="middle" class="axis-label">80</text>
+  <text x="520" y="305" text-anchor="middle" class="axis-label">120</text>
+
+  <!-- Sawtooth pattern: class size rises then drops -->
+  <!-- First segment: 1-40 students, 1 class -->
+  <line x1="100" y1="260" x2="195" y2="100" stroke="#800000" stroke-width="3"/>
+
+  <!-- Drop at 41 (2 classes) -->
+  <line x1="205" y1="265" x2="355" y2="100" stroke="#800000" stroke-width="3"/>
+
+  <!-- Drop at 81 (3 classes) -->
+  <line x1="365" y1="260" x2="515" y2="130" stroke="#800000" stroke-width="3"/>
+
+  <!-- Circles at discontinuities -->
+  <circle cx="195" cy="100" r="5" fill="#800000"/>
+  <circle cx="205" cy="265" r="5" fill="#800000"/>
+  <circle cx="355" cy="100" r="5" fill="#800000"/>
+  <circle cx="365" cy="260" r="5" fill="#800000"/>
+
+  <!-- Annotations -->
+  <text x="150" y="75" text-anchor="middle" class="annotation">1 class</text>
+  <text x="280" y="75" text-anchor="middle" class="annotation">2 classes</text>
+  <text x="440" y="75" text-anchor="middle" class="annotation">3 classes</text>
+
+  <!-- Arrow showing drop -->
+  <path d="M 200 135 Q 215 160 200 185" fill="none" stroke="#ff8243" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  <defs>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff8243"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="350" text-anchor="middle" class="label">At 41 students, class size drops from 40 to ~20</text>
+</svg>

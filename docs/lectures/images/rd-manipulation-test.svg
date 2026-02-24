@@ -1,0 +1,74 @@
+<svg viewBox="0 0 650 350" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 15px sans-serif; fill: #333; }
+    .label { font: 13px sans-serif; fill: #333; }
+    .axis-label { font: 11px sans-serif; fill: #666; }
+    .good { fill: #2e7d32; }
+    .bad { fill: #c62828; }
+  </style>
+
+  <!-- Background -->
+  <rect width="650" height="350" fill="#fafafa"/>
+
+  <!-- Left panel: No manipulation -->
+  <rect x="30" y="35" width="280" height="260" fill="white" stroke="#ddd" rx="5"/>
+  <text x="170" y="58" text-anchor="middle" class="title good">No Manipulation</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="80" x2="60" y2="260" stroke="#333" stroke-width="1"/>
+  <line x1="60" y1="260" x2="290" y2="260" stroke="#333" stroke-width="1"/>
+
+  <!-- Cutoff -->
+  <line x1="175" y1="80" x2="175" y2="260" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Smooth histogram bars -->
+  <rect x="75" y="220" width="20" height="40" fill="#666" opacity="0.7"/>
+  <rect x="100" y="190" width="20" height="70" fill="#666" opacity="0.7"/>
+  <rect x="125" y="150" width="20" height="110" fill="#666" opacity="0.7"/>
+  <rect x="150" y="120" width="20" height="140" fill="#666" opacity="0.7"/>
+  <rect x="180" y="120" width="20" height="140" fill="#800000" opacity="0.7"/>
+  <rect x="205" y="150" width="20" height="110" fill="#800000" opacity="0.7"/>
+  <rect x="230" y="190" width="20" height="70" fill="#800000" opacity="0.7"/>
+  <rect x="255" y="220" width="20" height="40" fill="#800000" opacity="0.7"/>
+
+  <text x="170" y="310" text-anchor="middle" class="label good">Smooth density at cutoff</text>
+
+  <!-- Right panel: Manipulation -->
+  <rect x="340" y="35" width="280" height="260" fill="white" stroke="#ddd" rx="5"/>
+  <text x="480" y="58" text-anchor="middle" class="title bad">Possible Manipulation</text>
+
+  <!-- Axes -->
+  <line x1="370" y1="80" x2="370" y2="260" stroke="#333" stroke-width="1"/>
+  <line x1="370" y1="260" x2="600" y2="260" stroke="#333" stroke-width="1"/>
+
+  <!-- Cutoff -->
+  <line x1="485" y1="80" x2="485" y2="260" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Bunching histogram bars -->
+  <rect x="385" y="230" width="20" height="30" fill="#666" opacity="0.7"/>
+  <rect x="410" y="210" width="20" height="50" fill="#666" opacity="0.7"/>
+  <rect x="435" y="200" width="20" height="60" fill="#666" opacity="0.7"/>
+  <rect x="460" y="190" width="20" height="70" fill="#666" opacity="0.7"/>
+  <!-- Big spike just above cutoff -->
+  <rect x="490" y="100" width="20" height="160" fill="#800000" opacity="0.7"/>
+  <rect x="515" y="180" width="20" height="80" fill="#800000" opacity="0.7"/>
+  <rect x="540" y="210" width="20" height="50" fill="#800000" opacity="0.7"/>
+  <rect x="565" y="235" width="20" height="25" fill="#800000" opacity="0.7"/>
+
+  <!-- Arrow pointing to bunching -->
+  <path d="M 500 85 L 500 95" stroke="#c62828" stroke-width="2" fill="none" marker-end="url(#redarrow)"/>
+  <text x="500" y="80" text-anchor="middle" class="axis-label bad">Bunching!</text>
+  <defs>
+    <marker id="redarrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="310" text-anchor="middle" class="label bad">Suspicious jump at cutoff</text>
+
+  <!-- Labels -->
+  <text x="110" y="278" text-anchor="middle" class="axis-label">Below</text>
+  <text x="240" y="278" text-anchor="middle" class="axis-label">Above</text>
+  <text x="420" y="278" text-anchor="middle" class="axis-label">Below</text>
+  <text x="550" y="278" text-anchor="middle" class="axis-label">Above</text>
+</svg>

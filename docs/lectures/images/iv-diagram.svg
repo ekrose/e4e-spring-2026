@@ -1,0 +1,58 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px sans-serif; fill: #333; }
+    .box-label { font: bold 14px sans-serif; fill: white; }
+    .label { font: 13px sans-serif; fill: #333; }
+    .arrow-label { font: 12px sans-serif; fill: #666; }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="320" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" class="title">Instrumental Variables: The Causal Chain</text>
+
+  <!-- Instrument box -->
+  <rect x="50" y="120" width="120" height="50" fill="#666" rx="8"/>
+  <text x="110" y="150" text-anchor="middle" class="box-label">Instrument</text>
+
+  <!-- Treatment box -->
+  <rect x="240" y="120" width="120" height="50" fill="#800000" rx="8"/>
+  <text x="300" y="150" text-anchor="middle" class="box-label">Treatment</text>
+
+  <!-- Outcome box -->
+  <rect x="430" y="120" width="120" height="50" fill="#ff8243" rx="8"/>
+  <text x="490" y="150" text-anchor="middle" class="box-label">Outcome</text>
+
+  <!-- Arrows -->
+  <!-- Instrument to Treatment -->
+  <line x1="170" y1="145" x2="235" y2="145" stroke="#333" stroke-width="2" marker-end="url(#arrowhead3)"/>
+
+  <!-- Treatment to Outcome -->
+  <line x1="360" y1="145" x2="425" y2="145" stroke="#333" stroke-width="2" marker-end="url(#arrowhead3)"/>
+
+  <!-- Crossed out direct path (Instrument to Outcome) -->
+  <path d="M 110 170 Q 300 250 490 170" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="300" y="235" text-anchor="middle" class="arrow-label" fill="#c62828">No direct effect!</text>
+  <!-- X mark -->
+  <line x1="290" y1="205" x2="310" y2="225" stroke="#c62828" stroke-width="3"/>
+  <line x1="310" y1="205" x2="290" y2="225" stroke="#c62828" stroke-width="3"/>
+
+  <defs>
+    <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- Examples -->
+  <text x="110" y="95" text-anchor="middle" class="label">Quarter of birth</text>
+  <text x="110" y="110" text-anchor="middle" class="label">Judge assignment</text>
+  <text x="300" y="95" text-anchor="middle" class="label">Education</text>
+  <text x="300" y="110" text-anchor="middle" class="label">Eviction</text>
+  <text x="490" y="95" text-anchor="middle" class="label">Earnings</text>
+  <text x="490" y="110" text-anchor="middle" class="label">Poverty</text>
+
+  <!-- Key requirement box -->
+  <rect x="100" y="265" width="400" height="40" fill="white" stroke="#800000" rx="5"/>
+  <text x="300" y="290" text-anchor="middle" class="label">Key: Instrument affects outcome ONLY through treatment</text>
+</svg>

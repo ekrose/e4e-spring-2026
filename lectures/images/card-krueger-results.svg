@@ -1,0 +1,61 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 18px sans-serif; fill: #333; }
+    .label { font: 14px sans-serif; fill: #333; }
+    .axis-label { font: 12px sans-serif; fill: #666; }
+    .legend { font: 13px sans-serif; fill: #333; }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="300" y="35" text-anchor="middle" class="title">Employment Changes in Fast Food Restaurants</text>
+
+  <!-- Y-axis -->
+  <line x1="100" y1="70" x2="100" y2="320" stroke="#333" stroke-width="2"/>
+  <text x="50" y="195" text-anchor="middle" class="label" transform="rotate(-90, 50, 195)">Average FTE Employment</text>
+
+  <!-- Y-axis ticks and labels -->
+  <line x1="95" y1="100" x2="100" y2="100" stroke="#333" stroke-width="1"/>
+  <text x="85" y="105" text-anchor="end" class="axis-label">23</text>
+  <line x1="95" y1="160" x2="100" y2="160" stroke="#333" stroke-width="1"/>
+  <text x="85" y="165" text-anchor="end" class="axis-label">21</text>
+  <line x1="95" y1="220" x2="100" y2="220" stroke="#333" stroke-width="1"/>
+  <text x="85" y="225" text-anchor="end" class="axis-label">19</text>
+  <line x1="95" y1="280" x2="100" y2="280" stroke="#333" stroke-width="1"/>
+  <text x="85" y="285" text-anchor="end" class="axis-label">17</text>
+
+  <!-- X-axis -->
+  <line x1="100" y1="320" x2="520" y2="320" stroke="#333" stroke-width="2"/>
+
+  <!-- Time labels -->
+  <text x="200" y="345" text-anchor="middle" class="label">Before (Feb 1992)</text>
+  <text x="420" y="345" text-anchor="middle" class="label">After (Nov 1992)</text>
+
+  <!-- Grid lines -->
+  <line x1="100" y1="160" x2="520" y2="160" stroke="#ddd" stroke-width="1"/>
+  <line x1="100" y1="220" x2="520" y2="220" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Pennsylvania line (control) - slight decline -->
+  <line x1="200" y1="130" x2="420" y2="150" stroke="#666" stroke-width="3"/>
+  <circle cx="200" cy="130" r="8" fill="#666"/>
+  <circle cx="420" cy="150" r="8" fill="#666"/>
+
+  <!-- New Jersey line (treatment) - increase -->
+  <line x1="200" y1="190" x2="420" y2="140" stroke="#800000" stroke-width="3"/>
+  <circle cx="200" cy="190" r="8" fill="#800000"/>
+  <circle cx="420" cy="140" r="8" fill="#800000"/>
+
+  <!-- Legend -->
+  <rect x="380" y="70" width="130" height="55" fill="white" stroke="#ccc" rx="5"/>
+  <line x1="390" y1="88" x2="420" y2="88" stroke="#800000" stroke-width="3"/>
+  <circle cx="405" cy="88" r="5" fill="#800000"/>
+  <text x="430" y="93" class="legend">New Jersey</text>
+  <line x1="390" y1="110" x2="420" y2="110" stroke="#666" stroke-width="3"/>
+  <circle cx="405" cy="110" r="5" fill="#666"/>
+  <text x="430" y="115" class="legend">Pennsylvania</text>
+
+  <!-- Annotation -->
+  <text x="300" y="375" text-anchor="middle" class="axis-label">NJ employment rose while PA employment fell</text>
+</svg>

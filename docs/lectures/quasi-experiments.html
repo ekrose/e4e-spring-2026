@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
+
+  <title>Economics for Everyone | Spring 2026 – Quasi-Experiments</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Quasi-Experiments</h1>
+  <p class="subtitle">Economics for Everyone</p>
+
+<div class="quarto-title-authors">
+</div>
+
+</section>
+<section id="why-do-we-need-quasi-experiments" class="slide level2">
+<h2>Why do we need quasi-experiments?</h2>
+<p>Many important questions can’t be answered with randomized experiments:</p>
+<div class="fragment">
+<ul>
+<li>Does the minimum wage reduce employment?</li>
+<li>Does going to prison increase or decrease future crime?</li>
+<li>Does expanding health insurance improve health outcomes?</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>The problem:</strong> We can’t randomly assign wages, prison sentences, or health coverage.</p>
+</blockquote>
+</div>
+</section>
+<section id="natural-experiments" class="slide level2">
+<h2>Natural experiments</h2>
+<p>Sometimes the world gives us variation that <em>looks like</em> an experiment.</p>
+<div class="fragment">
+<p><strong>Natural experiment:</strong> Real-world variation that allows researchers to identify causal effects without explicit randomization.</p>
+</div>
+<div class="fragment">
+<p>The key insight: Find settings where treatment is determined by factors <em>unrelated</em> to outcomes.</p>
+</div>
+</section>
+<section id="the-quasi-experimental-toolkit" class="slide level2">
+<h2>The quasi-experimental toolkit</h2>
+<p>Today we’ll cover four major approaches:</p>
+<div class="fragment">
+<ol type="1">
+<li><strong>Interrupted time series</strong> — Before vs.&nbsp;after a sudden change</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li><strong>Difference-in-differences</strong> — Compare changes across groups</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="3" type="1">
+<li><strong>Regression discontinuity</strong> — Exploit arbitrary cutoffs</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="4" type="1">
+<li><strong>Instrumental variables</strong> — Use external sources of variation</li>
+</ol>
+</div>
+</section>
+<section id="whats-the-catch" class="slide level2">
+<h2>What’s the catch?</h2>
+<p>There’s no free lunch.</p>
+<div class="fragment">
+<p>Each method requires <strong>identifying assumptions</strong> — conditions that must hold for the estimates to be causal.</p>
+</div>
+<div class="fragment">
+<p>And we need <strong>specification tests</strong> — diagnostics to assess whether those assumptions are plausible.</p>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>Key insight:</strong> Being a good economist means knowing both the methods <em>and</em> their limitations.</p>
+</blockquote>
+</div>
+</section>
+<section>
+<section id="a-classic-example" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>A Classic Example</h1>
+<p>Card and Krueger’s Minimum Wage Study</p>
+</section>
+<section id="the-minimum-wage-debate" class="slide level2">
+<h2>The minimum wage debate</h2>
+<p><strong>Textbook economics:</strong> Higher minimum wage → Less employment</p>
+<div class="fragment">
+<p>The argument:</p>
+<ul>
+<li>Higher wages = higher labor costs</li>
+<li>Firms hire fewer workers</li>
+<li>Some workers lose their jobs</li>
+</ul>
+</div>
+<div class="fragment">
+<p>But is this what actually happens?</p>
+</div>
+</section>
+<section id="the-challenge-of-studying-minimum-wage" class="slide level2">
+<h2>The challenge of studying minimum wage</h2>
+<p>Why can’t we just compare states with different minimum wages?</p>
+<div class="fragment">
+<p><strong>Selection problem:</strong> States that raise minimum wages might be different in many ways.</p>
+<ul>
+<li>Stronger economies</li>
+<li>Different industries</li>
+<li>Different political preferences</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Any employment difference could reflect these factors, not the minimum wage.</p>
+</div>
+</section>
+<section id="card-and-kruegers-natural-experiment" class="slide level2">
+<h2>Card and Krueger’s natural experiment</h2>
+<p>In 1992, New Jersey raised its minimum wage from $4.25 to $5.05.</p>
+<div class="fragment">
+<p>Neighboring Pennsylvania did not change its minimum wage.</p>
+</div>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>New Jersey</strong></p>
+<ul>
+<li>Treatment group</li>
+<li>Minimum wage: $4.25 → $5.05</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>Pennsylvania</strong></p>
+<ul>
+<li>Control group</li>
+<li>Minimum wage: $4.25 (unchanged)</li>
+</ul>
+</div></div>
+</div>
+</section>
+<section id="the-study-design" class="slide level2">
+<h2>The study design</h2>
+<p>Card and Krueger surveyed fast food restaurants in both states:</p>
+<div class="fragment">
+<ul>
+<li><strong>Before:</strong> February 1992 (before NJ increase)</li>
+<li><strong>After:</strong> November 1992 (after NJ increase)</li>
+</ul>
+</div>
+<div class="fragment">
+<p>They measured employment at each restaurant.</p>
+</div>
+</section>
+<section id="what-did-they-find" class="slide level2">
+<h2>What did they find?</h2>
+
+<img data-src="images/card-krueger-results.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="the-surprising-result" class="slide level2">
+<h2>The surprising result</h2>
+<p>Employment in New Jersey <em>increased</em> relative to Pennsylvania.</p>
+<div class="fragment">
+<p>This challenged the conventional wisdom that minimum wage increases destroy jobs.</p>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>The lesson:</strong> Economic theory gives us predictions, but data tells us what actually happens.</p>
+</blockquote>
+</div>
+</section>
+<section id="why-might-the-textbook-be-wrong" class="slide level2">
+<h2>Why might the textbook be wrong?</h2>
+<p>Several explanations have been proposed:</p>
+<div class="fragment">
+<ol type="1">
+<li><strong>Monopsony power</strong> — Employers have wage-setting power</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li><strong>Efficiency wages</strong> — Higher wages increase productivity</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="3" type="1">
+<li><strong>Reduced turnover</strong> — Less costly hiring and training</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="4" type="1">
+<li><strong>Price adjustments</strong> — Costs passed to consumers</li>
+</ol>
+</div>
+</section>
+<section id="discussion-what-makes-this-convincing" class="slide level2">
+<h2>Discussion: What makes this convincing?</h2>
+<p>Think about:</p>
+<ul>
+<li>Why is Pennsylvania a good comparison for New Jersey?</li>
+<li>What could still go wrong with this design?</li>
+<li>Would you be convinced?</li>
+</ul>
+</section></section>
+<section>
+<section id="interrupted-time-series" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>Interrupted Time Series</h1>
+<p>What happens when everything changes at once?</p>
+</section>
+<section id="the-simplest-quasi-experiment" class="slide level2">
+<h2>The simplest quasi-experiment</h2>
+<p><strong>Idea:</strong> Compare outcomes before and after a sudden change.</p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/interrupted-time-series.svg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="example-george-floyd-and-police-violence" class="slide level2">
+<h2>Example: George Floyd and police violence</h2>
+<p>Bruhn (2023) studied what happened to police killings after George Floyd’s murder in May 2020.</p>
+<div class="fragment">
+<p><strong>The event:</strong> A dramatic, sudden shift in public attention to police violence.</p>
+</div>
+<div class="fragment">
+<p><strong>The question:</strong> Did this attention actually reduce police killings?</p>
+</div>
+</section>
+<section id="what-the-data-showed" class="slide level2">
+<h2>What the data showed</h2>
+
+<img data-src="images/george-floyd-time-series.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="interpreting-the-results" class="slide level2">
+<h2>Interpreting the results</h2>
+<p>Police killings fell significantly after the event.</p>
+<div class="fragment">
+<p>But is this causal? What else changed in May 2020?</p>
+</div>
+<div class="fragment">
+<p><strong>Potential confounds:</strong></p>
+<ul>
+<li>COVID-19 pandemic</li>
+<li>Protests and civil unrest</li>
+<li>Policy changes in many departments</li>
+<li>Economic disruption</li>
+</ul>
+</div>
+</section>
+<section id="the-limits-of-interrupted-time-series" class="slide level2">
+<h2>The limits of interrupted time series</h2>
+<p><strong>Strengths:</strong></p>
+<ul>
+<li>Simple and intuitive</li>
+<li>Works with just one group</li>
+<li>Easy to visualize</li>
+</ul>
+<div class="fragment">
+<p><strong>Weaknesses:</strong></p>
+<ul>
+<li>Can’t separate the event from other changes</li>
+<li>Assumes the trend would have continued</li>
+<li>No control group to benchmark against</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>Bottom line:</strong> Good for description, risky for causal claims.</p>
+</blockquote>
+</div>
+</section></section>
+<section>
+<section id="difference-in-differences" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>Difference-in-Differences</h1>
+<p>Adding a control group to time series</p>
+</section>
+<section id="the-key-insight" class="slide level2">
+<h2>The key insight</h2>
+<p>What if we could account for time trends using a comparison group?</p>
+<div class="fragment">
+<p><strong>Difference-in-differences (DiD):</strong></p>
+<ol type="1">
+<li>Compare treated group before and after (first difference)</li>
+<li>Compare control group before and after (second difference)</li>
+<li>Subtract to remove common trends (difference in differences)</li>
+</ol>
+</div>
+</section>
+<section id="the-did-logic" class="slide level2">
+<h2>The DiD logic</h2>
+
+<img data-src="images/diff-in-diff-diagram.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="the-parallel-trends-assumption" class="slide level2">
+<h2>The parallel trends assumption</h2>
+<p>For DiD to work, we need to assume:</p>
+<div class="fragment">
+<blockquote>
+<p>Without treatment, the treated and control groups would have followed <strong>parallel trends</strong>.</p>
+</blockquote>
+</div>
+<div class="fragment">
+<p>This is the key identifying assumption.</p>
+</div>
+<div class="fragment">
+<p>We can <em>never</em> prove it’s true (we don’t observe the counterfactual), but we can look for evidence against it.</p>
+</div>
+</section>
+<section id="testing-parallel-trends" class="slide level2">
+<h2>Testing parallel trends</h2>
+<p><strong>Pre-trends test:</strong> Do the groups have similar trends <em>before</em> treatment?</p>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/parallel-trends-test.svg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="example-medicaid-expansion-and-mortality" class="slide level2">
+<h2>Example: Medicaid expansion and mortality</h2>
+<p>The Affordable Care Act allowed states to expand Medicaid coverage.</p>
+<div class="fragment">
+<p>Some states expanded in 2014, others did not.</p>
+</div>
+<div class="fragment">
+<p><strong>Research question:</strong> Did Medicaid expansion reduce deaths?</p>
+<aside class="notes">
+<p>Miller et al.&nbsp;(2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="the-study-design-1" class="slide level2">
+<h2>The study design</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Treatment:</strong></p>
+<p>States that expanded Medicaid</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Control:</strong></p>
+<p>States that did not expand</p>
+</div></div>
+<div class="fragment">
+<p>Compare changes in mortality rates before and after 2014.</p>
+</div>
+</section>
+<section id="results-lives-saved" class="slide level2">
+<h2>Results: Lives saved</h2>
+<p>The study found that Medicaid expansion <strong>reduced mortality</strong>.</p>
+<div class="fragment">
+<p>Approximately <strong>1 death prevented per 1,300 people covered</strong>.</p>
+</div>
+<div class="fragment">
+<p>Effects were largest for:</p>
+<ul>
+<li>Middle-aged adults</li>
+<li>People with treatable conditions</li>
+<li>Counties with higher pre-existing uninsurance</li>
+</ul>
+<aside class="notes">
+<p>Miller, Johnson, and Wherry (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="example-cancer-clusters-and-anxiety" class="slide level2">
+<h2>Example: Cancer clusters and anxiety</h2>
+<p>Davis et al.&nbsp;studied what happens when communities learn they’re near a contaminated site.</p>
+<div class="fragment">
+<p><strong>The event:</strong> EPA designates a Superfund site (toxic waste cleanup needed).</p>
+</div>
+<div class="fragment">
+<p><strong>Treatment:</strong> People living near designated sites</p>
+<p><strong>Control:</strong> People living near sites that will be designated later</p>
+</div>
+</section>
+<section id="what-they-found" class="slide level2">
+<h2>What they found</h2>
+<p>After Superfund designation:</p>
+<ul>
+<li>Increased depression and anxiety diagnoses</li>
+<li>More mental health prescriptions</li>
+<li>Effects concentrated among parents with young children</li>
+</ul>
+<div class="fragment">
+<blockquote>
+<p><strong>Key insight:</strong> Even the <em>information</em> about environmental risk affects health.</p>
+</blockquote>
+<aside class="notes">
+<p>Reference: Davis (2021). “The Economic Determinants of Mental Health.” Working paper.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="discussion-when-does-did-work" class="slide level2">
+<h2>Discussion: When does DiD work?</h2>
+<p>Think about:</p>
+<ul>
+<li>What would make you believe the parallel trends assumption?</li>
+<li>When might treated and control groups trend differently?</li>
+<li>How would you choose a control group?</li>
+</ul>
+</section></section>
+<section>
+<section id="regression-discontinuity" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>Regression Discontinuity</h1>
+<p>Exploiting arbitrary cutoffs</p>
+</section>
+<section id="the-intuition" class="slide level2">
+<h2>The intuition</h2>
+<p>Many policies have <strong>sharp cutoffs</strong>:</p>
+<ul>
+<li>You’re eligible if your score is above X</li>
+<li>You get the scholarship if your income is below Y</li>
+<li>You’re assigned to the advanced class if you score above Z</li>
+</ul>
+<div class="fragment">
+<p>People just above and just below the cutoff are nearly identical…</p>
+</div>
+<div class="fragment">
+<p>…except one group gets treated and the other doesn’t.</p>
+</div>
+</section>
+<section id="the-rd-design" class="slide level2">
+<h2>The RD design</h2>
+
+<img data-src="images/rd-diagram.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="why-this-works" class="slide level2">
+<h2>Why this works</h2>
+<p><strong>Key insight:</strong> At the cutoff, treatment is essentially random.</p>
+<div class="fragment">
+<p>Someone who scored 79 vs 81 on a test:</p>
+<ul>
+<li>Very similar abilities</li>
+<li>Very similar backgrounds</li>
+<li>But one gets the program, one doesn’t</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p>The discontinuity creates a mini-experiment.</p>
+</blockquote>
+</div>
+</section>
+<section id="example-class-size-and-learning" class="slide level2">
+<h2>Example: Class size and learning</h2>
+<p>Angrist and Lavy (1999) studied how class size affects student achievement.</p>
+<div class="fragment">
+<p><strong>The setting:</strong> Israel has a rule (Maimonides’ Rule) that caps classes at 40 students.</p>
+</div>
+<div class="fragment">
+<ul>
+<li>40 students → 1 class of 40</li>
+<li>41 students → 2 classes of ~20</li>
+</ul>
+</div>
+</section>
+<section id="the-class-size-discontinuity" class="slide level2">
+<h2>The class size discontinuity</h2>
+
+<img data-src="images/class-size-discontinuity.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="results" class="slide level2">
+<h2>Results</h2>
+<p>At the discontinuity where classes suddenly get smaller:</p>
+<div class="fragment">
+<ul>
+<li>Test scores jump significantly</li>
+<li>Effect equivalent to about 0.2-0.3 standard deviations</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>Implication:</strong> Smaller classes <em>do</em> improve learning.</p>
+</blockquote>
+<aside class="notes">
+<p>Angrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="example-close-elections" class="slide level2">
+<h2>Example: Close elections</h2>
+<p>Lee (2008) studied whether winning an election affects future electoral success.</p>
+<div class="fragment">
+<p><strong>The cutoff:</strong> 50% of the vote</p>
+<ul>
+<li>49.9% → You lose</li>
+<li>50.1% → You win</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Candidates just above and below 50% had essentially identical support.</p>
+</div>
+</section>
+<section id="what-winning-gets-you" class="slide level2">
+<h2>What winning gets you</h2>
+<p>Barely winning an election vs.&nbsp;barely losing:</p>
+<div class="fragment">
+<ul>
+<li><strong>Incumbency advantage</strong> of about 6-8 percentage points in the next election</li>
+<li>Access to campaign resources</li>
+<li>Name recognition</li>
+<li>Ability to deliver for constituents</li>
+</ul>
+<aside class="notes">
+<p>Lee (2008). “Randomized Experiments from Non-random Selection in U.S. House Elections.” Journal of Econometrics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="example-college-access" class="slide level2">
+<h2>Example: College access</h2>
+<p>Mountjoy (2022) studied the effects of attending a four-year vs.&nbsp;two-year college.</p>
+<div class="fragment">
+<p><strong>The design:</strong> Many students are at the margin of admission.</p>
+<ul>
+<li>Just above the cutoff → Admitted to four-year college</li>
+<li>Just below the cutoff → Community college</li>
+</ul>
+</div>
+</section>
+<section id="what-a-four-year-degree-gets-you" class="slide level2">
+<h2>What a four-year degree gets you</h2>
+<p>At the admission cutoff:</p>
+<div class="fragment">
+<ul>
+<li>Higher probability of getting a bachelor’s degree</li>
+<li>Approximately 10% higher earnings</li>
+<li>But effects vary by student background</li>
+</ul>
+<aside class="notes">
+<p>Mountjoy (2022). “Community Colleges and Upward Mobility.” American Economic Review.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="what-can-go-wrong-with-rd" class="slide level2">
+<h2>What can go wrong with RD?</h2>
+<p><strong>Manipulation:</strong> What if people can game the cutoff?</p>
+<div class="fragment">
+<ul>
+<li>Students retaking tests until they pass</li>
+<li>Doctors rounding blood pressure readings</li>
+<li>Officials adjusting income reports</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Test:</strong> Check for bunching at the cutoff.</p>
+</div>
+</section>
+<section id="testing-for-manipulation" class="slide level2">
+<h2>Testing for manipulation</h2>
+
+<img data-src="images/rd-manipulation-test.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="discussion-finding-discontinuities" class="slide level2">
+<h2>Discussion: Finding discontinuities</h2>
+<p>Think about:</p>
+<ul>
+<li>What policies create sharp cutoffs?</li>
+<li>Where might you look for RD opportunities?</li>
+<li>What makes a cutoff credible?</li>
+</ul>
+</section></section>
+<section>
+<section id="instrumental-variables" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>Instrumental Variables</h1>
+<p>Using external sources of variation</p>
+</section>
+<section id="the-problem" class="slide level2">
+<h2>The problem</h2>
+<p>What if treatment is always correlated with outcomes?</p>
+<div class="fragment">
+<p><strong>Example:</strong> Does education increase earnings?</p>
+<ul>
+<li>People who get more education might be:
+<ul>
+<li>More motivated</li>
+<li>More able</li>
+<li>From wealthier families</li>
+</ul></li>
+</ul>
+</div>
+<div class="fragment">
+<p>We can’t just compare educated vs.&nbsp;less-educated people.</p>
+</div>
+</section>
+<section id="the-iv-solution" class="slide level2">
+<h2>The IV solution</h2>
+<p>Find something that:</p>
+<ol type="1">
+<li><strong>Affects</strong> whether you get treated (education)</li>
+<li><strong>Only affects</strong> the outcome (earnings) <em>through</em> treatment</li>
+</ol>
+<div class="fragment">
+<p>This is called an <strong>instrumental variable</strong> or <strong>instrument</strong>.</p>
+</div>
+</section>
+<section id="the-iv-logic" class="slide level2">
+<h2>The IV logic</h2>
+
+<img data-src="images/iv-diagram.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="example-birthday-and-education" class="slide level2">
+<h2>Example: Birthday and education</h2>
+<p>Angrist and Krueger (1991) used <strong>quarter of birth</strong> as an instrument for education.</p>
+<div class="fragment">
+<p><strong>Why quarter of birth matters:</strong></p>
+<ul>
+<li>School entry cutoffs are based on birthdate</li>
+<li>Compulsory schooling laws require attendance until age 16</li>
+<li>People born earlier in the year can drop out with less education</li>
+</ul>
+</div>
+</section>
+<section id="the-clever-insight" class="slide level2">
+<h2>The clever insight</h2>
+<p>Someone born in January vs.&nbsp;December:</p>
+<div class="fragment">
+<ul>
+<li>Essentially random (parents don’t plan this)</li>
+<li>But affects years of schooling due to school rules</li>
+<li>Quarter of birth shouldn’t directly affect earnings</li>
+</ul>
+</div>
+<div class="fragment">
+<p>So any earnings difference must be <em>through</em> education!</p>
+<aside class="notes">
+<p>Angrist and Krueger (1991). “Does Compulsory School Attendance Affect Schooling and Earnings?” Quarterly Journal of Economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="results-1" class="slide level2">
+<h2>Results</h2>
+<p>Using quarter of birth as an instrument:</p>
+<div class="fragment">
+<p>Each additional year of schooling increases earnings by about <strong>7-10%</strong>.</p>
+</div>
+<div class="fragment">
+<p>This is similar to (but more credibly causal than) simple comparisons.</p>
+</div>
+</section>
+<section id="example-eviction-and-poverty" class="slide level2">
+<h2>Example: Eviction and poverty</h2>
+<p>Collinson et al.&nbsp;studied whether eviction makes people poorer.</p>
+<div class="fragment">
+<p><strong>The problem:</strong> People who get evicted are different:</p>
+<ul>
+<li>Lower income</li>
+<li>Less stable employment</li>
+<li>May have other challenges</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>The instrument:</strong> Random assignment of cases to judges who differ in harshness.</p>
+<aside class="notes">
+<p>Collinson, Humphries, Mader, Reed, Tannenbaum, and van Dijk (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="judge-leniency-as-an-instrument" class="slide level2">
+<h2>Judge leniency as an instrument</h2>
+<p>Some judges are “tough” (evict more often), some are “lenient.”</p>
+<div class="fragment">
+<ul>
+<li>Cases are randomly assigned to judges</li>
+<li>Your judge’s leniency predicts whether you’re evicted</li>
+<li>But judge assignment shouldn’t directly affect your outcomes</li>
+</ul>
+</div>
+<div class="fragment">
+<p>This isolates the causal effect of eviction itself.</p>
+</div>
+</section>
+<section id="what-eviction-does" class="slide level2">
+<h2>What eviction does</h2>
+<p>Being evicted (due to a harsh judge) leads to:</p>
+<div class="fragment">
+<ul>
+<li><strong>Homelessness:</strong> Large increase in shelter use</li>
+<li><strong>Residential instability:</strong> Frequent moves</li>
+<li><strong>Financial distress:</strong> Emergency room visits, debt collection</li>
+<li><strong>Neighborhood downgrading:</strong> Move to worse areas</li>
+</ul>
+<aside class="notes">
+<p>Collinson et al.&nbsp;(2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</div>
+</section>
+<section id="what-can-go-wrong-with-iv" class="slide level2">
+<h2>What can go wrong with IV?</h2>
+<p><strong>Problem 1: Weak instruments</strong></p>
+<p>If the instrument barely affects treatment, estimates are noisy and biased.</p>
+<div class="fragment">
+<p><strong>Problem 2: Exclusion restriction violations</strong></p>
+<p>What if the instrument affects outcomes directly?</p>
+<ul>
+<li>Quarter of birth → seasonal differences in health?</li>
+<li>Judge harshness → affects other case characteristics?</li>
+</ul>
+</div>
+</section>
+<section id="the-exclusion-restriction" class="slide level2">
+<h2>The exclusion restriction</h2>
+<blockquote>
+<p>The instrument must affect the outcome <strong>only through</strong> the treatment.</p>
+</blockquote>
+<div class="fragment">
+<p>This assumption can never be tested directly.</p>
+</div>
+<div class="fragment">
+<p>We rely on:</p>
+<ul>
+<li>Economic reasoning</li>
+<li>Checking for obvious violations</li>
+<li>Testing robustness to different instruments</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="putting-it-all-together" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>Putting It All Together</h1>
+<p>Choosing your approach</p>
+</section>
+<section id="matching-methods-to-questions" class="slide level2">
+<h2>Matching methods to questions</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>When to use</th>
+<th>Key assumption</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ITS</td>
+<td>Sudden, universal change</td>
+<td>No other changes</td>
+</tr>
+<tr class="even">
+<td>DiD</td>
+<td>Treatment varies across groups</td>
+<td>Parallel trends</td>
+</tr>
+<tr class="odd">
+<td>RD</td>
+<td>Sharp eligibility cutoff</td>
+<td>No manipulation</td>
+</tr>
+<tr class="even">
+<td>IV</td>
+<td>External source of variation</td>
+<td>Exclusion restriction</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-hierarchy-of-evidence" class="slide level2">
+<h2>The hierarchy of evidence</h2>
+<div class="fragment">
+<ol type="1">
+<li><strong>Randomized experiments</strong> — Gold standard, but often infeasible</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="2" type="1">
+<li><strong>Natural experiments</strong> — Next best, requires careful validation</li>
+</ol>
+</div>
+<div class="fragment">
+<ol start="3" type="1">
+<li><strong>Observational comparisons</strong> — Last resort, highly susceptible to bias</li>
+</ol>
+</div>
+</section>
+<section id="what-makes-a-study-convincing" class="slide level2">
+<h2>What makes a study convincing?</h2>
+<div class="fragment">
+<p><strong>Transparency:</strong> Authors show their work, including failures</p>
+</div>
+<div class="fragment">
+<p><strong>Robustness:</strong> Results hold under different specifications</p>
+</div>
+<div class="fragment">
+<p><strong>Mechanisms:</strong> Findings align with economic theory</p>
+</div>
+<div class="fragment">
+<p><strong>Replication:</strong> Other researchers find similar results</p>
+</div>
+</section>
+<section id="the-skeptics-checklist" class="slide level2">
+<h2>The skeptic’s checklist</h2>
+<p>When reading a quasi-experimental study, ask:</p>
+<div class="fragment">
+<ol type="1">
+<li>What is the identifying assumption?</li>
+<li>What specification tests do they run?</li>
+<li>What could violate the assumption?</li>
+<li>How robust are the results?</li>
+<li>Does the mechanism make sense?</li>
+</ol>
+</div>
+</section>
+<section id="discussion-designing-your-own-study" class="slide level2">
+<h2>Discussion: Designing your own study</h2>
+<p>Imagine you want to know:</p>
+<blockquote>
+<p>Does remote work increase or decrease productivity?</p>
+</blockquote>
+<div class="fragment">
+<p>How would you design a study using each method?</p>
+<ul>
+<li>Interrupted time series?</li>
+<li>Difference-in-differences?</li>
+<li>Regression discontinuity?</li>
+<li>Instrumental variables?</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="key-takeaways" class="title-slide slide level1 center" data-background-color="#800000">
+<h1>Key Takeaways</h1>
+
+</section>
+<section id="what-we-learned-today" class="slide level2">
+<h2>What we learned today</h2>
+<div class="fragment">
+<p><strong>Quasi-experiments</strong> let us find causal effects without randomization.</p>
+</div>
+<div class="fragment">
+<p>Each method has <strong>identifying assumptions</strong> that must be carefully evaluated.</p>
+</div>
+<div class="fragment">
+<p><strong>Specification tests</strong> help us assess whether assumptions are plausible.</p>
+</div>
+<div class="fragment">
+<p>Being a good economist means knowing both methods and their <strong>limitations</strong>.</p>
+</div>
+</section>
+<section id="the-power-of-quasi-experiments" class="slide level2">
+<h2>The power of quasi-experiments</h2>
+<p>These methods have transformed economics:</p>
+<div class="fragment">
+<ul>
+<li>Minimum wage research changed policy debates</li>
+<li>Medicaid studies informed healthcare policy</li>
+<li>Education research shaped school funding decisions</li>
+<li>Criminal justice research influenced sentencing reform</li>
+</ul>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>You can change the world</strong> by finding the right natural experiment.</p>
+</blockquote>
+</div>
+</section>
+<section id="next-time" class="slide level2">
+<h2>Next time</h2>
+<p>We’ll continue with labor markets and the future of work:</p>
+<ul>
+<li>How technology changes labor demand</li>
+<li>The economics of artificial intelligence</li>
+<li>What skills will matter in the future</li>
+</ul>
+</section>
+<section id="further-reading" class="slide level2">
+<h2>Further reading</h2>
+<p>For those interested in learning more:</p>
+<ul>
+<li>Angrist &amp; Pischke, <em>Mastering ’Metrics</em> (accessible introduction)</li>
+<li>Card, “The Elusive Search for Negative Wage Effects” (minimum wage review)</li>
+<li>Lee &amp; Lemieux, “Regression Discontinuity Designs in Economics” (RD methods)</li>
+</ul>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

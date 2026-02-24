@@ -1,0 +1,65 @@
+<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px sans-serif; fill: #333; }
+    .label { font: 14px sans-serif; fill: #333; }
+    .axis-label { font: 12px sans-serif; fill: #666; }
+    .annotation { font: italic 12px sans-serif; fill: #666; }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="380" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" class="title">Regression Discontinuity Design</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="60" x2="80" y2="300" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="300" x2="540" y2="300" stroke="#333" stroke-width="2"/>
+
+  <!-- Axis labels -->
+  <text x="40" y="180" text-anchor="middle" class="label" transform="rotate(-90, 40, 180)">Outcome</text>
+  <text x="310" y="330" text-anchor="middle" class="label">Running Variable (e.g., test score)</text>
+
+  <!-- Cutoff line -->
+  <line x1="300" y1="60" x2="300" y2="300" stroke="#800000" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="300" y="345" text-anchor="middle" class="axis-label">Cutoff</text>
+
+  <!-- Below cutoff: scattered points and trend line -->
+  <circle cx="120" cy="250" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="140" cy="240" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="160" cy="235" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="180" cy="225" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="200" cy="215" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="220" cy="205" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="240" cy="200" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="260" cy="190" r="4" fill="#666" opacity="0.5"/>
+  <circle cx="280" cy="185" r="4" fill="#666" opacity="0.5"/>
+
+  <!-- Below cutoff trend line -->
+  <line x1="100" y1="255" x2="295" y2="180" stroke="#666" stroke-width="3"/>
+
+  <!-- Above cutoff: scattered points and trend line -->
+  <circle cx="320" cy="120" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="340" cy="115" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="360" cy="110" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="380" cy="105" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="400" cy="100" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="420" cy="95" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="440" cy="90" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="460" cy="88" r="4" fill="#800000" opacity="0.5"/>
+  <circle cx="480" cy="85" r="4" fill="#800000" opacity="0.5"/>
+
+  <!-- Above cutoff trend line -->
+  <line x1="305" y1="125" x2="510" y2="80" stroke="#800000" stroke-width="3"/>
+
+  <!-- Discontinuity bracket -->
+  <line x1="295" y1="180" x2="295" y2="125" stroke="#ff8243" stroke-width="3"/>
+  <text x="275" y="155" text-anchor="end" class="label" fill="#ff8243">Jump!</text>
+
+  <!-- Labels -->
+  <text x="180" y="275" text-anchor="middle" class="label" fill="#666">Not treated</text>
+  <text x="420" y="70" text-anchor="middle" class="label" fill="#800000">Treated</text>
+
+  <!-- Annotation -->
+  <text x="300" y="365" text-anchor="middle" class="annotation">People just above vs. just below the cutoff are nearly identical</text>
+</svg>

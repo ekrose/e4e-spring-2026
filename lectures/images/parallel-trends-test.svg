@@ -1,0 +1,70 @@
+<svg viewBox="0 0 650 380" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px sans-serif; fill: #333; }
+    .label { font: 13px sans-serif; fill: #333; }
+    .axis-label { font: 11px sans-serif; fill: #666; }
+    .good { fill: #2e7d32; }
+    .bad { fill: #c62828; }
+  </style>
+
+  <!-- Background -->
+  <rect width="650" height="380" fill="#fafafa"/>
+
+  <!-- Left panel: Good pre-trends -->
+  <rect x="30" y="40" width="280" height="280" fill="white" stroke="#ddd" rx="5"/>
+  <text x="170" y="65" text-anchor="middle" class="title good">Parallel Pre-Trends</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="90" x2="60" y2="280" stroke="#333" stroke-width="1"/>
+  <line x1="60" y1="280" x2="290" y2="280" stroke="#333" stroke-width="1"/>
+
+  <!-- Treatment time -->
+  <line x1="175" y1="90" x2="175" y2="280" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="175" y="295" text-anchor="middle" class="axis-label">Treatment</text>
+
+  <!-- Good: Parallel lines before treatment -->
+  <polyline points="80,200 110,190 140,195 165,185" fill="none" stroke="#800000" stroke-width="2"/>
+  <polyline points="185,140 220,125 250,120 280,110" fill="none" stroke="#800000" stroke-width="2"/>
+  <polyline points="80,230 110,220 140,225 165,215" fill="none" stroke="#666" stroke-width="2"/>
+  <polyline points="185,185 220,175 250,170 280,165" fill="none" stroke="#666" stroke-width="2"/>
+
+  <!-- Circles -->
+  <circle cx="165" cy="185" r="4" fill="#800000"/>
+  <circle cx="185" cy="140" r="4" fill="#800000"/>
+  <circle cx="165" cy="215" r="4" fill="#666"/>
+  <circle cx="185" cy="185" r="4" fill="#666"/>
+
+  <text x="170" y="335" text-anchor="middle" class="label good">Assumption likely holds</text>
+
+  <!-- Right panel: Bad pre-trends -->
+  <rect x="340" y="40" width="280" height="280" fill="white" stroke="#ddd" rx="5"/>
+  <text x="480" y="65" text-anchor="middle" class="title bad">Diverging Pre-Trends</text>
+
+  <!-- Axes -->
+  <line x1="370" y1="90" x2="370" y2="280" stroke="#333" stroke-width="1"/>
+  <line x1="370" y1="280" x2="600" y2="280" stroke="#333" stroke-width="1"/>
+
+  <!-- Treatment time -->
+  <line x1="485" y1="90" x2="485" y2="280" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="485" y="295" text-anchor="middle" class="axis-label">Treatment</text>
+
+  <!-- Bad: Diverging lines before treatment -->
+  <polyline points="390,220 420,200 450,170 475,140" fill="none" stroke="#800000" stroke-width="2"/>
+  <polyline points="495,100 530,90 560,85 590,80" fill="none" stroke="#800000" stroke-width="2"/>
+  <polyline points="390,230 420,225 450,220 475,215" fill="none" stroke="#666" stroke-width="2"/>
+  <polyline points="495,205 530,195 560,190 590,185" fill="none" stroke="#666" stroke-width="2"/>
+
+  <!-- Circles -->
+  <circle cx="475" cy="140" r="4" fill="#800000"/>
+  <circle cx="495" cy="100" r="4" fill="#800000"/>
+  <circle cx="475" cy="215" r="4" fill="#666"/>
+  <circle cx="495" cy="205" r="4" fill="#666"/>
+
+  <text x="480" y="335" text-anchor="middle" class="label bad">Assumption likely fails</text>
+
+  <!-- Legend -->
+  <line x1="250" y1="360" x2="280" y2="360" stroke="#800000" stroke-width="2"/>
+  <text x="290" y="365" class="axis-label">Treated</text>
+  <line x1="350" y1="360" x2="380" y2="360" stroke="#666" stroke-width="2"/>
+  <text x="390" y="365" class="axis-label">Control</text>
+</svg>

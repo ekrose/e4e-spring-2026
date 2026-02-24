@@ -1,0 +1,56 @@
+<svg viewBox="0 0 650 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 16px sans-serif; fill: #333; }
+    .label { font: 14px sans-serif; fill: #333; }
+    .axis-label { font: 12px sans-serif; fill: #666; }
+    .annotation { font: 12px sans-serif; fill: #666; }
+    .math { font: italic 13px sans-serif; fill: #333; }
+  </style>
+
+  <!-- Background -->
+  <rect width="650" height="400" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" class="title">Difference-in-Differences Logic</text>
+
+  <!-- Axes -->
+  <line x1="100" y1="60" x2="100" y2="300" stroke="#333" stroke-width="2"/>
+  <line x1="100" y1="300" x2="500" y2="300" stroke="#333" stroke-width="2"/>
+
+  <!-- Axis labels -->
+  <text x="50" y="180" text-anchor="middle" class="label" transform="rotate(-90, 50, 180)">Outcome</text>
+  <text x="300" y="330" text-anchor="middle" class="label">Time</text>
+
+  <!-- Time period labels -->
+  <text x="180" y="320" text-anchor="middle" class="axis-label">Before</text>
+  <text x="420" y="320" text-anchor="middle" class="axis-label">After</text>
+
+  <!-- Treatment line -->
+  <line x1="180" y1="200" x2="420" y2="100" stroke="#800000" stroke-width="3"/>
+  <circle cx="180" cy="200" r="6" fill="#800000"/>
+  <circle cx="420" cy="100" r="6" fill="#800000"/>
+  <text x="440" y="105" class="label" fill="#800000">Treated</text>
+
+  <!-- Control line -->
+  <line x1="180" y1="240" x2="420" y2="200" stroke="#666" stroke-width="3"/>
+  <circle cx="180" cy="240" r="6" fill="#666"/>
+  <circle cx="420" cy="200" r="6" fill="#666"/>
+  <text x="440" y="205" class="label" fill="#666">Control</text>
+
+  <!-- Counterfactual (parallel trend) -->
+  <line x1="180" y1="200" x2="420" y2="160" stroke="#800000" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+  <text x="440" y="165" class="annotation">Counterfactual</text>
+
+  <!-- Treatment effect bracket -->
+  <line x1="430" y1="100" x2="430" y2="160" stroke="#800000" stroke-width="2"/>
+  <line x1="425" y1="100" x2="435" y2="100" stroke="#800000" stroke-width="2"/>
+  <line x1="425" y1="160" x2="435" y2="160" stroke="#800000" stroke-width="2"/>
+
+  <!-- Effect label -->
+  <text x="460" y="130" class="label" fill="#800000">Effect</text>
+
+  <!-- Formulas box -->
+  <rect x="100" y="345" width="500" height="45" fill="white" stroke="#ccc" rx="5"/>
+  <text x="300" y="365" text-anchor="middle" class="math">DiD = (Treated_After - Treated_Before) - (Control_After - Control_Before)</text>
+  <text x="300" y="382" text-anchor="middle" class="annotation">Removes common time trends</text>
+</svg>
