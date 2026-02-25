@@ -347,18 +347,18 @@ We can *never* prove it's true (we don't observe the counterfactual), but we can
 
 ## Example: Medicaid expansion and mortality
 
-The Affordable Care Act allowed states to expand Medicaid coverage.
+Sommers et al. (2012) studied how Medicaid coverage affects mortality.
 
 . . .
 
-Some states expanded in 2014, others did not.
+Some states expanded between 2000 and 2002, others did not.
 
 . . .
 
 **Research question:** Did Medicaid expansion reduce deaths?
 
 ::: {.notes}
-Miller et al. (2021). "Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data." Quarterly Journal of Economics.
+Sommers et al. (2012). "Mortality and Access to Care among Adults after State Medicaid Expansions." The New England Jounral of Medicine.
 :::
 
 ---
