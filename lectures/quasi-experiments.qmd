@@ -525,18 +525,13 @@ Angrist and Lavy (1999) studied how class size affects student achievement.
 
 ## The class size discontinuity
 
-![](images/class-size-discontinuity.svg){fig-align="center" width="80%"}
+![](images/angrist_lavy_rdd_class_size.png){fig-align="center" width="80%"}
 
 ---
 
 ## Results
 
-At the discontinuity where classes suddenly get smaller:
-
-. . .
-
-- Test scores jump significantly
-- Effect equivalent to about 0.2-0.3 standard deviations
+![](images/angrist_lavy_rdd_results.png){fig-align="center" width="80%"}
 
 . . .
 
