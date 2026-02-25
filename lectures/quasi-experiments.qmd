@@ -226,9 +226,9 @@ What happens when everything changes at once?
 
 ---
 
-## Example: George Floyd and police violence
+## Example: Police violence and civic engagement
 
-Bruhn (2023) studied what happened to police killings after George Floyd's murder in May 2020.
+Ang et al (2025) studied what happened to people's engagement with police after George Floyd's murder in May 2020.
 
 . . .
 
@@ -236,7 +236,7 @@ Bruhn (2023) studied what happened to police killings after George Floyd's murde
 
 . . .
 
-**The question:** Did this attention actually reduce police killings?
+**The question:** Did this attention reduce engagement with, and favorability of, police?
 
 ---
 
