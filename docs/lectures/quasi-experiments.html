@@ -334,23 +334,27 @@
 </div>
 </div>
 </section>
-<section id="example-george-floyd-and-police-violence" class="slide level2">
-<h2>Example: George Floyd and police violence</h2>
-<p>Bruhn (2023) studied what happened to police killings after George Floyd’s murder in May 2020.</p>
+<section id="example-police-violence-and-civic-engagement" class="slide level2">
+<h2>Example: Police violence and civic engagement</h2>
+<p>Ang et al.&nbsp;(2025) studied how people’s engagement with police changed after George Floyd’s murder in May 2020.</p>
 <div class="fragment">
 <p><strong>The event:</strong> A dramatic, sudden shift in public attention to police violence.</p>
 </div>
 <div class="fragment">
-<p><strong>The question:</strong> Did this attention actually reduce police killings?</p>
+<p><strong>The question:</strong> Did this attention reduce engagement with, and favorability of, police?</p>
 </div>
 </section>
 <section id="what-the-data-showed" class="slide level2">
 <h2>What the data showed</h2>
 
-<img data-src="images/george-floyd-time-series.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<img data-src="images/ang_favorability_shares.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="what-the-data-showed-1" class="slide level2">
+<h2>What the data showed</h2>
+
+<img data-src="images/ang_shots_detected.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="interpreting-the-results" class="slide level2">
 <h2>Interpreting the results</h2>
-<p>Police killings fell significantly after the event.</p>
+<p>Police favorability and crime reporting rates fell significantly after the event.</p>
 <div class="fragment">
 <p>But is this causal? What else changed in May 2020?</p>
 </div>
@@ -366,20 +370,22 @@
 </section>
 <section id="the-limits-of-interrupted-time-series" class="slide level2">
 <h2>The limits of interrupted time series</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p><strong>Strengths:</strong></p>
 <ul>
 <li>Simple and intuitive</li>
 <li>Works with just one group</li>
 <li>Easy to visualize</li>
 </ul>
-<div class="fragment">
+</div><div class="column" style="width:50%;">
 <p><strong>Weaknesses:</strong></p>
 <ul>
 <li>Can’t separate the event from other changes</li>
-<li>Assumes the trend would have continued</li>
-<li>No control group to benchmark against</li>
+<li>Assumes trend would have continued</li>
+<li>No control group to compare against</li>
 </ul>
-</div>
+</div></div>
 <div class="fragment">
 <blockquote>
 <p><strong>Bottom line:</strong> Good for description, risky for causal claims.</p>
@@ -435,14 +441,14 @@
 </section>
 <section id="example-medicaid-expansion-and-mortality" class="slide level2">
 <h2>Example: Medicaid expansion and mortality</h2>
-<p>The Affordable Care Act allowed states to expand Medicaid coverage.</p>
+<p>Sommers et al.&nbsp;(2012) studied how Medicaid coverage affects mortality.</p>
 <div class="fragment">
-<p>Some states expanded in 2014, others did not.</p>
+<p>Some states expanded between 2000 and 2002, others did not.</p>
 </div>
 <div class="fragment">
 <p><strong>Research question:</strong> Did Medicaid expansion reduce deaths?</p>
 <aside class="notes">
-<p>Miller et al.&nbsp;(2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics.</p>
+<p>Sommers et al.&nbsp;(2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -464,27 +470,31 @@
 <p>States that expanded Medicaid</p>
 </div><div class="column" style="width:50%;">
 <p><strong>Control:</strong></p>
-<p>States that did not expand</p>
+<p>Neighboring states that did not expand</p>
 </div></div>
 <div class="fragment">
-<p>Compare changes in mortality rates before and after 2014.</p>
+<p>Compare changes in mortality rates before and after expansion.</p>
 </div>
 </section>
+<section id="did-in-the-wild" class="slide level2">
+<h2>DiD in the wild</h2>
+
+<img data-src="images/sommers_medicaid_did_graph.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="results-lives-saved" class="slide level2">
 <h2>Results: Lives saved</h2>
 <p>The study found that Medicaid expansion <strong>reduced mortality</strong>.</p>
 <div class="fragment">
-<p>Approximately <strong>1 death prevented per 1,300 people covered</strong>.</p>
+<p>Approximately <strong>1 death prevented per 176 additional people covered</strong>.</p>
 </div>
 <div class="fragment">
 <p>Effects were largest for:</p>
 <ul>
-<li>Middle-aged adults</li>
-<li>People with treatable conditions</li>
-<li>Counties with higher pre-existing uninsurance</li>
+<li>People aged 35-64</li>
+<li>Poorer counties</li>
+<li>Minorities</li>
 </ul>
 <aside class="notes">
-<p>Miller, Johnson, and Wherry (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics.</p>
+<p>Sommers et al.&nbsp;(2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -498,31 +508,40 @@
       }</style></aside>
 </div>
 </section>
-<section id="example-cancer-clusters-and-anxiety" class="slide level2">
-<h2>Example: Cancer clusters and anxiety</h2>
-<p>Davis et al.&nbsp;studied what happens when communities learn they’re near a contaminated site.</p>
+<section id="example-cancer-clusters-and-housing" class="slide level2">
+<h2>Example: Cancer clusters and housing</h2>
+<p>Davis (2004) studied what happens to housing prices when people learn about possible health risks</p>
 <div class="fragment">
-<p><strong>The event:</strong> EPA designates a Superfund site (toxic waste cleanup needed).</p>
+<p><strong>The event:</strong> Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s</p>
 </div>
 <div class="fragment">
-<p><strong>Treatment:</strong> People living near designated sites</p>
-<p><strong>Control:</strong> People living near sites that will be designated later</p>
+<p><strong>Treatment:</strong> People living in Churchill County</p>
+<p><strong>Control:</strong> People living in nearby county (Lyon County)</p>
 </div>
+</section>
+<section id="davis-2004-did" class="slide level2">
+<h2>Davis (2004) DiD</h2>
+
+<img data-src="images/davis_housing_prices_did.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><aside class="notes">
+<p>Reference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="what-they-found" class="slide level2">
 <h2>What they found</h2>
-<p>After Superfund designation:</p>
-<ul>
-<li>Increased depression and anxiety diagnoses</li>
-<li>More mental health prescriptions</li>
-<li>Effects concentrated among parents with young children</li>
-</ul>
-<div class="fragment">
-<blockquote>
-<p><strong>Key insight:</strong> Even the <em>information</em> about environmental risk affects health.</p>
-</blockquote>
+
+<img data-src="images/davis_housing_prices_did_table.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><div class="fragment">
 <aside class="notes">
-<p>Reference: Davis (2021). “The Economic Determinants of Mental Health.” Working paper.</p>
+<p>Reference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -552,7 +571,7 @@
 </section>
 <section id="the-intuition" class="slide level2">
 <h2>The intuition</h2>
-<p>Many policies have <strong>sharp cutoffs</strong>:</p>
+<p>Many programs enforce <strong>sharp cutoffs</strong>:</p>
 <ul>
 <li>You’re eligible if your score is above X</li>
 <li>You get the scholarship if your income is below Y</li>
@@ -571,12 +590,11 @@
 <img data-src="images/rd-diagram.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
 <section id="why-this-works" class="slide level2">
 <h2>Why this works</h2>
-<p><strong>Key insight:</strong> At the cutoff, treatment is essentially random.</p>
+<p><strong>Key assumption:</strong> Around the cutoff, treatment is essentially random</p>
 <div class="fragment">
-<p>Someone who scored 79 vs 81 on a test:</p>
+<p>For example, someone who scored 79 vs 81 on a test:</p>
 <ul>
 <li>Very similar abilities</li>
-<li>Very similar backgrounds</li>
 <li>But one gets the program, one doesn’t</li>
 </ul>
 </div>
@@ -602,17 +620,11 @@
 <section id="the-class-size-discontinuity" class="slide level2">
 <h2>The class size discontinuity</h2>
 
-<img data-src="images/class-size-discontinuity.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<img data-src="images/angrist_lavy_rdd_class_size.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="results" class="slide level2">
 <h2>Results</h2>
-<p>At the discontinuity where classes suddenly get smaller:</p>
-<div class="fragment">
-<ul>
-<li>Test scores jump significantly</li>
-<li>Effect equivalent to about 0.2-0.3 standard deviations</li>
-</ul>
-</div>
-<div class="fragment">
+
+<img data-src="images/angrist_lavy_rdd_results.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><div class="fragment">
 <blockquote>
 <p><strong>Implication:</strong> Smaller classes <em>do</em> improve learning.</p>
 </blockquote>

@@ -1698,14 +1698,14 @@
     "href": "lectures/quasi-experiments.html#interpreting-the-results",
     "title": "Quasi-Experiments",
     "section": "Interpreting the results",
-    "text": "Interpreting the results\nPolice killings fell significantly after the event.\n\nBut is this causal? What else changed in May 2020?\n\n\nPotential confounds:\n\nCOVID-19 pandemic\nProtests and civil unrest\nPolicy changes in many departments\nEconomic disruption"
+    "text": "Interpreting the results\nPolice favorability and crime reporting rates fell significantly after the event.\n\nBut is this causal? What else changed in May 2020?\n\n\nPotential confounds:\n\nCOVID-19 pandemic\nProtests and civil unrest\nPolicy changes in many departments\nEconomic disruption"
   },
   {
     "objectID": "lectures/quasi-experiments.html#the-limits-of-interrupted-time-series",
     "href": "lectures/quasi-experiments.html#the-limits-of-interrupted-time-series",
     "title": "Quasi-Experiments",
     "section": "The limits of interrupted time series",
-    "text": "The limits of interrupted time series\nStrengths:\n\nSimple and intuitive\nWorks with just one group\nEasy to visualize\n\n\nWeaknesses:\n\nCan’t separate the event from other changes\nAssumes the trend would have continued\nNo control group to benchmark against\n\n\n\n\nBottom line: Good for description, risky for causal claims."
+    "text": "The limits of interrupted time series\n\n\nStrengths:\n\nSimple and intuitive\nWorks with just one group\nEasy to visualize\n\n\nWeaknesses:\n\nCan’t separate the event from other changes\nAssumes trend would have continued\nNo control group to compare against\n\n\n\n\nBottom line: Good for description, risky for causal claims."
   },
   {
     "objectID": "lectures/quasi-experiments.html#the-key-insight",
@@ -1740,21 +1740,21 @@
     "href": "lectures/quasi-experiments.html#example-medicaid-expansion-and-mortality",
     "title": "Quasi-Experiments",
     "section": "Example: Medicaid expansion and mortality",
-    "text": "Example: Medicaid expansion and mortality\nThe Affordable Care Act allowed states to expand Medicaid coverage.\n\nSome states expanded in 2014, others did not.\n\n\nResearch question: Did Medicaid expansion reduce deaths?\n\nMiller et al. (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics."
+    "text": "Example: Medicaid expansion and mortality\nSommers et al. (2012) studied how Medicaid coverage affects mortality.\n\nSome states expanded between 2000 and 2002, others did not.\n\n\nResearch question: Did Medicaid expansion reduce deaths?\n\nSommers et al. (2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine."
   },
   {
     "objectID": "lectures/quasi-experiments.html#the-study-design-1",
     "href": "lectures/quasi-experiments.html#the-study-design-1",
     "title": "Quasi-Experiments",
     "section": "The study design",
-    "text": "The study design\n\n\nTreatment:\nStates that expanded Medicaid\n\nControl:\nStates that did not expand\n\n\nCompare changes in mortality rates before and after 2014."
+    "text": "The study design\n\n\nTreatment:\nStates that expanded Medicaid\n\nControl:\nNeighboring states that did not expand\n\n\nCompare changes in mortality rates before and after expansion."
   },
   {
     "objectID": "lectures/quasi-experiments.html#results-lives-saved",
     "href": "lectures/quasi-experiments.html#results-lives-saved",
     "title": "Quasi-Experiments",
     "section": "Results: Lives saved",
-    "text": "Results: Lives saved\nThe study found that Medicaid expansion reduced mortality.\n\nApproximately 1 death prevented per 1,300 people covered.\n\n\nEffects were largest for:\n\nMiddle-aged adults\nPeople with treatable conditions\nCounties with higher pre-existing uninsurance\n\n\nMiller, Johnson, and Wherry (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics."
+    "text": "Results: Lives saved\nThe study found that Medicaid expansion reduced mortality.\n\nApproximately 1 death prevented per 176 additional people covered.\n\n\nEffects were largest for:\n\nPeople aged 35-64\nPoorer counties\nMinorities\n\n\nSommers et al. (2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine."
   },
   {
     "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-anxiety",
@@ -1768,7 +1768,7 @@
     "href": "lectures/quasi-experiments.html#what-they-found",
     "title": "Quasi-Experiments",
     "section": "What they found",
-    "text": "What they found\nAfter Superfund designation:\n\nIncreased depression and anxiety diagnoses\nMore mental health prescriptions\nEffects concentrated among parents with young children\n\n\n\nKey insight: Even the information about environmental risk affects health.\n\n\nReference: Davis (2021). “The Economic Determinants of Mental Health.” Working paper."
+    "text": "What they found\n\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
   },
   {
     "objectID": "lectures/quasi-experiments.html#discussion-when-does-did-work",
@@ -1782,7 +1782,7 @@
     "href": "lectures/quasi-experiments.html#the-intuition",
     "title": "Quasi-Experiments",
     "section": "The intuition",
-    "text": "The intuition\nMany policies have sharp cutoffs:\n\nYou’re eligible if your score is above X\nYou get the scholarship if your income is below Y\nYou’re assigned to the advanced class if you score above Z\n\n\nPeople just above and just below the cutoff are nearly identical…\n\n\n…except one group gets treated and the other doesn’t."
+    "text": "The intuition\nMany programs enforce sharp cutoffs:\n\nYou’re eligible if your score is above X\nYou get the scholarship if your income is below Y\nYou’re assigned to the advanced class if you score above Z\n\n\nPeople just above and just below the cutoff are nearly identical…\n\n\n…except one group gets treated and the other doesn’t."
   },
   {
     "objectID": "lectures/quasi-experiments.html#the-rd-design",
@@ -1796,7 +1796,7 @@
     "href": "lectures/quasi-experiments.html#why-this-works",
     "title": "Quasi-Experiments",
     "section": "Why this works",
-    "text": "Why this works\nKey insight: At the cutoff, treatment is essentially random.\n\nSomeone who scored 79 vs 81 on a test:\n\nVery similar abilities\nVery similar backgrounds\nBut one gets the program, one doesn’t\n\n\n\n\nThe discontinuity creates a mini-experiment."
+    "text": "Why this works\nKey assumption: Around the cutoff, treatment is essentially random\n\nFor example, someone who scored 79 vs 81 on a test:\n\nVery similar abilities\nBut one gets the program, one doesn’t\n\n\n\n\nThe discontinuity creates a mini-experiment."
   },
   {
     "objectID": "lectures/quasi-experiments.html#example-class-size-and-learning",
@@ -1817,7 +1817,7 @@
     "href": "lectures/quasi-experiments.html#results",
     "title": "Quasi-Experiments",
     "section": "Results",
-    "text": "Results\nAt the discontinuity where classes suddenly get smaller:\n\n\nTest scores jump significantly\nEffect equivalent to about 0.2-0.3 standard deviations\n\n\n\n\nImplication: Smaller classes do improve learning.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
+    "text": "Results\n\n\n\nImplication: Smaller classes do improve learning.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
   },
   {
     "objectID": "lectures/quasi-experiments.html#example-close-elections",
@@ -2301,5 +2301,61 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-police-violence-and-civic-engagement",
+    "href": "lectures/quasi-experiments.html#example-police-violence-and-civic-engagement",
+    "title": "Quasi-Experiments",
+    "section": "Example: Police violence and civic engagement",
+    "text": "Example: Police violence and civic engagement\nAng et al. (2025) studied how people’s engagement with police changed after George Floyd’s murder in May 2020.\n\nThe event: A dramatic, sudden shift in public attention to police violence.\n\n\nThe question: Did this attention reduce engagement with, and favorability of, police?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-the-data-showed-1",
+    "href": "lectures/quasi-experiments.html#what-the-data-showed-1",
+    "title": "Quasi-Experiments",
+    "section": "What the data showed",
+    "text": "What the data showed"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#did-in-the-wild",
+    "href": "lectures/quasi-experiments.html#did-in-the-wild",
+    "title": "Quasi-Experiments",
+    "section": "DiD in the wild",
+    "text": "DiD in the wild"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing-prices",
+    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing-prices",
+    "title": "Quasi-Experiments",
+    "section": "Example: Cancer clusters and housing prices",
+    "text": "Example: Cancer clusters and housing prices\nDavis (2004) studied what happens when people learn about possible health risks\n\nThe event: Higher than expected leukemia rates in Churchill County, Nevada\n\n\nTreatment: People living in Churchill County\nControl: People living in nearby county (Lyon County)"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-they-found-1",
+    "href": "lectures/quasi-experiments.html#what-they-found-1",
+    "title": "Quasi-Experiments",
+    "section": "What they found",
+    "text": "What they found\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing",
+    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing",
+    "title": "Quasi-Experiments",
+    "section": "Example: Cancer clusters and housing",
+    "text": "Example: Cancer clusters and housing\nDavis (2004) studied what happens to housing prices when people learn about possible health risks\n\nThe event: Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s\n\n\nTreatment: People living in Churchill County\nControl: People living in nearby county (Lyon County)"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#the-did",
+    "href": "lectures/quasi-experiments.html#the-did",
+    "title": "Quasi-Experiments",
+    "section": "The DiD",
+    "text": "The DiD\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#davis-2004-did",
+    "href": "lectures/quasi-experiments.html#davis-2004-did",
+    "title": "Quasi-Experiments",
+    "section": "Davis (2004) DiD",
+    "text": "Davis (2004) DiD\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
   }
 ]
