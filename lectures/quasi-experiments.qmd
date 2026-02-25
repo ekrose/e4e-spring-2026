@@ -358,7 +358,7 @@ Some states expanded between 2000 and 2002, others did not.
 **Research question:** Did Medicaid expansion reduce deaths?
 
 ::: {.notes}
-Sommers et al. (2012). "Mortality and Access to Care among Adults after State Medicaid Expansions." The New England Jounral of Medicine.
+Sommers et al. (2012). "Mortality and Access to Care among Adults after State Medicaid Expansions." The New England Journal of Medicine.
 :::
 
 ---
