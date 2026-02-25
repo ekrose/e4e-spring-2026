@@ -386,7 +386,7 @@ Compare changes in mortality rates before and after expansion.
 
 ## DiD in the wild
 
-![](images/parallel-trends-test.svg){fig-align="center" width="80%"}
+![](images/sommers_medicaid_did_graph.png){fig-align="center" width="80%"}
 
 ---
 
