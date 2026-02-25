@@ -242,13 +242,19 @@ Ang et al (2025) studied how people's engagement with police changed after Georg
 
 ## What the data showed
 
-![](images/george-floyd-time-series.svg){fig-align="center" width="80%"}
+![](images/ang_shots_detected.png){fig-align="center" width="80%"}
+
+---
+
+## What the data showed
+
+![](images/ang_favorability_shares.png){fig-align="center" width="80%"}
 
 ---
 
 ## Interpreting the results
 
-Police killings fell significantly after the event.
+Police favorability and crime reporting rates fell significantly after the event.
 
 . . .
 
