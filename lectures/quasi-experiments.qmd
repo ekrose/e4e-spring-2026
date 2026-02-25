@@ -273,19 +273,22 @@ But is this causal? What else changed in May 2020?
 
 ## The limits of interrupted time series
 
+:::: {.columns}
+::: {.column width="50%"}
 **Strengths:**
 
 - Simple and intuitive
 - Works with just one group
 - Easy to visualize
-
-. . .
-
+:::
+::: {.column width="50%"}
 **Weaknesses:**
 
 - Can't separate the event from other changes
-- Assumes the trend would have continued
-- No control group to benchmark against
+- Assumes trend would have continued
+- No control group to compare against
+:::
+::::
 
 . . .
 
