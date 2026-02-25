@@ -415,36 +415,40 @@ Sommers et al. (2012). "Mortality and Access to Care among Adults after State Me
 
 ---
 
-## Example: Cancer clusters and anxiety
+## Example: Cancer clusters and housing 
 
-Davis et al. studied what happens when communities learn they're near a contaminated site.
-
-. . .
-
-**The event:** EPA designates a Superfund site (toxic waste cleanup needed).
+Davis (2004) studied what happens to housing prices when people learn about possible health risks
 
 . . .
 
-**Treatment:** People living near designated sites
+**The event:** Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s
 
-**Control:** People living near sites that will be designated later
+. . .
+
+**Treatment:** People living in Churchill County
+
+**Control:** People living in nearby county (Lyon County)
+
+---
+
+## Davis (2004) DiD
+
+![](images/davis_housing_prices_did.png){fig-align="center" width="80%"}
+
+::: {.notes}
+Reference: Davis (2004). "The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster." American Economic Review.
+:::
 
 ---
 
 ## What they found
 
-After Superfund designation:
-
-- Increased depression and anxiety diagnoses
-- More mental health prescriptions
-- Effects concentrated among parents with young children
+![](images/davis_housing_prices_did_table.png){fig-align="center" width="70%"}
 
 . . .
 
-> **Key insight:** Even the *information* about environmental risk affects health.
-
 ::: {.notes}
-Reference: Davis (2021). "The Economic Determinants of Mental Health." Working paper.
+Reference: Davis (2004). "The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster." American Economic Review.
 :::
 
 ---
