@@ -529,13 +529,13 @@ Angrist and Lavy (1999) studied how class size affects student achievement.
 
 ---
 
-## Results
+## Results (reading comprehension)
 
 ![](images/angrist_lavy_rdd_results.png){fig-align="center" width="80%"}
 
 . . .
 
-> **Implication:** Smaller classes *do* improve learning.
+> **Implication:** Smaller classes improved scores.
 
 ::: {.notes}
 Angrist and Lavy (1999). "Using Maimonides' Rule to Estimate the Effect of Class Size on Scholastic Achievement." Quarterly Journal of Economics.
