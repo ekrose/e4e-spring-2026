@@ -469,7 +469,7 @@ Exploiting arbitrary cutoffs
 
 ## The intuition
 
-Many policies have **sharp cutoffs**:
+Many programs enforce **sharp cutoffs**:
 
 - You're eligible if your score is above X
 - You get the scholarship if your income is below Y
@@ -493,14 +493,13 @@ People just above and just below the cutoff are nearly identical...
 
 ## Why this works
 
-**Key insight:** At the cutoff, treatment is essentially random.
+**Key assumption:** Around the cutoff, treatment is essentially random
 
 . . .
 
-Someone who scored 79 vs 81 on a test:
+For example, someone who scored 79 vs 81 on a test:
 
 - Very similar abilities
-- Very similar backgrounds
 - But one gets the program, one doesn't
 
 . . .
