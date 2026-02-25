@@ -374,34 +374,40 @@ States that expanded Medicaid
 ::: {.column width="50%"}
 **Control:**
 
-States that did not expand
+Neighboring states that did not expand
 :::
 ::::
 
 . . .
 
-Compare changes in mortality rates before and after 2014.
+Compare changes in mortality rates before and after expansion.
 
 ---
 
-## Results: Lives saved
+## DiD in the wild
+
+![](images/parallel-trends-test.svg){fig-align="center" width="80%"}
+
+---
+
+## Results: Lives saved 
 
 The study found that Medicaid expansion **reduced mortality**.
 
 . . .
 
-Approximately **1 death prevented per 1,300 people covered**.
+Approximately **1 death prevented per 176 additional people covered**.
 
 . . .
 
 Effects were largest for:
 
-- Middle-aged adults
-- People with treatable conditions
-- Counties with higher pre-existing uninsurance
+- People aged 35-64
+- Poorer counties
+- Minorities
 
 ::: {.notes}
-Miller, Johnson, and Wherry (2021). "Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data." Quarterly Journal of Economics.
+Sommers et al. (2012). "Mortality and Access to Care among Adults after State Medicaid Expansions." The New England Journal of Medicine.
 :::
 
 ---
