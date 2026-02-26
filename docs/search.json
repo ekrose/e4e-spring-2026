@@ -1817,7 +1817,7 @@
     "href": "lectures/quasi-experiments.html#results",
     "title": "Quasi-Experiments",
     "section": "Results",
-    "text": "Results\n\n\n\nImplication: Smaller classes do improve learning.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
+    "text": "Results\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 7-10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
   },
   {
     "objectID": "lectures/quasi-experiments.html#example-close-elections",
@@ -1831,7 +1831,7 @@
     "href": "lectures/quasi-experiments.html#what-winning-gets-you",
     "title": "Quasi-Experiments",
     "section": "What winning gets you",
-    "text": "What winning gets you\nBarely winning an election vs. barely losing:\n\n\nIncumbency advantage of about 6-8 percentage points in the next election\nAccess to campaign resources\nName recognition\nAbility to deliver for constituents\n\n\nLee (2008). “Randomized Experiments from Non-random Selection in U.S. House Elections.” Journal of Econometrics."
+    "text": "What winning gets you\nIncumbents are about 45 percentage points more likely to win the next election\n\n\nAccess to campaign resources\nName recognition\nAbility to deliver for constituents\n\n\nLee (2008). “Randomized Experiments from Non-random Selection in U.S. House Elections.” Journal of Econometrics."
   },
   {
     "objectID": "lectures/quasi-experiments.html#example-college-access",
@@ -1845,7 +1845,7 @@
     "href": "lectures/quasi-experiments.html#what-a-four-year-degree-gets-you",
     "title": "Quasi-Experiments",
     "section": "What a four-year degree gets you",
-    "text": "What a four-year degree gets you\nAt the admission cutoff:\n\n\nHigher probability of getting a bachelor’s degree\nApproximately 10% higher earnings\nBut effects vary by student background\n\n\nMountjoy (2022). “Community Colleges and Upward Mobility.” American Economic Review."
+    "text": "What a four-year degree gets you\nAt the admission cutoff:\n\n\nHigher probability of getting a bachelor’s degree\nApproximately 10% higher earnings\nBut effects vary by student background\n\n\nMountjoy (2026). “Marginal Returns to Public Universities.” Quarterly Journal of Economics."
   },
   {
     "objectID": "lectures/quasi-experiments.html#what-can-go-wrong-with-rd",
@@ -2357,5 +2357,61 @@
     "title": "Quasi-Experiments",
     "section": "Davis (2004) DiD",
     "text": "Davis (2004) DiD\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#results-reading-comprehension",
+    "href": "lectures/quasi-experiments.html#results-reading-comprehension",
+    "title": "Quasi-Experiments",
+    "section": "Results (reading comprehension)",
+    "text": "Results (reading comprehension)\n\n\n\nImplication: Smaller classes improved scores.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-the-electoral-incumbent-effect",
+    "href": "lectures/quasi-experiments.html#example-the-electoral-incumbent-effect",
+    "title": "Quasi-Experiments",
+    "section": "Example: The electoral incumbent effect",
+    "text": "Example: The electoral incumbent effect\nLee (2008) studied whether winning an election affects future electoral success.\n\nThe cutoff: 50% of the vote\n\n49.9% → You lose\n50.1% → You win\n\n\n\nCandidates just above and below 50% had essentially identical support.\n\n\nDoes winning now generate future electoral success?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#barely-winning-more-likely-to-win-again",
+    "href": "lectures/quasi-experiments.html#barely-winning-more-likely-to-win-again",
+    "title": "Quasi-Experiments",
+    "section": "Barely winning, more likely to win again",
+    "text": "Barely winning, more likely to win again"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#barely-win-today-more-likely-to-win-again",
+    "href": "lectures/quasi-experiments.html#barely-win-today-more-likely-to-win-again",
+    "title": "Quasi-Experiments",
+    "section": "Barely win today, more likely to win again",
+    "text": "Barely win today, more likely to win again"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-returns-to-public-universities",
+    "href": "lectures/quasi-experiments.html#example-returns-to-public-universities",
+    "title": "Quasi-Experiments",
+    "section": "Example: Returns to public universities",
+    "text": "Example: Returns to public universities\nMountjoy (2026) studied the effects of attending a four-year public university.\n\nAdmissions cutoffs means many students are at the margin of admission.\n\nJust above the SAT/ACT cutoff → Four-year college\nJust below → Two-year college"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#just-above-more-education-at-four-year-college",
+    "href": "lectures/quasi-experiments.html#just-above-more-education-at-four-year-college",
+    "title": "Quasi-Experiments",
+    "section": "Just above → more education at four-year college",
+    "text": "Just above → more education at four-year college"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#just-below-more-education-at-two-year-college",
+    "href": "lectures/quasi-experiments.html#just-below-more-education-at-two-year-college",
+    "title": "Quasi-Experiments",
+    "section": "Just below → more education at two-year college",
+    "text": "Just below → more education at two-year college"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#higher-earnings-later-on",
+    "href": "lectures/quasi-experiments.html#higher-earnings-later-on",
+    "title": "Quasi-Experiments",
+    "section": "Higher earnings later on",
+    "text": "Higher earnings later on\n\n\nMountjoy (2026). “Marginal Returns to Public Universities.” Quarterly Journal of Economics."
   }
 ]
