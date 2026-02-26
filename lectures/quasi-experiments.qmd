@@ -543,7 +543,7 @@ Angrist and Lavy (1999). "Using Maimonides' Rule to Estimate the Effect of Class
 
 ---
 
-## Example: Close elections
+## Example: The electoral incumbent effect
 
 Lee (2008) studied whether winning an election affects future electoral success.
 
@@ -558,15 +558,24 @@ Lee (2008) studied whether winning an election affects future electoral success.
 
 Candidates just above and below 50% had essentially identical support.
 
+. . .
+
+Does winning now generate future electoral success?
+
+---
+
+## Barely win today, more likely to win again
+
+![](images/lee_rdd_win_next_election_outcome.png){fig-align="center" width="80%"}
+
 ---
 
 ## What winning gets you
 
-Barely winning an election vs. barely losing:
+Incumbents are about 45 percentage points more likely to win the next election
 
 . . .
 
-- **Incumbency advantage** of about 6-8 percentage points in the next election
 - Access to campaign resources
 - Name recognition
 - Ability to deliver for constituents
