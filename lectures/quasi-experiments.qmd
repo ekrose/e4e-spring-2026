@@ -162,7 +162,7 @@ They measured employment at each restaurant.
 
 ## What did they find?
 
-![](images/card-krueger-results.svg){fig-align="center" width="80%"}
+![](images/card_krueger_njmin_wage_table.png){fig-align="center" width="80%"}
 
 ---
 
