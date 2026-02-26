@@ -586,31 +586,38 @@ Lee (2008). "Randomized Experiments from Non-random Selection in U.S. House Elec
 
 ---
 
-## Example: College access
+## Example: Returns to public universities
 
-Mountjoy (2022) studied the effects of attending a four-year vs. two-year college.
+Mountjoy (2026) studied the effects of attending a four-year public university.
+
 
 . . .
 
-**The design:** Many students are at the margin of admission.
+Admissions cutoffs means many students are at the margin of admission.
 
-- Just above the cutoff → Admitted to four-year college
-- Just below the cutoff → Community college
+- Just above the SAT/ACT cutoff → Four-year college
+- Just below → Two-year college
 
 ---
 
-## What a four-year degree gets you
+### Just above → more education at four-year college
 
-At the admission cutoff:
+![](images/mountjoy_4year_credits_rdd.png){fig-align="center" width="80%"}
 
-. . .
+---
 
-- Higher probability of getting a bachelor's degree
-- Approximately 10% higher earnings
-- But effects vary by student background
+### Just below → more education at two-year college
+
+![](images/mountjoy_2year_credits_rdd.png){fig-align="center" width="80%"}
+
+---
+
+## Higher earnings later on
+
+![](images/mountjoy_dynamic_earnings_graphs.png){fig-align="center" width="80%"}
 
 ::: {.notes}
-Mountjoy (2022). "Community Colleges and Upward Mobility." American Economic Review.
+Mountjoy (2026). "Marginal Returns to Public Universities." Quarterly Journal of Economics.
 :::
 
 ---
