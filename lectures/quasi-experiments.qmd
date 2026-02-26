@@ -644,6 +644,12 @@ Mountjoy (2026). "Marginal Returns to Public Universities." Quarterly Journal of
 
 ---
 
+## Example: Mountjoy (2026)
+
+![](images/mountjoy_smooth_density_diagnostic.png){fig-align="center" width="80%"}
+
+---
+
 ## Discussion: Finding discontinuities
 
 Think about:
