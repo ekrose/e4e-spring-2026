@@ -39,18 +39,20 @@
 
   <!-- Counterfactual (parallel trend) -->
   <line x1="180" y1="200" x2="420" y2="160" stroke="#800000" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
-  <text x="440" y="165" class="annotation">Counterfactual</text>
-
+  <text x="440" y="165" class="annotation" style="fill: #800000; opacity: 0.5;">Counterfactual</text>
+  
   <!-- Treatment effect bracket -->
-  <line x1="430" y1="100" x2="430" y2="160" stroke="#800000" stroke-width="2"/>
-  <line x1="425" y1="100" x2="435" y2="100" stroke="#800000" stroke-width="2"/>
-  <line x1="425" y1="160" x2="435" y2="160" stroke="#800000" stroke-width="2"/>
+  <line x1="432" y1="100" x2="432" y2="160" stroke="#800000" stroke-width="2"/>
+  <line x1="427" y1="100" x2="437" y2="100" stroke="#800000" stroke-width="2"/>
+  <line x1="427" y1="160" x2="437" y2="160" stroke="#800000" stroke-width="2"/>
 
   <!-- Effect label -->
-  <text x="460" y="130" class="label" fill="#800000">Effect</text>
+  <text x="440" y="135" class="label" style="fill: #800000;">Effect</text>
 
   <!-- Formulas box -->
-  <rect x="100" y="345" width="500" height="45" fill="white" stroke="#ccc" rx="5"/>
-  <text x="300" y="365" text-anchor="middle" class="math">DiD = (Treated_After - Treated_Before) - (Control_After - Control_Before)</text>
+  <rect x="85" y="345" width="435" height="45" fill="white" stroke="#ccc" rx="5"/>
+  <text x="300" y="365" text-anchor="middle" class="math">
+  DiD = (Treated<tspan dy="4" font-size="70%">After</tspan><tspan dy="-4"> - Treated</tspan><tspan dy="4" font-size="70%">Before</tspan><tspan dy="-4"> ) - (Control</tspan><tspan dy="4" font-size="70%">After</tspan><tspan dy="-4"> - Control</tspan><tspan dy="4" font-size="70%">Before</tspan><tspan dy="-4"> )</tspan>
+</text>
   <text x="300" y="382" text-anchor="middle" class="annotation">Removes common time trends</text>
 </svg>

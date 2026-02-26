@@ -17,12 +17,12 @@
   <line x1="80" y1="300" x2="540" y2="300" stroke="#333" stroke-width="2"/>
 
   <!-- Axis labels -->
-  <text x="40" y="180" text-anchor="middle" class="label" transform="rotate(-90, 40, 180)">Outcome</text>
-  <text x="310" y="330" text-anchor="middle" class="label">Running Variable (e.g., test score)</text>
+  <text x="40" y="200" text-anchor="middle" class="label" transform="rotate(-90, 40, 180)">Outcome</text>
+  <text x="310" y="335" text-anchor="middle" class="label">Running Variable (e.g., test score)</text>
 
   <!-- Cutoff line -->
   <line x1="300" y1="60" x2="300" y2="300" stroke="#800000" stroke-width="2" stroke-dasharray="6,4"/>
-  <text x="300" y="345" text-anchor="middle" class="axis-label">Cutoff</text>
+  <text x="300" y="315" text-anchor="middle" class="axis-label">Cutoff</text>
 
   <!-- Below cutoff: scattered points and trend line -->
   <circle cx="120" cy="250" r="4" fill="#666" opacity="0.5"/>
@@ -54,7 +54,7 @@
 
   <!-- Discontinuity bracket -->
   <line x1="295" y1="180" x2="295" y2="125" stroke="#ff8243" stroke-width="3"/>
-  <text x="275" y="155" text-anchor="end" class="label" fill="#ff8243">Jump!</text>
+  <text x="285" y="155" text-anchor="end" class="label" fill="#ff8243">Jump!</text>
 
   <!-- Labels -->
   <text x="180" y="275" text-anchor="middle" class="label" fill="#666">Not treated</text>
