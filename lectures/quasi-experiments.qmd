@@ -748,7 +748,7 @@ Angrist and Krueger (1991). "Does Compulsory School Attendance Affect Schooling 
 
 ---
 
-## Their argument
+## Conclusions
 
 Using quarter of birth as an instrument:
 
@@ -764,7 +764,7 @@ This is similar to (but more credibly causal than) simple comparisons.
 
 ## Example: Eviction and poverty
 
-Collinson et al. studied whether eviction makes people poorer.
+Collinson et al. (2024) studied the consequences of eviction.
 
 . . .
 
@@ -800,16 +800,28 @@ This isolates the causal effect of eviction itself.
 
 ---
 
-## What eviction does
+## Stricter judge, higher eviction rates...
+
+![](images/collinson_first_stage_table.png){fig-align="center" width="85%"}
+
+---
+
+
+## ... which causes homelessness
+
+![](images/collinson_shelters_results.png){fig-align="center" width="85%"}
+
+---
+
+## Conclusions
 
 Being evicted (due to a harsh judge) leads to:
 
 . . .
 
-- **Homelessness:** Large increase in shelter use
-- **Residential instability:** Frequent moves
-- **Financial distress:** Emergency room visits, debt collection
-- **Neighborhood downgrading:** Move to worse areas
+- **Homelessness:** More frequent shelter use
+- **Earnings:** Lower earnings
+- **Financial distress:** Worse credit score and overall financial health
 
 ::: {.notes}
 Collinson et al. (2024). "Eviction and Poverty in American Cities." Quarterly Journal of Economics.

@@ -1915,7 +1915,7 @@
     "href": "lectures/quasi-experiments.html#example-eviction-and-poverty",
     "title": "Quasi-Experiments",
     "section": "Example: Eviction and poverty",
-    "text": "Example: Eviction and poverty\nCollinson et al. studied whether eviction makes people poorer.\n\nThe problem: People who get evicted are different:\n\nLower income\nLess stable employment\nMay have other challenges\n\n\n\nThe instrument: Random assignment of cases to judges who differ in harshness.\n\nCollinson, Humphries, Mader, Reed, Tannenbaum, and van Dijk (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
+    "text": "Example: Eviction and poverty\nCollinson et al. (2024) studied the consequences of eviction.\n\nThe problem: People who get evicted are different:\n\nLower income\nLess stable employment\nMay have other challenges\n\n\n\nThe instrument: Random assignment of cases to judges who differ in harshness.\n\nCollinson, Humphries, Mader, Reed, Tannenbaum, and van Dijk (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
   },
   {
     "objectID": "lectures/quasi-experiments.html#judge-leniency-as-an-instrument",
@@ -2448,5 +2448,26 @@
     "title": "Quasi-Experiments",
     "section": "Their argument",
     "text": "Their argument\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#stricter-judge-higher-eviction-rates",
+    "href": "lectures/quasi-experiments.html#stricter-judge-higher-eviction-rates",
+    "title": "Quasi-Experiments",
+    "section": "Stricter judge, higher eviction rates…",
+    "text": "Stricter judge, higher eviction rates…"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#causing-homelessness",
+    "href": "lectures/quasi-experiments.html#causing-homelessness",
+    "title": "Quasi-Experiments",
+    "section": "… causing homelessness",
+    "text": "… causing homelessness"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#overall-results",
+    "href": "lectures/quasi-experiments.html#overall-results",
+    "title": "Quasi-Experiments",
+    "section": "Overall results",
+    "text": "Overall results\nBeing evicted (due to a harsh judge) leads to:\n\n\nHomelessness: More frequent shelter use\nEarnings: Lower earnings\nFinancial distress: Worse credit score and overall financial health\n\n\nCollinson et al. (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
   }
 ]
