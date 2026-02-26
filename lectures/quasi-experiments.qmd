@@ -716,14 +716,14 @@ Angrist and Krueger (1991) used **quarter of birth** as an instrument for educat
 
 ---
 
-## The clever insight
+## Their argument
 
 Someone born in January vs. December:
 
 . . .
 
 - Essentially random (parents don't plan this)
-- But affects years of schooling due to school rules
+- But affects years of schooling due to compulsory schooling requirements
 - Quarter of birth shouldn't directly affect earnings
 
 . . .
@@ -736,13 +736,25 @@ Angrist and Krueger (1991). "Does Compulsory School Attendance Affect Schooling 
 
 ---
 
-## Results
+## First stage: Birthday to education
+
+![](images/angrist_krueger_education_earnings_qbirth_instrument.png){fig-align="center" width="85%"}
+
+---
+
+## Second stage: Education to earnings
+
+![](images/angrist_krueger_education_earnings_table.png){fig-align="center" width="85%"}
+
+---
+
+## Their argument
 
 Using quarter of birth as an instrument:
 
 . . .
 
-Each additional year of schooling increases earnings by about **7-10%**.
+Each additional year of schooling increases earnings by about 10%.
 
 . . .
 

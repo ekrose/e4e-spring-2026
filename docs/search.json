@@ -2420,5 +2420,33 @@
     "title": "Quasi-Experiments",
     "section": "Example: Mountjoy (2026)",
     "text": "Example: Mountjoy (2026)"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#their-argument",
+    "href": "lectures/quasi-experiments.html#their-argument",
+    "title": "Quasi-Experiments",
+    "section": "Their argument",
+    "text": "Their argument\nSomeone born in January vs. December:\n\n\nEssentially random (parents don’t plan this)\nBut affects years of schooling due to compulsory schooling requirements\nQuarter of birth shouldn’t directly affect earnings\n\n\n\nSo any earnings difference must be through education!\n\nAngrist and Krueger (1991). “Does Compulsory School Attendance Affect Schooling and Earnings?” Quarterly Journal of Economics."
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#first-stage-birthday-to-education",
+    "href": "lectures/quasi-experiments.html#first-stage-birthday-to-education",
+    "title": "Quasi-Experiments",
+    "section": "First stage: Birthday to education",
+    "text": "First stage: Birthday to education"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#second-stage-education-to-earnings",
+    "href": "lectures/quasi-experiments.html#second-stage-education-to-earnings",
+    "title": "Quasi-Experiments",
+    "section": "Second stage: Education to earnings",
+    "text": "Second stage: Education to earnings"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#their-argument-1",
+    "href": "lectures/quasi-experiments.html#their-argument-1",
+    "title": "Quasi-Experiments",
+    "section": "Their argument",
+    "text": "Their argument\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
   }
 ]
