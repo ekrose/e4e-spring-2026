@@ -800,14 +800,14 @@ This isolates the causal effect of eviction itself.
 
 ---
 
-## Stricter judge, higher eviction rates...
+## Stricter judge, higher chance of eviction ...
 
-![](images/collinson_first_stage_table.png){fig-align="center" width="85%"}
+![](images/collinson_stringency_eviction_prob_hist.png){fig-align="center" width="85%"}
 
 ---
 
 
-## ... which increases homelessness
+## ... more likely to become homeless
 
 ![](images/collinson_shelters_results.png){fig-align="center" width="85%"}
 
