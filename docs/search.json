@@ -1586,7 +1586,7 @@
     "href": "lectures/index.html",
     "title": "Lectures",
     "section": "",
-    "text": "Lecture slides will be posted here as the course progresses.\n\nIncentives\nMarkets and Their Failures\nEquity vs. Efficiency\nUncertainty\nRisk and Insurance\nQuasi-Experiments"
+    "text": "Lecture slides will be posted here as the course progresses.\n\nIncentives\nMarkets and Their Failures\nEquity vs. Efficiency\nUncertainty\nQuasi-Experiments\nRisk and Insurance"
   },
   {
     "objectID": "lectures/quasi-experiments.html#why-do-we-need-quasi-experiments",
@@ -1680,15 +1680,22 @@
     "text": "The simplest quasi-experiment\nIdea: Compare outcomes before and after a sudden change."
   },
   {
-    "objectID": "lectures/quasi-experiments.html#example-george-floyd-and-police-violence",
-    "href": "lectures/quasi-experiments.html#example-george-floyd-and-police-violence",
+    "objectID": "lectures/quasi-experiments.html#example-police-violence-and-civic-engagement",
+    "href": "lectures/quasi-experiments.html#example-police-violence-and-civic-engagement",
     "title": "Quasi-Experiments",
-    "section": "Example: George Floyd and police violence",
-    "text": "Example: George Floyd and police violence\nBruhn (2023) studied what happened to police killings after George Floyd’s murder in May 2020.\n\nThe event: A dramatic, sudden shift in public attention to police violence.\n\n\nThe question: Did this attention actually reduce police killings?"
+    "section": "Example: Police violence and civic engagement",
+    "text": "Example: Police violence and civic engagement\nAng et al. (2025) studied how people’s engagement with police changed after George Floyd’s murder in May 2020.\n\nThe event: A dramatic, sudden shift in public attention to police violence.\n\n\nThe question: Did this attention reduce engagement with, and favorability of, police?"
   },
   {
     "objectID": "lectures/quasi-experiments.html#what-the-data-showed",
     "href": "lectures/quasi-experiments.html#what-the-data-showed",
+    "title": "Quasi-Experiments",
+    "section": "What the data showed",
+    "text": "What the data showed"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#what-the-data-showed-1",
+    "href": "lectures/quasi-experiments.html#what-the-data-showed-1",
     "title": "Quasi-Experiments",
     "section": "What the data showed",
     "text": "What the data showed"
@@ -1750,6 +1757,13 @@
     "text": "The study design\n\n\nTreatment:\nStates that expanded Medicaid\n\nControl:\nNeighboring states that did not expand\n\n\nCompare changes in mortality rates before and after expansion."
   },
   {
+    "objectID": "lectures/quasi-experiments.html#did-in-the-wild",
+    "href": "lectures/quasi-experiments.html#did-in-the-wild",
+    "title": "Quasi-Experiments",
+    "section": "DiD in the wild",
+    "text": "DiD in the wild"
+  },
+  {
     "objectID": "lectures/quasi-experiments.html#results-lives-saved",
     "href": "lectures/quasi-experiments.html#results-lives-saved",
     "title": "Quasi-Experiments",
@@ -1757,11 +1771,18 @@
     "text": "Results: Lives saved\nThe study found that Medicaid expansion reduced mortality.\n\nApproximately 1 death prevented per 176 additional people covered.\n\n\nEffects were largest for:\n\nPeople aged 35-64\nPoorer counties\nMinorities\n\n\nSommers et al. (2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine."
   },
   {
-    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-anxiety",
-    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-anxiety",
+    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing",
+    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing",
     "title": "Quasi-Experiments",
-    "section": "Example: Cancer clusters and anxiety",
-    "text": "Example: Cancer clusters and anxiety\nDavis et al. studied what happens when communities learn they’re near a contaminated site.\n\nThe event: EPA designates a Superfund site (toxic waste cleanup needed).\n\n\nTreatment: People living near designated sites\nControl: People living near sites that will be designated later"
+    "section": "Example: Cancer clusters and housing",
+    "text": "Example: Cancer clusters and housing\nDavis (2004) studied what happens to housing prices when people learn about possible health risks\n\nThe event: Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s\n\n\nTreatment: People living in Churchill County\nControl: People living in nearby county (Lyon County)"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#davis-2004-did",
+    "href": "lectures/quasi-experiments.html#davis-2004-did",
+    "title": "Quasi-Experiments",
+    "section": "Davis (2004) DiD",
+    "text": "Davis (2004) DiD\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
   },
   {
     "objectID": "lectures/quasi-experiments.html#what-they-found",
@@ -1813,18 +1834,25 @@
     "text": "The class size discontinuity"
   },
   {
-    "objectID": "lectures/quasi-experiments.html#results",
-    "href": "lectures/quasi-experiments.html#results",
+    "objectID": "lectures/quasi-experiments.html#results-reading-comprehension",
+    "href": "lectures/quasi-experiments.html#results-reading-comprehension",
     "title": "Quasi-Experiments",
-    "section": "Results",
-    "text": "Results\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 7-10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
+    "section": "Results (reading comprehension)",
+    "text": "Results (reading comprehension)\n\n\n\nImplication: Smaller classes improved scores.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
   },
   {
-    "objectID": "lectures/quasi-experiments.html#example-close-elections",
-    "href": "lectures/quasi-experiments.html#example-close-elections",
+    "objectID": "lectures/quasi-experiments.html#example-the-electoral-incumbent-effect",
+    "href": "lectures/quasi-experiments.html#example-the-electoral-incumbent-effect",
     "title": "Quasi-Experiments",
-    "section": "Example: Close elections",
-    "text": "Example: Close elections\nLee (2008) studied whether winning an election affects future electoral success.\n\nThe cutoff: 50% of the vote\n\n49.9% → You lose\n50.1% → You win\n\n\n\nCandidates just above and below 50% had essentially identical support."
+    "section": "Example: The electoral incumbent effect",
+    "text": "Example: The electoral incumbent effect\nLee (2008) studied whether winning an election affects future electoral success.\n\nThe cutoff: 50% of the vote\n\n49.9% → You lose\n50.1% → You win\n\n\n\nCandidates just above and below 50% had essentially identical support.\n\n\nDoes winning now generate future electoral success?"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#barely-win-today-more-likely-to-win-again",
+    "href": "lectures/quasi-experiments.html#barely-win-today-more-likely-to-win-again",
+    "title": "Quasi-Experiments",
+    "section": "Barely win today, more likely to win again",
+    "text": "Barely win today, more likely to win again"
   },
   {
     "objectID": "lectures/quasi-experiments.html#what-winning-gets-you",
@@ -1834,18 +1862,18 @@
     "text": "What winning gets you\nIncumbents are about 45 percentage points more likely to win the next election\n\n\nAccess to campaign resources\nName recognition\nAbility to deliver for constituents\n\n\nLee (2008). “Randomized Experiments from Non-random Selection in U.S. House Elections.” Journal of Econometrics."
   },
   {
-    "objectID": "lectures/quasi-experiments.html#example-college-access",
-    "href": "lectures/quasi-experiments.html#example-college-access",
+    "objectID": "lectures/quasi-experiments.html#example-returns-to-public-universities",
+    "href": "lectures/quasi-experiments.html#example-returns-to-public-universities",
     "title": "Quasi-Experiments",
-    "section": "Example: College access",
-    "text": "Example: College access\nMountjoy (2022) studied the effects of attending a four-year vs. two-year college.\n\nThe design: Many students are at the margin of admission.\n\nJust above the cutoff → Admitted to four-year college\nJust below the cutoff → Community college"
+    "section": "Example: Returns to public universities",
+    "text": "Example: Returns to public universities\nMountjoy (2026) studied the effects of attending a four-year public university.\n\nAdmissions cutoffs means many students are at the margin of admission.\n\nJust above the SAT/ACT cutoff → Four-year college\nJust below → Two-year college"
   },
   {
-    "objectID": "lectures/quasi-experiments.html#what-a-four-year-degree-gets-you",
-    "href": "lectures/quasi-experiments.html#what-a-four-year-degree-gets-you",
+    "objectID": "lectures/quasi-experiments.html#higher-earnings-later-on",
+    "href": "lectures/quasi-experiments.html#higher-earnings-later-on",
     "title": "Quasi-Experiments",
-    "section": "What a four-year degree gets you",
-    "text": "What a four-year degree gets you\nAt the admission cutoff:\n\n\nHigher probability of getting a bachelor’s degree\nApproximately 10% higher earnings\nBut effects vary by student background\n\n\nMountjoy (2026). “Marginal Returns to Public Universities.” Quarterly Journal of Economics."
+    "section": "Higher earnings later on",
+    "text": "Higher earnings later on\n\n\nMountjoy (2026). “Marginal Returns to Public Universities.” Quarterly Journal of Economics."
   },
   {
     "objectID": "lectures/quasi-experiments.html#what-can-go-wrong-with-rd",
@@ -1860,6 +1888,13 @@
     "title": "Quasi-Experiments",
     "section": "Testing for manipulation",
     "text": "Testing for manipulation"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#example-mountjoy-2026",
+    "href": "lectures/quasi-experiments.html#example-mountjoy-2026",
+    "title": "Quasi-Experiments",
+    "section": "Example: Mountjoy (2026)",
+    "text": "Example: Mountjoy (2026)"
   },
   {
     "objectID": "lectures/quasi-experiments.html#discussion-finding-discontinuities",
@@ -1897,18 +1932,32 @@
     "text": "Example: Birthday and education\nAngrist and Krueger (1991) used quarter of birth as an instrument for education.\n\nWhy quarter of birth matters:\n\nSchool entry cutoffs are based on birthdate\nCompulsory schooling laws require attendance until age 16\nPeople born earlier in the year can drop out with less education"
   },
   {
-    "objectID": "lectures/quasi-experiments.html#the-clever-insight",
-    "href": "lectures/quasi-experiments.html#the-clever-insight",
+    "objectID": "lectures/quasi-experiments.html#their-argument",
+    "href": "lectures/quasi-experiments.html#their-argument",
     "title": "Quasi-Experiments",
-    "section": "The clever insight",
-    "text": "The clever insight\nSomeone born in January vs. December:\n\n\nEssentially random (parents don’t plan this)\nBut affects years of schooling due to school rules\nQuarter of birth shouldn’t directly affect earnings\n\n\n\nSo any earnings difference must be through education!\n\nAngrist and Krueger (1991). “Does Compulsory School Attendance Affect Schooling and Earnings?” Quarterly Journal of Economics."
+    "section": "Their argument",
+    "text": "Their argument\nSomeone born in January vs. December:\n\n\nEssentially random (parents don’t plan this)\nBut affects years of schooling due to compulsory schooling requirements\nQuarter of birth shouldn’t directly affect earnings\n\n\n\nSo any earnings difference must be through education!\n\nAngrist and Krueger (1991). “Does Compulsory School Attendance Affect Schooling and Earnings?” Quarterly Journal of Economics."
   },
   {
-    "objectID": "lectures/quasi-experiments.html#results-1",
-    "href": "lectures/quasi-experiments.html#results-1",
+    "objectID": "lectures/quasi-experiments.html#first-stage-birthday-to-education",
+    "href": "lectures/quasi-experiments.html#first-stage-birthday-to-education",
     "title": "Quasi-Experiments",
-    "section": "Results",
-    "text": "Results\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 7-10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
+    "section": "First stage: Birthday to education",
+    "text": "First stage: Birthday to education"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#second-stage-education-to-earnings",
+    "href": "lectures/quasi-experiments.html#second-stage-education-to-earnings",
+    "title": "Quasi-Experiments",
+    "section": "Second stage: Education to earnings",
+    "text": "Second stage: Education to earnings"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#conclusions",
+    "href": "lectures/quasi-experiments.html#conclusions",
+    "title": "Quasi-Experiments",
+    "section": "Conclusions",
+    "text": "Conclusions\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
   },
   {
     "objectID": "lectures/quasi-experiments.html#example-eviction-and-poverty",
@@ -1925,11 +1974,25 @@
     "text": "Judge leniency as an instrument\nSome judges are “tough” (evict more often), some are “lenient.”\n\n\nCases are randomly assigned to judges\nYour judge’s leniency predicts whether you’re evicted\nBut judge assignment shouldn’t directly affect your outcomes\n\n\n\nThis isolates the causal effect of eviction itself."
   },
   {
-    "objectID": "lectures/quasi-experiments.html#what-eviction-does",
-    "href": "lectures/quasi-experiments.html#what-eviction-does",
+    "objectID": "lectures/quasi-experiments.html#stricter-judge-higher-eviction-rates",
+    "href": "lectures/quasi-experiments.html#stricter-judge-higher-eviction-rates",
     "title": "Quasi-Experiments",
-    "section": "What eviction does",
-    "text": "What eviction does\nBeing evicted (due to a harsh judge) leads to:\n\n\nHomelessness: Large increase in shelter use\nResidential instability: Frequent moves\nFinancial distress: Emergency room visits, debt collection\nNeighborhood downgrading: Move to worse areas\n\n\nCollinson et al. (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
+    "section": "Stricter judge, higher eviction rates…",
+    "text": "Stricter judge, higher eviction rates…"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#which-causes-homelessness",
+    "href": "lectures/quasi-experiments.html#which-causes-homelessness",
+    "title": "Quasi-Experiments",
+    "section": "… which causes homelessness",
+    "text": "… which causes homelessness"
+  },
+  {
+    "objectID": "lectures/quasi-experiments.html#conclusions-1",
+    "href": "lectures/quasi-experiments.html#conclusions-1",
+    "title": "Quasi-Experiments",
+    "section": "Conclusions",
+    "text": "Conclusions\nBeing evicted (due to a harsh judge) leads to:\n\n\nHomelessness: More frequent shelter use\nEarnings: Lower earnings\nFinancial distress: Worse credit score and overall financial health\n\n\nCollinson et al. (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
   },
   {
     "objectID": "lectures/quasi-experiments.html#what-can-go-wrong-with-iv",
@@ -2301,194 +2364,5 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#example-police-violence-and-civic-engagement",
-    "href": "lectures/quasi-experiments.html#example-police-violence-and-civic-engagement",
-    "title": "Quasi-Experiments",
-    "section": "Example: Police violence and civic engagement",
-    "text": "Example: Police violence and civic engagement\nAng et al. (2025) studied how people’s engagement with police changed after George Floyd’s murder in May 2020.\n\nThe event: A dramatic, sudden shift in public attention to police violence.\n\n\nThe question: Did this attention reduce engagement with, and favorability of, police?"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#what-the-data-showed-1",
-    "href": "lectures/quasi-experiments.html#what-the-data-showed-1",
-    "title": "Quasi-Experiments",
-    "section": "What the data showed",
-    "text": "What the data showed"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#did-in-the-wild",
-    "href": "lectures/quasi-experiments.html#did-in-the-wild",
-    "title": "Quasi-Experiments",
-    "section": "DiD in the wild",
-    "text": "DiD in the wild"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing-prices",
-    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing-prices",
-    "title": "Quasi-Experiments",
-    "section": "Example: Cancer clusters and housing prices",
-    "text": "Example: Cancer clusters and housing prices\nDavis (2004) studied what happens when people learn about possible health risks\n\nThe event: Higher than expected leukemia rates in Churchill County, Nevada\n\n\nTreatment: People living in Churchill County\nControl: People living in nearby county (Lyon County)"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#what-they-found-1",
-    "href": "lectures/quasi-experiments.html#what-they-found-1",
-    "title": "Quasi-Experiments",
-    "section": "What they found",
-    "text": "What they found\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing",
-    "href": "lectures/quasi-experiments.html#example-cancer-clusters-and-housing",
-    "title": "Quasi-Experiments",
-    "section": "Example: Cancer clusters and housing",
-    "text": "Example: Cancer clusters and housing\nDavis (2004) studied what happens to housing prices when people learn about possible health risks\n\nThe event: Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s\n\n\nTreatment: People living in Churchill County\nControl: People living in nearby county (Lyon County)"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#the-did",
-    "href": "lectures/quasi-experiments.html#the-did",
-    "title": "Quasi-Experiments",
-    "section": "The DiD",
-    "text": "The DiD\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#davis-2004-did",
-    "href": "lectures/quasi-experiments.html#davis-2004-did",
-    "title": "Quasi-Experiments",
-    "section": "Davis (2004) DiD",
-    "text": "Davis (2004) DiD\n\n\nReference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#results-reading-comprehension",
-    "href": "lectures/quasi-experiments.html#results-reading-comprehension",
-    "title": "Quasi-Experiments",
-    "section": "Results (reading comprehension)",
-    "text": "Results (reading comprehension)\n\n\n\nImplication: Smaller classes improved scores.\n\n\nAngrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#example-the-electoral-incumbent-effect",
-    "href": "lectures/quasi-experiments.html#example-the-electoral-incumbent-effect",
-    "title": "Quasi-Experiments",
-    "section": "Example: The electoral incumbent effect",
-    "text": "Example: The electoral incumbent effect\nLee (2008) studied whether winning an election affects future electoral success.\n\nThe cutoff: 50% of the vote\n\n49.9% → You lose\n50.1% → You win\n\n\n\nCandidates just above and below 50% had essentially identical support.\n\n\nDoes winning now generate future electoral success?"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#barely-winning-more-likely-to-win-again",
-    "href": "lectures/quasi-experiments.html#barely-winning-more-likely-to-win-again",
-    "title": "Quasi-Experiments",
-    "section": "Barely winning, more likely to win again",
-    "text": "Barely winning, more likely to win again"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#barely-win-today-more-likely-to-win-again",
-    "href": "lectures/quasi-experiments.html#barely-win-today-more-likely-to-win-again",
-    "title": "Quasi-Experiments",
-    "section": "Barely win today, more likely to win again",
-    "text": "Barely win today, more likely to win again"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#example-returns-to-public-universities",
-    "href": "lectures/quasi-experiments.html#example-returns-to-public-universities",
-    "title": "Quasi-Experiments",
-    "section": "Example: Returns to public universities",
-    "text": "Example: Returns to public universities\nMountjoy (2026) studied the effects of attending a four-year public university.\n\nAdmissions cutoffs means many students are at the margin of admission.\n\nJust above the SAT/ACT cutoff → Four-year college\nJust below → Two-year college"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#just-above-more-education-at-four-year-college",
-    "href": "lectures/quasi-experiments.html#just-above-more-education-at-four-year-college",
-    "title": "Quasi-Experiments",
-    "section": "Just above → more education at four-year college",
-    "text": "Just above → more education at four-year college"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#just-below-more-education-at-two-year-college",
-    "href": "lectures/quasi-experiments.html#just-below-more-education-at-two-year-college",
-    "title": "Quasi-Experiments",
-    "section": "Just below → more education at two-year college",
-    "text": "Just below → more education at two-year college"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#higher-earnings-later-on",
-    "href": "lectures/quasi-experiments.html#higher-earnings-later-on",
-    "title": "Quasi-Experiments",
-    "section": "Higher earnings later on",
-    "text": "Higher earnings later on\n\n\nMountjoy (2026). “Marginal Returns to Public Universities.” Quarterly Journal of Economics."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#example-mountjoy-2026",
-    "href": "lectures/quasi-experiments.html#example-mountjoy-2026",
-    "title": "Quasi-Experiments",
-    "section": "Example: Mountjoy (2026)",
-    "text": "Example: Mountjoy (2026)"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#their-argument",
-    "href": "lectures/quasi-experiments.html#their-argument",
-    "title": "Quasi-Experiments",
-    "section": "Their argument",
-    "text": "Their argument\nSomeone born in January vs. December:\n\n\nEssentially random (parents don’t plan this)\nBut affects years of schooling due to compulsory schooling requirements\nQuarter of birth shouldn’t directly affect earnings\n\n\n\nSo any earnings difference must be through education!\n\nAngrist and Krueger (1991). “Does Compulsory School Attendance Affect Schooling and Earnings?” Quarterly Journal of Economics."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#first-stage-birthday-to-education",
-    "href": "lectures/quasi-experiments.html#first-stage-birthday-to-education",
-    "title": "Quasi-Experiments",
-    "section": "First stage: Birthday to education",
-    "text": "First stage: Birthday to education"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#second-stage-education-to-earnings",
-    "href": "lectures/quasi-experiments.html#second-stage-education-to-earnings",
-    "title": "Quasi-Experiments",
-    "section": "Second stage: Education to earnings",
-    "text": "Second stage: Education to earnings"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#their-argument-1",
-    "href": "lectures/quasi-experiments.html#their-argument-1",
-    "title": "Quasi-Experiments",
-    "section": "Their argument",
-    "text": "Their argument\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#stricter-judge-higher-eviction-rates",
-    "href": "lectures/quasi-experiments.html#stricter-judge-higher-eviction-rates",
-    "title": "Quasi-Experiments",
-    "section": "Stricter judge, higher eviction rates…",
-    "text": "Stricter judge, higher eviction rates…"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#causing-homelessness",
-    "href": "lectures/quasi-experiments.html#causing-homelessness",
-    "title": "Quasi-Experiments",
-    "section": "… causing homelessness",
-    "text": "… causing homelessness"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#overall-results",
-    "href": "lectures/quasi-experiments.html#overall-results",
-    "title": "Quasi-Experiments",
-    "section": "Overall results",
-    "text": "Overall results\nBeing evicted (due to a harsh judge) leads to:\n\n\nHomelessness: More frequent shelter use\nEarnings: Lower earnings\nFinancial distress: Worse credit score and overall financial health\n\n\nCollinson et al. (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#conclusions",
-    "href": "lectures/quasi-experiments.html#conclusions",
-    "title": "Quasi-Experiments",
-    "section": "Conclusions",
-    "text": "Conclusions\nUsing quarter of birth as an instrument:\n\nEach additional year of schooling increases earnings by about 10%.\n\n\nThis is similar to (but more credibly causal than) simple comparisons."
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#which-causes-homelessness",
-    "href": "lectures/quasi-experiments.html#which-causes-homelessness",
-    "title": "Quasi-Experiments",
-    "section": "… which causes homelessness",
-    "text": "… which causes homelessness"
-  },
-  {
-    "objectID": "lectures/quasi-experiments.html#conclusions-1",
-    "href": "lectures/quasi-experiments.html#conclusions-1",
-    "title": "Quasi-Experiments",
-    "section": "Conclusions",
-    "text": "Conclusions\nBeing evicted (due to a harsh judge) leads to:\n\n\nHomelessness: More frequent shelter use\nEarnings: Lower earnings\nFinancial distress: Worse credit score and overall financial health\n\n\nCollinson et al. (2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics."
   }
 ]
