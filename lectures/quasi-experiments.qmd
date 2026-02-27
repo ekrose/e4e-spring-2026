@@ -807,7 +807,7 @@ This isolates the causal effect of eviction itself.
 ---
 
 
-## ... which causes homelessness
+## ... which increases homelessness
 
 ![](images/collinson_shelters_results.png){fig-align="center" width="85%"}
 
