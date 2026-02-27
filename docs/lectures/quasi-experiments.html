@@ -272,7 +272,7 @@
 <section id="what-did-they-find" class="slide level2">
 <h2>What did they find?</h2>
 
-<img data-src="images/card-krueger-results.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<img data-src="images/card_krueger_njmin_wage_table.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="the-surprising-result" class="slide level2">
 <h2>The surprising result</h2>
 <p>Employment in New Jersey <em>increased</em> relative to Pennsylvania.</p>
@@ -334,23 +334,27 @@
 </div>
 </div>
 </section>
-<section id="example-george-floyd-and-police-violence" class="slide level2">
-<h2>Example: George Floyd and police violence</h2>
-<p>Bruhn (2023) studied what happened to police killings after George Floyd’s murder in May 2020.</p>
+<section id="example-police-violence-and-civic-engagement" class="slide level2">
+<h2>Example: Police violence and civic engagement</h2>
+<p>Ang et al.&nbsp;(2025) studied how people’s engagement with police changed after George Floyd’s murder in May 2020.</p>
 <div class="fragment">
 <p><strong>The event:</strong> A dramatic, sudden shift in public attention to police violence.</p>
 </div>
 <div class="fragment">
-<p><strong>The question:</strong> Did this attention actually reduce police killings?</p>
+<p><strong>The question:</strong> Did this attention reduce engagement with, and favorability of, police?</p>
 </div>
 </section>
 <section id="what-the-data-showed" class="slide level2">
 <h2>What the data showed</h2>
 
-<img data-src="images/george-floyd-time-series.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<img data-src="images/ang_favorability_shares.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="what-the-data-showed-1" class="slide level2">
+<h2>What the data showed</h2>
+
+<img data-src="images/ang_shots_detected.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="interpreting-the-results" class="slide level2">
 <h2>Interpreting the results</h2>
-<p>Police killings fell significantly after the event.</p>
+<p>Police favorability and crime reporting rates fell significantly after the event.</p>
 <div class="fragment">
 <p>But is this causal? What else changed in May 2020?</p>
 </div>
@@ -366,20 +370,22 @@
 </section>
 <section id="the-limits-of-interrupted-time-series" class="slide level2">
 <h2>The limits of interrupted time series</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <p><strong>Strengths:</strong></p>
 <ul>
 <li>Simple and intuitive</li>
 <li>Works with just one group</li>
 <li>Easy to visualize</li>
 </ul>
-<div class="fragment">
+</div><div class="column" style="width:50%;">
 <p><strong>Weaknesses:</strong></p>
 <ul>
 <li>Can’t separate the event from other changes</li>
-<li>Assumes the trend would have continued</li>
-<li>No control group to benchmark against</li>
+<li>Assumes trend would have continued</li>
+<li>No control group to compare against</li>
 </ul>
-</div>
+</div></div>
 <div class="fragment">
 <blockquote>
 <p><strong>Bottom line:</strong> Good for description, risky for causal claims.</p>
@@ -435,14 +441,14 @@
 </section>
 <section id="example-medicaid-expansion-and-mortality" class="slide level2">
 <h2>Example: Medicaid expansion and mortality</h2>
-<p>The Affordable Care Act allowed states to expand Medicaid coverage.</p>
+<p>Sommers et al.&nbsp;(2012) studied how Medicaid coverage affects mortality.</p>
 <div class="fragment">
-<p>Some states expanded in 2014, others did not.</p>
+<p>Some states expanded between 2000 and 2002, others did not.</p>
 </div>
 <div class="fragment">
 <p><strong>Research question:</strong> Did Medicaid expansion reduce deaths?</p>
 <aside class="notes">
-<p>Miller et al.&nbsp;(2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics.</p>
+<p>Sommers et al.&nbsp;(2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -464,27 +470,31 @@
 <p>States that expanded Medicaid</p>
 </div><div class="column" style="width:50%;">
 <p><strong>Control:</strong></p>
-<p>States that did not expand</p>
+<p>Neighboring states that did not expand</p>
 </div></div>
 <div class="fragment">
-<p>Compare changes in mortality rates before and after 2014.</p>
+<p>Compare changes in mortality rates before and after expansion.</p>
 </div>
 </section>
+<section id="did-in-the-wild" class="slide level2">
+<h2>DiD in the wild</h2>
+
+<img data-src="images/sommers_medicaid_did_graph.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="results-lives-saved" class="slide level2">
 <h2>Results: Lives saved</h2>
 <p>The study found that Medicaid expansion <strong>reduced mortality</strong>.</p>
 <div class="fragment">
-<p>Approximately <strong>1 death prevented per 1,300 people covered</strong>.</p>
+<p>Approximately <strong>1 death prevented per 176 additional people covered</strong>.</p>
 </div>
 <div class="fragment">
 <p>Effects were largest for:</p>
 <ul>
-<li>Middle-aged adults</li>
-<li>People with treatable conditions</li>
-<li>Counties with higher pre-existing uninsurance</li>
+<li>People aged 35-64</li>
+<li>Poorer counties</li>
+<li>Minorities</li>
 </ul>
 <aside class="notes">
-<p>Miller, Johnson, and Wherry (2021). “Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data.” Quarterly Journal of Economics.</p>
+<p>Sommers et al.&nbsp;(2012). “Mortality and Access to Care among Adults after State Medicaid Expansions.” The New England Journal of Medicine.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -498,31 +508,40 @@
       }</style></aside>
 </div>
 </section>
-<section id="example-cancer-clusters-and-anxiety" class="slide level2">
-<h2>Example: Cancer clusters and anxiety</h2>
-<p>Davis et al.&nbsp;studied what happens when communities learn they’re near a contaminated site.</p>
+<section id="example-cancer-clusters-and-housing" class="slide level2">
+<h2>Example: Cancer clusters and housing</h2>
+<p>Davis (2004) studied what happens to housing prices when people learn about possible health risks</p>
 <div class="fragment">
-<p><strong>The event:</strong> EPA designates a Superfund site (toxic waste cleanup needed).</p>
+<p><strong>The event:</strong> Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s</p>
 </div>
 <div class="fragment">
-<p><strong>Treatment:</strong> People living near designated sites</p>
-<p><strong>Control:</strong> People living near sites that will be designated later</p>
+<p><strong>Treatment:</strong> People living in Churchill County</p>
+<p><strong>Control:</strong> People living in nearby county (Lyon County)</p>
 </div>
+</section>
+<section id="davis-2004-did" class="slide level2">
+<h2>Davis (2004) DiD</h2>
+
+<img data-src="images/davis_housing_prices_did.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><aside class="notes">
+<p>Reference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="what-they-found" class="slide level2">
 <h2>What they found</h2>
-<p>After Superfund designation:</p>
-<ul>
-<li>Increased depression and anxiety diagnoses</li>
-<li>More mental health prescriptions</li>
-<li>Effects concentrated among parents with young children</li>
-</ul>
-<div class="fragment">
-<blockquote>
-<p><strong>Key insight:</strong> Even the <em>information</em> about environmental risk affects health.</p>
-</blockquote>
+
+<img data-src="images/davis_housing_prices_did_table.png" class="quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><div class="fragment">
 <aside class="notes">
-<p>Reference: Davis (2021). “The Economic Determinants of Mental Health.” Working paper.</p>
+<p>Reference: Davis (2004). “The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster.” American Economic Review.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -552,7 +571,7 @@
 </section>
 <section id="the-intuition" class="slide level2">
 <h2>The intuition</h2>
-<p>Many policies have <strong>sharp cutoffs</strong>:</p>
+<p>Many programs enforce <strong>sharp cutoffs</strong>:</p>
 <ul>
 <li>You’re eligible if your score is above X</li>
 <li>You get the scholarship if your income is below Y</li>
@@ -571,12 +590,11 @@
 <img data-src="images/rd-diagram.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
 <section id="why-this-works" class="slide level2">
 <h2>Why this works</h2>
-<p><strong>Key insight:</strong> At the cutoff, treatment is essentially random.</p>
+<p><strong>Key assumption:</strong> Around the cutoff, treatment is essentially random</p>
 <div class="fragment">
-<p>Someone who scored 79 vs 81 on a test:</p>
+<p>For example, someone who scored 79 vs 81 on a test:</p>
 <ul>
 <li>Very similar abilities</li>
-<li>Very similar backgrounds</li>
 <li>But one gets the program, one doesn’t</li>
 </ul>
 </div>
@@ -602,19 +620,13 @@
 <section id="the-class-size-discontinuity" class="slide level2">
 <h2>The class size discontinuity</h2>
 
-<img data-src="images/class-size-discontinuity.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
-<section id="results" class="slide level2">
-<h2>Results</h2>
-<p>At the discontinuity where classes suddenly get smaller:</p>
-<div class="fragment">
-<ul>
-<li>Test scores jump significantly</li>
-<li>Effect equivalent to about 0.2-0.3 standard deviations</li>
-</ul>
-</div>
-<div class="fragment">
+<img data-src="images/angrist_lavy_rdd_class_size.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="results-reading-comprehension" class="slide level2">
+<h2>Results (reading comprehension)</h2>
+
+<img data-src="images/angrist_lavy_rdd_results.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><div class="fragment">
 <blockquote>
-<p><strong>Implication:</strong> Smaller classes <em>do</em> improve learning.</p>
+<p><strong>Implication:</strong> Smaller classes improved scores.</p>
 </blockquote>
 <aside class="notes">
 <p>Angrist and Lavy (1999). “Using Maimonides’ Rule to Estimate the Effect of Class Size on Scholastic Achievement.” Quarterly Journal of Economics.</p>
@@ -631,8 +643,8 @@
       }</style></aside>
 </div>
 </section>
-<section id="example-close-elections" class="slide level2">
-<h2>Example: Close elections</h2>
+<section id="example-the-electoral-incumbent-effect" class="slide level2">
+<h2>Example: The electoral incumbent effect</h2>
 <p>Lee (2008) studied whether winning an election affects future electoral success.</p>
 <div class="fragment">
 <p><strong>The cutoff:</strong> 50% of the vote</p>
@@ -644,13 +656,19 @@
 <div class="fragment">
 <p>Candidates just above and below 50% had essentially identical support.</p>
 </div>
+<div class="fragment">
+<p>Does winning now generate future electoral success?</p>
+</div>
 </section>
+<section id="barely-win-today-more-likely-to-win-again" class="slide level2">
+<h2>Barely win today, more likely to win again</h2>
+
+<img data-src="images/lee_rdd_win_next_election_outcome.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="what-winning-gets-you" class="slide level2">
 <h2>What winning gets you</h2>
-<p>Barely winning an election vs.&nbsp;barely losing:</p>
+<p>Incumbents are about 45 percentage points more likely to win the next election</p>
 <div class="fragment">
 <ul>
-<li><strong>Incumbency advantage</strong> of about 6-8 percentage points in the next election</li>
 <li>Access to campaign resources</li>
 <li>Name recognition</li>
 <li>Ability to deliver for constituents</li>
@@ -670,28 +688,32 @@
       }</style></aside>
 </div>
 </section>
-<section id="example-college-access" class="slide level2">
-<h2>Example: College access</h2>
-<p>Mountjoy (2022) studied the effects of attending a four-year vs.&nbsp;two-year college.</p>
+<section id="example-returns-to-public-universities" class="slide level2">
+<h2>Example: Returns to public universities</h2>
+<p>Mountjoy (2026) studied the effects of attending a four-year public university.</p>
 <div class="fragment">
-<p><strong>The design:</strong> Many students are at the margin of admission.</p>
+<p>Admissions cutoffs means many students are at the margin of admission.</p>
 <ul>
-<li>Just above the cutoff → Admitted to four-year college</li>
-<li>Just below the cutoff → Community college</li>
+<li>Just above the SAT/ACT cutoff → Four-year college</li>
+<li>Just below → Two-year college</li>
 </ul>
 </div>
 </section>
-<section id="what-a-four-year-degree-gets-you" class="slide level2">
-<h2>What a four-year degree gets you</h2>
-<p>At the admission cutoff:</p>
-<div class="fragment">
-<ul>
-<li>Higher probability of getting a bachelor’s degree</li>
-<li>Approximately 10% higher earnings</li>
-<li>But effects vary by student background</li>
-</ul>
-<aside class="notes">
-<p>Mountjoy (2022). “Community Colleges and Upward Mobility.” American Economic Review.</p>
+<section class="slide level2">
+
+<h3 id="just-above-more-education-at-four-year-college">Just above → more education at four-year college</h3>
+
+<img data-src="images/mountjoy_4year_credits_rdd.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section class="slide level2">
+
+<h3 id="just-below-more-education-at-two-year-college">Just below → more education at two-year college</h3>
+
+<img data-src="images/mountjoy_2year_credits_rdd.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="higher-earnings-later-on" class="slide level2">
+<h2>Higher earnings later on</h2>
+
+<img data-src="images/mountjoy_dynamic_earnings_graphs.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"><aside class="notes">
+<p>Mountjoy (2026). “Marginal Returns to Public Universities.” Quarterly Journal of Economics.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -703,7 +725,6 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
-</div>
 </section>
 <section id="what-can-go-wrong-with-rd" class="slide level2">
 <h2>What can go wrong with RD?</h2>
@@ -723,6 +744,10 @@
 <h2>Testing for manipulation</h2>
 
 <img data-src="images/rd-manipulation-test.svg" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
+<section id="example-mountjoy-2026" class="slide level2">
+<h2>Example: Mountjoy (2026)</h2>
+
+<img data-src="images/mountjoy_smooth_density_diagnostic.png" class="quarto-figure quarto-figure-center r-stretch" style="width:80.0%"></section>
 <section id="discussion-finding-discontinuities" class="slide level2">
 <h2>Discussion: Finding discontinuities</h2>
 <p>Think about:</p>
@@ -782,13 +807,13 @@
 </ul>
 </div>
 </section>
-<section id="the-clever-insight" class="slide level2">
-<h2>The clever insight</h2>
+<section id="their-argument" class="slide level2">
+<h2>Their argument</h2>
 <p>Someone born in January vs.&nbsp;December:</p>
 <div class="fragment">
 <ul>
 <li>Essentially random (parents don’t plan this)</li>
-<li>But affects years of schooling due to school rules</li>
+<li>But affects years of schooling due to compulsory schooling requirements</li>
 <li>Quarter of birth shouldn’t directly affect earnings</li>
 </ul>
 </div>
@@ -809,11 +834,19 @@
       }</style></aside>
 </div>
 </section>
-<section id="results-1" class="slide level2">
-<h2>Results</h2>
+<section id="first-stage-birthday-to-education" class="slide level2">
+<h2>First stage: Birthday to education</h2>
+
+<img data-src="images/angrist_krueger_education_earnings_qbirth_instrument.png" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="second-stage-education-to-earnings" class="slide level2">
+<h2>Second stage: Education to earnings</h2>
+
+<img data-src="images/angrist_krueger_education_earnings_table.png" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="conclusions" class="slide level2">
+<h2>Conclusions</h2>
 <p>Using quarter of birth as an instrument:</p>
 <div class="fragment">
-<p>Each additional year of schooling increases earnings by about <strong>7-10%</strong>.</p>
+<p>Each additional year of schooling increases earnings by about 10%.</p>
 </div>
 <div class="fragment">
 <p>This is similar to (but more credibly causal than) simple comparisons.</p>
@@ -821,7 +854,7 @@
 </section>
 <section id="example-eviction-and-poverty" class="slide level2">
 <h2>Example: Eviction and poverty</h2>
-<p>Collinson et al.&nbsp;studied whether eviction makes people poorer.</p>
+<p>Collinson et al.&nbsp;(2024) studied the consequences of eviction.</p>
 <div class="fragment">
 <p><strong>The problem:</strong> People who get evicted are different:</p>
 <ul>
@@ -861,15 +894,22 @@
 <p>This isolates the causal effect of eviction itself.</p>
 </div>
 </section>
-<section id="what-eviction-does" class="slide level2">
-<h2>What eviction does</h2>
+<section id="stricter-judge-higher-eviction-rates" class="slide level2">
+<h2>Stricter judge, higher eviction rates…</h2>
+
+<img data-src="images/collinson_first_stage_table.png" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="which-increases-homelessness" class="slide level2">
+<h2>… which increases homelessness</h2>
+
+<img data-src="images/collinson_shelters_results.png" class="quarto-figure quarto-figure-center r-stretch" style="width:85.0%"></section>
+<section id="conclusions-1" class="slide level2">
+<h2>Conclusions</h2>
 <p>Being evicted (due to a harsh judge) leads to:</p>
 <div class="fragment">
 <ul>
-<li><strong>Homelessness:</strong> Large increase in shelter use</li>
-<li><strong>Residential instability:</strong> Frequent moves</li>
-<li><strong>Financial distress:</strong> Emergency room visits, debt collection</li>
-<li><strong>Neighborhood downgrading:</strong> Move to worse areas</li>
+<li><strong>Homelessness:</strong> More frequent shelter use</li>
+<li><strong>Earnings:</strong> Lower earnings</li>
+<li><strong>Financial distress:</strong> Worse credit score and overall financial health</li>
 </ul>
 <aside class="notes">
 <p>Collinson et al.&nbsp;(2024). “Eviction and Poverty in American Cities.” Quarterly Journal of Economics.</p>

@@ -35,8 +35,8 @@
   <path d="M 110 170 Q 300 250 490 170" fill="none" stroke="#c62828" stroke-width="2" stroke-dasharray="6,4"/>
   <text x="300" y="235" text-anchor="middle" class="arrow-label" fill="#c62828">No direct effect!</text>
   <!-- X mark -->
-  <line x1="290" y1="205" x2="310" y2="225" stroke="#c62828" stroke-width="3"/>
-  <line x1="310" y1="205" x2="290" y2="225" stroke="#c62828" stroke-width="3"/>
+  <line x1="290" y1="200" x2="310" y2="220" stroke="#c62828" stroke-width="3"/>
+  <line x1="310" y1="200" x2="290" y2="220" stroke="#c62828" stroke-width="3"/>
 
   <defs>
     <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">

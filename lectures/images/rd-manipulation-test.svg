@@ -57,7 +57,7 @@
 
   <!-- Arrow pointing to bunching -->
   <path d="M 500 85 L 500 95" stroke="#c62828" stroke-width="2" fill="none" marker-end="url(#redarrow)"/>
-  <text x="500" y="80" text-anchor="middle" class="axis-label bad">Bunching!</text>
+  <text x="500" y="75" text-anchor="middle" class="axis-label bad">Bunching!</text>
   <defs>
     <marker id="redarrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
       <polygon points="0 0, 8 3, 0 6" fill="#c62828"/>

@@ -162,7 +162,7 @@ They measured employment at each restaurant.
 
 ## What did they find?
 
-![](images/card-krueger-results.svg){fig-align="center" width="80%"}
+![](images/card_krueger_njmin_wage_table.png){fig-align="center" width="80%"}
 
 ---
 
@@ -226,9 +226,9 @@ What happens when everything changes at once?
 
 ---
 
-## Example: George Floyd and police violence
+## Example: Police violence and civic engagement
 
-Bruhn (2023) studied what happened to police killings after George Floyd's murder in May 2020.
+Ang et al. (2025) studied how people's engagement with police changed after George Floyd's murder in May 2020.
 
 . . .
 
@@ -236,19 +236,25 @@ Bruhn (2023) studied what happened to police killings after George Floyd's murde
 
 . . .
 
-**The question:** Did this attention actually reduce police killings?
+**The question:** Did this attention reduce engagement with, and favorability of, police?
 
 ---
 
 ## What the data showed
 
-![](images/george-floyd-time-series.svg){fig-align="center" width="80%"}
+![](images/ang_favorability_shares.png){fig-align="center" width="80%"}
+
+---
+
+## What the data showed
+
+![](images/ang_shots_detected.png){fig-align="center" width="80%"}
 
 ---
 
 ## Interpreting the results
 
-Police killings fell significantly after the event.
+Police favorability and crime reporting rates fell significantly after the event.
 
 . . .
 
@@ -267,19 +273,22 @@ But is this causal? What else changed in May 2020?
 
 ## The limits of interrupted time series
 
+:::: {.columns}
+::: {.column width="50%"}
 **Strengths:**
 
 - Simple and intuitive
 - Works with just one group
 - Easy to visualize
-
-. . .
-
+:::
+::: {.column width="50%"}
 **Weaknesses:**
 
 - Can't separate the event from other changes
-- Assumes the trend would have continued
-- No control group to benchmark against
+- Assumes trend would have continued
+- No control group to compare against
+:::
+::::
 
 . . .
 
@@ -341,18 +350,18 @@ We can *never* prove it's true (we don't observe the counterfactual), but we can
 
 ## Example: Medicaid expansion and mortality
 
-The Affordable Care Act allowed states to expand Medicaid coverage.
+Sommers et al. (2012) studied how Medicaid coverage affects mortality.
 
 . . .
 
-Some states expanded in 2014, others did not.
+Some states expanded between 2000 and 2002, others did not.
 
 . . .
 
 **Research question:** Did Medicaid expansion reduce deaths?
 
 ::: {.notes}
-Miller et al. (2021). "Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data." Quarterly Journal of Economics.
+Sommers et al. (2012). "Mortality and Access to Care among Adults after State Medicaid Expansions." The New England Journal of Medicine.
 :::
 
 ---
@@ -368,68 +377,78 @@ States that expanded Medicaid
 ::: {.column width="50%"}
 **Control:**
 
-States that did not expand
+Neighboring states that did not expand
 :::
 ::::
 
 . . .
 
-Compare changes in mortality rates before and after 2014.
+Compare changes in mortality rates before and after expansion.
 
 ---
 
-## Results: Lives saved
+## DiD in the wild
+
+![](images/sommers_medicaid_did_graph.png){fig-align="center" width="80%"}
+
+---
+
+## Results: Lives saved 
 
 The study found that Medicaid expansion **reduced mortality**.
 
 . . .
 
-Approximately **1 death prevented per 1,300 people covered**.
+Approximately **1 death prevented per 176 additional people covered**.
 
 . . .
 
 Effects were largest for:
 
-- Middle-aged adults
-- People with treatable conditions
-- Counties with higher pre-existing uninsurance
+- People aged 35-64
+- Poorer counties
+- Minorities
 
 ::: {.notes}
-Miller, Johnson, and Wherry (2021). "Medicaid and Mortality: New Evidence from Linked Survey and Administrative Data." Quarterly Journal of Economics.
+Sommers et al. (2012). "Mortality and Access to Care among Adults after State Medicaid Expansions." The New England Journal of Medicine.
 :::
 
 ---
 
-## Example: Cancer clusters and anxiety
+## Example: Cancer clusters and housing 
 
-Davis et al. studied what happens when communities learn they're near a contaminated site.
-
-. . .
-
-**The event:** EPA designates a Superfund site (toxic waste cleanup needed).
+Davis (2004) studied what happens to housing prices when people learn about possible health risks
 
 . . .
 
-**Treatment:** People living near designated sites
+**The event:** Higher than expected leukemia rates in Churchill County, Nevada, during the late 90s
 
-**Control:** People living near sites that will be designated later
+. . .
+
+**Treatment:** People living in Churchill County
+
+**Control:** People living in nearby county (Lyon County)
+
+---
+
+## Davis (2004) DiD
+
+![](images/davis_housing_prices_did.png){fig-align="center" width="80%"}
+
+::: {.notes}
+Reference: Davis (2004). "The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster." American Economic Review.
+:::
 
 ---
 
 ## What they found
 
-After Superfund designation:
-
-- Increased depression and anxiety diagnoses
-- More mental health prescriptions
-- Effects concentrated among parents with young children
+![](images/davis_housing_prices_did_table.png){fig-align="center" width="70%"}
 
 . . .
 
-> **Key insight:** Even the *information* about environmental risk affects health.
-
 ::: {.notes}
-Reference: Davis (2021). "The Economic Determinants of Mental Health." Working paper.
+Reference: Davis (2004). "The Effect of Health Risk on Housing Values: Evidence from a Cancer Cluster." American Economic Review.
 :::
 
 ---
@@ -450,7 +469,7 @@ Exploiting arbitrary cutoffs
 
 ## The intuition
 
-Many policies have **sharp cutoffs**:
+Many programs enforce **sharp cutoffs**:
 
 - You're eligible if your score is above X
 - You get the scholarship if your income is below Y
@@ -474,14 +493,13 @@ People just above and just below the cutoff are nearly identical...
 
 ## Why this works
 
-**Key insight:** At the cutoff, treatment is essentially random.
+**Key assumption:** Around the cutoff, treatment is essentially random
 
 . . .
 
-Someone who scored 79 vs 81 on a test:
+For example, someone who scored 79 vs 81 on a test:
 
 - Very similar abilities
-- Very similar backgrounds
 - But one gets the program, one doesn't
 
 . . .
@@ -507,22 +525,17 @@ Angrist and Lavy (1999) studied how class size affects student achievement.
 
 ## The class size discontinuity
 
-![](images/class-size-discontinuity.svg){fig-align="center" width="80%"}
+![](images/angrist_lavy_rdd_class_size.png){fig-align="center" width="80%"}
 
 ---
 
-## Results
+## Results (reading comprehension)
 
-At the discontinuity where classes suddenly get smaller:
-
-. . .
-
-- Test scores jump significantly
-- Effect equivalent to about 0.2-0.3 standard deviations
+![](images/angrist_lavy_rdd_results.png){fig-align="center" width="80%"}
 
 . . .
 
-> **Implication:** Smaller classes *do* improve learning.
+> **Implication:** Smaller classes improved scores.
 
 ::: {.notes}
 Angrist and Lavy (1999). "Using Maimonides' Rule to Estimate the Effect of Class Size on Scholastic Achievement." Quarterly Journal of Economics.
@@ -530,7 +543,7 @@ Angrist and Lavy (1999). "Using Maimonides' Rule to Estimate the Effect of Class
 
 ---
 
-## Example: Close elections
+## Example: The electoral incumbent effect
 
 Lee (2008) studied whether winning an election affects future electoral success.
 
@@ -545,15 +558,24 @@ Lee (2008) studied whether winning an election affects future electoral success.
 
 Candidates just above and below 50% had essentially identical support.
 
+. . .
+
+Does winning now generate future electoral success?
+
+---
+
+## Barely win today, more likely to win again
+
+![](images/lee_rdd_win_next_election_outcome.png){fig-align="center" width="80%"}
+
 ---
 
 ## What winning gets you
 
-Barely winning an election vs. barely losing:
+Incumbents are about 45 percentage points more likely to win the next election
 
 . . .
 
-- **Incumbency advantage** of about 6-8 percentage points in the next election
 - Access to campaign resources
 - Name recognition
 - Ability to deliver for constituents
@@ -564,31 +586,38 @@ Lee (2008). "Randomized Experiments from Non-random Selection in U.S. House Elec
 
 ---
 
-## Example: College access
+## Example: Returns to public universities
 
-Mountjoy (2022) studied the effects of attending a four-year vs. two-year college.
+Mountjoy (2026) studied the effects of attending a four-year public university.
+
 
 . . .
 
-**The design:** Many students are at the margin of admission.
+Admissions cutoffs means many students are at the margin of admission.
 
-- Just above the cutoff → Admitted to four-year college
-- Just below the cutoff → Community college
+- Just above the SAT/ACT cutoff → Four-year college
+- Just below → Two-year college
 
 ---
 
-## What a four-year degree gets you
+### Just above → more education at four-year college
 
-At the admission cutoff:
+![](images/mountjoy_4year_credits_rdd.png){fig-align="center" width="80%"}
 
-. . .
+---
 
-- Higher probability of getting a bachelor's degree
-- Approximately 10% higher earnings
-- But effects vary by student background
+### Just below → more education at two-year college
+
+![](images/mountjoy_2year_credits_rdd.png){fig-align="center" width="80%"}
+
+---
+
+## Higher earnings later on
+
+![](images/mountjoy_dynamic_earnings_graphs.png){fig-align="center" width="80%"}
 
 ::: {.notes}
-Mountjoy (2022). "Community Colleges and Upward Mobility." American Economic Review.
+Mountjoy (2026). "Marginal Returns to Public Universities." Quarterly Journal of Economics.
 :::
 
 ---
@@ -612,6 +641,12 @@ Mountjoy (2022). "Community Colleges and Upward Mobility." American Economic Rev
 ## Testing for manipulation
 
 ![](images/rd-manipulation-test.svg){fig-align="center" width="80%"}
+
+---
+
+## Example: Mountjoy (2026)
+
+![](images/mountjoy_smooth_density_diagnostic.png){fig-align="center" width="80%"}
 
 ---
 
@@ -681,14 +716,14 @@ Angrist and Krueger (1991) used **quarter of birth** as an instrument for educat
 
 ---
 
-## The clever insight
+## Their argument
 
 Someone born in January vs. December:
 
 . . .
 
 - Essentially random (parents don't plan this)
-- But affects years of schooling due to school rules
+- But affects years of schooling due to compulsory schooling requirements
 - Quarter of birth shouldn't directly affect earnings
 
 . . .
@@ -701,13 +736,25 @@ Angrist and Krueger (1991). "Does Compulsory School Attendance Affect Schooling 
 
 ---
 
-## Results
+## First stage: Birthday to education
+
+![](images/angrist_krueger_education_earnings_qbirth_instrument.png){fig-align="center" width="85%"}
+
+---
+
+## Second stage: Education to earnings
+
+![](images/angrist_krueger_education_earnings_table.png){fig-align="center" width="85%"}
+
+---
+
+## Conclusions
 
 Using quarter of birth as an instrument:
 
 . . .
 
-Each additional year of schooling increases earnings by about **7-10%**.
+Each additional year of schooling increases earnings by about 10%.
 
 . . .
 
@@ -717,7 +764,7 @@ This is similar to (but more credibly causal than) simple comparisons.
 
 ## Example: Eviction and poverty
 
-Collinson et al. studied whether eviction makes people poorer.
+Collinson et al. (2024) studied the consequences of eviction.
 
 . . .
 
@@ -753,16 +800,28 @@ This isolates the causal effect of eviction itself.
 
 ---
 
-## What eviction does
+## Stricter judge, higher eviction rates...
+
+![](images/collinson_first_stage_table.png){fig-align="center" width="85%"}
+
+---
+
+
+## ... which increases homelessness
+
+![](images/collinson_shelters_results.png){fig-align="center" width="85%"}
+
+---
+
+## Conclusions
 
 Being evicted (due to a harsh judge) leads to:
 
 . . .
 
-- **Homelessness:** Large increase in shelter use
-- **Residential instability:** Frequent moves
-- **Financial distress:** Emergency room visits, debt collection
-- **Neighborhood downgrading:** Move to worse areas
+- **Homelessness:** More frequent shelter use
+- **Earnings:** Lower earnings
+- **Financial distress:** Worse credit score and overall financial health
 
 ::: {.notes}
 Collinson et al. (2024). "Eviction and Poverty in American Cities." Quarterly Journal of Economics.
