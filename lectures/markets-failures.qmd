@@ -238,9 +238,8 @@ Market pressures push toward equilibrium.
 
 . . .
 
-**Auctions**
+**Auctions** (eBay, art markets, Treasury bonds)
 
-- eBay, art markets, Treasury bonds
 - Price emerges from competitive bidding
 
 . . .
