@@ -424,7 +424,7 @@
     "href": "lectures/markets-failures.html#examples-of-price-discovery",
     "title": "Markets and Their Failures",
     "section": "Examples of Price Discovery",
-    "text": "Examples of Price Discovery\nRetail inventory management\n\nPrices drop when shelves are full\nPrices rise when stock runs low\n\n\nAuctions\n\neBay, art markets, Treasury bonds\nPrice emerges from competitive bidding\n\n\n\nEntry and exit\n\nHigh profits → new firms enter → prices fall\nLosses → firms exit → prices rise"
+    "text": "Examples of Price Discovery\nRetail inventory management\n\nPrices drop when shelves are full\nPrices rise when stock runs low\n\n\nAuctions (eBay, art markets, Treasury bonds)\n\nPrice emerges from competitive bidding\n\n\n\nEntry and exit\n\nHigh profits → new firms enter → prices fall\nLosses → firms exit → prices rise"
   },
   {
     "objectID": "lectures/markets-failures.html#a-deeper-point",
@@ -970,7 +970,7 @@
     "href": "lectures/incentives.html#the-evidence-agan-starr-2018",
     "title": "Incentives",
     "section": "The evidence: Agan & Starr (2018)",
-    "text": "The evidence: Agan & Starr (2018)\nField experiment: ~15,000 fictitious job applications in NJ and NYC\n\nBefore BTB (at companies with “the box”):\n\nWhite callback rate: 11.1%\nBlack callback rate: 10.9%\nGap: ~7% more callbacks for white applicants\n\n\n\nAfter BTB (box removed):\n\nWhite callback rate: 14.8%\nBlack callback rate: 10.3%\nGap: ~43% more callbacks for white applicants\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
+    "text": "The evidence: Agan & Starr (2018)\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
   },
   {
     "objectID": "lectures/incentives.html#a-policy-question",
@@ -2364,5 +2364,12 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/markets-failures.html#a-real-world-gold-cost-curve",
+    "href": "lectures/markets-failures.html#a-real-world-gold-cost-curve",
+    "title": "Markets and Their Failures",
+    "section": "A real world gold cost curve",
+    "text": "A real world gold cost curve"
   }
 ]
