@@ -147,7 +147,7 @@ Source: World Inequality Database. Shows share of national income going to top 1
 From ~1980 onward:
 
 - Top 10% share rose from ~35% to ~45%
-- Bottom 50% share fell from ~20% to ~13%
+- Bottom 50% share fell from ~20% to ~14%
 
 . . .
 
