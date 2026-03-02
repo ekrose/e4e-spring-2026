@@ -273,6 +273,11 @@ What determines how much gold gets mined?
 
 ![](images/gold-cost-curve.svg){fig-align="center" width="70%"}
 
+## A real world gold cost curve
+
+![](images/gold_cost_curve_real_2025q3.png){fig-align="center" width="80%"}
+
+
 ## Gold: When Demand Surges
 
 When demand for gold increases:
