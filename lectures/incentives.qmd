@@ -485,6 +485,16 @@ Many jurisdictions "banned the box"—employers can't ask about criminal history
 
 ---
 
+## The evidence: Agan & Starr (2018)
+
+![](images/agan_starr_did_results.png){fig-align="center" width="85%"}
+
+::: {.notes}
+Reference: Agan & Starr (2018). "Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment." Quarterly Journal of Economics 133(1): 191-235.
+:::
+
+---
+
 ## Ban the box (continued)
 
 Employers, unable to screen on records, used **race as a proxy**.
@@ -499,31 +509,6 @@ The policy backfired—for the very people it was meant to help.
 
 ---
 
-## The evidence: Agan & Starr (2018)
-
-Field experiment: ~15,000 fictitious job applications in NJ and NYC
-
-. . .
-
-**Before BTB** (at companies with "the box"):
-
-- White callback rate: 11.1%
-- Black callback rate: 10.9%
-- Gap: **~7%** more callbacks for white applicants
-
-. . .
-
-**After BTB** (box removed):
-
-- White callback rate: 14.8%
-- Black callback rate: 10.3%
-- Gap: **~43%** more callbacks for white applicants
-
-::: {.notes}
-Reference: Agan & Starr (2018). "Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment." Quarterly Journal of Economics 133(1): 191-235.
-:::
-
----
 
 ## A policy question
 
