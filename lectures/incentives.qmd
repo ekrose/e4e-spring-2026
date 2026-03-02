@@ -546,9 +546,9 @@ You want students to learn more. You have money for incentives.
 
 ## Evidence from Fryer (2011)
 
-Roland Fryer ran experiments in multiple cities:
+Fryer (2011) ran experiments in multiple cities:
 
-![](images/fryer-results.svg){fig-align="center" width="80%"}
+![](images/fryer_school_incentives_table.png){fig-align="center" width="80%"}
 
 > Pay for actions students can control, not outcomes they can't.
 
