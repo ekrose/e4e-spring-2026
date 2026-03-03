@@ -57,7 +57,7 @@ def fig1_dice_distribution():
     # Expected value line
     expected = n_rolls * p_one
     ax.axvline(expected, color=MAROON, linestyle='--', linewidth=2)
-    ax.text(expected + 0.5, ax.get_ylim()[1] * 0.9, f'Expected: {expected:.1f}',
+    ax.text(expected + 0.5, ax.get_ylim()[1] * 0.97, f'Expected: {expected:.1f}',
             color=MAROON, fontsize=10)
 
     ax.set_xlabel('Number of 1s out of 100 rolls')
