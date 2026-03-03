@@ -172,7 +172,7 @@ def fig3_confidence_interval():
                 ha='center', va='center', color='#555')
 
     # Add annotation for "our estimate"
-    fig.text(0.5, 0.02, 'Red line & dot = our poll estimate (48%)', ha='center',
+    fig.text(0.5, -0.04, 'Red line & dot = our poll estimate (48%)', ha='center',
              fontsize=11, color=MAROON, fontweight='bold')
 
     plt.tight_layout()
