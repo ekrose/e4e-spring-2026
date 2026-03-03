@@ -249,7 +249,7 @@ In 2004, Spain cut tax rates for foreign workers from 43% to 24%.
 :::
 
 ::: {.notes}
-Graph is from Kleven, Landais & Saez (2013).
+Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migration of Superstars: Evidence from the European Football Market." American Economic Review 103(5): 1892-1924.
 :::
 
 ---
