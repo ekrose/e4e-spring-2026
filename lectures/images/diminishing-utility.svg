@@ -22,6 +22,13 @@
   <!-- Chord connecting gamble outcomes -->
   <line x1="160" y1="140" x2="340" y2="63" stroke="#666" stroke-width="2" stroke-dasharray="8,4"/>
 
+  <!-- Horizontal dashed lines between gamble expected income and certainty equivalent income -->
+  <line x1="250" y1="100" x2="220" y2="100" stroke="#ff8243" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- Vertical dashed lines down to certainty equivalent income and to gamble utility -->
+  <line x1="220" y1="100" x2="220" y2="320" stroke="#ff8243" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="250" y1="100" x2="250" y2="320" stroke="#ff8243" stroke-width="1" stroke-dasharray="5,5"/>
+
   <!-- Low wealth point ($50) -->
   <circle cx="160" cy="140" r="6" fill="#800000"/>
   <line x1="160" y1="147" x2="160" y2="320" stroke="#800000" stroke-width="1" stroke-dasharray="5,5"/>
@@ -43,13 +50,6 @@
   <circle cx="220" cy="100" r="6" fill="#666"/>
   <circle cx="220" cy="320" r="6" fill="#ff8243"/>
   <text x="220" y="340" text-anchor="middle" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-style="italic" font-size="14" fill="#ff8243">z</text>
-  
-  <!-- Horizontal dashed lines between gamble expected income and certainty equivalent income -->
-  <line x1="250" y1="100" x2="220" y2="100" stroke="#ff8243" stroke-width="1" stroke-dasharray="5,5"/>
-
-  <!-- Vertical dashed lines down to certainty equivalent income and to gamble utility -->
-  <line x1="220" y1="100" x2="220" y2="320" stroke="#ff8243" stroke-width="1" stroke-dasharray="5,5"/>
-  <line x1="250" y1="100" x2="250" y2="320" stroke="#ff8243" stroke-width="1" stroke-dasharray="5,5"/>
 
   <!-- Labels -->
   <text x="320" y="50" font-family="Inter, sans-serif" font-size="13" fill="#800000">U(150)</text>
@@ -58,9 +58,14 @@
   <text x="260" y="120" font-family="Inter, sans-serif" font-size="13" fill="#666">E[U(gamble)]</text>
 
   <!-- Risk premium annotation box -->
-  <rect x="380" y="200" width="145" height="40" rx="6" fill="white" stroke="#ff8243" stroke-width="1.5"/>
+  <rect x="380" y="160" width="145" height="80" rx="6" fill="white" stroke="#800000" stroke-width="1.5"/>
+  <text x="452" y="178" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">Certainty equivalent</text>
+  <text x="452" y="194" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">= </text>
+  <text x="462" y="194" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#ff8243"><tspan font-style="italic">z</tspan></text>
+
   <text x="452" y="218" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">Risk premium</text>
-  <text x="452" y="234" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">= $100 − <tspan font-style="italic">z</tspan></text>
+  <text x="452" y="234" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">= $100 − </text>
+  <text x="486" y="234" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#ff8243"> <tspan font-style="italic">z</tspan></text>
 
   <!-- Title -->
   <text x="300" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="bold" fill="#333">Diminishing Marginal Utility Creates Risk Aversion</text>
