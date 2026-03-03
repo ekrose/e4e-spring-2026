@@ -2265,7 +2265,7 @@
     "href": "lectures/uncertainty.html#what-happens-with-many-tests",
     "title": "Uncertainty",
     "section": "What happens with many tests?",
-    "text": "What happens with many tests?\nSuppose I give you 1,000 dice.\n\nYou don’t know this, but all of them are actually fair.\n\n\nYou test each die by rolling it 10 times."
+    "text": "What happens with many tests?\nSuppose I give you 1,000 dice.\n\nYou don’t know this, but all of them are actually fair.\n\n\nYou test each die by rolling it 10 times.\n\n\nYou decide that any die showing 5 or more ones is “suspicious”."
   },
   {
     "objectID": "lectures/uncertainty.html#the-result",
