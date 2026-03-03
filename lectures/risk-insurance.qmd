@@ -226,10 +226,7 @@ Your first $100 feels more valuable than your hundredth $100.
 
 . . .
 
-This means:
-
-- The **pain** of losing $50 is greater than
-- The **joy** of gaining $50
+This means the **pain** of losing $50 is greater than the **joy** of gaining $50.
 
 . . .
 
