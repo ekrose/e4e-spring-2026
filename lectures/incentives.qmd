@@ -240,10 +240,16 @@ Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migrati
 
 In 2004, Spain cut tax rates for foreign workers from 43% to 24%.
 
-![](images/beckham-law.svg){fig-align="center" width="85%"}
+![](images/klevin_beckham_law_graph.png){fig-align="center" width="85%"}
+
+::: {style="text-align: center; font-size: 0.6em; margin-top: -10px;"}
+<span style="color: black;">— Spain</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: black;"> – – Other countries</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: red;">— ΔTop tax rate</span>
+:::
 
 ::: {.notes}
-Graph is stylized/illustrative based on patterns from Kleven, Landais & Saez (2013), not exact reproduction.
+Graph is from Kleven, Landais & Saez (2013).
 :::
 
 ---
