@@ -221,11 +221,11 @@ def fig4_multiple_testing():
             linewidth=2, markersize=6, label='Expected (theory)')
 
     # Annotation arrow to suspicious dice
-    arrow_target_x = 5.5
-    arrow_target_y = counts[5] if len(counts) > 5 else 10
+    arrow_target_x = 5
+    arrow_target_y = counts[5] if len(counts) > 5 else 5
     ax.annotate(f'{n_suspicious} dice "look suspicious"',
                 xy=(arrow_target_x, arrow_target_y),
-                xytext=(7, max(counts) * 0.85),
+                xytext=(5, max(counts) * 0.3),
                 fontsize=11, color=ORANGE, fontweight='bold',
                 arrowprops=dict(arrowstyle='->', color=ORANGE, lw=2),
                 ha='left')
