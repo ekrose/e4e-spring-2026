@@ -434,6 +434,10 @@ You don't know this, but **all of them are actually fair**.
 
 You test each die by rolling it 10 times.
 
+. . .
+
+You decide that any die showing 5 or more ones is "suspicious".
+
 ---
 
 ## The result
