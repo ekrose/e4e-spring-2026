@@ -24,23 +24,23 @@
   <path d="M50,120 Q180,130 250,200 Q290,250 310,380"
         fill="none" stroke="#800000" stroke-width="2.5"/>
 
+  <!-- Price line tangent - Left -->
+  <line x1="120" y1="100" x2="300" y2="230" stroke="#ff8243" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="290" y="250" font-family="Inter, sans-serif" font-size="11" fill="#ff8243">Price ratio</text>
+
   <!-- Optimal point - Left (tangent to price line) -->
-  <circle cx="200" cy="175" r="8" fill="#800000"/>
+  <circle cx="225" cy="177" r="8" fill="#800000"/>
   <text x="210" y="160" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#800000">Optimal</text>
 
-  <!-- Price line tangent - Left -->
-  <line x1="100" y1="120" x2="280" y2="250" stroke="#ff8243" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="290" y="265" font-family="Inter, sans-serif" font-size="11" fill="#ff8243">Price ratio</text>
-
   <!-- Workers allocation annotation -->
-  <text x="50" y="395" font-family="Inter, sans-serif" font-size="10" fill="#666">Content creators: mostly TikToks</text>
-  <text x="50" y="408" font-family="Inter, sans-serif" font-size="10" fill="#666">Construction workers: mostly houses</text>
+  <text x="55" y="360" font-family="Inter, sans-serif" font-size="10" fill="#666">Content creators: mostly TikToks</text>
+  <text x="55" y="372" font-family="Inter, sans-serif" font-size="10" fill="#666">Construction workers: mostly houses</text>
 
 
   <!-- ARROW between panels -->
   <path d="M340,220 L390,220" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <text x="365" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">Tax on</text>
-  <text x="365" y="214" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">TikToks</text>
+  <text x="365" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">Tax on</text>
+  <text x="365" y="204" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">TikToks</text>
 
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
@@ -67,24 +67,20 @@
         fill="none" stroke="#800000" stroke-width="2.5"/>
 
   <!-- Old optimal point (faded) -->
-  <circle cx="580" cy="175" r="6" fill="none" stroke="#ccc" stroke-width="2" stroke-dasharray="3,2"/>
+  <circle cx="602" cy="177" r="8" fill="none" stroke="#ccc" stroke-width="2" stroke-dasharray="3,2"/>
 
   <!-- New distorted point - more houses, fewer TikToks -->
-  <circle cx="530" cy="150" r="8" fill="#d35400"/>
+  <circle cx="530" cy="140" r="8" fill="#d35400"/>
   <text x="540" y="135" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#d35400">Distorted</text>
 
   <!-- Distorted price line (steeper - TikToks appear more expensive) -->
-  <line x1="450" y1="115" x2="590" y2="200" stroke="#d35400" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="600" y="210" font-family="Inter, sans-serif" font-size="11" fill="#d35400">Tax-distorted</text>
-  <text x="600" y="223" font-family="Inter, sans-serif" font-size="11" fill="#d35400">prices</text>
-
-  <!-- Deadweight loss shading -->
-  <path d="M530,150 Q555,162 580,175"
-        fill="none" stroke="#e74c3c" stroke-width="8" opacity="0.4"/>
+  <line x1="450" y1="113" x2="610" y2="163" stroke="#d35400" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="450" y="150" font-family="Inter, sans-serif" font-size="11" fill="#d35400">Tax-distorted</text>
+  <text x="450" y="162" font-family="Inter, sans-serif" font-size="11" fill="#d35400">prices</text>
 
   <!-- Workers reallocation annotation -->
-  <text x="430" y="395" font-family="Inter, sans-serif" font-size="10" fill="#666">Some creators switch to construction</text>
-  <text x="430" y="408" font-family="Inter, sans-serif" font-size="10" fill="#666">(but they're bad at it!)</text>
+  <text x="433" y="360" font-family="Inter, sans-serif" font-size="10" fill="#666">Some creators switch to construction</text>
+  <text x="433" y="372" font-family="Inter, sans-serif" font-size="10" fill="#666">(but they're bad at it!)</text>
 
 
   <!-- Bottom annotation box -->
