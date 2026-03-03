@@ -6,6 +6,7 @@ Run this script to regenerate all SVG figures from real data.
 Requirements: pip install numpy matplotlib scipy
 """
 
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
@@ -25,6 +26,9 @@ DARK_MAROON = '#4a0000'
 np.random.seed(42)  # For reproducibility
 
 N_SIMS = 10000  # Number of simulated experiments
+
+OUTPUT_DIR = 'lectures/images'
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def fig1_dice_distribution():
@@ -62,8 +66,8 @@ def fig1_dice_distribution():
     ax.set_xlim(0, 35)
 
     plt.tight_layout()
-    plt.savefig('dice-distribution.svg', format='svg', bbox_inches='tight')
-    plt.savefig('dice-distribution.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/dice-distribution.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/dice-distribution.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: dice-distribution.svg")
 
@@ -106,8 +110,8 @@ def fig2_sample_size_comparison():
     ax.set_ylim(bottom=0)
 
     plt.tight_layout()
-    plt.savefig('sample-size-comparison.svg', format='svg', bbox_inches='tight')
-    plt.savefig('sample-size-comparison.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/sample-size-comparison.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/sample-size-comparison.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: sample-size-comparison.svg")
 
@@ -177,8 +181,8 @@ def fig3_confidence_interval():
 
     plt.tight_layout()
     plt.subplots_adjust(bottom=0.25)
-    plt.savefig('confidence-interval.svg', format='svg', bbox_inches='tight')
-    plt.savefig('confidence-interval.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/confidence-interval.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/confidence-interval.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: confidence-interval.svg")
 
@@ -239,8 +243,8 @@ def fig4_multiple_testing():
     ax.set_xlim(-0.5, 10.5)
 
     plt.tight_layout()
-    plt.savefig('multiple-testing.svg', format='svg', bbox_inches='tight')
-    plt.savefig('multiple-testing.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/multiple-testing.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/multiple-testing.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: multiple-testing.svg")
 
