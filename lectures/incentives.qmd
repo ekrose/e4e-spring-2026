@@ -217,18 +217,17 @@ Higher rates would still raise revenue—though with efficiency costs.
 
 ## But some people are very responsive
 
-**European soccer players** provide a striking example.
+**European soccer players** provide a striking example:
+
+- Players are highly mobile
+- Tax incentives can influence their decisions.
 
 . . .
 
 Kleven, Landais & Saez (2013) studied player mobility across 14 countries:
 
-- Foreign players: elasticity ≈ **1.0** (highly responsive)
-- Domestic players: elasticity ≈ 0.15 (less mobile)
-
-. . .
-
-Lower-tax countries attract the best talent.
+- Foreign players move to teams in countries with lower taxes
+- elasticity ≈ **1.0** (highly responsive)
 
 ::: {.notes}
 Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migration of Superstars: Evidence from the European Football Market." American Economic Review 103(5): 1892-1924.
@@ -236,17 +235,13 @@ Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migrati
 
 ---
 
-## Spain's "Beckham Law"
+## The Bosman Ruling
 
-In 2004, Spain cut tax rates for foreign workers from 43% to 24%.
+Bosman Ruling (1995): relaxed restrictions on player mobility between European countries
 
-![](images/klevin_beckham_law_graph.png){fig-align="center" width="85%"}
+. . .
 
-::: {style="text-align: center; font-size: 0.6em; margin-top: -10px;"}
-<span style="color: black;">— Spain</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span style="color: black;"> – – Other countries</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span style="color: red;">— ΔTop tax rate</span>
-:::
+![](images/kleven_bosman_graphs.png){fig-align="center" width="85%"}
 
 ::: {.notes}
 Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migration of Superstars: Evidence from the European Football Market." American Economic Review 103(5): 1892-1924.
@@ -260,8 +255,8 @@ When people **can** move, tax incentives matter a lot.
 
 . . .
 
-- Foreign players: highly mobile → big response
-- Domestic players: less mobile → small response
+- Before Bosman: hard to move → no response
+- After Bosman: easier to move → large response
 
 . . .
 
