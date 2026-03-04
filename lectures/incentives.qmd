@@ -549,13 +549,36 @@ You want students to learn more. You have money for incentives.
 
 Fryer (2011) ran experiments in multiple cities:
 
-![](images/fryer_school_incentives_table.png){fig-align="center" width="80%"}
+- Dallas: paid for reading books
+- NYC & Chicago: paid for test scores and grades
 
-> Pay for actions students can control, not outcomes they can't.
+. . .
+
+Did these incentives work?
+
+## Overall, didn't find much effect...
+
+![](images/fryer_school_incentives_table.png){fig-align="center" width="80%"}
 
 ::: {.notes}
 Reference: Fryer (2011). "Financial Incentives and Student Achievement." Quarterly Journal of Economics 126(4): 1755-1798.
 :::
+
+- - -
+
+### ... but reading incentives worked for some people
+
+![](images/fryer_subsample_results.svg){fig-align="center" width="80%"}
+
+
+## The lesson
+People respond to the incentive, not your goal.
+
+. . .
+
+- Incentives must be carefully designed to achieve policy goals
+- Sometimes you can create unintended consequences
+
 
 # Cognitive biases {background-color="#800000"}
 
