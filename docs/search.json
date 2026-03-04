@@ -830,21 +830,21 @@
     "href": "lectures/incentives.html#but-some-people-are-very-responsive",
     "title": "Incentives",
     "section": "But some people are very responsive",
-    "text": "But some people are very responsive\nEuropean soccer players provide a striking example.\n\nKleven, Landais & Saez (2013) studied player mobility across 14 countries:\n\nForeign players: elasticity ≈ 1.0 (highly responsive)\nDomestic players: elasticity ≈ 0.15 (less mobile)\n\n\n\nLower-tax countries attract the best talent.\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
+    "text": "But some people are very responsive\nEuropean soccer players provide a striking example:\n\nPlayers are highly mobile\nTax incentives can influence their decisions.\n\n\nKleven, Landais & Saez (2013) studied player mobility across 14 countries:\n\nForeign players move to teams in countries with lower taxes\nelasticity ≈ 1.0 (highly responsive)\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
   },
   {
     "objectID": "lectures/incentives.html#spains-beckham-law",
     "href": "lectures/incentives.html#spains-beckham-law",
     "title": "Incentives",
     "section": "Spain’s “Beckham Law”",
-    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%.\n\n\n— Spain         – – Other countries        — ΔTop tax rate\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
+    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%.\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
   },
   {
     "objectID": "lectures/incentives.html#the-lesson",
     "href": "lectures/incentives.html#the-lesson",
     "title": "Incentives",
     "section": "The lesson",
-    "text": "The lesson\nWhen people can move, tax incentives matter a lot.\n\n\nForeign players: highly mobile → big response\nDomestic players: less mobile → small response\n\n\n\nThe size of behavioral responses depends on how easy it is to adjust."
+    "text": "The lesson\nWhen people can move, tax incentives matter a lot.\n\n\nBefore Bosman: hard to move → no response\nAfter Bosman: easier to move → large response\n\n\n\nThe size of behavioral responses depends on how easy it is to adjust."
   },
   {
     "objectID": "lectures/incentives.html#an-important-clarification",
@@ -2371,5 +2371,12 @@
     "title": "Markets and Their Failures",
     "section": "A real world gold cost curve",
     "text": "A real world gold cost curve"
+  },
+  {
+    "objectID": "lectures/incentives.html#the-bosman-ruling",
+    "href": "lectures/incentives.html#the-bosman-ruling",
+    "title": "Incentives",
+    "section": "The Bosman Ruling",
+    "text": "The Bosman Ruling\nBosman Ruling (1995): relaxed restrictions on player mobility between European countries\n\n\n\n\n\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
   }
 ]
