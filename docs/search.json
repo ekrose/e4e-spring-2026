@@ -441,6 +441,13 @@
     "text": "Case Study: Gold\nWhat determines how much gold gets mined?"
   },
   {
+    "objectID": "lectures/markets-failures.html#a-real-world-gold-cost-curve",
+    "href": "lectures/markets-failures.html#a-real-world-gold-cost-curve",
+    "title": "Markets and Their Failures",
+    "section": "A real world gold cost curve",
+    "text": "A real world gold cost curve"
+  },
+  {
     "objectID": "lectures/markets-failures.html#gold-when-demand-surges",
     "href": "lectures/markets-failures.html#gold-when-demand-surges",
     "title": "Markets and Their Failures",
@@ -833,11 +840,11 @@
     "text": "But some people are very responsive\nEuropean soccer players provide a striking example:\n\nPlayers are highly mobile\nTax incentives can influence their decisions.\n\n\nKleven, Landais & Saez (2013) studied player mobility across 14 countries:\n\nForeign players move to teams in countries with lower taxes\nelasticity ≈ 1.0 (highly responsive)\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
   },
   {
-    "objectID": "lectures/incentives.html#spains-beckham-law",
-    "href": "lectures/incentives.html#spains-beckham-law",
+    "objectID": "lectures/incentives.html#the-bosman-ruling",
+    "href": "lectures/incentives.html#the-bosman-ruling",
     "title": "Incentives",
-    "section": "Spain’s “Beckham Law”",
-    "text": "Spain’s “Beckham Law”\nIn 2004, Spain cut tax rates for foreign workers from 43% to 24%.\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
+    "section": "The Bosman Ruling",
+    "text": "The Bosman Ruling\nBosman Ruling (1995): relaxed restrictions on player mobility between European countries\n\n\n\n\n\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
   },
   {
     "objectID": "lectures/incentives.html#the-lesson",
@@ -959,18 +966,18 @@
     "text": "Ban the box\nMany jurisdictions “banned the box”—employers can’t ask about criminal history on initial applications.\n\nIntended effect: Help people with records get jobs.\n\n\nBut think like an economist: What might employers do instead?"
   },
   {
-    "objectID": "lectures/incentives.html#ban-the-box-continued",
-    "href": "lectures/incentives.html#ban-the-box-continued",
-    "title": "Incentives",
-    "section": "Ban the box (continued)",
-    "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help."
-  },
-  {
     "objectID": "lectures/incentives.html#the-evidence-agan-starr-2018",
     "href": "lectures/incentives.html#the-evidence-agan-starr-2018",
     "title": "Incentives",
     "section": "The evidence: Agan & Starr (2018)",
     "text": "The evidence: Agan & Starr (2018)\n\n\nReference: Agan & Starr (2018). “Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment.” Quarterly Journal of Economics 133(1): 191-235."
+  },
+  {
+    "objectID": "lectures/incentives.html#ban-the-box-continued",
+    "href": "lectures/incentives.html#ban-the-box-continued",
+    "title": "Incentives",
+    "section": "Ban the box (continued)",
+    "text": "Ban the box (continued)\nEmployers, unable to screen on records, used race as a proxy.\n\nDiscrimination against Black applicants increased.\n\n\nThe policy backfired—for the very people it was meant to help."
   },
   {
     "objectID": "lectures/incentives.html#a-policy-question",
@@ -991,7 +998,21 @@
     "href": "lectures/incentives.html#evidence-from-fryer-2011",
     "title": "Incentives",
     "section": "Evidence from Fryer (2011)",
-    "text": "Evidence from Fryer (2011)\nFryer (2011) ran experiments in multiple cities:\n\n\nPay for actions students can control, not outcomes they can’t.\n\n\nReference: Fryer (2011). “Financial Incentives and Student Achievement.” Quarterly Journal of Economics 126(4): 1755-1798."
+    "text": "Evidence from Fryer (2011)\nFryer (2011) ran experiments in multiple cities:\n\nDallas: paid for reading books\nNYC & Chicago: paid for test scores and grades\n\n\nDid these incentives work?"
+  },
+  {
+    "objectID": "lectures/incentives.html#overall-didnt-find-much-effect",
+    "href": "lectures/incentives.html#overall-didnt-find-much-effect",
+    "title": "Incentives",
+    "section": "Overall, didn’t find much effect…",
+    "text": "Overall, didn’t find much effect…\n\n\nReference: Fryer (2011). “Financial Incentives and Student Achievement.” Quarterly Journal of Economics 126(4): 1755-1798."
+  },
+  {
+    "objectID": "lectures/incentives.html#the-lesson-1",
+    "href": "lectures/incentives.html#the-lesson-1",
+    "title": "Incentives",
+    "section": "The lesson",
+    "text": "The lesson\nPeople respond to the incentive, not your goal.\n\n\nIncentives must be carefully designed to achieve policy goals\nSometimes you can create unintended consequences"
   },
   {
     "objectID": "lectures/incentives.html#people-dont-always-respond-rationally",
@@ -2364,19 +2385,5 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
-  },
-  {
-    "objectID": "lectures/markets-failures.html#a-real-world-gold-cost-curve",
-    "href": "lectures/markets-failures.html#a-real-world-gold-cost-curve",
-    "title": "Markets and Their Failures",
-    "section": "A real world gold cost curve",
-    "text": "A real world gold cost curve"
-  },
-  {
-    "objectID": "lectures/incentives.html#the-bosman-ruling",
-    "href": "lectures/incentives.html#the-bosman-ruling",
-    "title": "Incentives",
-    "section": "The Bosman Ruling",
-    "text": "The Bosman Ruling\nBosman Ruling (1995): relaxed restrictions on player mobility between European countries\n\n\n\n\n\n\n\nReference: Kleven, Landais, and Saez (2013). “Taxation and International Migration of Superstars: Evidence from the European Football Market.” American Economic Review 103(5): 1892-1924."
   }
 ]
