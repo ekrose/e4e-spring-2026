@@ -602,20 +602,23 @@ When given choices, people tend to stick with the **default option**.
 
 . . .
 
-**Example:** 401(k) enrollment
+**Example**: Handel (2013) analyzed health insurance plan enrollment
 
-- Opt-in default: ~50% participation
-- Opt-out default: ~90% participation
-
-. . .
-
-Same options, very different outcomes.
+- Compare new employees (no default option) to current employees (default option available).
+- *If no inertia*, then new and current employees should respond similarly to price changes.
 
 ::: {.notes}
-Reference: Madrian & Shea (2001). "The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior." Quarterly Journal of Economics.
+Reference: Handel (2013). "Adverse Selection and Inertia in Health Insurance Markets: When Nudging Hurts." American Economic Review.
 :::
 
 ---
+
+## Evidence for inertia
+
+Prices don't change between t=-1, and t=0, but do change in t=1.
+
+![](images/handle_new_plan_choices_inertia.png){fig-align="center" width="90%"}
+
 
 ## Is this really a "bias"?
 
