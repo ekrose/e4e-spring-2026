@@ -1026,7 +1026,7 @@
     "href": "lectures/incentives.html#inertia-and-defaults",
     "title": "Incentives",
     "section": "Inertia and defaults",
-    "text": "Inertia and defaults\nWhen given choices, people tend to stick with the default option.\n\nExample: 401(k) enrollment\n\nOpt-in default: ~50% participation\nOpt-out default: ~90% participation\n\n\n\nSame options, very different outcomes.\n\nReference: Madrian & Shea (2001). “The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior.” Quarterly Journal of Economics."
+    "text": "Inertia and defaults\nWhen given choices, people tend to stick with the default option.\n\nExample: Handel (2013) analyzed health insurance plan enrollment\n\nCompare new employees (no default option) to current employees (default option available).\nIf no inertia, then new and current employees should respond similarly to price changes.\n\n\nReference: Handel (2013). “Adverse Selection and Inertia in Health Insurance Markets: When Nudging Hurts.” American Economic Review."
   },
   {
     "objectID": "lectures/incentives.html#is-this-really-a-bias",
@@ -2385,5 +2385,12 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/incentives.html#evidence-for-inertia",
+    "href": "lectures/incentives.html#evidence-for-inertia",
+    "title": "Incentives",
+    "section": "Evidence for inertia",
+    "text": "Evidence for inertia\nPrices don’t change between t=-1, and t=0, but do change in t=1."
   }
 ]
