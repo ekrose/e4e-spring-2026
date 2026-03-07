@@ -800,7 +800,7 @@ Money is **fungible**—a dollar is a dollar.
 > People treat money differently depending on where it "comes from."
 
 ::: {.notes}
-Reference: Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Decision Making.
+For a review, see Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Decision Making.
 :::
 
 ---
