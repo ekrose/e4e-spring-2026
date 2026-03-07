@@ -1029,6 +1029,13 @@
     "text": "Inertia and defaults\nWhen given choices, people tend to stick with the default option.\n\nExample: Handel (2013) analyzed health insurance plan enrollment\n\nCompare new employees (no default option) to current employees (default option available).\nIf no inertia, then new and current employees should respond similarly to price changes.\n\n\nReference: Handel (2013). “Adverse Selection and Inertia in Health Insurance Markets: When Nudging Hurts.” American Economic Review."
   },
   {
+    "objectID": "lectures/incentives.html#evidence-for-inertia",
+    "href": "lectures/incentives.html#evidence-for-inertia",
+    "title": "Incentives",
+    "section": "Evidence for inertia",
+    "text": "Evidence for inertia\nPrices don’t change between t=-1, and t=0, but do change in t=1."
+  },
+  {
     "objectID": "lectures/incentives.html#is-this-really-a-bias",
     "href": "lectures/incentives.html#is-this-really-a-bias",
     "title": "Incentives",
@@ -1043,11 +1050,11 @@
     "text": "Loss aversion\nPeople feel losses more strongly than equivalent gains.\n\n\nLosing $100 feels worse than gaining $100 feels good\nRatio is roughly 2:1\n\n\n\nImplications:\n\nFraming matters (gains vs. losses)\nPeople may reject gambles that are favorable on average\nStatus quo bias"
   },
   {
-    "objectID": "lectures/incentives.html#the-asian-disease-problem",
-    "href": "lectures/incentives.html#the-asian-disease-problem",
+    "objectID": "lectures/incentives.html#framing-the-asian-disease-problem",
+    "href": "lectures/incentives.html#framing-the-asian-disease-problem",
     "title": "Incentives",
-    "section": "The Asian Disease Problem",
-    "text": "The Asian Disease Problem\nA disease outbreak will kill 600 people. You must choose a response:\n\nThe name comes from Tversky & Kahneman’s original 1981 paper, which described “an unusual Asian disease” as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.\n\n\nFrame A (lives saved):\n\nProgram A: 200 people will be saved\nProgram B: 1/3 chance all 600 saved, 2/3 chance no one saved\n\n\n\nWhat do most people choose?"
+    "section": "Framing: The Asian Disease Problem",
+    "text": "Framing: The Asian Disease Problem\nA disease outbreak will kill 600 people. You must choose a response:\n\nThe name comes from Tversky & Kahneman’s original 1981 paper, which described “an unusual Asian disease” as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications. Reference: Tversky & Kahneman (1981). The Framing of Decisions and Psychology of Choice. Science, Vol. 211.\n\n\nFrame A (lives saved):\n\nProgram A: 200 people will be saved\nProgram B: 1/3 chance all 600 saved, 2/3 chance no one saved\n\n\n\nWhat do most people choose?"
   },
   {
     "objectID": "lectures/incentives.html#the-asian-disease-problem-continued",
@@ -1082,14 +1089,14 @@
     "href": "lectures/incentives.html#present-bias-in-action",
     "title": "Incentives",
     "section": "Present bias in action",
-    "text": "Present bias in action\nWhy present bias matters for policy:\n\n\nPeople under-save for retirement\nPeople procrastinate on exercise, healthy eating\nStudents cram instead of studying gradually\n\n\n\nPolicy responses:\n\nCommitment devices (automatic savings plans)\nDeadlines and penalties\n“Cooling off” periods for major purchases\n\n\nReference: Laibson (1997). “Golden Eggs and Hyperbolic Discounting.” Quarterly Journal of Economics."
+    "text": "Present bias in action\nWhy present bias matters for policy:\n\n\nPeople under-save for retirement\nPeople procrastinate on exercise, healthy eating\nStudents cram instead of studying gradually\n\n\n\nPolicy responses:\n\nCommitment devices (automatic savings plans)\nDeadlines and penalties\n“Cooling off” periods for major purchases\n\n\nFor an analysis of a ‘cooling off period’ commitment device, see Laibson (1997). “Golden Eggs and Hyperbolic Discounting.” Quarterly Journal of Economics."
   },
   {
-    "objectID": "lectures/incentives.html#mental-accounting",
-    "href": "lectures/incentives.html#mental-accounting",
+    "objectID": "lectures/incentives.html#mental-accounting-a-stylistic-example",
+    "href": "lectures/incentives.html#mental-accounting-a-stylistic-example",
     "title": "Incentives",
-    "section": "Mental accounting",
-    "text": "Mental accounting\nYou receive $1,000. How much would you spend on something fun?\n\nScenario A: It’s a tax refund\nScenario B: It’s from your regular paycheck\n\n\nMost people spend more in Scenario A—but why?\n\n\nMoney is fungible—a dollar is a dollar.\n\n\n\nPeople treat money differently depending on where it “comes from.”\n\n\nReference: Thaler (1999). “Mental Accounting Matters.” Journal of Behavioral Decision Making."
+    "section": "Mental accounting: a stylistic example",
+    "text": "Mental accounting: a stylistic example\nYou receive $1,000. How much would you spend on something fun?\n\nScenario A: It’s a tax refund\nScenario B: It’s from your regular paycheck\n\n\nMost people spend more in Scenario A—but why?\n\n\nMoney is fungible—a dollar is a dollar.\n\n\n\nPeople treat money differently depending on where it “comes from.”\n\n\nFor a review, see Thaler (1999). “Mental Accounting Matters.” Journal of Behavioral Decision Making."
   },
   {
     "objectID": "lectures/incentives.html#the-sunk-cost-fallacy",
@@ -2385,12 +2392,5 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
-  },
-  {
-    "objectID": "lectures/incentives.html#evidence-for-inertia",
-    "href": "lectures/incentives.html#evidence-for-inertia",
-    "title": "Incentives",
-    "section": "Evidence for inertia",
-    "text": "Evidence for inertia\nPrices don’t change between t=-1, and t=0, but do change in t=1."
   }
 ]
