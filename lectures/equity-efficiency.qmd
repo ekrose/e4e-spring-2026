@@ -190,7 +190,7 @@ The bottom 50% owns about **1%**.
 ![](images/global-inequality.svg){fig-align="center" width="85%"}
 
 ::: {.notes}
-Data from World Inequality Report. Shows global income distribution by region.
+Data from World Inequality Report (2026), Chapter 2, Fig. 2.2 "Global economic weight is shifting back towards Asia", page 55. Shows global income distribution by region over time.
 :::
 
 ---
