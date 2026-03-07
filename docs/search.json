@@ -1271,7 +1271,7 @@
     "href": "lectures/equity-efficiency.html#a-global-perspective",
     "title": "Equity vs. Efficiency",
     "section": "A global perspective",
-    "text": "A global perspective\n\n\nData from World Inequality Report. Shows global income distribution by region."
+    "text": "A global perspective\n\n\nData from World Inequality Report (2026), Chapter 2, Fig. 2.2 “Global economic weight is shifting back towards Asia”, page 55. Shows global income distribution by region over time."
   },
   {
     "objectID": "lectures/equity-efficiency.html#the-elephant-curve",
@@ -1383,7 +1383,7 @@
     "href": "lectures/equity-efficiency.html#the-second-welfare-theorem",
     "title": "Equity vs. Efficiency",
     "section": "The Second Welfare Theorem",
-    "text": "The Second Welfare Theorem\n\nAny efficient allocation can be achieved by:\n\nRedistributing initial endowments\nThen letting the market work\n\n\n\nIf we could just reshuffle who starts with what, markets would do the rest."
+    "text": "The Second Welfare Theorem\n\nAny efficient allocation can be achieved by:\n\nRedistributing endowments with taxes and transfers\nThen letting the market work\n\n\n\nIf we could just reshuffle who starts with what, markets would do the rest."
   },
   {
     "objectID": "lectures/equity-efficiency.html#back-to-our-classroom-market",
@@ -1418,7 +1418,7 @@
     "href": "lectures/equity-efficiency.html#wait-really",
     "title": "Equity vs. Efficiency",
     "section": "Wait, really?",
-    "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\n\n“The case for taxing height is about as good as the case for taxing income.”\n\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
+    "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
   },
   {
     "objectID": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
