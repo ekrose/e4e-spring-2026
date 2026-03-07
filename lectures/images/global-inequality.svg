@@ -63,7 +63,8 @@
   <!-- 5. MENA 8.06% → h=69, y=311 -->
   <rect x="392" y="311" width="54" height="69" fill="#800000" rx="3"/>
   <text x="419" y="301" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#800000">8%</text>
-  <text x="419" y="397" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">MENA</text>
+  <text x="419" y="397" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">Middle East &amp;</text>
+  <text x="419" y="409" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">North Africa</text>
 
   <!-- 6. Latin America 7.69% → h=66, y=314 -->
   <rect x="462" y="314" width="54" height="66" fill="#800000" rx="3"/>
