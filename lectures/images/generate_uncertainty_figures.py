@@ -360,7 +360,7 @@ def fig5_ci_construction():
     ax_ci.set_yticks([])
     ax_ci.set_xlabel('Candidate true vote share', fontsize=11)
 
-    fig.suptitle('Constructing a 95% Confidence Interval via Test Inversion\n'
+    fig.suptitle('Constructing a 95% Confidence Interval\n'
                  f'Poll of {n_voters} voters, observed estimate = {our_estimate:.0%}',
                  fontweight='bold', fontsize=14, y=1.02)
 
