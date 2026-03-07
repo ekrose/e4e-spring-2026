@@ -523,10 +523,6 @@ Mankiw & Weinzierl (2010) showed:
 
 . . .
 
-> "The case for taxing height is about as good as the case for taxing income."
-
-. . .
-
 Nobody actually proposes this. But it illustrates the problem.
 
 ::: {.notes}
