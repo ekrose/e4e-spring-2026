@@ -352,9 +352,9 @@ If the true share were 70%, getting 48% would be *extremely* unlikely.
 
 A **95% confidence interval** is the set of true values that could have generated our estimate at least 95% of the time.
 
-. . .
+---
 
-![](images/confidence-interval.svg){fig-align="center" width="90%"}
+![](images/ci-construction.svg){fig-align="center" width="90%"}
 
 ---
 
