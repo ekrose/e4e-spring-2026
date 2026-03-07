@@ -185,6 +185,10 @@ If we get 20 ones out of 100, is that suspicious?
 
 If we get 30 ones? 40 ones?
 
+. . .
+
+**How can we reduce our uncertainty?**
+
 ---
 
 ## More data helps
