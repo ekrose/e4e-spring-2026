@@ -333,9 +333,9 @@ The PPF shows trade-offs: more houses means fewer TikToks.
 
 The curve bows outward because of **increasing opportunity cost**.
 
-. . .
+- If construction workers want to build another house, they have to produce fewer TikToks.
+- The first TikToks come from the most social-media-savvy construction workers. More TikToks require pulling less suited workers.
 
-> The first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers.
 
 ## Comparing Opportunity Costs
 
