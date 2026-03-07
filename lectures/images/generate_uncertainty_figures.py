@@ -126,7 +126,7 @@ def fig3_confidence_interval():
 
     fig, axes = plt.subplots(1, 3, figsize=(13, 5))
 
-    test_values = [0.40, 0.48, 0.58]
+    test_values = [0.35, 0.48, 0.61]
     results = ['REJECT', 'ACCEPT', 'REJECT']
     result_colors = ['#cc0000', '#008800', '#cc0000']
     fill_colors = ['#ffcccc', '#ccffcc', '#ffcccc']
