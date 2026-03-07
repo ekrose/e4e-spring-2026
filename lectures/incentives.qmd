@@ -777,7 +777,7 @@ For an analysis of a 'cooling off period' commitment device, see Laibson (1997).
 
 ---
 
-## Mental accounting
+## Mental accounting: a stylistic example
 
 You receive $1,000. How much would you spend on something fun?
 
