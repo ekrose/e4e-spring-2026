@@ -2174,7 +2174,7 @@
     "href": "lectures/uncertainty.html#the-key-insight",
     "title": "Uncertainty",
     "section": "The key insight",
-    "text": "The key insight\n\nEven if the die is fair, there’s randomness affecting each roll.\n\n\nWe can’t expect exactly 1/6 ones. But we can quantify the range of outcomes we might see.\n\n\nIf we get 20 ones out of 100, is that suspicious?\n\n\nIf we get 30 ones? 40 ones?"
+    "text": "The key insight\n\nEven if the die is fair, there’s randomness affecting each roll.\n\n\nWe can’t expect exactly 1/6 ones. But we can quantify the range of outcomes we might see.\n\n\nIf we get 20 ones out of 100, is that suspicious?\n\n\nIf we get 30 ones? 40 ones?\n\n\nHow can we reduce our uncertainty?"
   },
   {
     "objectID": "lectures/uncertainty.html#more-data-helps",
@@ -2392,5 +2392,12 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/uncertainty.html#constructing-the-confidence-interval",
+    "href": "lectures/uncertainty.html#constructing-the-confidence-interval",
+    "title": "Uncertainty",
+    "section": "Constructing the confidence interval",
+    "text": "Constructing the confidence interval"
   }
 ]
