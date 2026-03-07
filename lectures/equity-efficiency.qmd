@@ -441,7 +441,7 @@ Can we get to the fair outcome without losing efficiency?
 
 > Any efficient allocation can be achieved by:
 >
-> 1. Redistributing with taxes and transfers
+> 1. Redistributing endowments with taxes and transfers
 > 2. Then letting the market work
 
 . . .
