@@ -424,7 +424,7 @@
     "href": "lectures/markets-failures.html#examples-of-price-discovery",
     "title": "Markets and Their Failures",
     "section": "Examples of Price Discovery",
-    "text": "Examples of Price Discovery\nRetail inventory management\n\nPrices drop when shelves are full\nPrices rise when stock runs low\n\n\nAuctions (eBay, art markets, Treasury bonds)\n\nPrice emerges from competitive bidding\n\n\n\nEntry and exit\n\nHigh profits → new firms enter → prices fall\nLosses → firms exit → prices rise"
+    "text": "Examples of Price Discovery\nRetail inventory management\n\nPrices rise when stock runs low\nPrices fall when stock is high (‘reduced to clear’)\n\n\nAuctions (eBay, art markets, Treasury bonds)\n\nPrice emerges from competitive bidding\n\n\n\nEntry and exit\n\nHigh profits → new firms enter → prices fall\nLosses → firms exit → prices rise"
   },
   {
     "objectID": "lectures/markets-failures.html#a-deeper-point",
@@ -473,7 +473,7 @@
     "href": "lectures/markets-failures.html#the-trade-off",
     "title": "Markets and Their Failures",
     "section": "The Trade-Off",
-    "text": "The Trade-Off\nThe PPF shows trade-offs: more houses means fewer TikToks.\n\nThe curve bows outward because of increasing opportunity cost.\n\n\n\nThe first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers."
+    "text": "The Trade-Off\nThe PPF shows trade-offs: more houses means fewer TikToks.\n\nThe curve bows outward because of increasing opportunity cost.\n\nIf construction workers want to build another house, they have to produce fewer TikToks.\nThe first TikToks come from the most social-media-savvy construction workers. More TikToks require pulling less suited workers."
   },
   {
     "objectID": "lectures/markets-failures.html#comparing-opportunity-costs",
@@ -2392,12 +2392,5 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
-  },
-  {
-    "objectID": "lectures/uncertainty.html#constructing-the-confidence-interval",
-    "href": "lectures/uncertainty.html#constructing-the-confidence-interval",
-    "title": "Uncertainty",
-    "section": "Constructing the confidence interval",
-    "text": "Constructing the confidence interval"
   }
 ]
