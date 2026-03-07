@@ -873,7 +873,7 @@ The question isn't whether to redistribute—it's *how much*.
 
 ---
 
-## Key takeaways
+## Key takeaways {style="font-size: 0.9em;"}
 
 1. **Efficiency and equity are distinct**—don't conflate size with distribution
 
