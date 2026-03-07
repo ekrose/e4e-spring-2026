@@ -233,8 +233,9 @@ Market pressures push toward equilibrium.
 
 **Retail inventory management**
 
-- Prices drop when shelves are full
 - Prices rise when stock runs low
+- Prices fall when stock is high ('reduced to clear')
+
 
 . . .
 
