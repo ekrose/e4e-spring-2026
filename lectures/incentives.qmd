@@ -45,6 +45,35 @@ An incentive is anything that affects the **payoffs** of your choices.
 
 ---
 
+## An example: NYC congestion pricing
+
+After Jan 2025: Must pay $9 to enter Manhattan's CBD during peak hours
+
+. . .
+
+How did this affect travel times?
+
+---
+
+## Increased driving speeds
+
+![](images/cook_nyc_congestion_pricing.png){fig-align="center" width="85%"}
+
+
+::: {.notes}
+Reference: Cook et al (2026). "The Short-run Effects of Congestion Pricing in New York City." NBER Working Paper, 33584.
+:::
+
+---
+
+## ... which saved people time
+
+- Estimated total time savings of 83,020 hrs/week for *priced* trips (i.e. trips into the CBD during peak hours)
+
+. . .
+
+- **AND** 535,160 hrs/week for *unpriced* trips (spillover effects)
+
 ## Why incentives matter for policy
 
 When you change incentives, people respond.
@@ -110,12 +139,12 @@ Raise the tax rate a little...
 
 ---
 
-## Top marginal tax rates in the US
+## US tax rates
 
-![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Historical_Marginal_Tax_Rate_for_Highest_and_Lowest_Income_Earners.jpg){fig-align="center" height="500"}
+![](images/us-marginal-tax-rates.svg){fig-align="center" width="85%"}
 
 ::: {.notes}
-Source: Wikipedia / Tax Foundation. Shows dramatic variation from 90%+ in 1950s to ~35-40% today.
+Source: Tax Foundation (https://taxfoundation.org/data/all/federal/historical-income-tax-rates-brackets/). Shows dramatic variation from 90%+ in 1950s to ~35-40% today.
 :::
 
 ---
@@ -393,6 +422,31 @@ Knowing what you know now...
 When good intentions backfire
 
 ---
+
+## The Great Hanoi Rat Massacre
+
+In 1902, the French colonial government in Hanoi offered a bounty for killing rats.
+
+. . .
+
+The reward: 1c per rat.
+
+. . .
+
+But, you needed to submit the *rat's tail* to collect the bounty.
+
+
+## The Great Hanoi Rat Massacre
+
+People realised you need rats to get their now-valuable tails.
+
+. . .
+
+People didn't kill the rats, they just took their tails and released them back into the city.
+
+. . .
+
+To worsen the situation, people started breeding rats to make more money.
 
 ## The fundamental insight
 
