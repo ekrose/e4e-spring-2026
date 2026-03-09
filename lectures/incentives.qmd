@@ -45,6 +45,35 @@ An incentive is anything that affects the **payoffs** of your choices.
 
 ---
 
+## An example: NYC congestion pricing
+
+After Jan 2025: Must pay $9 to enter Manhattan's CBD during peak hours
+
+. . .
+
+How did this affect travel times?
+
+---
+
+## Increased driving speeds
+
+![](images/cook_nyc_congestion_pricing.png){fig-align="center" width="85%"}
+
+
+::: {.notes}
+Reference: Cook et al (2026). "The Short-run Effects of Congestion Pricing in New York City." NBER Working Paper, 33584.
+:::
+
+---
+
+## ... which saved people time
+
+- Estimated total time savings of 83,020 hrs/week for *priced* trips (i.e. trips into the CBD during peak hours)
+
+. . .
+
+- **AND** 535,160 hrs/week for *unpriced* trips (spillover effects)
+
 ## Why incentives matter for policy
 
 When you change incentives, people respond.
