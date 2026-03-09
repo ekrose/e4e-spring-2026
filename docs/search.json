@@ -2392,5 +2392,26 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
+  },
+  {
+    "objectID": "lectures/incentives.html#an-example-nyc-congestion-pricing",
+    "href": "lectures/incentives.html#an-example-nyc-congestion-pricing",
+    "title": "Incentives",
+    "section": "An example: NYC congestion pricing",
+    "text": "An example: NYC congestion pricing\nAfter Jan 2025: Must pay $9 to enter Manhattan’s CBD during peak hours\n\nHow did this affect travel times?"
+  },
+  {
+    "objectID": "lectures/incentives.html#increased-driving-speeds",
+    "href": "lectures/incentives.html#increased-driving-speeds",
+    "title": "Incentives",
+    "section": "Increased driving speeds",
+    "text": "Increased driving speeds\n\n\nReference: Cook et al (2026). “The Short-run Effects of Congestion Pricing in New York City.” NBER Working Paper, 33584."
+  },
+  {
+    "objectID": "lectures/incentives.html#which-saved-people-time",
+    "href": "lectures/incentives.html#which-saved-people-time",
+    "title": "Incentives",
+    "section": "… which saved people time",
+    "text": "… which saved people time\n\nEstimated total time savings of 83,020 hrs/week for priced trips (i.e. trips into the CBD during peak hours)\n\n\n\nAND 535,160 hrs/week for unpriced trips (spillover effects)"
   }
 ]
