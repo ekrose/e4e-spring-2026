@@ -423,6 +423,31 @@ When good intentions backfire
 
 ---
 
+## The Great Hanoi Rat Massacre
+
+In 1902, the French colonial government in Hanoi offered a bounty for killing rats.
+
+. . .
+
+The reward: 1c per rat.
+
+. . .
+
+But, you needed to submit the *rat's tail* to collect the bounty.
+
+
+## The Great Hanoi Rat Massacre
+
+People realised you need rats to get their now-valuable tails.
+
+. . .
+
+People didn't kill the rats, they just took their tails and released them back into the city.
+
+. . .
+
+To worsen the situation, people started breeding rats to make more money.
+
 ## The fundamental insight
 
 As you can see, incentives are complicated.
