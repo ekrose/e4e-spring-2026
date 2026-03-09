@@ -1,0 +1,94 @@
+<svg viewBox="0 0 650 420" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="650" height="420" fill="#fafafa"/>
+
+  <!-- Title -->
+  <text x="325" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="bold" fill="#333">How did incentives affect reading scores?</text>
+
+  <!-- Axes -->
+  <line x1="90" y1="340" x2="560" y2="340" stroke="#333" stroke-width="1.5"/>
+  <line x1="90" y1="100" x2="90" y2="340" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Zero line -->
+  <line x1="90" y1="233" x2="560" y2="233" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Grid lines and Y-axis labels -->
+  <line x1="90" y1="100" x2="560" y2="100" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="104" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">0.25</text>
+
+  <line x1="90" y1="127" x2="560" y2="127" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="131" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">0.20</text>
+
+  <line x1="90" y1="153" x2="560" y2="153" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="157" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">0.15</text>
+
+  <line x1="90" y1="180" x2="560" y2="180" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="184" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">0.10</text>
+
+  <line x1="90" y1="207" x2="560" y2="207" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="211" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">0.05</text>
+
+  <text x="82" y="237" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">0.00</text>
+
+  <line x1="90" y1="260" x2="560" y2="260" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="264" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">−0.05</text>
+
+  <line x1="90" y1="287" x2="560" y2="287" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="291" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">−0.10</text>
+
+  <line x1="90" y1="313" x2="560" y2="313" stroke="#eee" stroke-width="1"/>
+  <text x="82" y="317" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">−0.15</text>
+
+  <text x="82" y="344" text-anchor="end" font-family="Inter, sans-serif" font-size="11" fill="#666">−0.20</text>
+
+  <!-- Group 1: English Language Learner -->
+  <rect x="115" y="233" width="40" height="87" fill="#800000" rx="2"/>
+  <text x="135" y="330" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#800000">−0.164</text>
+  <rect x="160" y="233" width="40" height="38" fill="#ff8243" rx="2"/>
+  <text x="180" y="282" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#ff8243">−0.072</text>
+
+  <text x="157" y="358" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">English language</text>
+  <text x="157" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">learner</text>
+
+  <!-- Group 2: Non-English Language Learner -->
+  <rect x="255" y="115" width="40" height="118" fill="#800000" rx="2"/>
+  <text x="275" y="110" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#800000">0.221</text>
+  <rect x="300" y="233" width="40" height="7" fill="#ff8243" rx="2"/>
+  <text x="320" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#ff8243">−0.014</text>
+
+  <text x="297" y="358" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">Non-English</text>
+  <text x="297" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">language learner</text>
+
+  <!-- Group 3: Took Spanish Test Previous Year (Dallas only) -->
+  <rect x="395" y="233" width="40" height="63" fill="#800000" rx="2"/>
+  <text x="415" y="307" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#800000">−0.118</text>
+
+  <text x="415" y="358" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">Took Spanish</text>
+  <text x="415" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">test prev. yr</text>
+
+  <!-- Group 4: Took English Test Previous Year (Dallas only) -->
+  <rect x="475" y="141" width="40" height="92" fill="#800000" rx="2"/>
+  <text x="495" y="136" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#800000">0.173</text>
+
+  <text x="495" y="358" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">Took English</text>
+  <text x="495" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#333">test prev. yr</text>
+
+  <!-- Section divider -->
+  <line x1="370" y1="95" x2="370" y2="345" stroke="#ccc" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Section labels -->
+  <text x="230" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#555">Language learner type</text>
+  <text x="455" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#555">Language tests (Dallas only)</text>
+
+  <!-- Legend (centered) -->
+  <rect x="245" y="390" width="14" height="14" fill="#800000" rx="2"/>
+  <text x="265" y="402" font-family="Inter, sans-serif" font-size="11" fill="#333">Dallas</text>
+  <rect x="355" y="390" width="14" height="14" fill="#ff8243" rx="2"/>
+  <text x="375" y="402" font-family="Inter, sans-serif" font-size="11" fill="#333">NYC</text>
+
+  <!-- Y-axis label -->
+  <text x="25" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#333" transform="rotate(-90, 25, 220)">Effect</text>
+
+  <!-- Source -->
+  <text x="210" y="415" text-anchor="end" font-family="Inter, sans-serif" font-size="9" fill="#999">Source: Fryer (2011), Table VI</text>
+</svg>

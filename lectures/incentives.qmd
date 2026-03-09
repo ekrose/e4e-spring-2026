@@ -217,18 +217,17 @@ Higher rates would still raise revenue—though with efficiency costs.
 
 ## But some people are very responsive
 
-**European soccer players** provide a striking example.
+**European soccer players** provide a striking example:
+
+- Players are highly mobile
+- Tax incentives can influence their decisions.
 
 . . .
 
 Kleven, Landais & Saez (2013) studied player mobility across 14 countries:
 
-- Foreign players: elasticity ≈ **1.0** (highly responsive)
-- Domestic players: elasticity ≈ 0.15 (less mobile)
-
-. . .
-
-Lower-tax countries attract the best talent.
+- Foreign players move to teams in countries with lower taxes
+- elasticity ≈ **1.0** (highly responsive)
 
 ::: {.notes}
 Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migration of Superstars: Evidence from the European Football Market." American Economic Review 103(5): 1892-1924.
@@ -236,14 +235,16 @@ Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migrati
 
 ---
 
-## Spain's "Beckham Law"
+## The Bosman Ruling
 
-In 2004, Spain cut tax rates for foreign workers from 43% to 24%.
+Bosman Ruling (1995): relaxed restrictions on player mobility between European countries
 
-![](images/beckham-law.svg){fig-align="center" width="85%"}
+. . .
+
+![](images/kleven_bosman_graphs.png){fig-align="center" width="85%"}
 
 ::: {.notes}
-Graph is stylized/illustrative based on patterns from Kleven, Landais & Saez (2013), not exact reproduction.
+Reference: Kleven, Landais, and Saez (2013). "Taxation and International Migration of Superstars: Evidence from the European Football Market." American Economic Review 103(5): 1892-1924.
 :::
 
 ---
@@ -254,8 +255,8 @@ When people **can** move, tax incentives matter a lot.
 
 . . .
 
-- Foreign players: highly mobile → big response
-- Domestic players: less mobile → small response
+- Before Bosman: hard to move → no response
+- After Bosman: easier to move → large response
 
 . . .
 
@@ -485,6 +486,16 @@ Many jurisdictions "banned the box"—employers can't ask about criminal history
 
 ---
 
+## The evidence: Agan & Starr (2018)
+
+![](images/agan_starr_did_results.png){fig-align="center" width="85%"}
+
+::: {.notes}
+Reference: Agan & Starr (2018). "Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment." Quarterly Journal of Economics 133(1): 191-235.
+:::
+
+---
+
 ## Ban the box (continued)
 
 Employers, unable to screen on records, used **race as a proxy**.
@@ -499,31 +510,6 @@ The policy backfired—for the very people it was meant to help.
 
 ---
 
-## The evidence: Agan & Starr (2018)
-
-Field experiment: ~15,000 fictitious job applications in NJ and NYC
-
-. . .
-
-**Before BTB** (at companies with "the box"):
-
-- White callback rate: 11.1%
-- Black callback rate: 10.9%
-- Gap: **~7%** more callbacks for white applicants
-
-. . .
-
-**After BTB** (box removed):
-
-- White callback rate: 14.8%
-- Black callback rate: 10.3%
-- Gap: **~43%** more callbacks for white applicants
-
-::: {.notes}
-Reference: Agan & Starr (2018). "Ban the Box, Criminal Records, and Racial Discrimination: A Field Experiment." Quarterly Journal of Economics 133(1): 191-235.
-:::
-
----
 
 ## A policy question
 
@@ -561,15 +547,38 @@ You want students to learn more. You have money for incentives.
 
 ## Evidence from Fryer (2011)
 
-Roland Fryer ran experiments in multiple cities:
+Fryer (2011) ran experiments in multiple cities:
 
-![](images/fryer-results.svg){fig-align="center" width="80%"}
+- Dallas: paid for reading books
+- NYC & Chicago: paid for test scores and grades
 
-> Pay for actions students can control, not outcomes they can't.
+. . .
+
+Did these incentives work?
+
+## Overall, didn't find much effect...
+
+![](images/fryer_school_incentives_table.png){fig-align="center" width="80%"}
 
 ::: {.notes}
 Reference: Fryer (2011). "Financial Incentives and Student Achievement." Quarterly Journal of Economics 126(4): 1755-1798.
 :::
+
+- - -
+
+### ... but reading incentives worked for some people
+
+![](images/fryer_subsample_results.svg){fig-align="center" width="80%"}
+
+
+## The lesson
+People respond to the incentive, not your goal.
+
+. . .
+
+- Incentives must be carefully designed to achieve policy goals
+- Sometimes you can create unintended consequences
+
 
 # Cognitive biases {background-color="#800000"}
 
@@ -593,20 +602,23 @@ When given choices, people tend to stick with the **default option**.
 
 . . .
 
-**Example:** 401(k) enrollment
+**Example**: Handel (2013) analyzed health insurance plan enrollment
 
-- Opt-in default: ~50% participation
-- Opt-out default: ~90% participation
-
-. . .
-
-Same options, very different outcomes.
+- Compare new employees (no default option) to current employees (default option available).
+- *If no inertia*, then new and current employees should respond similarly to price changes.
 
 ::: {.notes}
-Reference: Madrian & Shea (2001). "The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior." Quarterly Journal of Economics.
+Reference: Handel (2013). "Adverse Selection and Inertia in Health Insurance Markets: When Nudging Hurts." American Economic Review.
 :::
 
 ---
+
+## Evidence for inertia
+
+Prices don't change between t=-1, and t=0, but do change in t=1.
+
+![](images/handle_new_plan_choices_inertia.png){fig-align="center" width="90%"}
+
 
 ## Is this really a "bias"?
 
@@ -643,12 +655,12 @@ People feel losses more strongly than equivalent gains.
 
 ---
 
-## The Asian Disease Problem
+## Framing: The Asian Disease Problem
 
 A disease outbreak will kill 600 people. You must choose a response:
 
 ::: {.notes}
-The name comes from Tversky & Kahneman's original 1981 paper, which described "an unusual Asian disease" as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications.
+The name comes from Tversky & Kahneman's original 1981 paper, which described "an unusual Asian disease" as a hypothetical scenario. The framing was arbitrary—meant to invoke an unfamiliar disease without domestic political implications. Reference: Tversky & Kahneman (1981). The Framing of Decisions and Psychology of Choice. Science, Vol. 211.
 :::
 
 . . .
@@ -760,12 +772,12 @@ Why present bias matters for policy:
 - "Cooling off" periods for major purchases
 
 ::: {.notes}
-Reference: Laibson (1997). "Golden Eggs and Hyperbolic Discounting." Quarterly Journal of Economics.
+For an analysis of a 'cooling off period' commitment device, see Laibson (1997). "Golden Eggs and Hyperbolic Discounting." Quarterly Journal of Economics.
 :::
 
 ---
 
-## Mental accounting
+## Mental accounting: a stylistic example
 
 You receive $1,000. How much would you spend on something fun?
 
@@ -788,7 +800,7 @@ Money is **fungible**—a dollar is a dollar.
 > People treat money differently depending on where it "comes from."
 
 ::: {.notes}
-Reference: Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Decision Making.
+For a review, see Thaler (1999). "Mental Accounting Matters." Journal of Behavioral Decision Making.
 :::
 
 ---

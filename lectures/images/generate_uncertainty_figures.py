@@ -6,6 +6,7 @@ Run this script to regenerate all SVG figures from real data.
 Requirements: pip install numpy matplotlib scipy
 """
 
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
@@ -25,6 +26,9 @@ DARK_MAROON = '#4a0000'
 np.random.seed(42)  # For reproducibility
 
 N_SIMS = 10000  # Number of simulated experiments
+
+OUTPUT_DIR = 'lectures/images'
+os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def fig1_dice_distribution():
@@ -53,7 +57,7 @@ def fig1_dice_distribution():
     # Expected value line
     expected = n_rolls * p_one
     ax.axvline(expected, color=MAROON, linestyle='--', linewidth=2)
-    ax.text(expected + 0.5, ax.get_ylim()[1] * 0.9, f'Expected: {expected:.1f}',
+    ax.text(expected + 0.5, ax.get_ylim()[1] * 0.97, f'Expected: {expected:.1f}',
             color=MAROON, fontsize=10)
 
     ax.set_xlabel('Number of 1s out of 100 rolls')
@@ -62,8 +66,8 @@ def fig1_dice_distribution():
     ax.set_xlim(0, 35)
 
     plt.tight_layout()
-    plt.savefig('dice-distribution.svg', format='svg', bbox_inches='tight')
-    plt.savefig('dice-distribution.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/dice-distribution.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/dice-distribution.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: dice-distribution.svg")
 
@@ -106,8 +110,8 @@ def fig2_sample_size_comparison():
     ax.set_ylim(bottom=0)
 
     plt.tight_layout()
-    plt.savefig('sample-size-comparison.svg', format='svg', bbox_inches='tight')
-    plt.savefig('sample-size-comparison.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/sample-size-comparison.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/sample-size-comparison.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: sample-size-comparison.svg")
 
@@ -122,7 +126,7 @@ def fig3_confidence_interval():
 
     fig, axes = plt.subplots(1, 3, figsize=(13, 5))
 
-    test_values = [0.40, 0.48, 0.58]
+    test_values = [0.35, 0.48, 0.61]
     results = ['REJECT', 'ACCEPT', 'REJECT']
     result_colors = ['#cc0000', '#008800', '#cc0000']
     fill_colors = ['#ffcccc', '#ccffcc', '#ffcccc']
@@ -172,13 +176,13 @@ def fig3_confidence_interval():
                 ha='center', va='center', color='#555')
 
     # Add annotation for "our estimate"
-    fig.text(0.5, 0.02, 'Red line & dot = our poll estimate (48%)', ha='center',
+    fig.text(0.5, -0.04, 'Red line & dot = our poll estimate (48%)', ha='center',
              fontsize=11, color=MAROON, fontweight='bold')
 
     plt.tight_layout()
     plt.subplots_adjust(bottom=0.25)
-    plt.savefig('confidence-interval.svg', format='svg', bbox_inches='tight')
-    plt.savefig('confidence-interval.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/confidence-interval.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/confidence-interval.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: confidence-interval.svg")
 
@@ -217,11 +221,11 @@ def fig4_multiple_testing():
             linewidth=2, markersize=6, label='Expected (theory)')
 
     # Annotation arrow to suspicious dice
-    arrow_target_x = 5.5
-    arrow_target_y = counts[5] if len(counts) > 5 else 10
+    arrow_target_x = 5
+    arrow_target_y = counts[5] if len(counts) > 5 else 5
     ax.annotate(f'{n_suspicious} dice "look suspicious"',
                 xy=(arrow_target_x, arrow_target_y),
-                xytext=(7, max(counts) * 0.85),
+                xytext=(5, max(counts) * 0.3),
                 fontsize=11, color=ORANGE, fontweight='bold',
                 arrowprops=dict(arrowstyle='->', color=ORANGE, lw=2),
                 ha='left')
@@ -239,8 +243,8 @@ def fig4_multiple_testing():
     ax.set_xlim(-0.5, 10.5)
 
     plt.tight_layout()
-    plt.savefig('multiple-testing.svg', format='svg', bbox_inches='tight')
-    plt.savefig('multiple-testing.png', format='png', dpi=150, bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/multiple-testing.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/multiple-testing.png', format='png', dpi=150, bbox_inches='tight')
     plt.close()
     print("Generated: multiple-testing.svg")
 
@@ -249,6 +253,123 @@ def fig4_multiple_testing():
     print(f"  - Expected under null: {n_dice * (1 - stats.binom.cdf(4, n_rolls, p_one)):.1f}")
 
 
+def fig5_ci_construction():
+    """
+    Visualizes confidence interval construction via test inversion.
+    Three panels show sampling distributions for candidate true values,
+    with a CI bar underneath showing the accepted region.
+    """
+    n_voters = 100
+    our_estimate = 0.48
+    confidence_level = 0.95
+    alpha = 1 - confidence_level
+
+    # Compute the CI via simulation sweep
+    candidate_truths = np.linspace(0.30, 0.66, 200)
+    accepted = []
+    for p0 in candidate_truths:
+        # Step 1: Assume this candidate is the true vote share
+        # Step 2: Simulate N_SIMS polls of n_voters, compute sample proportions
+        sim_estimates = np.random.binomial(n_voters, p0, N_SIMS) / n_voters
+
+        # Step 3: Find the critical region — the most extreme 5% of outcomes
+        lower_critical = np.percentile(sim_estimates, 2.5)
+        upper_critical = np.percentile(sim_estimates, 97.5)
+
+        # Step 4: Does our estimate fall in the plausible range?
+        is_plausible = lower_critical <= our_estimate <= upper_critical
+        accepted.append(is_plausible)
+
+    accepted = np.array(accepted)
+    ci_low = candidate_truths[accepted].min()
+    ci_high = candidate_truths[accepted].max()
+
+    # --- Three-panel figure with CI bar ---
+    fig = plt.figure(figsize=(13, 6.5))
+    gs = fig.add_gridspec(2, 3, height_ratios=[4, 1], hspace=0.35)
+
+    # Top row: three distributions
+    test_values = [0.35, 0.48, 0.61]
+    results = ['REJECT', 'ACCEPT', 'REJECT']
+    result_colors = ['#cc0000', '#008800', '#cc0000']
+    fill_colors = ['#ffcccc', '#ccffcc', '#ffcccc']
+
+    for col, (true_p, result, result_color, fill_color) in enumerate(
+            zip(test_values, results, result_colors, fill_colors)):
+
+        ax = fig.add_subplot(gs[0, col])
+
+        std = np.sqrt(true_p * (1 - true_p) / n_voters)
+        x = np.linspace(true_p - 4 * std, true_p + 4 * std, 200)
+        y = stats.norm.pdf(x, true_p, std)
+
+        ax.fill_between(x, y, alpha=0.4, color=fill_color)
+        ax.plot(x, y, color=result_color, linewidth=2)
+
+        ax.axvline(true_p, color=result_color, linestyle='--', linewidth=1.5, alpha=0.7)
+
+        y_at_est = stats.norm.pdf(our_estimate, true_p, std)
+        ax.plot(our_estimate, y_at_est, 'o', color=MAROON, markersize=10, zorder=5)
+        ax.axvline(our_estimate, color=MAROON, linewidth=2, alpha=0.8)
+
+        ax.set_title(f'If true value = {true_p:.0%}', fontweight='bold', fontsize=12, pad=10)
+        ax.set_xlabel('Possible poll results')
+        if col == 0:
+            ax.set_ylabel('Probability density')
+        ax.set_ylim(bottom=0)
+
+
+    # Bottom row: CI bar spanning all three columns
+    ax_ci = fig.add_subplot(gs[1, :])
+
+    # Draw reject/accept regions
+    ax_ci.axhspan(0, 1, xmin=0, xmax=1, color='#ffcccc', alpha=0.3)
+    ax_ci.axvspan(ci_low, ci_high, color='#ccffcc', alpha=0.5)
+
+    # CI boundary lines
+    ax_ci.axvline(ci_low, color='#008800', linewidth=2, linestyle='--')
+    ax_ci.axvline(ci_high, color='#008800', linewidth=2, linestyle='--')
+
+    # Our estimate
+    ax_ci.axvline(our_estimate, color=MAROON, linewidth=1.5, zorder=5, linestyle='--', alpha=0.6)
+
+    # Labels
+    ax_ci.text(ci_low, -0.35, f'{ci_low:.1%}', ha='center', fontsize=11,
+               fontweight='bold', color='#008800', transform=ax_ci.get_xaxis_transform())
+    ax_ci.text(ci_high, -0.35, f'{ci_high:.1%}', ha='center', fontsize=11,
+               fontweight='bold', color='#008800', transform=ax_ci.get_xaxis_transform())
+    ax_ci.text(our_estimate, -0.35, f'{our_estimate:.0%}', ha='center', fontsize=11,
+               fontweight='bold', color=MAROON, transform=ax_ci.get_xaxis_transform())
+
+    # Region labels
+    ax_ci.text((0.30 + ci_low) / 2, 0.5, 'REJECT', ha='center', va='center',
+               fontsize=12, fontweight='bold', color='#cc0000')
+    ax_ci.text((ci_low + ci_high) / 2, 0.5, '95% CONFIDENCE INTERVAL', ha='center',
+               va='center', fontsize=12, fontweight='bold', color='#008800')
+    ax_ci.text((ci_high + 0.66) / 2, 0.5, 'REJECT', ha='center', va='center',
+               fontsize=12, fontweight='bold', color='#cc0000')
+
+    # Connect panels to CI bar with arrows for the three test values
+    for true_p, result_color in zip(test_values, result_colors):
+        ax_ci.annotate('', xy=(true_p, 1.0), xytext=(true_p, 1.3),
+                       xycoords=('data', 'axes fraction'),
+                       textcoords=('data', 'axes fraction'),
+                       arrowprops=dict(arrowstyle='->', color=result_color, lw=1.5))
+
+    ax_ci.set_xlim(0.30, 0.66)
+    ax_ci.set_yticks([])
+    ax_ci.set_xlabel('Candidate true vote share', fontsize=11)
+
+    fig.suptitle('Constructing a 95% Confidence Interval\n'
+                 f'Poll of {n_voters} voters, observed estimate = {our_estimate:.0%}',
+                 fontweight='bold', fontsize=14, y=1.02)
+
+    plt.savefig(f'{OUTPUT_DIR}/ci-construction.svg', format='svg', bbox_inches='tight')
+    plt.savefig(f'{OUTPUT_DIR}/ci-construction.png', format='png', dpi=150, bbox_inches='tight')
+    plt.close()
+    print("Generated: ci-construction.svg")
+    print(f"  - 95% CI: [{ci_low:.4f}, {ci_high:.4f}]")
+
 if __name__ == '__main__':
     print(f"Generating Uncertainty lecture figures from {N_SIMS:,} simulations...\n")
 
@@ -256,5 +377,6 @@ if __name__ == '__main__':
     fig2_sample_size_comparison()
     fig3_confidence_interval()
     fig4_multiple_testing()
+    fig5_ci_construction()
 
     print("\nDone! All figures regenerated from actual simulation data.")

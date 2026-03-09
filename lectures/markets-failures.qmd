@@ -233,14 +233,14 @@ Market pressures push toward equilibrium.
 
 **Retail inventory management**
 
-- Prices drop when shelves are full
 - Prices rise when stock runs low
+- Prices fall when stock is high ('reduced to clear')
+
 
 . . .
 
-**Auctions**
+**Auctions** (eBay, art markets, Treasury bonds)
 
-- eBay, art markets, Treasury bonds
 - Price emerges from competitive bidding
 
 . . .
@@ -273,6 +273,11 @@ What determines how much gold gets mined?
 . . .
 
 ![](images/gold-cost-curve.svg){fig-align="center" width="70%"}
+
+## A real world gold cost curve
+
+![](images/gold_cost_curve_real_2025q3.png){fig-align="center" width="80%"}
+
 
 ## Gold: When Demand Surges
 
@@ -328,9 +333,9 @@ The PPF shows trade-offs: more houses means fewer TikToks.
 
 The curve bows outward because of **increasing opportunity cost**.
 
-. . .
+- If construction workers want to build another house, they have to produce fewer TikToks.
+- The first TikToks come from the most social-media-savvy construction workers. More TikToks require pulling less suited workers.
 
-> The first TikToks come from the most social-media-savvy workers. More TikToks require pulling less suited workers.
 
 ## Comparing Opportunity Costs
 

@@ -48,45 +48,83 @@
   <line x1="80" y1="229" x2="650" y2="229" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
   <line x1="80" y1="151" x2="650" y2="151" stroke="#ddd" stroke-width="1" stroke-dasharray="4,4"/>
 
-  <!-- Vertical reference line at 1980 -->
-  <line x1="270" y1="70" x2="270" y2="380" stroke="#ccc" stroke-width="1" stroke-dasharray="6,3"/>
-  <text x="275" y="85" font-family="Inter, sans-serif" font-size="11" fill="#888">1980</text>
-
-  <!-- Top 10% line (maroon) - starts ~35%, rises to ~45% -->
-  <!-- Area fill -->
-  <path d="M80,200 L127,198 L175,196 L222,198 L270,200
-           L317,180 L365,160 L412,148 L460,145 L507,138 L555,125 L602,120 L650,118
+  <!-- Top 10% area fill -->
+  <path d="M80,200 L90,196 L99,193 L109,191 L118,189
+           L128,191 L137,192 L147,198 L156,197 L166,204
+           L175,207 L185,204 L194,202 L204,201 L213,207
+           L223,205 L232,205 L242,203 L251,204 L261,203
+           L270,205 L280,203 L289,201 L299,197 L308,191
+           L318,191 L327,192 L337,186 L346,177 L356,180
+           L365,180 L375,182 L384,176 L394,178 L403,178
+           L413,174 L422,169 L432,165 L441,163 L451,162
+           L460,159 L470,163 L479,166 L489,165 L498,161
+           L508,155 L517,151 L527,153 L536,155 L546,161
+           L555,154 L565,152 L574,144 L584,148 L593,145
+           L603,145 L612,146 L622,145 L631,143 L641,144
+           L650,150
            L650,380 L80,380 Z"
         fill="url(#topGrad)"/>
-  <!-- Line -->
-  <path d="M80,200 L127,198 L175,196 L222,198 L270,200
-           L317,180 L365,160 L412,148 L460,145 L507,138 L555,125 L602,120 L650,118"
+  <!-- Top 10% line -->
+  <path d="M80,200 L90,196 L99,193 L109,191 L118,189
+           L128,191 L137,192 L147,198 L156,197 L166,204
+           L175,207 L185,204 L194,202 L204,201 L213,207
+           L223,205 L232,205 L242,203 L251,204 L261,203
+           L270,205 L280,203 L289,201 L299,197 L308,191
+           L318,191 L327,192 L337,186 L346,177 L356,180
+           L365,180 L375,182 L384,176 L394,178 L403,178
+           L413,174 L422,169 L432,165 L441,163 L451,162
+           L460,159 L470,163 L479,166 L489,165 L498,161
+           L508,155 L517,151 L527,153 L536,155 L546,161
+           L555,154 L565,152 L574,144 L584,148 L593,145
+           L603,145 L612,146 L622,145 L631,143 L641,144
+           L650,150"
         fill="none" stroke="#800000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <!-- Bottom 50% line (orange) - starts ~20%, falls to ~13% -->
-  <!-- Area fill -->
-  <path d="M80,280 L127,278 L175,277 L222,278 L270,280
-           L317,290 L365,300 L412,310 L460,318 L507,322 L555,328 L602,330 L650,332
+  <!-- Bottom 50% area fill -->
+  <path d="M80,278 L90,288 L99,280 L109,282 L118,284
+           L128,282 L137,279 L147,273 L156,274 L166,270
+           L175,271 L185,274 L194,275 L204,274 L213,272
+           L223,275 L232,274 L242,275 L251,275 L261,275
+           L270,276 L280,278 L289,281 L299,285 L308,287
+           L318,288 L327,289 L337,290 L346,293 L356,292
+           L365,293 L375,294 L384,297 L394,297 L403,297
+           L413,299 L422,300 L432,301 L441,301 L451,302
+           L460,302 L470,301 L479,300 L489,302 L498,304
+           L508,306 L517,307 L527,306 L536,306 L546,306
+           L555,308 L565,310 L574,312 L584,311 L593,312
+           L603,312 L612,313 L622,310 L631,311 L641,310
+           L650,309
            L650,380 L80,380 Z"
         fill="url(#bottomGrad)"/>
-  <!-- Line -->
-  <path d="M80,280 L127,278 L175,277 L222,278 L270,280
-           L317,290 L365,300 L412,310 L460,318 L507,322 L555,328 L602,330 L650,332"
+  <!-- Bottom 50% line -->
+  <path d="M80,278 L90,288 L99,280 L109,282 L118,284
+           L128,282 L137,279 L147,273 L156,274 L166,270
+           L175,271 L185,274 L194,275 L204,274 L213,272
+           L223,275 L232,274 L242,275 L251,275 L261,275
+           L270,276 L280,278 L289,281 L299,285 L308,287
+           L318,288 L327,289 L337,290 L346,293 L356,292
+           L365,293 L375,294 L384,297 L394,297 L403,297
+           L413,299 L422,300 L432,301 L441,301 L451,302
+           L460,302 L470,301 L479,300 L489,302 L498,304
+           L508,306 L517,307 L527,306 L536,306 L546,306
+           L555,308 L565,310 L574,312 L584,311 L593,312
+           L603,312 L612,313 L622,310 L631,311 L641,310
+           L650,309"
         fill="none" stroke="#ff8243" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
   <!-- Legend -->
-  <rect x="450" y="52" width="190" height="55" fill="white" stroke="#ddd" rx="4"/>
-  <line x1="460" y1="70" x2="490" y2="70" stroke="#800000" stroke-width="3"/>
-  <text x="500" y="74" font-family="Inter, sans-serif" font-size="13" fill="#333">Top 10%</text>
-  <line x1="460" y1="92" x2="490" y2="92" stroke="#ff8243" stroke-width="3"/>
-  <text x="500" y="96" font-family="Inter, sans-serif" font-size="13" fill="#333">Bottom 50%</text>
+  <rect x="110" y="52" width="120" height="55" fill="white" stroke="#ddd" rx="4"/>
+  <line x1="120" y1="70" x2="140" y2="70" stroke="#800000" stroke-width="3"/>
+  <text x="150" y="74" font-family="Inter, sans-serif" font-size="13" fill="#333">Top 10%</text>
+  <line x1="120" y1="92" x2="140" y2="92" stroke="#ff8243" stroke-width="3"/>
+  <text x="150" y="96" font-family="Inter, sans-serif" font-size="13" fill="#333">Bottom 50%</text>
 
   <!-- Annotations -->
-  <text x="650" y="105" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#800000">~46%</text>
-  <text x="650" y="348" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#ff8243">~13%</text>
+  <text x="650" y="160" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#800000">~45%</text>
+  <text x="650" y="325" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#ff8243">~14%</text>
 
   <!-- Source -->
   <text x="650" y="435" text-anchor="end" font-family="Inter, sans-serif" font-size="10" fill="#999">
-    Source: World Inequality Database (stylized)
+    Source: World Inequality Database
   </text>
 </svg>

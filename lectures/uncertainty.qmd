@@ -185,6 +185,10 @@ If we get 20 ones out of 100, is that suspicious?
 
 If we get 30 ones? 40 ones?
 
+. . .
+
+**How can we reduce our uncertainty?**
+
 ---
 
 ## More data helps
@@ -348,9 +352,9 @@ If the true share were 70%, getting 48% would be *extremely* unlikely.
 
 A **95% confidence interval** is the set of true values that could have generated our estimate at least 95% of the time.
 
-. . .
+---
 
-![](images/confidence-interval.svg){fig-align="center" width="90%"}
+![](images/ci-construction.svg){fig-align="center" width="90%"}
 
 ---
 
@@ -433,6 +437,10 @@ You don't know this, but **all of them are actually fair**.
 . . .
 
 You test each die by rolling it 10 times.
+
+. . .
+
+You decide that any die showing 5 or more ones is "suspicious".
 
 ---
 

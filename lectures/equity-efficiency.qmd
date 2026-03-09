@@ -147,7 +147,7 @@ Source: World Inequality Database. Shows share of national income going to top 1
 From ~1980 onward:
 
 - Top 10% share rose from ~35% to ~45%
-- Bottom 50% share fell from ~20% to ~13%
+- Bottom 50% share fell from ~20% to ~14%
 
 . . .
 
@@ -177,11 +177,11 @@ In the 1970s, it was closer to 10%.
 
 . . .
 
-The top 1% owns roughly **30%** of all wealth.
+The top 1% owns roughly **35%** of all wealth.
 
 . . .
 
-The bottom 50% owns about **2%**.
+The bottom 50% owns about **1%**.
 
 ---
 
@@ -190,7 +190,7 @@ The bottom 50% owns about **2%**.
 ![](images/global-inequality.svg){fig-align="center" width="85%"}
 
 ::: {.notes}
-Data from World Inequality Report. Shows global income distribution by region.
+Data from World Inequality Report (2026), Chapter 2, Fig. 2.2 "Global economic weight is shifting back towards Asia", page 55. Shows global income distribution by region over time.
 :::
 
 ---
@@ -441,7 +441,7 @@ Can we get to the fair outcome without losing efficiency?
 
 > Any efficient allocation can be achieved by:
 >
-> 1. Redistributing initial endowments
+> 1. Redistributing endowments with taxes and transfers
 > 2. Then letting the market work
 
 . . .
@@ -520,10 +520,6 @@ Mankiw & Weinzierl (2010) showed:
 - Taller people earn more on average
 - Height is (mostly) genetically determined
 - A height tax would be non-distortionary
-
-. . .
-
-> "The case for taxing height is about as good as the case for taxing income."
 
 . . .
 
@@ -877,7 +873,7 @@ The question isn't whether to redistribute—it's *how much*.
 
 ---
 
-## Key takeaways
+## Key takeaways {style="font-size: 0.9em;"}
 
 1. **Efficiency and equity are distinct**—don't conflate size with distribution
 

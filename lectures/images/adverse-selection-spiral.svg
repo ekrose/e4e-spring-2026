@@ -1,4 +1,4 @@
-<svg viewBox="0 0 650 450" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 720 450" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <marker id="arrow3" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
       <polygon points="0 0, 10 3.5, 0 7" fill="#800000"/>
@@ -6,68 +6,60 @@
   </defs>
 
   <!-- Background -->
-  <rect width="650" height="450" fill="#fafafa"/>
+  <rect width="720" height="450" fill="#fafafa"/>
 
   <!-- Title -->
-  <text x="325" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="bold" fill="#333">The Adverse Selection "Death Spiral"</text>
+  <text x="360" y="35" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="bold" fill="#333">The Adverse Selection "Death Spiral"</text>
 
-  <!-- Center spiral visualization -->
-  <ellipse cx="325" cy="250" rx="200" ry="150" fill="none" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  <!-- Ellipse center: 360, 228  rx: 220  ry: 155 -->
 
-  <!-- Step 1: High risk people buy -->
-  <g transform="translate(95, 90)">
-    <rect x="0" y="0" width="180" height="60" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
-    <text x="90" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">1. High-risk people</text>
-    <text x="90" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">are most likely to buy</text>
+  <!-- Elliptical arc arrows (rx=220, ry=155, clockwise) -->
+  <!-- Arrow 1→2: top-right to right-top -->
+  <path d="M 450,73 A 220,155 0 0,1 545,201" stroke="#800000" stroke-width="2.5" fill="none" marker-end="url(#arrow3)"/>
+  <!-- Arrow 2→3: right-bottom to bottom-right -->
+  <path d="M 545,256 A 220,155 0 0,1 450,383" stroke="#800000" stroke-width="2.5" fill="none" marker-end="url(#arrow3)"/>
+  <!-- Arrow 3→4: bottom-left to left-bottom -->
+  <path d="M 270,383 A 220,155 0 0,1 175,256" stroke="#800000" stroke-width="2.5" fill="none" marker-end="url(#arrow3)"/>
+  <!-- Arrow 4→1: left-top to top-left -->
+  <path d="M 175,201 A 220,155 0 0,1 270,73" stroke="#800000" stroke-width="2.5" fill="none" marker-end="url(#arrow3)"/>
+
+  <!-- Step 1: Top (12 o'clock) -->
+  <g transform="translate(270, 46)">
+    <rect x="0" y="0" width="180" height="55" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
+    <text x="90" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">1. High-risk people</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">are most likely to buy</text>
   </g>
 
-  <!-- Arrow 1->2 -->
-  <path d="M 275 140 C 330 140, 380 130, 410 110" stroke="#800000" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
-
-  <!-- Step 2: Insurer loses money -->
-  <g transform="translate(400, 70)">
-    <rect x="0" y="0" width="180" height="60" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
-    <text x="90" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">2. Insurer loses money</text>
-    <text x="90" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">on risky customers</text>
+  <!-- Step 2: Right (3 o'clock) -->
+  <g transform="translate(490, 201)">
+    <rect x="0" y="0" width="180" height="55" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
+    <text x="90" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">2. Insurer loses money</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">on risky customers</text>
   </g>
 
-  <!-- Arrow 2->3 -->
-  <path d="M 570 130 C 590 180, 590 220, 575 260" stroke="#800000" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
-
-  <!-- Step 3: Premiums rise -->
-  <g transform="translate(430, 260)">
-    <rect x="0" y="0" width="180" height="60" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
-    <text x="90" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">3. Premiums increase</text>
-    <text x="90" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">to cover losses</text>
+  <!-- Step 3: Bottom (6 o'clock) -->
+  <g transform="translate(270, 356)">
+    <rect x="0" y="0" width="180" height="55" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
+    <text x="90" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">3. Premiums increase</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">to cover losses</text>
   </g>
 
-  <!-- Arrow 3->4 -->
-  <path d="M 430 310 C 380 340, 320 360, 260 360" stroke="#800000" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
-
-  <!-- Step 4: Healthy people leave -->
-  <g transform="translate(70, 330)">
-    <rect x="0" y="0" width="190" height="60" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
-    <text x="95" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">4. Healthy people drop</text>
-    <text x="95" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">coverage (too expensive)</text>
+  <!-- Step 4: Left (9 o'clock) -->
+  <g transform="translate(45, 201)">
+    <rect x="0" y="0" width="190" height="55" rx="8" fill="#fff" stroke="#800000" stroke-width="2"/>
+    <text x="95" y="22" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="bold" fill="#800000">4. Healthy people drop</text>
+    <text x="95" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">coverage (too expensive)</text>
   </g>
-
-  <!-- Arrow 4->1 (completing the cycle) -->
-  <path d="M 70 360 C 30 320, 30 200, 95 150" stroke="#800000" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
 
   <!-- Center: Death spiral result -->
-  <g transform="translate(230, 195)">
+  <g transform="translate(265, 183)">
     <rect x="0" y="0" width="190" height="90" rx="10" fill="#f44336" opacity="0.15" stroke="#c62828" stroke-width="2"/>
-    <text x="95" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="bold" fill="#c62828">RESULT:</text>
-    <text x="95" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">Only very sick insured</text>
-    <text x="95" y="72" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">Sky-high premiums</text>
-    <text x="95" y="88" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#c62828" font-style="italic">Market collapse!</text>
+    <text x="95" y="25" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="bold" fill="#c62828">RESULT:</text>
+    <text x="95" y="43" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">Only very sick insured</text>
+    <text x="95" y="60" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#333">Sky-high premiums</text>
+    <text x="95" y="83" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#c62828" font-style="italic">Market collapse!</text>
   </g>
 
-  <!-- Repeat indicator -->
-  <text x="50" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" fill="#800000">&#8635;</text>
-  <text x="50" y="275" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">Cycle</text>
-  <text x="50" y="287" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">repeats</text>
-
   <!-- Bottom note -->
-  <text x="325" y="430" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#333" font-style="italic">Private information breaks the pooling mechanism that makes insurance work</text>
+  <text x="360" y="440" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#333" font-style="italic">Private information breaks the pooling mechanism that makes insurance work</text>
 </svg>

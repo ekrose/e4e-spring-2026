@@ -57,10 +57,19 @@
   <!-- Point on Social MC at Q_market -->
   <circle cx="267" cy="145" r="4" fill="#800000"/>
 
+  <!-- Horizontal dashed lines to y-axis -->
+  <line x1="215" y1="173" x2="70" y2="173" stroke="#800000" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="52" y="176" font-family="Inter, sans-serif" font-size="12" fill="#800000" text-anchor="start">P*</text>
+  <line x1="267" y1="205" x2="70" y2="205" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="52" y="207" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" text-anchor="start">
+    P<tspan font-size="8" dy="3">m</tspan>
+  </text>
+
   <!-- Vertical dashed lines to x-axis -->
   <line x1="267" y1="205" x2="267" y2="350" stroke="#2E7D32" stroke-width="1.5" stroke-dasharray="6,4"/>
-  <text x="267" y="368" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">Q mkt</text>
-
+  <text x="267" y="368" font-family="Inter, sans-serif" font-size="12" fill="#2E7D32" text-anchor="middle">
+    Q<tspan font-size="8" dy="3">m</tspan>
+  </text>
   <line x1="217" y1="174" x2="217" y2="350" stroke="#800000" stroke-width="1.5" stroke-dasharray="6,4"/>
   <text x="217" y="368" font-family="Inter, sans-serif" font-size="12" fill="#800000" text-anchor="middle">Q*</text>
 
@@ -71,14 +80,14 @@
 
   <!-- DWL label -->
   <text x="300" y="165" font-family="Inter, sans-serif" font-size="12" fill="#800000" font-weight="bold">DWL</text>
-  <line x1="295" y1="168" x2="255" y2="175" stroke="#800000" stroke-width="1"/>
+  <line x1="295" y1="162" x2="255" y2="175" stroke="#800000" stroke-width="1"/>
 
   <!-- External cost bracket -->
   <line x1="95" y1="240" x2="95" y2="300" stroke="#666" stroke-width="1.5"/>
   <line x1="90" y1="240" x2="100" y2="240" stroke="#666" stroke-width="1.5"/>
   <line x1="90" y1="300" x2="100" y2="300" stroke="#666" stroke-width="1.5"/>
-  <text x="60" y="275" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">External</text>
-  <text x="60" y="288" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">cost</text>
+  <text x="120" y="260" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">External</text>
+  <text x="120" y="270" font-family="Inter, sans-serif" font-size="11" fill="#666" text-anchor="middle">cost</text>
 
   <!-- Title -->
   <text x="285" y="30" font-family="Inter, sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">Negative Externality: Market Overproduces</text>
