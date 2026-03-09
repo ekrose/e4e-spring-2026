@@ -139,12 +139,12 @@ Raise the tax rate a little...
 
 ---
 
-## Top marginal tax rates in the US
+## US tax rates
 
-![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Historical_Marginal_Tax_Rate_for_Highest_and_Lowest_Income_Earners.jpg){fig-align="center" height="500"}
+![](images/us-marginal-tax-rates.svg){fig-align="center" width="85%"}
 
 ::: {.notes}
-Source: Wikipedia / Tax Foundation. Shows dramatic variation from 90%+ in 1950s to ~35-40% today.
+Source: Tax Foundation (https://taxfoundation.org/data/all/federal/historical-income-tax-rates-brackets/). Shows dramatic variation from 90%+ in 1950s to ~35-40% today.
 :::
 
 ---
