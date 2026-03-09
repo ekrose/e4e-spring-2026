@@ -756,6 +756,27 @@
     "text": "What is an incentive?\nAn incentive is anything that affects the payoffs of your choices.\n\nMonetary incentives:\n\nWages, prices, taxes, fines\n\n\n\nNon-monetary incentives:\n\nNorms, reputation, emotions\nConvenience, effort, time\nIdentity, social approval"
   },
   {
+    "objectID": "lectures/incentives.html#an-example-nyc-congestion-pricing",
+    "href": "lectures/incentives.html#an-example-nyc-congestion-pricing",
+    "title": "Incentives",
+    "section": "An example: NYC congestion pricing",
+    "text": "An example: NYC congestion pricing\nAfter Jan 2025: Must pay $9 to enter Manhattan’s CBD during peak hours\n\nHow did this affect travel times?"
+  },
+  {
+    "objectID": "lectures/incentives.html#increased-driving-speeds",
+    "href": "lectures/incentives.html#increased-driving-speeds",
+    "title": "Incentives",
+    "section": "Increased driving speeds",
+    "text": "Increased driving speeds\n\n\nReference: Cook et al (2026). “The Short-run Effects of Congestion Pricing in New York City.” NBER Working Paper, 33584."
+  },
+  {
+    "objectID": "lectures/incentives.html#which-saved-people-time",
+    "href": "lectures/incentives.html#which-saved-people-time",
+    "title": "Incentives",
+    "section": "… which saved people time",
+    "text": "… which saved people time\n\nEstimated total time savings of 83,020 hrs/week for priced trips (i.e. trips into the CBD during peak hours)\n\n\n\nAND 535,160 hrs/week for unpriced trips (spillover effects)"
+  },
+  {
     "objectID": "lectures/incentives.html#why-incentives-matter-for-policy",
     "href": "lectures/incentives.html#why-incentives-matter-for-policy",
     "title": "Incentives",
@@ -784,11 +805,11 @@
     "text": "The naive view\nRaise the tax rate a little…\n\n…and you should collect more tax revenue.\n\n\nBut what might happen to the incomes of the highest earners?"
   },
   {
-    "objectID": "lectures/incentives.html#top-marginal-tax-rates-in-the-us",
-    "href": "lectures/incentives.html#top-marginal-tax-rates-in-the-us",
+    "objectID": "lectures/incentives.html#us-tax-rates",
+    "href": "lectures/incentives.html#us-tax-rates",
     "title": "Incentives",
-    "section": "Top marginal tax rates in the US",
-    "text": "Top marginal tax rates in the US\n\n\n\n\n\n\nSource: Wikipedia / Tax Foundation. Shows dramatic variation from 90%+ in 1950s to ~35-40% today."
+    "section": "US tax rates",
+    "text": "US tax rates\n\n\nSource: Tax Foundation (https://taxfoundation.org/data/all/federal/historical-income-tax-rates-brackets/). Shows dramatic variation from 90%+ in 1950s to ~35-40% today."
   },
   {
     "objectID": "lectures/incentives.html#labor-supply-and-taxes",
@@ -2392,26 +2413,5 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
-  },
-  {
-    "objectID": "lectures/incentives.html#an-example-nyc-congestion-pricing",
-    "href": "lectures/incentives.html#an-example-nyc-congestion-pricing",
-    "title": "Incentives",
-    "section": "An example: NYC congestion pricing",
-    "text": "An example: NYC congestion pricing\nAfter Jan 2025: Must pay $9 to enter Manhattan’s CBD during peak hours\n\nHow did this affect travel times?"
-  },
-  {
-    "objectID": "lectures/incentives.html#increased-driving-speeds",
-    "href": "lectures/incentives.html#increased-driving-speeds",
-    "title": "Incentives",
-    "section": "Increased driving speeds",
-    "text": "Increased driving speeds\n\n\nReference: Cook et al (2026). “The Short-run Effects of Congestion Pricing in New York City.” NBER Working Paper, 33584."
-  },
-  {
-    "objectID": "lectures/incentives.html#which-saved-people-time",
-    "href": "lectures/incentives.html#which-saved-people-time",
-    "title": "Incentives",
-    "section": "… which saved people time",
-    "text": "… which saved people time\n\nEstimated total time savings of 83,020 hrs/week for priced trips (i.e. trips into the CBD during peak hours)\n\n\n\nAND 535,160 hrs/week for unpriced trips (spillover effects)"
   }
 ]
