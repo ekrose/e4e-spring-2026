@@ -610,19 +610,13 @@ Fryer (2011) ran experiments in multiple cities:
 
 Did these incentives work?
 
-## Overall, didn't find much effect...
+## Paying for inputs seemed to work better
 
-![](images/fryer_school_incentives_table.png){fig-align="center" width="80%"}
+![](images/fryer_results.svg){fig-align="center" width="80%"}
 
 ::: {.notes}
-Reference: Fryer (2011). "Financial Incentives and Student Achievement." Quarterly Journal of Economics 126(4): 1755-1798.
+Reference: Fryer (2010). "Financial Incentives and Student Achievement." NBER Working Paper 15898.
 :::
-
-- - -
-
-### ... but reading incentives worked for some people
-
-![](images/fryer_subsample_results.svg){fig-align="center" width="80%"}
 
 
 ## The lesson
