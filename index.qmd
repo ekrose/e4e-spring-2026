@@ -5,19 +5,19 @@ subtitle: ""
 
 ![](e4e-logo.svg){fig-align="center" width="450px"}
 
-### Spring 2026
-
 ## Course Staff
 
 **Instructors:** [John List](https://voices.uchicago.edu/jlist/) & [Evan Rose](https://ekrose.github.io/)
 
-**Office Hours:** TBD
+**Office Hours:** Upon request (email TAs).
 
 ## Logistics
 
 **Lectures:** Tuesday & Thursday, 11:00am–12:20pm
 
-**Location:** TBD
+**Location:** Kersten Physics Teaching Center 106
+
+**Section**: Thursday, 5:30-6:20pm and 6:30-7:20pm, location TBA
 
 ## Course Description
 
@@ -29,8 +29,8 @@ We will discuss what it means to think like an economist, how you can use econom
 
 No prior economics background required.
 
-## Coursework
+## Assignments
 
-- In-class quizzes
-- Two midterms
-- Final project
+- In-class participation quizzes (20%)
+- Two midterms (50%)
+- Final project (30%)

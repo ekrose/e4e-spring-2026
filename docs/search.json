@@ -1173,14 +1173,14 @@
     "href": "index.html#course-staff",
     "title": "Economics for Everyone | Spring 2026",
     "section": "Course Staff",
-    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: TBD"
+    "text": "Course Staff\nInstructors: John List & Evan Rose\nOffice Hours: Upon request (email TAs)."
   },
   {
     "objectID": "index.html#logistics",
     "href": "index.html#logistics",
     "title": "Economics for Everyone | Spring 2026",
     "section": "Logistics",
-    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: TBD"
+    "text": "Logistics\nLectures: Tuesday & Thursday, 11:00am–12:20pm\nLocation: Kersten Physics Teaching Center 106\nSection: Thursday, 5:30-6:20pm and 6:30-7:20pm, location TBA"
   },
   {
     "objectID": "index.html#course-description",
@@ -1197,11 +1197,81 @@
     "text": "Prerequisites\nNo prior economics background required."
   },
   {
-    "objectID": "index.html#coursework",
-    "href": "index.html#coursework",
+    "objectID": "index.html#assignments",
+    "href": "index.html#assignments",
     "title": "Economics for Everyone | Spring 2026",
-    "section": "Coursework",
-    "text": "Coursework\n\nIn-class quizzes\nTwo midterms\nFinal project"
+    "section": "Assignments",
+    "text": "Assignments\n\nIn-class participation quizzes (20%)\nTwo midterms (50%)\nFinal project (30%)"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "Each week has a short set of readings and an AI tutor assignment. The AI tutor assignment is completed on the course AI tutor site — link and instructions TBD."
+  },
+  {
+    "objectID": "assignments.html#week-1-mar-2426-the-basics-of-economics",
+    "href": "assignments.html#week-1-mar-2426-the-basics-of-economics",
+    "title": "Assignments",
+    "section": "Week 1 (Mar 24–26): The Basics of Economics",
+    "text": "Week 1 (Mar 24–26): The Basics of Economics\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 1 module on the course AI tutor site by Sunday, Mar 29 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-2-mar-31apr-2-causation-experiments",
+    "href": "assignments.html#week-2-mar-31apr-2-causation-experiments",
+    "title": "Assignments",
+    "section": "Week 2 (Mar 31–Apr 2): Causation & Experiments",
+    "text": "Week 2 (Mar 31–Apr 2): Causation & Experiments\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 2 module on the course AI tutor site by Sunday, Apr 5 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-3-apr-79-education-discrimination",
+    "href": "assignments.html#week-3-apr-79-education-discrimination",
+    "title": "Assignments",
+    "section": "Week 3 (Apr 7–9): Education & Discrimination",
+    "text": "Week 3 (Apr 7–9): Education & Discrimination\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 3 module on the course AI tutor site by Sunday, Apr 12 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-4-apr-1416-scaling-partnerships",
+    "href": "assignments.html#week-4-apr-1416-scaling-partnerships",
+    "title": "Assignments",
+    "section": "Week 4 (Apr 14–16): Scaling & Partnerships",
+    "text": "Week 4 (Apr 14–16): Scaling & Partnerships\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 4 module on the course AI tutor site by Sunday, Apr 19 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-5-apr-2123-midterm-incentives",
+    "href": "assignments.html#week-5-apr-2123-midterm-incentives",
+    "title": "Assignments",
+    "section": "Week 5 (Apr 21–23): Midterm & Incentives",
+    "text": "Week 5 (Apr 21–23): Midterm & Incentives\nReadings\n\nReading TBD\n\nNo AI tutor assignment this week."
+  },
+  {
+    "objectID": "assignments.html#week-6-apr-2830-markets-equity",
+    "href": "assignments.html#week-6-apr-2830-markets-equity",
+    "title": "Assignments",
+    "section": "Week 6 (Apr 28–30): Markets & Equity",
+    "text": "Week 6 (Apr 28–30): Markets & Equity\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 6 module on the course AI tutor site by Sunday, May 3 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-7-may-57-uncertainty-quasi-experiments",
+    "href": "assignments.html#week-7-may-57-uncertainty-quasi-experiments",
+    "title": "Assignments",
+    "section": "Week 7 (May 5–7): Uncertainty & Quasi-Experiments",
+    "text": "Week 7 (May 5–7): Uncertainty & Quasi-Experiments\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 7 module on the course AI tutor site by Sunday, May 10 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-8-may-1214-risk-insurance-labor",
+    "href": "assignments.html#week-8-may-1214-risk-insurance-labor",
+    "title": "Assignments",
+    "section": "Week 8 (May 12–14): Risk, Insurance & Labor",
+    "text": "Week 8 (May 12–14): Risk, Insurance & Labor\nReadings\n\nReading TBD\nReading TBD\n\nAI Tutor Assignment\nComplete the Week 8 module on the course AI tutor site by Sunday, May 17 at 11:59pm."
+  },
+  {
+    "objectID": "assignments.html#week-9-may-1921-technology-ai-midterm",
+    "href": "assignments.html#week-9-may-1921-technology-ai-midterm",
+    "title": "Assignments",
+    "section": "Week 9 (May 19–21): Technology, AI & Midterm",
+    "text": "Week 9 (May 19–21): Technology, AI & Midterm\nReadings\n\nReading TBD\n\nNo AI tutor assignment this week."
   },
   {
     "objectID": "about.html",
@@ -1209,6 +1279,41 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "final-project.html",
+    "href": "final-project.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "Details on the final project will be posted here. The final project is due during finals week (May 26–29)."
+  },
+  {
+    "objectID": "final-project.html#overview",
+    "href": "final-project.html#overview",
+    "title": "Final Project",
+    "section": "Overview",
+    "text": "Overview\nTBD"
+  },
+  {
+    "objectID": "final-project.html#requirements",
+    "href": "final-project.html#requirements",
+    "title": "Final Project",
+    "section": "Requirements",
+    "text": "Requirements\nTBD"
+  },
+  {
+    "objectID": "final-project.html#grading",
+    "href": "final-project.html#grading",
+    "title": "Final Project",
+    "section": "Grading",
+    "text": "Grading\nTBD"
+  },
+  {
+    "objectID": "final-project.html#submission",
+    "href": "final-project.html#submission",
+    "title": "Final Project",
+    "section": "Submission",
+    "text": "Submission\nTBD"
   },
   {
     "objectID": "lectures/equity-efficiency.html#recall-our-last-class",

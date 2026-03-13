@@ -18,6 +18,10 @@ website:
         href: schedule.qmd
       - text: "Lectures"
         href: lectures/index.qmd
+      - text: "Assignments"
+        href: assignments.qmd
+      - text: "Final Project"
+        href: final-project.qmd
   page-footer:
     background: light
     center: "© 2026 University of Chicago"
