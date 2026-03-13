@@ -67,12 +67,13 @@ Complete the Week 4 module on the course AI tutor site by **Sunday, Apr 19 at 11
 
 ### Class Prep: Incentives
 
-- [Podcast: Why goals, incentives, and choice architecture affect the decisions people make](https://www.hiddenbrain.org/podcast/success-2-0-getting-what-you-want/)
-- [E4E Video: Behavioral economics and why people do not always act like the textbook model](https://econ4everyone.uchicago.edu/video/behavioral-economics)
+- [Podcast: Goals, incentives, and choice architecture (Hidden Brain)](https://www.hiddenbrain.org/podcast/success-2-0-getting-what-you-want/)
+- [Video: Behavioral economics basics (E4E)](https://econ4everyone.uchicago.edu/video/behavioral-economics)
 
 ### Optional Readings
 
-- [Optional/Advanced Paper: Evidence on whether paying students for performance improves outcomes](https://www.nber.org/papers/w15898)
+- [Optional Paper: Paying students for performance (NBER)](https://www.nber.org/papers/w15898)
+- [Optional Reading: When incentives work, fail, or backfire (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.25.4.191&lang=en)
 
 ### AI Assignment
 
@@ -84,19 +85,20 @@ Complete the Week 4 module on the course AI tutor site by **Sunday, Apr 19 at 11
 
 ### Class Prep: Markets and Their Failures
 
-- [Video: What it really takes to make a chicken sandwich from scratch, and what that shows about production and specialization](https://www.youtube.com/watch?v=URvWSsAgtJE)
-- [E4E Video: Specialization, trade, and why markets can increase efficiency](https://econ4everyone.uchicago.edu/video/specialization-and-efficiency)
-- [E4E Video: Externalities and when markets fail to account for social costs and benefits](https://econ4everyone.uchicago.edu/video/externalities/)
-- [Article: Why cuts to university research funding can create spillovers beyond higher education](https://www.npr.org/2025/05/28/1253247256/higher-education-federal-funding-universities-science-research)
+- [Video: Specialization and efficiency (E4E)](https://econ4everyone.uchicago.edu/video/specialization-and-efficiency)
+- [Video: Externalities and market failure (E4E)](https://econ4everyone.uchicago.edu/video/externalities/)
+- [Podcast: Research funding spillovers (NPR)](https://www.npr.org/2025/05/28/1253247256/higher-education-federal-funding-universities-science-research)
 
 ### Class Prep: Equity vs. Efficiency
 
-- [E4E Video: The basic tradeoff between equity and efficiency in public policy](https://econ4everyone.uchicago.edu/video/equity-vs-efficiency)
-- [E4E Video: A second look at equity vs. efficiency and the costs of redistribution](https://econ4everyone.uchicago.edu/video/equity-vs-efficiency-2/)
+- [Video: Equity vs. efficiency, part 1 (E4E)](https://econ4everyone.uchicago.edu/video/equity-vs-efficiency)
+- [Video: Equity vs. efficiency, part 2 (E4E)](https://econ4everyone.uchicago.edu/video/equity-vs-efficiency-2/)
 
-### Optional Readings
+### Optional
 
-- [Optional/Advanced Book Chapter: Arthur Okun on redistribution and the efficiency costs of pursuing greater equality](https://www.brookings.edu/books/equality-and-efficiency-the-big-tradeoff/)
+- [Video: Making a chicken sandwich from scratch (YouTube)](https://www.youtube.com/watch?v=URvWSsAgtJE)
+- [Reading: How food banks use markets (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.31.4.145)
+- Reading: Redistribution and efficiency costs (book)
 
 ### AI Assignment
 
@@ -108,19 +110,20 @@ Complete the Week 6 module on the course AI tutor site by **Sunday, May 3 at 11:
 
 ### Class Prep: Statistical Uncertainty
 
-- [Podcast transcript: Why polling and prediction are hard, and what uncertainty means in practice](https://www.npr.org/transcripts/463237871)
-- [Video: A visual introduction to statistical significance, sampling variation, and uncertainty](https://www.youtube.com/watch?v=kLmzxmRcUTo)
-- [Article: Why polls can be wrong even when they are conducted carefully](https://www.nytimes.com/2014/07/04/upshot/why-polls-can-sometimes-get-things-so-wrong.html)
+- [Podcast: Polling, prediction, and uncertainty (NPR)](https://www.npr.org/transcripts/463237871)
+- [Video: How statistics fool juries (TED)](https://www.youtube.com/watch?v=kLmzxmRcUTo)
+- [Article: Why polls can still be wrong (New York Times)](https://www.nytimes.com/2014/07/04/upshot/why-polls-can-sometimes-get-things-so-wrong.html)
 
 ### Class Prep: Quasi-Experiments
 
-- [Podcast: How economists use natural experiments to learn about cause and effect](https://freakonomics.com/podcast/you-make-me-feel-like-a-natural-experiment/)
-- [Article: Nobel Prize overview of natural experiments in economics](https://www.nobelprize.org/uploads/2021/10/popular-economicsciencesprize2021-3.pdf)
+- [Podcast: Josh Angrist on natural experiments and causal inference (Freakonomics)](https://freakonomics.com/podcast/you-make-me-feel-like-a-natural-experiment/)
+- [Article: A nobel prize for natural experiments](https://www.nobelprize.org/uploads/2021/10/popular-economicsciencesprize2021-3.pdf)
 
-### Optional Readings
+### Optional
 
-- [Optional/Advanced Paper: The Card and Krueger minimum-wage study as a classic quasi-experiment](https://davidcard.berkeley.edu/papers/njmin-aer.pdf)
-- [Optional/Advanced Article: Technical Nobel background on the economics of natural experiments](https://www.nobelprize.org/uploads/2021/10/advanced-economicsciencesprize2021.pdf)
+- [Reading: The credibility revolution in econometrics (JEP)](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.24.2.3)
+- [Reading: The Card-Krueger minimum wage study (Berkeley)](https://davidcard.berkeley.edu/papers/njmin-aer.pdf)
+- [Reading: Technical Nobel background on natural experiments (Nobel Prize)](https://www.nobelprize.org/uploads/2021/10/advanced-economicsciencesprize2021.pdf)
 
 ### AI Assignment
 
@@ -132,19 +135,19 @@ Complete the Week 7 module on the course AI tutor site by **Sunday, May 10 at 11
 
 ### Class Prep: Risk and Insurance
 
-- [E4E Video: Adverse selection and why insurance markets can unravel](https://econ4everyone.uchicago.edu/video/adverse-selection/)
-- [Podcast: Why insurance exists and how it helps people manage risk](https://www.mercatus.org/marginal-revolution-podcast/economics-insurance)
-- [Podcast: Why insurance markets matter, and why insurance is more interesting than it sounds](https://freakonomics.com/podcast/insurance-is-sexy-discuss/)
+- [Video: Adverse selection in insurance markets (E4E)](https://econ4everyone.uchicago.edu/video/adverse-selection/)
+- [Podcast: Why insurance matters (Freakonomics)](https://freakonomics.com/podcast/insurance-is-sexy-discuss/)
 
 ### Class Prep: Labor Markets
 
-- [Podcast transcript: How supply, demand, and matching work in labor markets](https://www.npr.org/2022/08/10/1116835727/summer-school-5-car-parts-celery-the-labor-market)
-- [Podcast transcript: How geography and inequality shape access to jobs in different labor markets](https://www.npr.org/sections/money/2014/08/22/342232976/episode-562-a-mall-divided)
-- [Podcast transcript: How taxes affect work incentives and labor-market decisions](https://www.npr.org/sections/money/2013/04/12/177063399/episode-451-why-some-people-love-tax-day)
+- [Podcast: Labor markets, supply, and demand (Planet Money)](https://www.npr.org/2022/08/10/1116835727/summer-school-5-car-parts-celery-the-labor-market)
+- [Podcast: Geography, inequality, and jobs (Planet Money)](https://www.npr.org/sections/money/2014/08/22/342232976/episode-562-a-mall-divided)
+- [Podcast: Taxes and work incentives (Planet Money)](https://www.npr.org/sections/money/2013/04/12/177063399/episode-451-why-some-people-love-tax-day)
 
-### Optional Readings
+### Optional
 
-None this week.
+- [Video: Why insurance exists (Marginal Revolution)](https://www.mercatus.org/marginal-revolution-podcast/economics-insurance)
+- [Optional: Selection in insurance markets (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115)
 
 ### AI Assignment
 
@@ -161,13 +164,14 @@ Complete the Week 8 module on the course AI tutor site by **Sunday, May 17 at 11
 
 ### Class Prep: Technology, Growth, and AI
 
-- [E4E Video: Productivity growth and why technology raises living standards over time](https://econ4everyone.uchicago.edu/video/productivity/)
-- [Article: How restaurant automation is changing work in the service sector](https://www.npr.org/2026/03/13/nx-s1-5733110/automation-chef-wok-restaurant-industry)
+- [Video: Productivity and growth (E4E)](https://econ4everyone.uchicago.edu/video/productivity/)
+- [Article: Restaurant automation and service work (NPR)](https://www.npr.org/2026/03/13/nx-s1-5733110/automation-chef-wok-restaurant-industry)
+- [Article: Why automation does not simply eliminate jobs (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3&page=387)
 
-### Optional Readings
+### Optional
 
-None this week.
+- [Optional: Generative AI and the future of work (Brookings)](https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/)
 
 ### AI Assignment
 
-*No AI tutor assignment this week.*
+Complete the Week 8 module on the course AI tutor site by **Sunday, May 24 at 11:59pm**.
