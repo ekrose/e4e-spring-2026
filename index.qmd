@@ -38,5 +38,6 @@ You will also complete quizzes and polls in class using Poll Everywhere. You can
 Your final grade will depend on the following. 
 
 - In-class participation quizzes (20%)
-- Two midterms (50%)
+- Weekly AI-enabled discussions (20%)
+- Two midterms (30%)
 - Final project (30%)

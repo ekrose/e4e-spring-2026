@@ -60,9 +60,21 @@ Complete the Week 4 module on the course AI tutor site by **Sunday, Apr 19 at 11
 
 ## Week 5 (Apr 21–23): Midterm & Incentives
 
-**Readings**
+**This Week**
 
-- Reading TBD
+- Tuesday (Apr 21): **Midterm in class**
+- Thursday (Apr 23): Complete the materials below before class.
+
+### Class Prep: Incentives
+
+- [Podcast: Why goals, incentives, and choice architecture affect the decisions people make](https://www.hiddenbrain.org/podcast/success-2-0-getting-what-you-want/)
+- [E4E Video: Behavioral economics and why people do not always act like the textbook model](https://econ4everyone.uchicago.edu/video/behavioral-economics)
+
+### Optional Readings
+
+- [Optional/Advanced Paper: Evidence on whether paying students for performance improves outcomes](https://www.nber.org/papers/w15898)
+
+### AI Assignment
 
 *No AI tutor assignment this week.*
 
@@ -70,12 +82,23 @@ Complete the Week 4 module on the course AI tutor site by **Sunday, Apr 19 at 11
 
 ## Week 6 (Apr 28–30): Markets & Equity
 
-**Readings**
+### Class Prep: Markets and Their Failures
 
-- Reading TBD
-- Reading TBD
+- [Video: What it really takes to make a chicken sandwich from scratch, and what that shows about production and specialization](https://www.youtube.com/watch?v=URvWSsAgtJE)
+- [E4E Video: Specialization, trade, and why markets can increase efficiency](https://econ4everyone.uchicago.edu/video/specialization-and-efficiency)
+- [E4E Video: Externalities and when markets fail to account for social costs and benefits](https://econ4everyone.uchicago.edu/video/externalities/)
+- [Article: Why cuts to university research funding can create spillovers beyond higher education](https://www.npr.org/2025/05/28/1253247256/higher-education-federal-funding-universities-science-research)
 
-**AI Tutor Assignment**
+### Class Prep: Equity vs. Efficiency
+
+- [E4E Video: The basic tradeoff between equity and efficiency in public policy](https://econ4everyone.uchicago.edu/video/equity-vs-efficiency)
+- [E4E Video: A second look at equity vs. efficiency and the costs of redistribution](https://econ4everyone.uchicago.edu/video/equity-vs-efficiency-2/)
+
+### Optional Readings
+
+- [Optional/Advanced Book Chapter: Arthur Okun on redistribution and the efficiency costs of pursuing greater equality](https://www.brookings.edu/books/equality-and-efficiency-the-big-tradeoff/)
+
+### AI Assignment
 
 Complete the Week 6 module on the course AI tutor site by **Sunday, May 3 at 11:59pm**.
 
@@ -83,12 +106,23 @@ Complete the Week 6 module on the course AI tutor site by **Sunday, May 3 at 11:
 
 ## Week 7 (May 5–7): Uncertainty & Quasi-Experiments
 
-**Readings**
+### Class Prep: Statistical Uncertainty
 
-- Reading TBD
-- Reading TBD
+- [Podcast transcript: Why polling and prediction are hard, and what uncertainty means in practice](https://www.npr.org/transcripts/463237871)
+- [Video: A visual introduction to statistical significance, sampling variation, and uncertainty](https://www.youtube.com/watch?v=kLmzxmRcUTo)
+- [Article: Why polls can be wrong even when they are conducted carefully](https://www.nytimes.com/2014/07/04/upshot/why-polls-can-sometimes-get-things-so-wrong.html)
 
-**AI Tutor Assignment**
+### Class Prep: Quasi-Experiments
+
+- [Podcast: How economists use natural experiments to learn about cause and effect](https://freakonomics.com/podcast/you-make-me-feel-like-a-natural-experiment/)
+- [Article: Nobel Prize overview of natural experiments in economics](https://www.nobelprize.org/uploads/2021/10/popular-economicsciencesprize2021-3.pdf)
+
+### Optional Readings
+
+- [Optional/Advanced Paper: The Card and Krueger minimum-wage study as a classic quasi-experiment](https://davidcard.berkeley.edu/papers/njmin-aer.pdf)
+- [Optional/Advanced Article: Technical Nobel background on the economics of natural experiments](https://www.nobelprize.org/uploads/2021/10/advanced-economicsciencesprize2021.pdf)
+
+### AI Assignment
 
 Complete the Week 7 module on the course AI tutor site by **Sunday, May 10 at 11:59pm**.
 
@@ -96,12 +130,23 @@ Complete the Week 7 module on the course AI tutor site by **Sunday, May 10 at 11
 
 ## Week 8 (May 12–14): Risk, Insurance & Labor
 
-**Readings**
+### Class Prep: Risk and Insurance
 
-- Reading TBD
-- Reading TBD
+- [E4E Video: Adverse selection and why insurance markets can unravel](https://econ4everyone.uchicago.edu/video/adverse-selection/)
+- [Podcast: Why insurance exists and how it helps people manage risk](https://www.mercatus.org/marginal-revolution-podcast/economics-insurance)
+- [Podcast: Why insurance markets matter, and why insurance is more interesting than it sounds](https://freakonomics.com/podcast/insurance-is-sexy-discuss/)
 
-**AI Tutor Assignment**
+### Class Prep: Labor Markets
+
+- [Podcast transcript: How supply, demand, and matching work in labor markets](https://www.npr.org/2022/08/10/1116835727/summer-school-5-car-parts-celery-the-labor-market)
+- [Podcast transcript: How geography and inequality shape access to jobs in different labor markets](https://www.npr.org/sections/money/2014/08/22/342232976/episode-562-a-mall-divided)
+- [Podcast transcript: How taxes affect work incentives and labor-market decisions](https://www.npr.org/sections/money/2013/04/12/177063399/episode-451-why-some-people-love-tax-day)
+
+### Optional Readings
+
+None this week.
+
+### AI Assignment
 
 Complete the Week 8 module on the course AI tutor site by **Sunday, May 17 at 11:59pm**.
 
@@ -109,8 +154,20 @@ Complete the Week 8 module on the course AI tutor site by **Sunday, May 17 at 11
 
 ## Week 9 (May 19–21): Technology, AI & Midterm
 
-**Readings**
+**This Week**
 
-- Reading TBD
+- Tuesday (May 19): Complete the materials below before class.
+- Thursday (May 21): **Midterm in class**
+
+### Class Prep: Technology, Growth, and AI
+
+- [E4E Video: Productivity growth and why technology raises living standards over time](https://econ4everyone.uchicago.edu/video/productivity/)
+- [Article: How restaurant automation is changing work in the service sector](https://www.npr.org/2026/03/13/nx-s1-5733110/automation-chef-wok-restaurant-industry)
+
+### Optional Readings
+
+None this week.
+
+### AI Assignment
 
 *No AI tutor assignment this week.*
