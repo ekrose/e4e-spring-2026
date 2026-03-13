@@ -894,6 +894,39 @@ This analogy illustrates the key point: *redistribution can be costly*.
 
 How much leakage do you accept?
 
+## What actually *is* the leakage? An example
+
+Sometimes it's monetary, but can be broader than that.
+
+. . .
+
+In 1696, King William II levied the 'window tax', which charged people based on how many windows they had.
+
+. . . 
+
+Intended as a progressive tax:
+
+- Poorer people lived in houses with fewer windows.
+- Fewer windows meant a lower tax bill.
+
+::: {.notes}
+Reference: Oates & Schwab (2015). "The Window Tax: A Case Study in Excess Burden." Journal of Economic Perspectives.
+:::
+
+## What actually *is* the leakage? An example
+
+The tax was a public health nightmare
+
+. . . 
+
+- People bricked up their windows to avoid the tax.
+- This reduced light and ventilation in homes.
+- Public health suffered as a result.
+
+. . .
+
+This *is* the *leakage* or *deadweight loss* economists talk about. 
+
 # Wrapping Up {background-color="#800000"}
 
 
