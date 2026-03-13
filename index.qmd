@@ -31,6 +31,12 @@ No prior economics background required.
 
 ## Assignments
 
+Each lecture will be accompanied by readings and/or podcasts and videos. You are required to complete these prior to the lecture (including Week 1). Details on weekly assignments are available on the [Assignments](assignments.qmd) tab.
+
+You will also complete quizzes and polls in class using Poll Everywhere. You can sign up as a participant [here](https://id.polleverywhere.com/signup?usrc=login_page). 
+
+Your final grade will depend on the following. 
+
 - In-class participation quizzes (20%)
 - Two midterms (50%)
 - Final project (30%)
