@@ -869,9 +869,33 @@ The question isn't whether to redistribute—it's *how much*.
 
 > The answer depends on your values *and* the costs.
 
+
+## Okun's Leaky Bucket Analogy
+
+Imagine you want to move water from point A to point B. 
+
+. . .
+
+The only catch is that your bucket has holes in it. 
+
+. . .
+
+Ideally, you'd patch the holes, or use a different bucket.
+
+. . . 
+
+But most of the time we can't do that. Water leaks out and is lost.
+
+. . . 
+
+This analogy illustrates the key point: *redistribution can be costly*.
+
+. . . 
+
+How much leakage do you accept?
+
 # Wrapping Up {background-color="#800000"}
 
----
 
 ## Key takeaways {style="font-size: 0.9em;"}
 
