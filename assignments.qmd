@@ -147,7 +147,7 @@ Complete the Week 7 module on the course AI tutor site by **Sunday, May 10 at 11
 ### Optional
 
 - [Video: Why insurance exists (Marginal Revolution)](https://www.mercatus.org/marginal-revolution-podcast/economics-insurance)
-- [Optional: Selection in insurance markets (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115)
+- [Reading: Selection in insurance markets (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.25.1.115)
 
 ### AI Assignment
 
@@ -165,12 +165,12 @@ Complete the Week 8 module on the course AI tutor site by **Sunday, May 17 at 11
 ### Class Prep: Technology, Growth, and AI
 
 - [Video: Productivity and growth (E4E)](https://econ4everyone.uchicago.edu/video/productivity/)
-- [Article: Restaurant automation and service work (NPR)](https://www.npr.org/2026/03/13/nx-s1-5733110/automation-chef-wok-restaurant-industry)
-- [Article: Why automation does not simply eliminate jobs (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3&page=387)
+- [Podcast: Restaurant automation and service work (NPR)](https://www.npr.org/2026/03/13/nx-s1-5733110/automation-chef-wok-restaurant-industry)
+- [Reading: Why automation does not simply eliminate jobs (JEP)](https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3&page=387)
 
 ### Optional
 
-- [Optional: Generative AI and the future of work (Brookings)](https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/)
+- [Reading: Generative AI and the future of work (Brookings)](https://www.brookings.edu/articles/generative-ai-the-american-worker-and-the-future-of-work/)
 
 ### AI Assignment
 
