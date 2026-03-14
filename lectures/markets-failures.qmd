@@ -205,6 +205,48 @@ The price tells consumers: "This is what it costs society to make an extra unit.
 
 No one needs to know the whole picture. The price contains the information.
 
+## Prendergast (2017): Markets in the real world
+
+Feeding America distributes food to the poor through food banks.
+
+. . . 
+
+What is the best way to do this? A market or central planner?
+
+
+
+::: {.notes}
+Reference: Prendergast, C. (2017). "How Food Banks Use Markets to Feed the Poor." Journal of Economic Perspectives.
+:::
+
+## Prendergast (2017): Markets in the real world
+
+Before 2005: used a centralised "wait-your-turn" queuing system to distribute food.
+
+. . .
+
+- In this system, all food banks get the same amount of food.
+- But not all food banks *need* or *want* the same amount or type of food.
+- E.g. Bank A might need fresh produce while B might need cereals.
+
+## Prendergast (2017): Markets in the real world
+
+After 2005: implemented a market-based system
+
+. . .
+
+- Feeding America gave food banks fake "dollars", based on need, that they used to bid for food shipments.
+- This market established a price for types of food.
+- Bank A could buy fresh produce, foregoing cereals, and vice versa for Bank B.
+
+. . . 
+
+Here the market improved welfare through efficiently allocating food to where it was most needed.
+
+::: {.notes}
+Reference: Prendergast, C. (2017). "How Food Banks Use Markets to Feed the Poor." Journal of Economic Perspectives.
+:::
+
 # How Markets Find Prices {background-color="#800000"}
 
 The discovery process

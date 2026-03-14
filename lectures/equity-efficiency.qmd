@@ -531,7 +531,7 @@ Reference: Mankiw & Weinzierl (2010). "The Optimal Taxation of Height." American
 
 ---
 
-## Why we can't do lump-sum
+## Why we usually can't do lump-sum
 
 We can't observe the things we'd need to observe:
 
@@ -546,6 +546,20 @@ So we tax things we *can* observe: income, wealth, consumption.
 . . .
 
 But these depend on choices—so taxes distort behavior.
+
+## The Second Welfare Theorem in action
+
+Recall Feeding America's market-based system for distributing food.
+
+. . . 
+
+A *key* feature was the fake money each food bank got to bid on food.
+
+. . . 
+
+Budgets were based on **need**: the number of poor people in a food bank's area.
+
+- Since we could reshuffle money to the needy, the market worked.
 
 # The Cost of Redistribution {background-color="#800000"}
 
