@@ -1603,18 +1603,18 @@
     "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
   },
   {
+    "objectID": "lectures/equity-efficiency.html#back-to-feeding-america",
+    "href": "lectures/equity-efficiency.html#back-to-feeding-america",
+    "title": "Equity vs. Efficiency",
+    "section": "Back to Feeding America",
+    "text": "Back to Feeding America\nRecall Feeding America’s market-based system for distributing food.\n\nA key feature was the amount of fake money each food bank got to bid on food.\n\n\nImportantly, we can\n\nobserve need (i.e. the number of poor people in a food bank’s area)\nredistribute money to the needy\n\n\n\nSecond Welfare Theorem applies and the market finds the efficient allocation"
+  },
+  {
     "objectID": "lectures/equity-efficiency.html#why-we-usually-cant-do-lump-sum",
     "href": "lectures/equity-efficiency.html#why-we-usually-cant-do-lump-sum",
     "title": "Equity vs. Efficiency",
     "section": "Why we usually can’t do lump-sum",
     "text": "Why we usually can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
-  },
-  {
-    "objectID": "lectures/equity-efficiency.html#the-second-welfare-theorem-in-action",
-    "href": "lectures/equity-efficiency.html#the-second-welfare-theorem-in-action",
-    "title": "Equity vs. Efficiency",
-    "section": "The Second Welfare Theorem in action",
-    "text": "The Second Welfare Theorem in action\nRecall Feeding America’s market-based system for distributing food.\n\nA key feature was the fake money each food bank got to bid on food.\n\n\nBudgets were based on need: the number of poor people in a food bank’s area.\n\nSince we could reshuffle money to the needy, the market worked."
   },
   {
     "objectID": "lectures/equity-efficiency.html#a-simple-idea",
