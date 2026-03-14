@@ -214,7 +214,40 @@ Who gained the least?
 
 ---
 
-## Why does this matter?
+## How people view income inequality
+
+Hvidberg et al (2023) asked Danish people about their views on income inequality
+
+. . . 
+
+- How unfair is income inequality *overall*?
+- How unfair is income inequality within different groups (e.g. same education group, gender, co-workers)?
+
+## Their questions
+
+![](images/hvidberg_questions.png){fig-align="center" width="85%"}
+
+::: {.notes}
+Reference: Hvidgberg, Kreiner, and Stantcheva (2023). "Social Positions and Fairness
+Views on Inequality." Review of Economic Studies.
+:::
+
+---
+
+## Views of fairness differ  
+
+![](images/stancheva_inequality_views.png){fig-align="center" width="85%"}
+
+. . .
+
+> Finding: Inequality within co-worker and education groups more unfair than overall (i.e. 'cohort') inequality.
+
+::: {.notes}
+Reference: Hvidgberg, Kreiner, and Stantcheva (2023). "Social Positions and Fairness
+Views on Inequality." Review of Economic Studies.
+:::
+
+## Why does inequality matter?
 
 Inequality affects:
 
