@@ -413,6 +413,27 @@
     "text": "Why This Matters\nThe price tells producers: “This is what society values an extra unit at.”\n\nThe price tells consumers: “This is what it costs society to make an extra unit.”\n\n\n\nPrices coordinate decisions across millions of people who will never meet.\n\n\n\nNo one needs to know the whole picture. The price contains the information."
   },
   {
+    "objectID": "lectures/markets-failures.html#feeding-america",
+    "href": "lectures/markets-failures.html#feeding-america",
+    "title": "Markets and Their Failures",
+    "section": "Feeding America",
+    "text": "Feeding America\nFeeding America distributes food to the poor through food banks.\n\nWhat is the best way to do this? A market or central planner?\n\nReference: Prendergast, C. (2017). “How Food Banks Use Markets to Feed the Poor.” Journal of Economic Perspectives."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#problems-with-centralisation",
+    "href": "lectures/markets-failures.html#problems-with-centralisation",
+    "title": "Markets and Their Failures",
+    "section": "Problems with centralisation",
+    "text": "Problems with centralisation\nBefore 2005: used a centralised “wait-your-turn” queuing system to distribute food.\n\n\nIn this system, all food banks get the same amount of food.\nBut not all food banks need or want the same amount or type of food.\nE.g. Bank A might need fresh produce while B might need cereals."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#a-real-world-market",
+    "href": "lectures/markets-failures.html#a-real-world-market",
+    "title": "Markets and Their Failures",
+    "section": "A real world market",
+    "text": "A real world market\nAfter 2005: implemented a market-based system\n\n\nFeeding America gave food banks fake “dollars”, based on need, that they used to bid for food shipments.\nThis market established a price for types of food.\nBank A could buy fresh produce, foregoing cereals, and vice versa for Bank B.\n\n\n\nThe market improved welfare by efficient allocation\n\n\n\nWorked because the market discovered the prices of different types of food.\n\n\nReference: Prendergast, C. (2017). “How Food Banks Use Markets to Feed the Poor.” Journal of Economic Perspectives."
+  },
+  {
     "objectID": "lectures/markets-failures.html#price-discovery-in-the-real-world",
     "href": "lectures/markets-failures.html#price-discovery-in-the-real-world",
     "title": "Markets and Their Failures",
@@ -1036,11 +1057,11 @@
     "text": "Evidence from Fryer (2011)\nFryer (2011) ran experiments in multiple cities:\n\nDallas: paid for reading books\nNYC & Chicago: paid for test scores and grades\n\n\nDid these incentives work?"
   },
   {
-    "objectID": "lectures/incentives.html#overall-didnt-find-much-effect",
-    "href": "lectures/incentives.html#overall-didnt-find-much-effect",
+    "objectID": "lectures/incentives.html#paying-for-inputs-seemed-to-work-better",
+    "href": "lectures/incentives.html#paying-for-inputs-seemed-to-work-better",
     "title": "Incentives",
-    "section": "Overall, didn’t find much effect…",
-    "text": "Overall, didn’t find much effect…\n\n\nReference: Fryer (2011). “Financial Incentives and Student Achievement.” Quarterly Journal of Economics 126(4): 1755-1798."
+    "section": "Paying for inputs seemed to work better",
+    "text": "Paying for inputs seemed to work better\n\n\nReference: Fryer (2010). “Financial Incentives and Student Achievement.” NBER Working Paper 15898."
   },
   {
     "objectID": "lectures/incentives.html#the-lesson-1",
@@ -1421,11 +1442,32 @@
     "text": "The elephant curve\nOver the past 40 years, who gained the most globally?\n\n\nThe global middle class (especially China, India)\nThe global top 1%\n\n\n\nWho gained the least?\n\n\n\nThe working and middle classes in rich countries."
   },
   {
-    "objectID": "lectures/equity-efficiency.html#why-does-this-matter",
-    "href": "lectures/equity-efficiency.html#why-does-this-matter",
+    "objectID": "lectures/equity-efficiency.html#how-people-view-income-inequality",
+    "href": "lectures/equity-efficiency.html#how-people-view-income-inequality",
     "title": "Equity vs. Efficiency",
-    "section": "Why does this matter?",
-    "text": "Why does this matter?\nInequality affects:\n\nPolitical stability\nSocial mobility\nHealth outcomes\nTrust in institutions\n\n\nBut whether it’s a problem depends on your values."
+    "section": "How people view income inequality",
+    "text": "How people view income inequality\nHvidberg et al (2023) asked Danish people about their views on income inequality\n\n\nHow unfair is income inequality overall?\nHow unfair is income inequality within different groups (e.g. same education group, gender, co-workers)?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#their-questions",
+    "href": "lectures/equity-efficiency.html#their-questions",
+    "title": "Equity vs. Efficiency",
+    "section": "Their questions",
+    "text": "Their questions\n\n\nReference: Hvidgberg, Kreiner, and Stantcheva (2023). “Social Positions and Fairness Views on Inequality.” Review of Economic Studies."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#views-of-fairness-differ",
+    "href": "lectures/equity-efficiency.html#views-of-fairness-differ",
+    "title": "Equity vs. Efficiency",
+    "section": "Views of fairness differ",
+    "text": "Views of fairness differ\n\n\n\nFinding: Inequality within co-worker and education groups more unfair than overall (i.e. ‘cohort’) inequality.\n\n\nReference: Hvidgberg, Kreiner, and Stantcheva (2023). “Social Positions and Fairness Views on Inequality.” Review of Economic Studies."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-does-inequality-matter",
+    "href": "lectures/equity-efficiency.html#why-does-inequality-matter",
+    "title": "Equity vs. Efficiency",
+    "section": "Why does inequality matter?",
+    "text": "Why does inequality matter?\nInequality affects:\n\nPolitical stability\nSocial mobility\nHealth outcomes\nTrust in institutions\n\n\nBut whether it’s a problem depends on your values."
   },
   {
     "objectID": "lectures/equity-efficiency.html#lets-find-out-what-you-think",
@@ -1561,11 +1603,18 @@
     "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
   },
   {
-    "objectID": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
-    "href": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
+    "objectID": "lectures/equity-efficiency.html#back-to-feeding-america",
+    "href": "lectures/equity-efficiency.html#back-to-feeding-america",
     "title": "Equity vs. Efficiency",
-    "section": "Why we can’t do lump-sum",
-    "text": "Why we can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
+    "section": "Back to Feeding America",
+    "text": "Back to Feeding America\nRecall Feeding America’s market-based system for distributing food.\n\nA key feature was the amount of fake money each food bank got to bid on food.\n\n\nImportantly, we can\n\nobserve need (i.e. the number of poor people in a food bank’s area)\nredistribute money to the needy\n\n\n\nSecond Welfare Theorem applies and the market finds the efficient allocation"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#why-we-usually-cant-do-lump-sum",
+    "href": "lectures/equity-efficiency.html#why-we-usually-cant-do-lump-sum",
+    "title": "Equity vs. Efficiency",
+    "section": "Why we usually can’t do lump-sum",
+    "text": "Why we usually can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
   },
   {
     "objectID": "lectures/equity-efficiency.html#a-simple-idea",
@@ -1720,6 +1769,27 @@
     "title": "Equity vs. Efficiency",
     "section": "The hard cases",
     "text": "The hard cases\nMost of the time, we face real tradeoffs.\n\nMore redistribution → more distortion → smaller pie.\n\n\nThe question isn’t whether to redistribute—it’s how much.\n\n\n\nThe answer depends on your values and the costs."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#okuns-leaky-bucket-analogy",
+    "href": "lectures/equity-efficiency.html#okuns-leaky-bucket-analogy",
+    "title": "Equity vs. Efficiency",
+    "section": "Okun’s Leaky Bucket Analogy",
+    "text": "Okun’s Leaky Bucket Analogy\nImagine you want to move water from point A to point B.\n\nThe only catch is that your bucket has holes in it.\n\n\nIdeally, you’d patch the holes, or use a different bucket.\n\n\nBut most of the time we can’t do that. Water leaks out and is lost.\n\n\nThis analogy illustrates the key point: redistribution isn’t free.\n\n\nHow much leakage do you accept?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example",
+    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example",
+    "title": "Equity vs. Efficiency",
+    "section": "What actually is the leakage? An example",
+    "text": "What actually is the leakage? An example\nBroader than monetary costs.\n\nIn 1696, King William II levied the ‘window tax’, which charged people based on how many windows they had.\n\n\nIntended as a progressive tax:\n\nPoorer people lived in houses with fewer windows.\nFewer windows meant a lower tax bill.\n\n\nReference: Oates & Schwab (2015). “The Window Tax: A Case Study in Excess Burden.” Journal of Economic Perspectives."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example-1",
+    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example-1",
+    "title": "Equity vs. Efficiency",
+    "section": "What actually is the leakage? An example",
+    "text": "What actually is the leakage? An example\nThe tax was a public health nightmare\n\n\nPeople bricked up their windows to avoid the tax.\nThis reduced light and ventilation in homes.\nPublic health suffered as a result.\n\n\n\nThis is the leakage or deadweight loss economists talk about."
   },
   {
     "objectID": "lectures/equity-efficiency.html#key-takeaways",

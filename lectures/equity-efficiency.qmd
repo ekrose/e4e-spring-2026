@@ -214,7 +214,40 @@ Who gained the least?
 
 ---
 
-## Why does this matter?
+## How people view income inequality
+
+Hvidberg et al (2023) asked Danish people about their views on income inequality
+
+. . . 
+
+- How unfair is income inequality *overall*?
+- How unfair is income inequality within different groups (e.g. same education group, gender, co-workers)?
+
+## Their questions
+
+![](images/hvidberg_questions.png){fig-align="center" width="85%"}
+
+::: {.notes}
+Reference: Hvidgberg, Kreiner, and Stantcheva (2023). "Social Positions and Fairness
+Views on Inequality." Review of Economic Studies.
+:::
+
+---
+
+## Views of fairness differ  
+
+![](images/stancheva_inequality_views.png){fig-align="center" width="85%"}
+
+. . .
+
+> Finding: Inequality within co-worker and education groups more unfair than overall (i.e. 'cohort') inequality.
+
+::: {.notes}
+Reference: Hvidgberg, Kreiner, and Stantcheva (2023). "Social Positions and Fairness
+Views on Inequality." Review of Economic Studies.
+:::
+
+## Why does inequality matter?
 
 Inequality affects:
 
@@ -531,7 +564,29 @@ Reference: Mankiw & Weinzierl (2010). "The Optimal Taxation of Height." American
 
 ---
 
-## Why we can't do lump-sum
+## Back to Feeding America
+
+Recall Feeding America's market-based system for distributing food.
+
+. . . 
+
+A *key* feature was the amount of fake money each food bank got to bid on food.
+
+. . . 
+
+Importantly, we can
+
+- *observe* need (i.e. the number of poor people in a food bank's area)
+
+- *redistribute* money to the needy
+
+. . . 
+
+Second Welfare Theorem applies and the market finds the efficient allocation
+
+---
+
+## Why we usually can't do lump-sum
 
 We can't observe the things we'd need to observe:
 
@@ -546,6 +601,7 @@ So we tax things we *can* observe: income, wealth, consumption.
 . . .
 
 But these depend on choices—so taxes distort behavior.
+
 
 # The Cost of Redistribution {background-color="#800000"}
 
@@ -869,9 +925,66 @@ The question isn't whether to redistribute—it's *how much*.
 
 > The answer depends on your values *and* the costs.
 
+
+## Okun's Leaky Bucket Analogy
+
+Imagine you want to move water from point A to point B. 
+
+. . .
+
+The only catch is that your bucket has holes in it. 
+
+. . .
+
+Ideally, you'd patch the holes, or use a different bucket.
+
+. . . 
+
+But most of the time we can't do that. Water leaks out and is lost.
+
+. . . 
+
+This analogy illustrates the key point: *redistribution isn't free*.
+
+. . . 
+
+How much leakage do you accept?
+
+## What actually *is* the leakage? An example
+
+Broader than monetary costs.
+
+. . .
+
+In 1696, King William II levied the 'window tax', which charged people based on how many windows they had.
+
+. . . 
+
+Intended as a progressive tax:
+
+- Poorer people lived in houses with fewer windows.
+- Fewer windows meant a lower tax bill.
+
+::: {.notes}
+Reference: Oates & Schwab (2015). "The Window Tax: A Case Study in Excess Burden." Journal of Economic Perspectives.
+:::
+
+## What actually *is* the leakage? An example
+
+The tax was a public health nightmare
+
+. . . 
+
+- People bricked up their windows to avoid the tax.
+- This reduced light and ventilation in homes.
+- Public health suffered as a result.
+
+. . .
+
+This is the *leakage* or *deadweight loss* economists talk about. 
+
 # Wrapping Up {background-color="#800000"}
 
----
 
 ## Key takeaways {style="font-size: 0.9em;"}
 
