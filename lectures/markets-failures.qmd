@@ -205,7 +205,7 @@ The price tells consumers: "This is what it costs society to make an extra unit.
 
 No one needs to know the whole picture. The price contains the information.
 
-## Prendergast (2017): Markets in the real world
+## Feeding America
 
 Feeding America distributes food to the poor through food banks.
 
@@ -219,7 +219,7 @@ What is the best way to do this? A market or central planner?
 Reference: Prendergast, C. (2017). "How Food Banks Use Markets to Feed the Poor." Journal of Economic Perspectives.
 :::
 
-## Prendergast (2017): Markets in the real world
+## Problems with centralisation
 
 Before 2005: used a centralised "wait-your-turn" queuing system to distribute food.
 
@@ -229,7 +229,7 @@ Before 2005: used a centralised "wait-your-turn" queuing system to distribute fo
 - But not all food banks *need* or *want* the same amount or type of food.
 - E.g. Bank A might need fresh produce while B might need cereals.
 
-## Prendergast (2017): Markets in the real world
+## A real world market
 
 After 2005: implemented a market-based system
 
@@ -241,9 +241,11 @@ After 2005: implemented a market-based system
 
 . . . 
 
-A market improved welfare by efficiently allocating food to where it was most needed.
+The market improved welfare by efficient allocation
 
-> Worked because the market *discovered* the prices of different types of food to different banks.
+. . .
+
+> Worked because the market *discovered* the prices of different types of food.
 
 ::: {.notes}
 Reference: Prendergast, C. (2017). "How Food Banks Use Markets to Feed the Poor." Journal of Economic Perspectives.
