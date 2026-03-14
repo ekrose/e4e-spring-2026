@@ -241,7 +241,9 @@ After 2005: implemented a market-based system
 
 . . . 
 
-Here the market improved welfare through efficiently allocating food to where it was most needed.
+A market improved welfare by efficiently allocating food to where it was most needed.
+
+> Worked because the market *discovered* the prices of different types of food to different banks.
 
 ::: {.notes}
 Reference: Prendergast, C. (2017). "How Food Banks Use Markets to Feed the Poor." Journal of Economic Perspectives.
