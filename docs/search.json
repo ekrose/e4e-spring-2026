@@ -413,6 +413,27 @@
     "text": "Why This Matters\nThe price tells producers: “This is what society values an extra unit at.”\n\nThe price tells consumers: “This is what it costs society to make an extra unit.”\n\n\n\nPrices coordinate decisions across millions of people who will never meet.\n\n\n\nNo one needs to know the whole picture. The price contains the information."
   },
   {
+    "objectID": "lectures/markets-failures.html#prendergast-2017-markets-in-the-real-world",
+    "href": "lectures/markets-failures.html#prendergast-2017-markets-in-the-real-world",
+    "title": "Markets and Their Failures",
+    "section": "Prendergast (2017): Markets in the real world",
+    "text": "Prendergast (2017): Markets in the real world\nFeeding America distributes food to the poor through food banks.\n\nWhat is the best way to do this? A market or central planner?\n\nReference: Prendergast, C. (2017). “How Food Banks Use Markets to Feed the Poor.” Journal of Economic Perspectives."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#prendergast-2017-markets-in-the-real-world-1",
+    "href": "lectures/markets-failures.html#prendergast-2017-markets-in-the-real-world-1",
+    "title": "Markets and Their Failures",
+    "section": "Prendergast (2017): Markets in the real world",
+    "text": "Prendergast (2017): Markets in the real world\nBefore 2005: used a centralised “wait-your-turn” queuing system to distribute food.\n\n\nIn this system, all food banks get the same amount of food.\nBut not all food banks need or want the same amount or type of food.\nE.g. Bank A might need fresh produce while B might need cereals."
+  },
+  {
+    "objectID": "lectures/markets-failures.html#prendergast-2017-markets-in-the-real-world-2",
+    "href": "lectures/markets-failures.html#prendergast-2017-markets-in-the-real-world-2",
+    "title": "Markets and Their Failures",
+    "section": "Prendergast (2017): Markets in the real world",
+    "text": "Prendergast (2017): Markets in the real world\nAfter 2005: implemented a market-based system\n\n\nFeeding America gave food banks fake “dollars”, based on need, that they used to bid for food shipments.\nThis market established a price for types of food.\nBank A could buy fresh produce, foregoing cereals, and vice versa for Bank B.\n\n\n\nHere the market improved welfare through efficiently allocating food to where it was most needed.\n\nReference: Prendergast, C. (2017). “How Food Banks Use Markets to Feed the Poor.” Journal of Economic Perspectives."
+  },
+  {
     "objectID": "lectures/markets-failures.html#price-discovery-in-the-real-world",
     "href": "lectures/markets-failures.html#price-discovery-in-the-real-world",
     "title": "Markets and Their Failures",
@@ -1036,11 +1057,11 @@
     "text": "Evidence from Fryer (2011)\nFryer (2011) ran experiments in multiple cities:\n\nDallas: paid for reading books\nNYC & Chicago: paid for test scores and grades\n\n\nDid these incentives work?"
   },
   {
-    "objectID": "lectures/incentives.html#overall-didnt-find-much-effect",
-    "href": "lectures/incentives.html#overall-didnt-find-much-effect",
+    "objectID": "lectures/incentives.html#paying-for-inputs-seemed-to-work-better",
+    "href": "lectures/incentives.html#paying-for-inputs-seemed-to-work-better",
     "title": "Incentives",
-    "section": "Overall, didn’t find much effect…",
-    "text": "Overall, didn’t find much effect…\n\n\nReference: Fryer (2011). “Financial Incentives and Student Achievement.” Quarterly Journal of Economics 126(4): 1755-1798."
+    "section": "Paying for inputs seemed to work better",
+    "text": "Paying for inputs seemed to work better\n\n\nReference: Fryer (2010). “Financial Incentives and Student Achievement.” NBER Working Paper 15898."
   },
   {
     "objectID": "lectures/incentives.html#the-lesson-1",
@@ -1561,11 +1582,18 @@
     "text": "Wait, really?\nMankiw & Weinzierl (2010) showed:\n\nTaller people earn more on average\nHeight is (mostly) genetically determined\nA height tax would be non-distortionary\n\n\nNobody actually proposes this. But it illustrates the problem.\n\nReference: Mankiw & Weinzierl (2010). “The Optimal Taxation of Height.” American Economic Journal: Economic Policy."
   },
   {
-    "objectID": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
-    "href": "lectures/equity-efficiency.html#why-we-cant-do-lump-sum",
+    "objectID": "lectures/equity-efficiency.html#why-we-usually-cant-do-lump-sum",
+    "href": "lectures/equity-efficiency.html#why-we-usually-cant-do-lump-sum",
     "title": "Equity vs. Efficiency",
-    "section": "Why we can’t do lump-sum",
-    "text": "Why we can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
+    "section": "Why we usually can’t do lump-sum",
+    "text": "Why we usually can’t do lump-sum\nWe can’t observe the things we’d need to observe:\n\nInnate ability\nEffort capacity\nFuture earnings potential\n\n\nSo we tax things we can observe: income, wealth, consumption.\n\n\nBut these depend on choices—so taxes distort behavior."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#the-second-welfare-theorem-in-action",
+    "href": "lectures/equity-efficiency.html#the-second-welfare-theorem-in-action",
+    "title": "Equity vs. Efficiency",
+    "section": "The Second Welfare Theorem in action",
+    "text": "The Second Welfare Theorem in action\nRecall Feeding America’s market-based system for distributing food.\n\nA key feature was the fake money each food bank got to bid on food.\n\n\nBudgets were based on need: the number of poor people in a food bank’s area.\n\nSince we could reshuffle money to the needy, the market worked."
   },
   {
     "objectID": "lectures/equity-efficiency.html#a-simple-idea",
@@ -1720,6 +1748,27 @@
     "title": "Equity vs. Efficiency",
     "section": "The hard cases",
     "text": "The hard cases\nMost of the time, we face real tradeoffs.\n\nMore redistribution → more distortion → smaller pie.\n\n\nThe question isn’t whether to redistribute—it’s how much.\n\n\n\nThe answer depends on your values and the costs."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#okuns-leaky-bucket-analogy",
+    "href": "lectures/equity-efficiency.html#okuns-leaky-bucket-analogy",
+    "title": "Equity vs. Efficiency",
+    "section": "Okun’s Leaky Bucket Analogy",
+    "text": "Okun’s Leaky Bucket Analogy\nImagine you want to move water from point A to point B.\n\nThe only catch is that your bucket has holes in it.\n\n\nIdeally, you’d patch the holes, or use a different bucket.\n\n\nBut most of the time we can’t do that. Water leaks out and is lost.\n\n\nThis analogy illustrates the key point: redistribution can be costly.\n\n\nHow much leakage do you accept?"
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example",
+    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example",
+    "title": "Equity vs. Efficiency",
+    "section": "What actually is the leakage? An example",
+    "text": "What actually is the leakage? An example\nSometimes it’s monetary, but can be broader than that.\n\nIn 1696, King William II levied the ‘window tax’, which charged people based on how many windows they had.\n\n\nIntended as a progressive tax:\n\nPoorer people lived in houses with fewer windows.\nFewer windows meant a lower tax bill.\n\n\nReference: Oates & Schwab (2015). “The Window Tax: A Case Study in Excess Burden.” Journal of Economic Perspectives."
+  },
+  {
+    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example-1",
+    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example-1",
+    "title": "Equity vs. Efficiency",
+    "section": "What actually is the leakage? An example",
+    "text": "What actually is the leakage? An example\nThe tax was a public health nightmare\n\n\nPeople bricked up their windows to avoid the tax.\nThis reduced light and ventilation in homes.\nPublic health suffered as a result.\n\n\n\nThis is the leakage or deadweight loss economists talk about."
   },
   {
     "objectID": "lectures/equity-efficiency.html#key-takeaways",
@@ -2532,47 +2581,5 @@
     "title": "Uncertainty",
     "section": "Questions?",
     "text": "Questions?"
-  },
-  {
-    "objectID": "lectures/incentives.html#paying-for-inputs-seemed-to-work-better",
-    "href": "lectures/incentives.html#paying-for-inputs-seemed-to-work-better",
-    "title": "Incentives",
-    "section": "Paying for inputs seemed to work better",
-    "text": "Paying for inputs seemed to work better\n\n\nReference: Fryer (2010). “Financial Incentives and Student Achievement.” NBER Working Paper 15898."
-  },
-  {
-    "objectID": "lectures/equity-efficiency.html#okuns-leaky-bucket-analogy",
-    "href": "lectures/equity-efficiency.html#okuns-leaky-bucket-analogy",
-    "title": "Equity vs. Efficiency",
-    "section": "Okun’s Leaky Bucket Analogy",
-    "text": "Okun’s Leaky Bucket Analogy\nImagine you want to move water from point A to point B.\n\nThe only catch is that your bucket has holes in it.\n\n\nIdeally, you’d patch the holes, or use a different bucket.\n\n\nBut most of the time we can’t do that. Water leaks out and is lost.\n\n\nThis analogy illustrates the key point: redistribution can be costly.\n\n\nHow much leakage do you accept?"
-  },
-  {
-    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage",
-    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage",
-    "title": "Equity vs. Efficiency",
-    "section": "What actually is the leakage?",
-    "text": "What actually is the leakage?\nIn 1696, King William II levied the ‘window tax’, charging people based on how many windows they had.\n\nIntended as a progressive tax–fewer windows meant a lower tax bill, and poorer people lived in houses with fewer windows.\n\nReference: Oates & Schwab (2015). “The Window Tax: A Case Study in Excess Burden.” Journal of Economic Perspectives."
-  },
-  {
-    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-1",
-    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-1",
-    "title": "Equity vs. Efficiency",
-    "section": "What actually is the leakage?",
-    "text": "What actually is the leakage?\nThe tax was a public health nightmare\n\n\nPeople bricked up their windows to avoid the tax.\nThis reduced light and ventilation in homes.\nPublic health suffered as a result.\n\n\n\nThis is the leakage or deadweight loss economists talk about."
-  },
-  {
-    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example",
-    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example",
-    "title": "Equity vs. Efficiency",
-    "section": "What actually is the leakage? An example",
-    "text": "What actually is the leakage? An example\nSometimes it’s monetary, but can be broader than that.\n\nIn 1696, King William II levied the ‘window tax’, which charged people based on how many windows they had.\n\n\nIntended as a progressive tax:\n\nPoorer people lived in houses with fewer windows.\nFewer windows meant a lower tax bill.\n\n\nReference: Oates & Schwab (2015). “The Window Tax: A Case Study in Excess Burden.” Journal of Economic Perspectives."
-  },
-  {
-    "objectID": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example-1",
-    "href": "lectures/equity-efficiency.html#what-actually-is-the-leakage-an-example-1",
-    "title": "Equity vs. Efficiency",
-    "section": "What actually is the leakage? An example",
-    "text": "What actually is the leakage? An example\nThe tax was a public health nightmare\n\n\nPeople bricked up their windows to avoid the tax.\nThis reduced light and ventilation in homes.\nPublic health suffered as a result.\n\n\n\nThis is the leakage or deadweight loss economists talk about."
   }
 ]
