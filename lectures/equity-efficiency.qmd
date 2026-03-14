@@ -944,7 +944,7 @@ But most of the time we can't do that. Water leaks out and is lost.
 
 . . . 
 
-This analogy illustrates the key point: *redistribution can be costly*.
+This analogy illustrates the key point: *redistribution isn't free*.
 
 . . . 
 
@@ -952,7 +952,7 @@ How much leakage do you accept?
 
 ## What actually *is* the leakage? An example
 
-Sometimes it's monetary, but can be broader than that.
+Broader than monetary costs.
 
 . . .
 
@@ -981,7 +981,7 @@ The tax was a public health nightmare
 
 . . .
 
-This *is* the *leakage* or *deadweight loss* economists talk about. 
+This is the *leakage* or *deadweight loss* economists talk about. 
 
 # Wrapping Up {background-color="#800000"}
 
